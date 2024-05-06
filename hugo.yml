@@ -1,14 +1,14 @@
-baseURL: ''
+baseURL: https://lagrantribunomada.com
 Paginate: 24
 buildFuture: false
 theme: [sansoul]
 params:
-  git_url: ''
-  netlify_name: ''
-  netlify_id: ''
-  hook: NjMwMmJjOWExZjZiNGI2Zjk2YmJjMDVh
-  drive_link: ''
-  drive_mails: ''
+  git_url: https://github.com/seacomoseo/lagrantribunomada.com
+  netlify_name: lagrantribunomada
+  netlify_id: 31c5db04-f341-4f99-a5ff-8c68193ac973
+  hook: NjYzOTY5NzU4NjE0ODI1Y2EwNGUxMTg5Cg==
+  drive_link: https://drive.google.com/file/d/1Uc8HA5OnKISLInxzvTmpAmI1Y4gzMbln
+  drive_mails: lagrantribunomada@gmail.com
 defaultContentLanguage: es
 disableLanguages: [en]
 languages:
