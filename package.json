@@ -1,0 +1,27 @@
+{
+  "name": "sansoul",
+  "version": "1.0.0",
+  "description": "SanSoul is the Hugo theme website services soul by lorensansol",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.17",
+    "cssnano": "^6.0.3",
+    "postcss-cli": "^11.0.0",
+    "purgecss": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/lorensansol/sansoul.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/lorensansol/sansoul/issues"
+  },
+  "homepage": "https://gitlab.com/lorensansol/sansoul"
+}
