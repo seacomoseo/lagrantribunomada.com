@@ -1,6 +1,5 @@
 title: Noticias
 subtitle: Novedades
-icon: rss
 rows:
 - type: articles
   kind: blog

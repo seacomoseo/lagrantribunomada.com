@@ -1,17 +1,18 @@
-title: SanSoul Hugo Theme EXAMPLE
-description: SanSoul is the Hugo theme website services soul by lorensansol, you can copy and use like you want
-logo: logo.png
-legal_name: Nombre Legal de Ejemplo
-legal_dni: 12345678-A
+title: La Gran Tribu Nómada
+description: Plataforma online, física y móvil, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
+logo: icon-tr.svg
+legal_name: ''
+legal_dni: ''
 legal_email: ''
 legal_location: ''
 country: España
 location_type:
-- LocalBusiness
 - Organization
 alternate_name:
-- SanSoul
-price_range: €€
+- LGTN
+- LGT
+- La Gran Tribu
+price_range: €
 google_analytics: G-BG77TYCSDZ
 google_site_verification: ''
 google_file_verification: google7467d923cbb3eb4c.html
@@ -35,12 +36,7 @@ custom_code:
     code: ''
     lang: javascript
 social:
-- link: https://www.facebook.com/QuantumFracture
-- link: https://www.instagram.com/quantumfracture/
-- link: https://www.youtube.com/channel/UCbdSYaPD-lr1kW27UJuk8Pw
-- link: https://twitter.com/QuantumFracture
-- link: https://www.linkedin.com/company/quantum-fracture
-- link: https://gitlab.com/lorensansol
-- link: https://github.com/lorensansol
-- link: https://mastersoflol.com/collections/quantumfracture?YTC
-
+- link: https://t.me/lagrantribunomada
+  icon: telegram
+- link: https://www.instagram.com/lagrantribunomada/
+- link: https://www.youtube.com/@lagrantribunomada

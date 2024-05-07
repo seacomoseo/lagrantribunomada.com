@@ -1,0 +1,21 @@
+title: Para Qué
+rows:
+- type: columns
+  items:
+  - bg: icon-tr.svg
+  - description: |
+      Nuestro objetivo principal es crear una plataforma online, física y móvil para dar visibilidad, sostén y recursos a personas que tengan o quieran tener un estilo de vida autónomo, comunitario y/o nómada.
+
+      Más objetivos:
+      - Mapear la península (de momento) con comunidades y proyectos personales afines.
+      - Recoger información útil de interés nómada.
+      - Creación y mantenimiento de una caravana viva que viaja en tribu.
+      - Desarrollar y gozar eventos y encuentros entre amorígenes.
+      - Mapear lugares para alquilar espacios para eventos, talleres… con las mejores ventajas.
+      - Interconectar amorígenes para crear red con múltiple función (intercambio de servicios, cocreación, viajar, alojamiento, apoyo, disfrute…).
+      - Crear una red lo más autosuficiente posible.
+      - Colaborar con comunidades peninsulares (voluntariado, convivencia…).
+      - Expandir una filosofía de vida comunitaria y repleta de valores. 
+    more:
+      align: left
+      align_y: center

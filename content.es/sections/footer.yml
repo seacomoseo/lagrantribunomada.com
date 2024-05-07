@@ -1,3 +1,5 @@
+color: main
+divider: brush
 description: |
   - icon-copyright      {{< internal-link index >}}
   - icon-scale-balanced {{< internal-link legal >}}

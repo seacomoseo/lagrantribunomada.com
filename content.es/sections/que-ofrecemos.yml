@@ -1,0 +1,40 @@
+title: Qué Ofrecemos
+# size: sm
+description: |
+  Una plataforma online, física y nómada que de sostén a los proyectos personales y comunitarios de los “Amorígenes”.
+
+  ¿Qué es un amorígen? Tod@s l@s miembr@s de la Asociación “La Gran Tribu Nómada”.
+more:
+  align: center
+rows:
+- type: columns
+  design:
+    num: 2
+  items:
+  - order: 2
+    bg: icon.svg
+  - order: 1
+    description: |
+      ### A nivel publicitario
+      te ofrecemos dentro de esta plataforma web en el apartado “Amorígenes” un espacio personal en el que podrás añadir tu logo e información y contenido audiovisual acerca de tu proyecto o servicio. También habrá un mapa interactivo en el que poder añadir tu ubicación.
+
+      Asimismo, en los grupos de difusión, haremos llegar a la red tus eventos y habrá un apartado concreto de “servicios” en los que promocionarte.
+
+      ### A nivel red
+      tendrás una variada familia a tu alcance en la que apoyarte para realizar intercambios, compartir, solicitar y ofrecer voluntariado, lugar para pernoctar, etc. Así como el sostén del equipo de coordinación que tendrá en cuenta tus propuestas, mapas de ruta y necesidades. 
+    more:
+      align: left
+      align_xl: right
+      align_y: center
+  - order: 3
+    bg: icon.svg
+  - order: 4
+    description: |
+      ### A nivel emprendimiento
+      te ofrecemos contactos, lugares donde realizar tus proyectos y la posibilidad de contratarnos para cocrear tus eventos, retiros o encuentros, acompañándote durante el proceso.
+
+      ### Si sois una comunidad
+      nuestra intención es visitar vuestro espacio, reunir información a través de entrevistas y así publicitaros en nuestra plataforma. También acudimos con motivación de voluntariado, nutrir y dejarnos nutrir. 
+    more:
+      align: left
+      align_y: center

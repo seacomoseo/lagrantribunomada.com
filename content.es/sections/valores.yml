@@ -1,0 +1,49 @@
+title: Valores
+rows:
+- type: columns
+  design:
+    num: 2
+    align: left
+  items:
+  - order: 2
+    bg: icon-tr.svg
+  - order: 1
+    description: |
+      - Humildad
+      - Honestidad
+      - Respeto	Compromiso
+      - Amor
+      - Coherencia
+      - Autocuidado
+      - Escucha
+      - Responsabilidad afectiva
+      - Compasión
+      - Gozo y diversión
+      - Inclusión
+      - Creatividad
+      - Curiosidad
+      - Autoobservación
+      - Creer en ti
+      - Confianza
+      - Apertura
+      - Flexibilidad
+      - Desarrollo y expansión personal
+      - Compartir
+      - Con(tribu)ir
+      - Simplicidad
+      - Libertad
+      - Minimalismo
+      - Autonomía
+      - Motivación intrínseca
+      - Agradecimiento
+      {.list-inline}
+  - order: 3
+    bg: icon-tr.svg
+  - order: 4
+    title: Y cuando viajamos o visitamos…
+    description: |
+      - Respeto a la naturaleza (animales, entorno, contaminación acústica…).
+      - Conciencia ambiental (plásticos, basura, reutilizar. reciclar, productos naturales…).
+      - Integración con el entorno y respeto de la vecindad y comunidad asentada.
+      - Ir a sumar, a aportar, no sólo a coger. Conciencia del dar y recibir.
+      - Disposición a colaborar, incluir y aprender del otro.

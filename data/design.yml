@@ -5,42 +5,42 @@ icons:
 fonts:
   google: true
   base:
-    family: Montserrat
+    family: Comfortaa
     weight: 400
     strong: 0
     italic: false
     line-height: 1.25
   cursive:
-    family: Dancing Script
+    family: Shadows Into Light
     weight: 400
     strong: 0
     italic: false
     line-height: 1.25
     top: 0
   title:
-    family: Montserrat
-    weight: 800
+    family: Lava Pro Grunge
+    weight: 400
     strong: 0
     italic: false
     line-height: 1.25
-    top: 0
+    top: 0.125
   blockquote_cursive: true
 colors:
   main:
-    color: '#bdd5ea'
+    color: '#f4e3d7'
     light: '#fff'
     dark: '#fff'
-    contrast: text
+    contrast: all
   alt:
     color: '#fff'
     light: '#fff'
     dark: '#fff'
     contrast: all
   link:
-    color: '#fe5f55'
+    color: '#fff'
     light: '#fff'
     dark: '#fff'
-    contrast: text
+    contrast: all
   base:
     white: '#fff'
     light: '#eee'
@@ -48,7 +48,7 @@ colors:
     dark: '#282525'
     black: '#000'
 rounded:
-  radius: 0.33
+  radius: 1.33
   chamfer: false
 buttons:
   sides_round: false
@@ -59,13 +59,13 @@ buttons:
 shadow:
   left: 0.15
   top: 0.15
-  blur: 0
+  blur: 0.15
   color: black
   opacity: 0.15
 lightbox_overlay:
   opacity: 0.8
   color: black
 performance:
-  showup: true
-  parallax: true
+  showup: false
+  parallax: false
   srcsetx2: true

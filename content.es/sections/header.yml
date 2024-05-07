@@ -1,13 +1,8 @@
-title: SanSoul Hugo Theme
-subtitle: SanSoul es un tema de Hugo con alma para webs de servicios por lorensansol
-image: logo.svg
-color: main-dark
-bg: fondo.jpg
+anchor: La Gran Tribu Nómada
+subtitle: La Red Itinerante
+image: logo-tr.svg
 description: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
   [btn icon-plus Más](#principal)
+size: md
 more:
   full_screen: true
-  image_min: 18
-  image_max: 20

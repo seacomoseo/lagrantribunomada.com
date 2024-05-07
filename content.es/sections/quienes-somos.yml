@@ -1,0 +1,41 @@
+title: Quiénes Somos
+subtitle: Equipo de Coordinación
+rows:
+- type: columns
+  design:
+    num: 4
+    num_xs: true
+    icon_color: dark
+  items:
+  - icon: user-hair-mullet
+    title: Indira
+    subtitle: La Hechicera
+    description: Te hace unas terapias que flipas en colores
+  - icon: user-cowboy
+    title: Chemi
+    subtitle: El Preparacionista
+    description: Organiza cosas, ¿a quién no le va a gustar?
+  - icon: user-hair-buns
+    title: Nath
+    subtitle: La Gnomo
+    description: No monógama que te saluda no más, ¡juas!
+  - icon: user-ninja
+    title: Loren
+    subtitle: El Bailongo
+    description: Te coje por banda y te diseña una web que no veas
+  - icon: user-vneck-hair-long
+    title: Lua
+    subtitle: La Artemisana
+    description: Esencias de cosas naturales que huelen mu rico
+  - icon: user-shakespeare
+    title: Naiht
+    subtitle: El Personaje
+    description: Miaugo, Miaugo, kikierehquitidiga, kikierehquitidiga
+  - icon: user-astronaut
+    title: Paula
+    subtitle: La Electroduende
+    description: Redes Sociales y fantasía everiwere, all time
+  - icon: user-robot
+    title: Rafa
+    subtitle: El Técnico
+    description: Te hace la O con un canuto impreso en 3D con sal del himalaya

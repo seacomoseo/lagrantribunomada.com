@@ -1,7 +1,6 @@
 title: FAQ
 subtitle: Preguntas Frecuentes
 size: md
-icon: circle-question
 rows:
 - type: collapsible
   items:

@@ -1,38 +1,23 @@
 title: Contacto
-subtitle: ¿En qué podemos ayudarte?
 button: link
 size: sm
-icon: paper-plane
 rows:
 - type: contact
   data:
-  - type: schedule
-    days: Lunes a Viernes
-    hours: 9:00 - 12:30 y 14:30 - 20:00
-  - type: br
   - type: phone
-    label: 111 222 333
+    label: 699 19 00 09
   - type: whatsapp
-    label: 444 555 666
+    label: 699 19 00 09
     button: link
+  - type: custom
+    link: https://t.me/+34699190009
+    label: 699 19 00 09
+    icon: telegram
   - type: mail
-    label: info@sansoul.es
-    full: true
-  - type: custom
-    link: https://www.instagram.com/quantumfracture/
-    label: Instagram
-    icon: instagram
-    font_alt: false
-    button: dark
-  - type: custom
-    link: https://www.facebook.com/QuantumFracture
-    label: Facebook
-    icon: facebook-f
-    font_alt: false
-    button: light
+    label: lagrantribunomada@gmail.com
   - type: address
-    active: true
-    name: ''
+    active: false
+    name: La Gran Tribu Nómada
     streetAddress: Ronda de Levante, 1
     postalCode: 30008
     addressLocality: Murcia
@@ -40,7 +25,7 @@ rows:
     addressCountry: España
     coordinates: '{"type":"Point","coordinates":[-1.1306520,37.9922180]}'
   form:
-    fill_inputs: true
+    fill_inputs: false
     items:
     - type: text
       name: Nombre
@@ -53,7 +38,7 @@ rows:
     - type: textarea
       name: Mensaje
       required: true
-  map:
-    active: true
-    link: https://g.page/webmurcia
-    iframe: ''
+  # map:
+  #   active: true
+  #   link: https://g.page/webmurcia
+  #   iframe: ''

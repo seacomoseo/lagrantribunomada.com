@@ -1,0 +1,13 @@
+button: hide
+title: Introduccion
+rows:
+- type: columns
+  items:
+  - bg: logo.svg
+  - description: |
+      Esta historia comienza con la certeza de cómo absolutamente todo lo que te pasa es una oportunidad. Nace de la unión de personitas llenas de potencial, buscadoras de sí mismas y gustosas de compartir ese proceso de búsqueda desde un corazón abierto y sano, en hermandad y horizontalidad.
+
+      Queremos contarte cómo nace este proyecto y cómo podemos, si quieres, formar parte de tu historia y tú de la nuestra. Porque de esto se trata, de conectarnos y nutrirnos.
+    more:
+      align: left
+      align_y: center

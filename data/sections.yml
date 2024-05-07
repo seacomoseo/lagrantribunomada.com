@@ -18,11 +18,11 @@ general:
   padding_hide: false
   padding_top: null
   padding_bottom: null
-  color: light
+  color: dark
   gradient: ''
   gradient_type: ''
   bg: ''
-  opacity: 30
+  opacity: 10
   parallax: true
   pill: false
   size: ''
@@ -31,10 +31,10 @@ general:
   container_gradient_type: ''
   container_opacity: null
   hide_shadow: false
-  divider: curve-side
+  divider: brush
   flip_x: false
   flip_y: false
 alternate:
 - flip_x: true
   flip_y: true
-  color: white
+  color: main

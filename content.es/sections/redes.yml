@@ -1,0 +1,20 @@
+title: Redes
+size: sm
+rows:
+- type: contact
+  data:
+  - type: custom
+    link: https://t.me/lagrantribunomada
+    label: Telegram
+    icon: telegram
+    font_alt: true
+  - type: custom
+    link: https://www.instagram.com/lagrantribunomada/
+    label: Instagram
+    icon: instagram
+    font_alt: true
+  - type: custom
+    link: https://www.youtube.com/@lagrantribunomada
+    label: Youtube
+    icon: youtube
+    font_alt: true

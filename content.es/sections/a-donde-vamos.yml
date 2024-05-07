@@ -1,0 +1,13 @@
+title: A Dónde Vamos
+rows:
+- type: columns
+  items:
+  - order: 2
+    bg: logo.svg
+  - order: 1
+    description: |
+      Realizaremos rutas en caravana viva de vehículos (furgos, caravanas, coches en los que puedas pernoctar…) hacia diferentes puntos de interés de la Tribu: Comunidades que conocer y en las que colaborar. Lugares donde podamos desarrollar nuestros eventos y dones personales para generar economía personal.
+    more:
+      align: left
+      align_xl: right
+      align_y: center
