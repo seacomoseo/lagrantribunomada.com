@@ -1,7 +1,7 @@
 logo: ''
 color: dark
-screen_sticky: 1250
-size_sticky: xl
+screen_sticky: 800
+size_sticky: ''
 articles_sticky: false
 transparent: true
 hide_anchors: false
@@ -16,5 +16,7 @@ langs_in_more: false
 langs_out: true
 callnow_active: true
 callnow_buttons: []
-normal: []
+normal:
+- link: /eventos/
+  label: Eventos
 more: []

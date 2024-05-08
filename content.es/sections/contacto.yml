@@ -4,8 +4,21 @@ size: sm
 rows:
 - type: contact
   data:
-  - type: phone
-    label: 699 19 00 09
+
+  # - type: h3
+  #   label: Indira
+  # - type: phone
+  #   label: 638 61 03 22
+  # - type: whatsapp
+  #   label: 638 61 03 22
+  #   button: link
+  # - type: custom
+  #   link: https://t.me/+34638610322
+  #   label: 638 61 03 22
+  #   icon: telegram
+
+  # - type: h3
+  #   label: Xemi
   - type: whatsapp
     label: 699 19 00 09
     button: link
@@ -13,8 +26,15 @@ rows:
     link: https://t.me/+34699190009
     label: 699 19 00 09
     icon: telegram
+  - type: phone
+    label: 699 19 00 09
+  - type: phone
+    label: 638 61 03 22
+
+  # - type: hr
   - type: mail
     label: lagrantribunomada@gmail.com
+    button: light
   - type: address
     active: false
     name: La Gran Tribu Nómada

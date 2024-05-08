@@ -51,7 +51,9 @@ common:
   hide_bullets: false
   hide_arrows: false
 blog: {}
-events: {}
+events:
+  card: true
+  hide_description: true
 products: {}
 taxonomies: {}
 custom: {}

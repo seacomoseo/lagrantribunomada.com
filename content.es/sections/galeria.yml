@@ -1,24 +1,21 @@
 title: Galería
+size: xl
 rows:
-- type: columns
+- type: gallery
   design:
-    num_xs: true
-    # icon_color: dark
-    licon: none
-  items:
-  - icon: triangle-person-digging
-    subtitle: En construcción
-# rows:
-# - type: gallery
-#   design:
-#     num: 3
-#     alt: true
-#     wrap: true
-#     gap: true
-#     cover: true
-#     grayscale: false
-#     link: ''
-#   images:
-#   - fondo.jpg
-#   - fotos/abrazo-comunitario.jpg
-#   - fotos/amores.jpg
+    num: 3
+    alt: true
+    wrap: false
+    gap: true
+    cover: true
+    grayscale: false
+    button: hide
+  images:
+  - fotos/2024-02-06-18-03-31.jpg
+  - fotos/2024-02-06-18-05-18.jpg
+  - fotos/2024-02-07-12-00-17.jpg
+  - fotos/2024-03-26-16-39-39.jpg
+  - fotos/2024-02-06-15-28-54.jpg
+  - fotos/2024-01-18-16-52-29.jpg
+  - fotos/2023-11-17-12-33-39.jpg
+  - fotos/amores.jpg

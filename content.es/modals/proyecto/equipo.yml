@@ -3,6 +3,14 @@ title: Equipo
 subtitle: Coordinación
 size: lg
 rows:
+
+- type: columns
+  items:
+  - description: |
+      ---
+      Humano
+      {.h1}
+
 - type: columns
   design:
     num: 4
@@ -17,7 +25,7 @@ rows:
     subtitle: El Fenicio
     description: Organiza cosas, ¿a quién no le va a gustar?
   - icon: user-hair-buns
-    title: Nath
+    title: Nat
     subtitle: La Gnomo
     description: No monógama que te saluda no más, ¡juas!
   - icon: user-ninja
@@ -40,3 +48,40 @@ rows:
     title: Rafa
     subtitle: El Solucionador
     description: Te hace la O con un canuto impreso en 3D con sal del himalaya
+
+- type: columns
+  items:
+  - description: |
+      ---
+      Perruno
+      {.h1}
+
+- type: columns
+  design:
+    num: 4
+    num_xs: true
+  items:
+  - icon: teddy-bear
+    title: Momo
+    subtitle: El Oso
+    description: Arrambla por donde pasa, ¡pero qué bonico! 😍
+  - icon: shield-dog
+    title: Güiro
+    subtitle: El ComeCaras
+    description: Si vostezas te descuidas, te chupa la campanilla
+  - icon: dinosaur
+    title: Paco
+    subtitle: El Veterano
+    description: El más sabio de y experimentado de todos
+  - icon: fish
+    title: Romeo
+    subtitle: El Sireno
+    description: Canto angelical, trompacelga y paraico
+  - icon: dragon
+    title: Yang
+    subtitle: El Chino
+    description: Trabieso no, lo siguiente de lo siguiente
+  - icon: dog
+    title: Akela
+    subtitle: El Lobo
+    description: El compitrueno de Mowgli a.k.a. Artemisana
