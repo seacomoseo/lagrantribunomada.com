@@ -1,0 +1,29 @@
+id: proyecto
+title: El Proyecto
+rows:
+- type: columns
+  design:
+    num_xs: true
+    # icon_color: dark
+    licon: none
+  items:
+  - icon: campground
+    title: ¿Qué Es?
+    subtitle: La Gran Tribu Nómada
+    link: '#que-es'
+  - icon: caravan
+    title: Objetivos
+    subtitle: Plataforma de apoyo
+    link: '#objetivos'
+  # - icon: caravan
+  #   title: ¿Dónde Vamos?
+  #   subtitle: Donde generar abundancia
+  #   link: '#donde-vamos'
+  - icon: hands-holding-heart
+    title: Valores
+    subtitle: Cuando viajamos o visitamos
+    link: '#valores'
+  - icon: people-group
+    title: Equipo
+    subtitle: Coordinación
+    link: '#equipo'

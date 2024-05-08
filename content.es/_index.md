@@ -1,6 +1,6 @@
 ---
 title: Inicio
-title_seo: La Gran Tribu Nómada - La Red Itinerante
+title_seo: La Gran Tribu Nómada - Red Itinerante
 slug: inicio
 description: Plataforma online, física y móvil de diversidad de personas con valores similares, para potenciar dones y desarrollar una vida compartida, libre y dinámica.
 image: fondologo.png
@@ -10,14 +10,21 @@ translationKey: home
 sections:
 - file: header
 - file: introduccion
-- file: que-es
-- file: quienes-somos
-- file: que-buscamos
-- file: que-ofrecemos
-- file: valores
-- file: a-donde-vamos
-- file: para-que
-- file: como-entrar
-# - file: redes
+- file: proyecto
+  modals:
+  - proyecto/que-es
+  - proyecto/objetivos
+  # - proyecto/donde-vamos
+  - proyecto/valores
+  - proyecto/equipo
+- file: mapa
+- file: te-interesa
+  modals:
+  - te-interesa/que-buscamos
+  - te-interesa/que-ofrecemos
+  - te-interesa/como-entrar
+- file: donaciones
+- file: galeria
+- file: redes
 - file: contacto
 ---

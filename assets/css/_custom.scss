@@ -1,3 +1,8 @@
+.bg-main,
+.bg-link {
+  --main: #{$main-dark};
+}
+
 // Header Animations
 
 @keyframes logo-drop {
@@ -25,4 +30,11 @@
   .subtitle {             @include show-from(2); }
   .description p {        @include show-from(3); }
   .description .buttons { @include show-from(4); }
+  .columns {
+    --columns-gap: 5;
+  }
+  .section__title h2 {
+    font-size: 4.125em;
+    color: var(--main);
+  }
 }

@@ -1,0 +1,24 @@
+title: Galería
+rows:
+- type: columns
+  design:
+    num_xs: true
+    # icon_color: dark
+    licon: none
+  items:
+  - icon: triangle-person-digging
+    subtitle: En construcción
+# rows:
+# - type: gallery
+#   design:
+#     num: 3
+#     alt: true
+#     wrap: true
+#     gap: true
+#     cover: true
+#     grayscale: false
+#     link: ''
+#   images:
+#   - fondo.jpg
+#   - fotos/abrazo-comunitario.jpg
+#   - fotos/amores.jpg

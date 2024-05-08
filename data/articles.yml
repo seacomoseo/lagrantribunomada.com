@@ -6,8 +6,8 @@ content:
   underline: false
   align: left
   color: dark
-  toc_color: white
-  border: main
+  toc_color: main
+  border: ''
   reading_time: true
 common:
   size: ''

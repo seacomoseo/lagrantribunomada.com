@@ -1,8 +1,27 @@
 anchor: La Gran Tribu Nómada
-subtitle: La Red Itinerante
-image: logo-tr.svg
-description: |
-  [btn icon-plus Más](#principal)
-size: md
 more:
   full_screen: true
+rows:
+- type: columns
+  design:
+    num: 3
+    gap: 5
+    align_y: center
+  items:
+  - image: icon-tr.svg
+    title: La Gran Tribu Nómada
+    subtitle: Red Itinerante
+  - image: carteles/2024-06-20-litha.jpg
+    link: /evento/2024/06/20/litha/
+    licon: none
+# - type: articles
+#   kind: pages
+#   categories: []
+#   tags: []
+#   author: ''
+#   max: 12
+#   design:
+#     num: 4
+#     num_xs: false
+#     color: white
+#     slider: true

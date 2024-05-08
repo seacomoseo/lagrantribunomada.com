@@ -5,7 +5,7 @@ size_sticky: xl
 articles_sticky: false
 transparent: true
 hide_anchors: false
-hide_icons: false
+hide_icons: true
 show_modals: true
 show_blog_auto: true
 show_products_auto: true

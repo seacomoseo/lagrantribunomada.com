@@ -1,5 +1,5 @@
 icon: ''
-icon_type: ''
+icon_type: top
 icon_size: ''
 icon_color: ''
 image: ''
@@ -13,7 +13,7 @@ image_align: ''
 uppercase: true
 underline: false
 align: ''
-color: ''
+color: dark
 gradient: ''
 gradient_type: ''
 pill: false

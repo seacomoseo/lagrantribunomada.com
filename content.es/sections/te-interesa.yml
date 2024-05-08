@@ -1,0 +1,18 @@
+title: ¿Te Interesa?
+rows:
+- type: columns
+  design:
+    num: 4
+    num_xs: true
+    # icon_color: dark
+    licon: none
+  items:
+  - icon: person-through-window
+    title: ¿Qué Buscamos?
+    link: '#que-buscamos'
+  - icon: street-view
+    title: ¿Qué Ofrecemos?
+    link: '#que-ofrecemos'
+  - icon: person-to-portal
+    title: ¿Cómo Entrar?
+    link: '#como-entrar'
