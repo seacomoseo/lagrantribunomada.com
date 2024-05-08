@@ -4,7 +4,6 @@ rows:
 - type: columns
   design:
     num_xs: true
-    # icon_color: dark
     licon: none
   items:
   - icon: campground
@@ -15,10 +14,6 @@ rows:
     title: Objetivos
     subtitle: Plataforma de apoyo
     link: '#objetivos'
-  # - icon: caravan
-  #   title: ¿Dónde Vamos?
-  #   subtitle: Donde generar abundancia
-  #   link: '#donde-vamos'
   - icon: hands-holding-heart
     title: Valores
     subtitle: Así nos relacionamos

@@ -3,33 +3,14 @@
   --main: #{$main-dark};
 }
 
-// Header Animations
-
-@keyframes logo-drop {
-  0% {
-    transform: scale(3);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
 #body-inicio #header {
-  .image {
-    path {
-      fill: var(--text);
-    }
-    transform-origin: center;
-    animation: logo-drop 1s 0s both;
-  }
-  @mixin show-from($delay) {
-    animation: show-from .5s (.5 + .25s * $delay) both;
-  }
-  .section__title {       @include show-from(1); }
-  .subtitle {             @include show-from(2); }
-  .description p {        @include show-from(3); }
-  .description .buttons { @include show-from(4); }
+  @mixin show-from($delay) { animation: show-from .5s (.25 + .25s * $delay) both; }
+  .column--item-1 #icon-ouroboros { @include show-from(0); --show-from: scale(.5) rotate(-360deg); transform-origin: center; overflow: visible; }
+  .column--item-1 #icon-tm        { @include show-from(1); }
+  .column--item-1 .section__title { @include show-from(2); }
+  .column--item-1 .subtitle       { @include show-from(3); }
+  .column--item-2 .image          { @include show-from(4); --show-from: perspective(50em) rotateY(90deg); }
+  .column--item-2 button          { @include show-from(5); }
   .columns {
     --columns-gap: 5;
   }

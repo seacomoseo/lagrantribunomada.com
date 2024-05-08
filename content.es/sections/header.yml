@@ -8,7 +8,7 @@ rows:
     gap: 5
     align_y: center
   items:
-  - image: icon-tr.svg
+  - image: icon-animation.svg
     title: La Gran Tribu Nómada
     subtitle: Red Itinerante
   - image: carteles/2024-06-20-litha.jpg

@@ -14,7 +14,6 @@ sections:
   modals:
   - proyecto/que-es
   - proyecto/objetivos
-  # - proyecto/donde-vamos
   - proyecto/valores
   - proyecto/equipo
 - file: mapa
