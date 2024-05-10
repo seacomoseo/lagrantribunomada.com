@@ -1,4 +1,4 @@
-color: main
+color: main-dark
 divider: brush
 description: |
   - icon-copyright      {{< internal-link index >}}

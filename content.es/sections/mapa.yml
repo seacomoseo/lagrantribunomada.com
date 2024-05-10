@@ -11,5 +11,4 @@ rows:
   - icon: triangle-person-digging
     subtitle: En construcción
     description: |
-      ¡Únete!
-      {.h1}
+      [btn ¡Únete!](/alta/)

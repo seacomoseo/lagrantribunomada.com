@@ -1,6 +1,6 @@
 logo: ''
 color: dark
-screen_sticky: 800
+screen_sticky: 1100
 size_sticky: ''
 articles_sticky: false
 transparent: true
@@ -24,6 +24,8 @@ callnow_buttons:
   icon: telegram
   ofuscate: true
 normal:
+- link: /
+  label: Inicio
 - link: /#proyecto
   label: El Proyecto
 - link: /#mapa

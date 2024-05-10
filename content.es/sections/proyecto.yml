@@ -8,17 +8,17 @@ rows:
   items:
   - icon: campground
     title: ¿Qué Es?
-    subtitle: La Gran Tribu Nómada
+    # subtitle: La Gran Tribu Nómada
     link: '#que-es'
   - icon: caravan
     title: Objetivos
-    subtitle: Plataforma de apoyo
+    # subtitle: Plataforma de apoyo
     link: '#objetivos'
   - icon: hands-holding-heart
     title: Valores
-    subtitle: Así nos relacionamos
+    # subtitle: Así nos relacionamos
     link: '#valores'
   - icon: people-group
     title: Equipo
-    subtitle: Coordinación
+    # subtitle: Coordinación
     link: '#equipo'

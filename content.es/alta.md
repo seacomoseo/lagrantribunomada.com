@@ -3,9 +3,9 @@ title: Alta
 title_seo: Date de Alta - La Gran Tribu Nómada
 slug: alta
 description: ¡Únete a La Gran Tribu Nómada! 👣
-image: fondologo.png
+image: logo.png
 draft: false
-noindex: false
+noindex: true
 translationKey: home
 sections:
 - file: alta
