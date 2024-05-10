@@ -1,5 +1,5 @@
 title: La Gran Tribu Nómada
-description: Plataforma online, física y móvil, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
+description: plataforma itinerante digital y física, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
 logo: icon-tr.svg
 legal_name: ''
 legal_dni: ''
@@ -36,6 +36,8 @@ custom_code:
     code: ''
     lang: javascript
 social:
+- link: https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
+  icon: whatsapp
 - link: https://t.me/lagrantribunomada
   icon: telegram
 - link: https://www.instagram.com/lagrantribunomada/

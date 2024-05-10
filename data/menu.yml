@@ -4,7 +4,7 @@ screen_sticky: 800
 size_sticky: ''
 articles_sticky: false
 transparent: true
-hide_anchors: false
+hide_anchors: true
 hide_icons: true
 show_modals: true
 show_blog_auto: true
@@ -15,8 +15,32 @@ google_translate: false
 langs_in_more: false
 langs_out: true
 callnow_active: true
-callnow_buttons: []
+callnow_buttons:
+- type: whatsapp
+  button: link
+- type: custom
+  link: https://t.me/+34699190009
+  label: ¡Pulsa y contacta por Telegram!
+  icon: telegram
+  ofuscate: true
 normal:
+- link: /#proyecto
+  label: El Proyecto
+- link: /#mapa
+  label: Mapa
 - link: /eventos/
   label: Eventos
+- link: /#te-interesa
+  label: ¿Te Interesa?
+- link: /#donaciones
+  label: Donaciones
+- link: /#galeria
+  label: Galería
+- link: /#redes
+  label: Redes
+- link: /#contacto
+  label: Contacto
+- link: /alta/
+  label: Hazte Soci@
+  button: link
 more: []

@@ -2,7 +2,7 @@
 title: Inicio
 title_seo: La Gran Tribu Nómada - Red Itinerante
 slug: inicio
-description: Plataforma online, física y móvil de diversidad de personas con valores similares, para potenciar dones y desarrollar una vida compartida, libre y dinámica.
+description: Plataforma itinerante digital y física de diversas personas con valores similares, para potenciar dones y desarrollar una vida compartida, libre y dinámica.
 image: fondologo.png
 draft: false
 noindex: false

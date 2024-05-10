@@ -1,5 +1,4 @@
 title: Contacto
-button: link
 size: sm
 rows:
 - type: contact
@@ -44,6 +43,7 @@ rows:
     addressRegion: Murcia
     addressCountry: España
     coordinates: '{"type":"Point","coordinates":[-1.1306520,37.9922180]}'
+    font_alt: false
   form:
     fill_inputs: false
     items:

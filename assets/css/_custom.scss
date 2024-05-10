@@ -3,6 +3,34 @@
   --main: #{$main-dark};
 }
 
+.content ul > li:before,
+.collapsible__item-description ul > li:before,
+.description ul > li:before,
+.content ol > li:before,
+.collapsible__item-description ol > li:before,
+.description ol > li:before {
+  content: "-";
+}
+
+.menu__button {
+  font-size: 1.25em;
+}
+
+.contact__form-item {
+  display: flex;
+  flex-direction: column;
+}
+.contact__form-hint {
+  order: -1;
+  margin-block: 0 1em;
+}
+.text-sm {
+  font-size: .75em;
+}
+.mb {
+  margin-bottom: 1em !important;
+}
+
 #body-inicio #header {
   @mixin show-from($delay) { animation: show-from .5s (.25 + .25s * $delay) both; }
   .column--item-1 #icon-ouroboros { @include show-from(0); --show-from: scale(.5) rotate(-360deg); transform-origin: center; overflow: visible; }

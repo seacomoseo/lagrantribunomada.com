@@ -1,0 +1,72 @@
+title: Hazte Soci@
+
+description: |
+  [btn ¿Cómo Entrar?](#como-entrar)
+size: sm
+rows:
+- type: contact
+  form:
+    fill_inputs: true
+    items:
+    - type: text
+      name: Nombre
+      required: true
+    - type: text
+      name: Apellidos
+      required: true
+    - type: text
+      name: DNI
+      required: true
+    - type: text
+      name: Teléfono
+      required: true
+    - type: text
+      name: Email
+      # required: true
+    - type: textarea
+      name: Cómo
+      placeholder: ¿Cómo nos has conocido?
+      required: true
+
+    - type: description
+      name: |
+        ---
+        Si tienes un proyecto que quieras que aparezca en nuestra web rellena los siguientes campos:
+        {.h5 .font-base .mb}
+
+    - type: text
+      name: Proyecto
+      hint: Nombre de tu proyecto
+
+    - type: description
+      name: |
+        Ubicación que quieres que aparezca en el Mapa Interactivo (puedes indicar un enlace o escribir las dirección)
+        {.text-sm}
+    - type: text
+      name: Calle
+    - type: text
+      name: Número
+    - type: text
+      name: Puerta
+    - type: text
+      name: Código Postal
+    - type: text
+      name: Ciudad / Localidad
+    - type: text
+      name: País
+
+    - type: textarea
+      name: Servicios
+      hint: ¿Cuáles son los servicios que ofrece tu proyecto a la red? (breve descripción o conceptualización de lo que haces)
+    - type: textarea
+      name: Desarrollo
+      hint: Cuéntanos sobre tu proyecto. ¿En qué consiste? ¿Cuál es tu objetivo/motivación? ¿De qué trata?...
+    - type: textarea
+      name: Ventajas
+      hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
+    - type: text
+      name: ¿Te visitamos?
+      hint: Si eres una comunidad... ¿Quieres que te visitemos? ¿Te apetece/interesa que te hagamos una entrevista?
+    - type: textarea
+      name: Observaciones
+      hint: ¿Alguna aclaración?
