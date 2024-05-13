@@ -39,7 +39,7 @@ rows:
   - icon: user-shakespeare
     title: Naiht
     subtitle: El Personaje
-    description: Miaugo, Miaugo, kikierehquitidiga, kikierehquitidiga
+    description: Miaugo, Miaugo, kikierehkihaga, kikierehkihaga
   - icon: user-astronaut
     title: Paula
     subtitle: La Electroduende
@@ -64,15 +64,15 @@ rows:
   - icon: teddy-bear
     title: Momo
     subtitle: El Oso
-    description: Arrambla por donde pasa, ¡pero qué bonico! 😍
+    description: Arrambla por donde pasa, ¡pero qué bonico! icon-heart
   - icon: shield-dog
     title: Güiro
     subtitle: El ComeCaras
-    description: Si vostezas te descuidas, te chupa la campanilla
+    description: Si vostezas y te descuidas, te chupa la campanilla
   - icon: dinosaur
     title: Paco
     subtitle: El Veterano
-    description: El más sabio de y experimentado de todos
+    description: El más sabio y experimentado de todos
   - icon: fish
     title: Romeo
     subtitle: El Sireno
@@ -80,7 +80,7 @@ rows:
   - icon: dragon
     title: Yang
     subtitle: El Chino
-    description: Travieso no, lo siguiente de lo siguiente
+    description: Perro medicina y protector de la manada
   - icon: dog
     title: Akela
     subtitle: La Loba

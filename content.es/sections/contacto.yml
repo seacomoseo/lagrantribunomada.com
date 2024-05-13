@@ -34,6 +34,7 @@ rows:
   - type: mail
     label: lagrantribunomada@gmail.com
     button: light
+    font_alt: true
   - type: address
     active: false
     name: La Gran Tribu Nómada
@@ -43,7 +44,6 @@ rows:
     addressRegion: Murcia
     addressCountry: España
     coordinates: '{"type":"Point","coordinates":[-1.1306520,37.9922180]}'
-    font_alt: false
   form:
     fill_inputs: false
     items:
