@@ -34,6 +34,14 @@ if (mapa) {
       .then(response => response.json())
       .then(data => {
         // icons
+        const goldIcon = new L.Icon({
+          iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png',
+          shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+          iconSize: [25, 41],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+          shadowSize: [41, 41]
+        })
         const greenIcon = new L.Icon({
           iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
           shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -53,11 +61,29 @@ if (mapa) {
             if (item.summary) content += '<br><br><strong>Resumen</strong><br>' + item.summary
             if (item.description) content += '<br><br><strong>Descripción</strong><br>' + item.description
             if (item.advantages) content += '<br><br><strong>Ventajas para socios</strong><br>' + item.advantages
+            if (item.visitable) content += '<br><br><strong>Acepta visitas</strong><br>Si'
             if (item.observations) content += '<br><br><strong>Observaciones</strong><br>' + item.observations
             projectsGroup.push(L.marker(item.coordinates).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
           }
         })
         const projects = L.layerGroup(projectsGroup).addTo(map)
+
+        // communities
+        const communitiesGroup = []
+        data.communities.forEach(item => {
+          if (item.name) {
+            let content = ''
+            content += '<strong>Nombre</strong><br>' + item.name
+            if (item.location) content += '<br><br><strong>Ubicación</strong><br>' + item.location + '<br><a href="https://maps.google.com/maps/search/' + item.name + ', ' + item.location + '" target="_blank">Abrir en GMaps</a>'
+            if (item.summary) content += '<br><br><strong>Resumen</strong><br>' + item.summary
+            if (item.description) content += '<br><br><strong>Descripción</strong><br>' + item.description
+            if (item.advantages) content += '<br><br><strong>Ventajas para socios</strong><br>' + item.advantages
+            if (item.visitable) content += '<br><br><strong>Acepta visitas</strong><br>Si'
+            if (item.observations) content += '<br><br><strong>Observaciones</strong><br>' + item.observations
+            communitiesGroup.push(L.marker(item.coordinates, { icon: goldIcon }).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
+          }
+        })
+        const communities = L.layerGroup(communitiesGroup).addTo(map)
 
         // interest
         const interestGroup = []
@@ -75,7 +101,8 @@ if (mapa) {
         // layer control
         const overlayMaps = {
           Proyectos: projects,
-          Naturaleza: interest
+          Comunidades: communities,
+          'Puntos de Interés': interest
         }
         const layerControl = L.control.layers(null, overlayMaps).addTo(map)
 
