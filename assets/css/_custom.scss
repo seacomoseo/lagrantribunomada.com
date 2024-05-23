@@ -50,11 +50,14 @@
 
 #map {
   width: 100%;
-  height: calc(100vh - 6em);
+  height: calc(100vh - 10em);
   border-radius: $radius;
   filter: drop-shadow($shadow);
 }
 .leaflet-popup-content-wrapper {
-  max-height: calc(100vh - 6em - 100px);
+}
+.leaflet-popup-content {
   overflow-y: auto;
+  max-height: calc(100vh - 10em - 100px);
+  max-width: calc(100vw - 6.75em);
 }
