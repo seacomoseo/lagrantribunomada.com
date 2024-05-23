@@ -62,10 +62,10 @@ rows:
       name: País
 
     - type: textarea
-      name: Servicios
-      hint: ¿Cuáles son los servicios que ofrece tu proyecto a la red? (breve descripción o conceptualización de lo que haces)
+      name: Resumen
+      hint: ¿Cuáles son los servicios que ofrece tu proyecto a la red? (breve resumen de lo que haces)
     - type: textarea
-      name: Desarrollo
+      name: Descripción
       hint: Cuéntanos sobre tu proyecto. ¿En qué consiste? ¿Cuál es tu objetivo/motivación? ¿De qué trata?...
     - type: textarea
       name: Ventajas

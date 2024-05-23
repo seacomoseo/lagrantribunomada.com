@@ -1,14 +1,16 @@
 title: Mapa
 subtitle: Amorígenes, Comunidades y Espacios
-# description: |
-#   <iframe src="https://maps.google.com/maps?q=Península+Ibérica&z=5&output=embed"></iframe>
+# <iframe src="https://maps.google.com/maps?q=Península+Ibérica&z=5&output=embed"></iframe>
+description: |
+  <div id="map"></div>
 rows:
 - type: columns
   design:
     num_xs: true
     licon: none
   items:
-  - icon: triangle-person-digging
-    subtitle: En construcción
-    description: |
+  - description: |
       [btn ¡Únete!](/alta/)
+    # icon: triangle-person-digging
+    # subtitle: En construcción
+size: xl
