@@ -52,7 +52,7 @@ if (mapa) {
             if (item.advantages) content += '<br><br><strong>Ventajas</strong><br>' + item.advantages
             if (item.visitable) content += '<br><br><strong>Visitable</strong><br>' + item.visitable
             if (item.observations) content += '<br><br><strong>Observaciones</strong><br>' + item.observations
-            projectsGroup.push(L.marker(item.coordinates).bindPopup(content.replace(/\n/, '<br>')))
+            projectsGroup.push(L.marker(item.coordinates).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
           }
         })
         const projects = L.layerGroup(projectsGroup).addTo(map)
@@ -64,7 +64,7 @@ if (mapa) {
             content += '<strong>Nombre</strong><br>' + item.name
             if (item.location) content += '<br><br><strong>Ubicación</strong><br>' + item.location + '<br><a href="https://maps.google.com/maps/search/' + item.name + ', ' + item.location + '" target="_blank">Abrir en GMaps</a>'
             if (item.description) content += '<br><br><strong>Descripción</strong><br>' + item.description
-            natureGroup.push(L.marker(item.coordinates, { icon: greenIcon }).bindPopup(content.replace(/\n/, '<br>')))
+            natureGroup.push(L.marker(item.coordinates, { icon: greenIcon }).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
           }
         })
         const nature = L.layerGroup(natureGroup).addTo(map)
