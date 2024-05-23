@@ -6,19 +6,19 @@ import { loadStyle } from './load-style'
 const mapa = document.getElementById('map')
 if (mapa) {
   function mapStart() {
+    // zoom
     const minWidth = 600
     const maxWidth = 1300
     const minZoom = 5
     const maxZoom = 7
-
     const calculateZoom = (width) => {
       if (width <= minWidth) return minZoom
       if (width >= maxWidth) return maxZoom
       return minZoom + (maxZoom - minZoom) * (width - minWidth) / (maxWidth - minWidth)
     }
-
     const initialZoom = calculateZoom(window.innerWidth)
 
+    // base
     const map = L.map('map', {
       zoomSnap: 0.5, // Permite valores fraccionarios para el nivel de zoom
       zoomDelta: 0.5,
@@ -29,9 +29,11 @@ if (mapa) {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map)
 
+    // fetch data
     fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vT_r-PYs-o_6cFTrBvwk1e-Q6Jq9ZH_HraPeyRUobkx392OUesn9WJSVwyX72udT5BDn__rCDGMq5W6/pub?gid=805672466&single=true&output=tsv')
       .then(response => response.json())
       .then(data => {
+        // icons
         const greenIcon = new L.Icon({
           iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
           shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -41,6 +43,7 @@ if (mapa) {
           shadowSize: [41, 41]
         })
 
+        // projects
         const projectsGroup = []
         data.projects.forEach(item => {
           if (item.name) {
@@ -49,31 +52,39 @@ if (mapa) {
             if (item.location) content += '<br><br><strong>Ubicación</strong><br>' + item.location + '<br><a href="https://maps.google.com/maps/search/' + item.name + ', ' + item.location + '" target="_blank">Abrir en GMaps</a>'
             if (item.summary) content += '<br><br><strong>Resumen</strong><br>' + item.summary
             if (item.description) content += '<br><br><strong>Descripción</strong><br>' + item.description
-            if (item.advantages) content += '<br><br><strong>Ventajas</strong><br>' + item.advantages
-            if (item.visitable) content += '<br><br><strong>Visitable</strong><br>' + item.visitable
+            if (item.advantages) content += '<br><br><strong>Ventajas para socios</strong><br>' + item.advantages
             if (item.observations) content += '<br><br><strong>Observaciones</strong><br>' + item.observations
             projectsGroup.push(L.marker(item.coordinates).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
           }
         })
         const projects = L.layerGroup(projectsGroup).addTo(map)
 
-        const natureGroup = []
-        data.nature.forEach(item => {
+        // interest
+        const interestGroup = []
+        data.interest.forEach(item => {
           if (item.name) {
             let content = ''
             content += '<strong>Nombre</strong><br>' + item.name
             if (item.location) content += '<br><br><strong>Ubicación</strong><br>' + item.location + '<br><a href="https://maps.google.com/maps/search/' + item.name + ', ' + item.location + '" target="_blank">Abrir en GMaps</a>'
             if (item.description) content += '<br><br><strong>Descripción</strong><br>' + item.description
-            natureGroup.push(L.marker(item.coordinates, { icon: greenIcon }).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
+            interestGroup.push(L.marker(item.coordinates, { icon: greenIcon }).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
           }
         })
-        const nature = L.layerGroup(natureGroup).addTo(map)
+        const interest = L.layerGroup(interestGroup).addTo(map)
 
+        // layer control
         const overlayMaps = {
           Proyectos: projects,
-          Naturaleza: nature
+          Naturaleza: interest
         }
         const layerControl = L.control.layers(null, overlayMaps).addTo(map)
+
+        // popup over top elements when popupopen in small screen sizes
+        const mapPane = document.querySelector('.leaflet-map-pane')
+        if (window.innerWidth < 480) {
+          map.on('popupopen', () => { mapPane.style.zIndex = 10000 })
+          map.on('popupclose', () => { mapPane.style.zIndex = '' })
+        }
       })
   }
 

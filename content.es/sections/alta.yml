@@ -43,10 +43,18 @@ rows:
     - type: text
       name: Proyecto
       hint: Nombre de tu proyecto
+      full: true
+
+    - type: text
+      name: Teléfono
+      hint: Puede ser el mismo o no que el de socio
+    - type: text
+      name: WhatsApp
+      hint: Puede ser el mismo o no que el teléfono
 
     - type: description
       name: |
-        Ubicación que quieres que aparezca en el Mapa Interactivo (puedes indicar un enlace o escribir las dirección)
+        Ubicación que quieres que aparezca en el Mapa Interactivo
         {.text-sm}
     - type: text
       name: Calle
@@ -70,9 +78,14 @@ rows:
     - type: textarea
       name: Ventajas
       hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
-    - type: text
-      name: ¿Te visitamos?
-      hint: Si eres una comunidad... ¿Quieres que te visitemos? ¿Te apetece/interesa que te hagamos una entrevista?
+
+    - type: checkbox
+      name: Opciones
+      options:
+      - option: Soy una comunidad
+      - option: Acepto visitas
+      - option: Me apetece/interesa que me hagais una entrevista
+
     - type: textarea
       name: Observaciones
       hint: ¿Alguna aclaración?
