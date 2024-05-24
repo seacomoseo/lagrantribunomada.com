@@ -23,7 +23,7 @@ rows:
     - type: text
       name: DNI
       required: true
-    - type: text
+    - type: tel
       name: Teléfono
       required: true
     - type: text
@@ -43,13 +43,15 @@ rows:
     - type: text
       name: Proyecto
       hint: Nombre de tu proyecto
-      full: true
-
     - type: text
+      name: Web
+      hint: Dirección de tu sitio web
+
+    - type: tel
       name: Teléfono Proyecto
       placeholder: Teléfono
       hint: Puede ser el mismo o no que el de socio
-    - type: text
+    - type: tel
       name: WhatsApp Proyecto
       Puede: WhatsApp
       hint: Puede ser el mismo o no que el teléfono

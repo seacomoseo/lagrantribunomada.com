@@ -29,80 +29,60 @@ if (mapa) {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map)
 
+    // spiderfier
+    const oms = new OverlappingMarkerSpiderfier(map)
+
     // fetch data
     fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vT_r-PYs-o_6cFTrBvwk1e-Q6Jq9ZH_HraPeyRUobkx392OUesn9WJSVwyX72udT5BDn__rCDGMq5W6/pub?gid=805672466&single=true&output=tsv')
       .then(response => response.json())
       .then(data => {
         // icons
-        const goldIcon = new L.Icon({
-          iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png',
+        const baseIcon = {
+          iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
           shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
           iconSize: [25, 41],
           iconAnchor: [12, 41],
           popupAnchor: [1, -34],
           shadowSize: [41, 41]
-        })
-        const greenIcon = new L.Icon({
-          iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-          shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        })
+        }
+        baseIcon.iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png'
+        const blueIcon = new L.Icon(baseIcon)
+        baseIcon.iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png'
+        const goldIcon = new L.Icon(baseIcon)
+        baseIcon.iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png'
+        const greenIcon = new L.Icon(baseIcon)
 
-        // projects
-        const projectsGroup = []
-        data.projects.forEach(item => {
-          if (item.name) {
-            let content = ''
-            content += '<strong>Nombre</strong><br>' + item.name
-            if (item.location) content += '<br><br><strong>Ubicación</strong><br>' + item.location + '<br><a href="https://maps.google.com/maps/search/' + item.name + ', ' + item.location + '" target="_blank">Abrir en GMaps</a>'
-            if (item.summary) content += '<br><br><strong>Resumen</strong><br>' + item.summary
-            if (item.description) content += '<br><br><strong>Descripción</strong><br>' + item.description
-            if (item.advantages) content += '<br><br><strong>Ventajas para socios</strong><br>' + item.advantages
-            if (item.visitable) content += '<br><br><strong>Acepta visitas</strong><br>Si'
-            if (item.observations) content += '<br><br><strong>Observaciones</strong><br>' + item.observations
-            projectsGroup.push(L.marker(item.coordinates).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
-          }
-        })
-        const projects = L.layerGroup(projectsGroup).addTo(map)
-
-        // communities
-        const communitiesGroup = []
-        data.communities.forEach(item => {
-          if (item.name) {
-            let content = ''
-            content += '<strong>Nombre</strong><br>' + item.name
-            if (item.location) content += '<br><br><strong>Ubicación</strong><br>' + item.location + '<br><a href="https://maps.google.com/maps/search/' + item.name + ', ' + item.location + '" target="_blank">Abrir en GMaps</a>'
-            if (item.summary) content += '<br><br><strong>Resumen</strong><br>' + item.summary
-            if (item.description) content += '<br><br><strong>Descripción</strong><br>' + item.description
-            if (item.advantages) content += '<br><br><strong>Ventajas para socios</strong><br>' + item.advantages
-            if (item.visitable) content += '<br><br><strong>Acepta visitas</strong><br>Si'
-            if (item.observations) content += '<br><br><strong>Observaciones</strong><br>' + item.observations
-            communitiesGroup.push(L.marker(item.coordinates, { icon: goldIcon }).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
-          }
-        })
-        const communities = L.layerGroup(communitiesGroup).addTo(map)
-
-        // interest
-        const interestGroup = []
-        data.interest.forEach(item => {
-          if (item.name) {
-            let content = ''
-            content += '<strong>Nombre</strong><br>' + item.name
-            if (item.location) content += '<br><br><strong>Ubicación</strong><br>' + item.location + '<br><a href="https://maps.google.com/maps/search/' + item.name + ', ' + item.location + '" target="_blank">Abrir en GMaps</a>'
-            if (item.description) content += '<br><br><strong>Descripción</strong><br>' + item.description
-            interestGroup.push(L.marker(item.coordinates, { icon: greenIcon }).bindPopup(content.replace(/\n/, '<br>'), { maxHeight: 400 }))
-          }
-        })
-        const interest = L.layerGroup(interestGroup).addTo(map)
+        function content (type, icon) {
+          const group = []
+          data[type].forEach(item => {
+            if (item.name) {
+              let content = ''
+              content += '<h3>' + item.name + '</h3>'
+              if (item.summary) content += '<p>' + item.summary + '</p>'
+              if (item.web) content += '<p class="map-data"><svg><use xlink:href="/draws.svg#arrow-pointer"></use></svg> <a href="' + item.web + '" target="_blank">' + item.web + '</a></p>'
+              if (item.phone) content += '<p class="map-data"><svg><use xlink:href="/draws.svg#phone"></use></svg> <a href="tel:+34' + item.phone.replace(/\D/g, '') + '" target="_blank">' + item.phone + '</a></p>'
+              if (item.whatsapp) content += '<p class="map-data"><svg><use xlink:href="/draws.svg#whatsapp"></use></svg> <a href="https://wa.me/34' + item.whatsapp.replace(/\D/g, '') + '" target="_blank">' + item.whatsapp + '</a></p>'
+              if (item.location) content += '<p class="map-data"><svg><use xlink:href="/draws.svg#location-dot"></use></svg> <a href="https://maps.google.com/maps/search/' + item.name + ', ' + item.location + '" target="_blank">' + item.location + '</a></p>'
+              if (item.description) content += '<h3>Descripción</h3><p>' + item.description + '</p>'
+              if (item.advantages) content += '<h3>Ventajas para socios</h3><p>' + item.advantages + '</p>'
+              if (item.visitable) content += '<h3 class="compare">Acepta visitas <svg><use xlink:href="/draws.svg#check"></use></svg></h3>'
+              if (item.observations) content += '<h3>Observaciones</h3><p>' + item.observations + '</p>'
+              content = content
+                .replace(/(?<=(<br>|<p>))- (.*?)(?=(<br>|<\/p>))/g, '<span class="map-list"><svg><use xlink:href="/draws.svg#hyphen"></use></svg> $2</span>')
+                .replace(/\n/g, '<br>')
+              const marker = L.marker(item.coordinates, { icon }).bindPopup(content/*, { maxHeight: 400 }*/)
+              oms.addMarker(marker)
+              group.push(marker)
+            }
+          })
+          return L.layerGroup(group).addTo(map)
+        }
 
         // layer control
         const overlayMaps = {
-          Proyectos: projects,
-          Comunidades: communities,
-          'Puntos de Interés': interest
+          Proyectos: content('projects', blueIcon),
+          Comunidades: content('communities', goldIcon),
+          'Puntos de Interés': content('interest', greenIcon)
         }
         const layerControl = L.control.layers(null, overlayMaps).addTo(map)
 
@@ -119,8 +99,14 @@ if (mapa) {
     rootMargin: '0%',
     query: '#map',
     doStart: gallery => {
+      // https://github.com/Leaflet/Leaflet.markercluster
+      // loadStyle('https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css', null)
+      // loadScript('https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js', null)
       loadStyle('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', null)
-      loadScript('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', mapStart)
+      loadScript('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', () => {
+        // https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet
+        loadScript('https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js', mapStart)
+      })
     }
   })
 }
