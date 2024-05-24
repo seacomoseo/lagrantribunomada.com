@@ -46,10 +46,12 @@ rows:
       full: true
 
     - type: text
-      name: Teléfono
+      name: Teléfono Proyecto
+      placeholder: Teléfono
       hint: Puede ser el mismo o no que el de socio
     - type: text
-      name: WhatsApp
+      name: WhatsApp Proyecto
+      Puede: WhatsApp
       hint: Puede ser el mismo o no que el teléfono
 
     - type: description
