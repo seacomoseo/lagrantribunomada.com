@@ -37,40 +37,39 @@ if (mapa) {
       .then(response => response.json())
       .then(data => {
         // icons
-        const baseIcon = {
-          iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
-          shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
+        function icon (color) {
+          return new L.Icon({
+            iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${color}.png`,
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+          })
         }
-        baseIcon.iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png'
-        const blueIcon = new L.Icon(baseIcon)
-        baseIcon.iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png'
-        const goldIcon = new L.Icon(baseIcon)
-        baseIcon.iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png'
-        const greenIcon = new L.Icon(baseIcon)
+        function iconLayer (color) {
+          return `<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${color}.png" height="16" width="8" alt="Marker">`
+        }
 
-        function content (type, icon) {
+        function content (type, color) {
           const group = []
-          data[type].forEach(item => {
+          data[type] && data[type].forEach(item => {
             if (item.name) {
               let content = ''
               content += '<h3>' + item.name + '</h3>'
-              if (item.summary) content += '<p>' + item.summary + '</p>'
-              if (item.web) content += '<p class="map-data"><svg><use xlink:href="/draws.svg#arrow-pointer"></use></svg> <a href="' + item.web + '" target="_blank">' + item.web + '</a></p>'
-              if (item.phone) content += '<p class="map-data"><svg><use xlink:href="/draws.svg#phone"></use></svg> <a href="tel:+34' + item.phone.replace(/\D/g, '') + '" target="_blank">' + item.phone + '</a></p>'
-              if (item.whatsapp) content += '<p class="map-data"><svg><use xlink:href="/draws.svg#whatsapp"></use></svg> <a href="https://wa.me/34' + item.whatsapp.replace(/\D/g, '') + '" target="_blank">' + item.whatsapp + '</a></p>'
-              if (item.location) content += '<p class="map-data"><svg><use xlink:href="/draws.svg#location-dot"></use></svg> <a href="https://maps.google.com/maps/search/' + item.name + ', ' + item.location + '" target="_blank">' + item.location + '</a></p>'
-              if (item.description) content += '<h3>Descripción</h3><p>' + item.description + '</p>'
-              if (item.advantages) content += '<h3>Ventajas para socios</h3><p>' + item.advantages + '</p>'
-              if (item.visitable) content += '<h3 class="compare">Acepta visitas <svg><use xlink:href="/draws.svg#check"></use></svg></h3>'
-              if (item.observations) content += '<h3>Observaciones</h3><p>' + item.observations + '</p>'
+              if (item.summary) content += `<p>${item.summary}</p>`
+              if (item.web) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#arrow-pointer"></use></svg> <a href="${item.web}" target="_blank">${item.web}</a></p>`
+              if (item.phone) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#phone"></use></svg> <a href="tel:+34${item.phone.replace(/\D/g, '')}" target="_blank">${item.phone}</a></p>`
+              if (item.whatsapp) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#whatsapp"></use></svg> <a href="https://wa.me/34${item.whatsapp.replace(/\D/g, '')}" target="_blank">${item.whatsapp}</a></p>`
+              if (item.location) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#location-dot"></use></svg> <a href="https://maps.google.com/maps/search/${item.name}, ${item.location}" target="_blank">${item.location}</a></p>`
+              if (item.description) content += `<h3>Descripción</h3><p>${item.description}</p>`
+              if (item.advantages) content += `<h3>Ventajas para socios</h3><p>${item.advantages}</p>`
+              if (item.visitable) content += `<h3 class="compare">Acepta visitas <svg><use xlink:href="/draws.svg#check"></use></svg></h3>`
+              if (item.observations) content += `<h3>Observaciones</h3><p>${item.observations}</p>`
               content = content
                 .replace(/(?<=(<br>|<p>))- (.*?)(?=(<br>|<\/p>))/g, '<span class="map-list"><svg><use xlink:href="/draws.svg#hyphen"></use></svg> $2</span>')
                 .replace(/\n/g, '<br>')
-              const marker = L.marker(item.coordinates, { icon }).bindPopup(content/*, { maxHeight: 400 }*/)
+              const marker = L.marker(item.coordinates, { icon: icon(color) }).bindPopup(content/*, { maxHeight: 400 }*/)
               oms.addMarker(marker)
               group.push(marker)
             }
@@ -80,9 +79,10 @@ if (mapa) {
 
         // layer control
         const overlayMaps = {
-          Proyectos: content('projects', blueIcon),
-          Comunidades: content('communities', goldIcon),
-          'Puntos de Interés': content('interest', greenIcon)
+          '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png" height="16" width="8" alt="Marker"> Solo Servicios': content('services', 'red'),
+          '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png" height="16" width="8" alt="Marker"> Proyectos': content('projects', 'blue'),
+          '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png" height="16" width="8" alt="Marker"> Comunidades': content('communities', 'gold'),
+          '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png" height="16" width="8" alt="Marker"> Puntos de Interés': content('interest', 'green')
         }
         const layerControl = L.control.layers(null, overlayMaps).addTo(map)
 
