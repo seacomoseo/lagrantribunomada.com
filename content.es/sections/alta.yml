@@ -96,7 +96,7 @@ rows:
         value: Espacio
       - option: Sólo ofrezco servicios
         value: Servicios
-      - option: Otros
+      - option: Otro
 
     - type: checkbox
       name: Opciones
