@@ -94,7 +94,7 @@ rows:
         value: Comunidad
       - option: Soy un espacio
         value: Espacio
-      - option: Sólo ofrezco servicios
+      - option: Solo ofrezco servicios
         value: Servicios
       - option: Otro
 
