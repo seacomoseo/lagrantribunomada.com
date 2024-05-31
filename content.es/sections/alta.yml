@@ -88,6 +88,7 @@ rows:
     - type: checkbox
       name: Opciones
       options:
+      - option: Soy un espacio
       - option: Soy una comunidad
       - option: Acepto visitas
       - option: Me apetece/interesa que me hagais una entrevista
