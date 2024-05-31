@@ -89,9 +89,13 @@ rows:
       name: Opciones
       options:
       - option: Soy un espacio
+        value: Espacio
       - option: Soy una comunidad
+        value: Comunidad
       - option: Acepto visitas
+        value: Visitable
       - option: Me apetece/interesa que me hagais una entrevista
+        value: Entrevistable
 
     - type: textarea
       name: Observaciones
