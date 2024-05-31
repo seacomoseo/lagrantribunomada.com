@@ -85,13 +85,22 @@ rows:
       name: Ventajas
       hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
 
+    - type: select
+      name: Tipo
+      placeholder: Tipo de Proyecto
+      hint: ¿Qué tipo de proyecto dispones?
+      options:
+      - option: Soy una comunidad
+        value: Comunidad
+      - option: Soy un espacio
+        value: Espacio
+      - option: Sólo ofrezco servicios
+        value: Servicios
+      - option: Otros
+
     - type: checkbox
       name: Opciones
       options:
-      - option: Soy un espacio
-        value: Espacio
-      - option: Soy una comunidad
-        value: Comunidad
       - option: Acepto visitas
         value: Visitable
       - option: Me apetece/interesa que me hagais una entrevista

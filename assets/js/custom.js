@@ -79,9 +79,10 @@ if (mapa) {
 
         // layer control
         const overlayMaps = {
-          '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png" height="16" width="8" alt="Marker"> Solo Servicios': content('services', 'red'),
-          '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png" height="16" width="8" alt="Marker"> Proyectos': content('projects', 'blue'),
           '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png" height="16" width="8" alt="Marker"> Comunidades': content('communities', 'gold'),
+          '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png" height="16" width="8" alt="Marker"> Espacios': content('spaces', 'violet'),
+          '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png" height="16" width="8" alt="Marker"> Solo Servicios': content('services', 'red'),
+          '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png" height="16" width="8" alt="Marker"> Otros': content('projects', 'blue'),
           '<img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png" height="16" width="8" alt="Marker"> Puntos de Interés': content('interest', 'green')
         }
         const layerControl = L.control.layers(null, overlayMaps).addTo(map)
