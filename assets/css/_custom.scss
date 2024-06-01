@@ -12,8 +12,10 @@
   content: "-";
 }
 
-.menu__button {
+.menu__button i {
   font-size: 1.25em;
+  line-height: 1.25rem;
+  transform: translateY(.2em);
 }
 
 .contact__form-item {
