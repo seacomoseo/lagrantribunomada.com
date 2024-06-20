@@ -12,9 +12,9 @@ rows:
   - image: icon-animation.svg
     title: La Gran Tribu Nómada
     subtitle: Red Itinerante
-  - image: carteles/2024-06-20-litha.jpg
-    link: /evento/2024/06/20/litha/
-    licon: none
+  # - image: carteles/2024-06-20-litha.jpg
+  #   link: /evento/2024/06/20/litha/
+  #   licon: none
 # - type: articles
 #   kind: pages
 #   categories: []
