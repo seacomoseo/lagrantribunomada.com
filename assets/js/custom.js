@@ -59,8 +59,8 @@ if (mapa) {
               content += '<h3>' + item.name + '</h3>'
               if (item.summary) content += `<p>${item.summary}</p>`
               if (item.web) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#arrow-pointer"></use></svg> <a href="${item.web}" target="_blank">${item.web}</a></p>`
-              if (item.phone) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#phone"></use></svg> <a href="tel:+34${item.phone.replace(/\D/g, '')}" target="_blank">${item.phone}</a></p>`
-              if (item.whatsapp) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#whatsapp"></use></svg> <a href="https://wa.me/34${item.whatsapp.replace(/\D/g, '')}" target="_blank">${item.whatsapp}</a></p>`
+              if (item.phone) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#phone"></use></svg> <a href="tel:${item.phone.replace(/\D/g, '')}" target="_blank">${item.phone}</a></p>`
+              if (item.whatsapp) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#whatsapp"></use></svg> <a href="https://wa.me/${item.whatsapp.replace(/\D/g, '')}" target="_blank">${item.whatsapp}</a></p>`
               if (item.location) content += `<p class="map-data"><svg><use xlink:href="/draws.svg#location-dot"></use></svg> <a href="https://maps.google.com/maps/search/${item.name}, ${item.location}" target="_blank">${item.location}</a></p>`
               if (item.description) content += `<h3>Descripción</h3><p>${item.description}</p>`
               if (item.advantages) content += `<h3>Ventajas para socios</h3><p>${item.advantages}</p>`
