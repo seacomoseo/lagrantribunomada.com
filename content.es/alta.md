@@ -6,7 +6,7 @@ description: ¡Únete a La Gran Tribu Nómada! 👣
 image: logo.png
 draft: false
 noindex: true
-translationKey: home
+translationKey: alta
 sections:
 - file: alta
   modals:
