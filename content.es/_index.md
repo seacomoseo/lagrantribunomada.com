@@ -22,6 +22,7 @@ sections:
   - te-interesa/que-buscamos
   - te-interesa/que-ofrecemos
   - te-interesa/como-entrar
+  - te-interesa/caravana-amorigen
 - file: donaciones
 - file: galeria
 - file: redes

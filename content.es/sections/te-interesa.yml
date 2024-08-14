@@ -16,3 +16,6 @@ rows:
   - icon: person-to-portal
     title: ¿Cómo Entrar?
     link: '#como-entrar'
+  - icon: caravan
+    title: Caravana Amorigen
+    link: '#caravana-amorigen'

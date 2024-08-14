@@ -1,0 +1,28 @@
+anchor: La Gran Tribu Nómada
+# bg: fotos/2024-05-10-014.jpg
+more:
+  full_screen: true
+rows:
+- type: columns
+  design:
+    num: 3
+    gap: 5
+    align_y: center
+  items:
+  - image: icon-animation.svg
+    title: La Gran Tribu Nómada
+    subtitle: Red Itinerante
+  - image: carteles/2024-09-20-mabon-1.jpg
+    link: /evento/2024/09/20/mabon/
+    licon: none
+# - type: articles
+#   kind: pages
+#   categories: []
+#   tags: []
+#   author: ''
+#   max: 12
+#   design:
+#     num: 4
+#     num_xs: false
+#     color: white
+#     slider: true
