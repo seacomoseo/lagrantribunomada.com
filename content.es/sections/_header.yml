@@ -12,9 +12,9 @@ rows:
   - image: icon-animation.svg
     title: La Gran Tribu Nómada
     subtitle: Red Itinerante
-  - image: carteles/2024-09-20-mabon-1.jpg
-    link: /evento/2024/09/20/mabon/
-    licon: none
+#  - image: carteles/2024-09-20-mabon-1.jpg
+#    link: /evento/2024/09/20/mabon/
+#    licon: none
 # - type: articles
 #   kind: pages
 #   categories: []
