@@ -54,11 +54,11 @@ rows:
     title: Rafa
     subtitle: El Solucionador
     description: Te hace Φ con un canuto impreso en 3D con sal del himalaya
-  - icon: user-hair-buns
-    image: equipo/marcela.jpg
-    title: Marcela
-    subtitle: La Amalgama
-    description: Encantadora mezcla de acentos y costumbres de varios paises y regiones
+  # - icon: user-hair-buns
+  #   image: equipo/marcela.jpg
+  #   title: Marcela
+  #   subtitle: La Amalgama
+  #   description: Encantadora mezcla de acentos y costumbres de varios paises y regiones
   # - icon: user-hair-buns
   #   image  equipo/nat.jpg
   #   title: Nat
