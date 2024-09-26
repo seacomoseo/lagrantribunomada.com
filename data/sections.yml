@@ -22,7 +22,7 @@ general:
   gradient: ''
   gradient_type: ''
   bg: ''
-  opacity: 30
+  opacity: 20
   parallax: true
   pill: false
   size: ''
