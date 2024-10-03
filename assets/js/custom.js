@@ -113,7 +113,7 @@ if (mapa) {
 }
 
 // ALTA
-const formAlta = document.getElementById('form_alta_header')
+const formAlta = document.getElementById('formulario-alta')
 if (formAlta) {
   // When form alta is submit
   document.addEventListener('submited-formulario-alta', e => {
