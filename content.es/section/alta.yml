@@ -5,7 +5,8 @@ content: |
 
   *Cuota gratuita hasta el 1 de Enero de 2025
 size: sm
-action: https://alta-socios-worker.lagrantribunomada.workers.dev/write-34987eade4a292418c9b1f96142b3e31c35f989d
+# action: https://alta-socios-worker.lagrantribunomada.workers.dev/write-34987eade4a292418c9b1f96142b3e31c35f989d
+action: https://script.google.com/macros/s/AKfycbwfPh0W-ZybAtECYFO0BhUaTrEK6E-JXNKzqlnYPoF4QYtKGRdnSEXBeQDB9qWtwoc21Q/exec
 inputs:
 
 - type: text
@@ -87,7 +88,8 @@ inputs:
 - type: text
   name: Puerta
 - type: text
-  name: Código Postal
+  name: CP
+  placeholder: Código Postal
 - type: text
   name: Ciudad / Localidad
 - type: text
