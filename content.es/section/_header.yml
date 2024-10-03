@@ -1,0 +1,23 @@
+name: _header
+bg: fotos/2024-08-13-009.jpg
+full: true
+hanchor: La Gran Tribu Nómada
+# size: md
+color: main-dark
+box:
+  columns: 3
+  gap: 5
+  align_y: center
+boxes:
+- image: base/icon-animation.svg
+  ratio: 4x3
+  title: La Gran Tribu Nómada
+  hn: p
+  hs: 0
+  subtitle: Red Itinerante
+- image: que-es.jpg
+  ratio: 2x3
+  link: https://www.instagram.com/p/C_LnknTKUSB/
+  ofuscate: true
+  # label: Más info
+  button: hide

@@ -1,0 +1,10 @@
+name: Mapa
+title: Mapa
+subtitle: Amorígenes, Comunidades y Espacios
+content: |
+  <div id="map"></div>
+size: xl
+boxes:
+- content: |
+    [btn Ver lista de Proyectos](/proyectos/)
+    [btn ¡Únete!](/alta/)

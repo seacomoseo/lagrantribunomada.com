@@ -1,0 +1,32 @@
+custom:
+
+- base: page
+  name: category
+  disabled: true
+  taxonomy_of:
+  - name: project
+    multiple: false
+    breadcrumbs: false
+  - name: category
+    multiple: true
+    breadcrumbs: false
+
+- base: event
+  related: true
+- base: organization
+  name: project
+  icon: rocket-launch
+  emoji: 🚀
+  disabled: true
+  noindex: true
+  related: true
+  related: false
+  es:
+    permalinks: proyecto
+    slug: proyectos
+    singular: Proyectos
+    title: Proyectos
+    image: null # string image path
+    seo: null # string
+    description: null # string
+    content: null # string block

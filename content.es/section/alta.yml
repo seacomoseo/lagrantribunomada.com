@@ -1,0 +1,127 @@
+name: Alta
+title: Hazte Soci@
+content: |
+  [btn ¿Cómo Entrar?](#como-entrar)
+
+  *Cuota gratuita hasta el 1 de Enero de 2025
+size: sm
+action: https://alta-socios-worker.lagrantribunomada.workers.dev/write-34987eade4a292418c9b1f96142b3e31c35f989d
+inputs:
+
+- type: text
+  name: Pseudónimo
+  hint: ¿Cómo quieres que te llamemos?
+  required: true
+  full: true
+- type: text
+  name: Nombre
+  required: true
+- type: text
+  name: Apellidos
+  required: true
+- type: text
+  name: DNI
+  required: true
+- type: tel
+  name: Teléfono
+  required: true
+- type: text
+  name: Email
+- type: textarea
+  name: Cómo
+  placeholder: ¿Cómo nos has conocido?
+  required: true
+
+- type: h3
+  label: Proyecto
+- type: content
+  name: |
+    Si tienes un proyecto que quieras que aparezca en nuestra web rellena los siguientes campos
+    {.mb}
+
+- type: text
+  name: Proyecto
+  hint: Nombre de tu proyecto
+- type: text
+  name: Email Proyecto
+  placeholder: Email
+  hint: Puede ser el mismo o no que el de socio
+- type: file
+  name: Logo
+  hint: Adjunta tu logo
+  accept: image/*
+  multiple: true
+- type: file
+  name: Imagen
+  hint: Adjunta una imagen representativa
+  accept: image/*
+  multiple: true
+- type: tel
+  name: Teléfono Proyecto
+  placeholder: Teléfono
+  hint: Puede ser el mismo o no que el de socio
+- type: tel
+  name: WhatsApp Proyecto
+  placeholder: WhatsApp
+  hint: Puede ser el mismo o no que el teléfono
+- type: text
+  name: Web
+  hint: Dirección del sitio web
+- type: text
+  name: Instagram
+  hint: Enlace hacia el perfil de Instagram
+- type: text
+  name: Facebook
+  hint: Enlace hacia el perfil de Facebook
+- type: text
+  name: Otro
+  hint: Enlace hacia el perfil de otra red social
+- type: content
+  name: |
+    Ubicación que quieres que aparezca en el Mapa Interactivo
+    {.text-sm}
+- type: text
+  name: Calle
+- type: text
+  name: Número
+- type: text
+  name: Puerta
+- type: text
+  name: Código Postal
+- type: text
+  name: Ciudad / Localidad
+- type: text
+  name: Provincia
+- type: text
+  name: País
+- type: textarea
+  name: Resumen
+  hint: ¿Cuáles son los servicios que ofrece tu proyecto a la red? (breve resumen de lo que haces)
+- type: textarea
+  name: Descripción
+  hint: Cuéntanos sobre tu proyecto. ¿En qué consiste? ¿Cuál es tu objetivo/motivación? ¿De qué trata?...
+- type: textarea
+  name: Ventajas
+  hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
+- type: select
+  name: Tipo
+  placeholder: Tipo de Proyecto
+  hint: ¿Qué tipo de proyecto dispones?
+  options:
+  - option: Soy una comunidad
+    value: Comunidad
+  - option: Soy un espacio
+    value: Espacio
+  - option: Solo ofrezco servicios
+    value: Servicios
+  - option: Otro
+- type: checkbox
+  name: Opciones
+  options:
+  - option: Acepto visitas
+    value: Visitable
+  - option: Me apetece/interesa que me hagais una entrevista
+    value: Entrevistable
+- type: textarea
+  name: Observaciones
+  hint: ¿Alguna aclaración?

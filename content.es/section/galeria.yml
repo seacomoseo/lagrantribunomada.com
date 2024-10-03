@@ -1,0 +1,24 @@
+name: Galeria
+title: Galería
+ph: true
+size: fluid
+gallery:
+  type: grid
+  columns: 6
+  button: hide
+  ratio: 1/1
+images:
+- fotos/2024-08-13-005.jpg
+- fotos/2024-08-13-006.jpg
+- fotos/2024-08-13-007.jpg
+- fotos/2024-08-13-008.jpg
+- fotos/2024-08-13-001.jpg
+- fotos/2024-08-13-002.jpg
+- fotos/2024-08-13-003.jpg
+- fotos/2024-08-13-009.jpg
+# - fotos/2024-08-13-004.jpg
+- fotos/2024-08-13-010.jpg
+- fotos/2024-08-13-013.jpg
+- fotos/2024-08-13-011.jpg
+# - fotos/2024-08-13-012.jpg
+- fotos/2024-08-02-001.jpg

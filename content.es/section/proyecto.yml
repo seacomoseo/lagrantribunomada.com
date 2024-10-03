@@ -1,0 +1,19 @@
+name: Proyecto
+id: proyecto
+title: El Proyecto
+box:
+  columns: 4
+  columns_min: 2
+boxes:
+- icon: campground
+  title: ¿Qué Es?
+  link: '#que-es'
+- icon: bullseye-arrow
+  title: Objetivos
+  link: '#objetivos'
+- icon: hands-holding-heart
+  title: Valores
+  link: '#valores'
+- icon: people-group
+  title: Equipo
+  link: '#equipo'

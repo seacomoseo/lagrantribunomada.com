@@ -1,9 +1,0 @@
-title: Donaciones
-rows:
-- type: columns
-  design:
-    licon: none
-  items:
-  - icon: hand-holding-heart
-    description: |
-      [btn Contáctanos](#contacto)

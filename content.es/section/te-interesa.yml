@@ -1,0 +1,21 @@
+name: te Interesa
+title: ¿Te Interesa?
+box:
+  columns: 5
+  columns_min: 2
+boxes:
+- icon: person-through-window
+  title: ¿Qué Buscamos?
+  link: '#que-buscamos'
+- icon: street-view
+  title: ¿Qué Ofrecemos?
+  link: '#que-ofrecemos'
+- icon: person-to-portal
+  title: ¿Cómo Entrar?
+  link: '#como-entrar'
+- icon: caravan
+  title: Caravana Amorigen
+  link: '#caravana-amorigen'
+- icon: hand-holding-heart
+  title: Donaciones
+  link: '#contacto'

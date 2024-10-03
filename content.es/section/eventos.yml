@@ -1,0 +1,8 @@
+name: Eventos
+title: Eventos
+box:
+  columns: 4
+  slider: true
+list:
+  type: event
+  max: 4

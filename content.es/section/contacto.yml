@@ -1,0 +1,33 @@
+name: Contacto
+title: Contacto
+size: sm
+contact:
+- type: whatsapp
+  label: 699 19 00 09
+  button: link
+- type: custom
+  link: https://t.me/+34699190009
+  label: 699 19 00 09
+  icon: telegram
+  ofuscate: true
+  ga4: true
+- type: phone
+  label: 699 19 00 09
+- type: phone
+  label: 638 61 03 22
+- type: mail
+  label: info@lagrantribunomada.com
+  button: invert
+  font_alt: true
+inputs:
+- type: text
+  name: Nombre
+  required: true
+- type: tel
+  name: Teléfono
+- type: email
+  name: Email
+  required: true
+- type: textarea
+  name: Mensaje
+  required: true

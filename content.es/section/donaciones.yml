@@ -1,0 +1,6 @@
+name: Donaciones
+title: Donaciones
+boxes:
+- icon: hand-holding-heart
+  content: |
+    [btn Contáctanos](#contacto)

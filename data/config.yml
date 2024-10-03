@@ -1,44 +1,6 @@
-title: La Gran Tribu Nómada
-description: plataforma itinerante digital y física, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
-logo: icon-tr.svg
-legal_name: ''
-legal_dni: ''
-legal_email: ''
-legal_location: ''
-country: España
-location_type:
-- Organization
-alternate_name:
-- LGTN
-- LGT
-- La Gran Tribu
-price_range: €
-google_analytics: G-BG77TYCSDZ
-google_site_verification: ''
-google_file_verification: google7467d923cbb3eb4c.html
-disqus: ''
-cookies_legal: false
-analytics_pagespeed: true
-process_all_images: false
-cms: true
-cms_editorial_workflow: false
-development: false
-custom_code:
-  html_head:
-    code: ''
-    lang: html
-  html_body:
-    code: ''
-    lang: html
-  css:
-    code: ''
-  js:
-    code: ''
-    lang: javascript
-social:
-- link: https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
-  icon: whatsapp
-- link: https://t.me/lagrantribunomada
-  icon: telegram
-- link: https://www.instagram.com/lagrantribunomada/
-- link: https://www.youtube.com/@lagrantribunomada
+langs:
+- lang: es
+  title: La Gran Tribu Nómada
+  description: Plataforma itinerante digital y física, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
+  google_analytics: G-BG77TYCSDZ
+  google_file_verification: google7467d923cbb3eb4c.html

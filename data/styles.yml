@@ -1,0 +1,78 @@
+icons:
+  type: solid
+  sharp: false
+  emojis: ''
+  emojis_default: false
+fonts:
+  google: true
+  base:
+    family: Comfortaa
+    weight: 400
+    strong: 0
+    italic: false
+    line-height: 1.25
+  cursive:
+    family: Shadows Into Light
+    weight: 400
+    strong: 0
+    italic: false
+    line-height: 1.25
+    size: 1.25
+    top: 0
+  title:
+    family: Lava Pro Grunge
+    weight: 400
+    strong: 0
+    italic: false
+    line-height: 1.25
+    size: 1.25
+    top: 0.2
+  blockquote_cursive: true
+colors:
+  main:
+    color: '#f4e3d7'
+    light: ''
+    dark: '#282525'
+    contrast: all
+  alt:
+    color: '#e74348'
+    light: ''
+    dark: ''
+    contrast: text
+  link:
+    color: ''
+    light: ''
+    dark: ''
+    contrast: all
+  base:
+    white: '#fff'
+    light: '#eee'
+    grey: '#767676'
+    dark: '#02161a'
+    black: '#000'
+rounded:
+  radius: 1.33
+  chamfer: false
+buttons:
+  sides_round: false
+  icon_circle: false
+  deep: false
+  outline: false
+  font_main:
+    type: title
+    bold: false
+    uppercase: true
+  font_alt:
+    type: base
+    bold: false
+    uppercase: false
+inputs:
+  fill: true
+shadow:
+  left: 0.15
+  top: 0.15
+  blur: 0.15
+  color: black
+  alpha: 0.85
+performance:
+  show: false

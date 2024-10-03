@@ -1,0 +1,40 @@
+name: Valores
+icon: hands-holding-heart
+title: Valores
+box:
+  columns: 1
+boxes:
+- content: |
+    - *Humildad*
+    - *Honestidad*
+    - *Respeto	Compromiso*
+    - *Amor*
+    - *Coherencia*
+    - *Autocuidado*
+    - *Escucha*
+    - *Responsabilidad afectiva*
+    - *Compasión*
+    - *Gozo y diversión*
+    - *Inclusión*
+    - *Creatividad*
+    - *Curiosidad*
+    - *Autoobservación*
+    - *Creer en ti*
+    - *Confianza*
+    - *Apertura*
+    - *Flexibilidad*
+    - *Desarrollo y expansión personal*
+    - *Compartir*
+    - *Con(tribu)ir*
+    - *Simplicidad*
+    - *Libertad*
+    - *Autonomía*
+    - *Agradecimiento*
+    {.list-inline .h4}
+- title: Y cuando viajamos o visitamos…
+  content: |
+    - Respeto a la <u>naturaleza</u> (animales, entorno, contaminación acústica…).
+    - <u>Conciencia ambiental</u> (plásticos, basura, reutilizar. reciclar, productos naturales…).
+    - <u>Integración</u> con el entorno y respeto de la vecindad y comunidad asentada.
+    - Ir a <u>sumar</u>, a <u>aportar</u>, no sólo a coger. Conciencia del dar y recibir.
+    - Disposición a <u>colaborar</u>, <u>incluir</u> y <u>aprender</u> del otro icon:seedling

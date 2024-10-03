@@ -1,28 +1,19 @@
-.bg-main,
-.bg-link {
-  --main: #{$main-dark};
-}
+// .bg-main,
+// .bg-link {
+//   --main: #{$main-dark};
+// }
 
+// .collapsible__content ul > li:before,
 .content ul > li:before,
-.collapsible__item-description ul > li:before,
-.description ul > li:before,
-.content ol > li:before,
-.collapsible__item-description ol > li:before,
-.description ol > li:before {
+.content ol > li:before {
   content: "-";
 }
 
-.menu__button i {
-  font-size: 1.25em;
-  line-height: 1.25rem;
-  transform: translateY(.2em);
-}
-
-.contact__form-item {
+.form__item {
   display: flex;
   flex-direction: column;
 }
-.contact__form-hint {
+.form__hint {
   order: -1;
   margin-block: 0 1em;
 }
@@ -33,20 +24,32 @@
   margin-bottom: 1em !important;
 }
 
-#body-inicio #header {
+#body-home #header {
   @mixin show-from($delay) { animation: show-from .5s (.25 + .25s * $delay) both; }
-  .column--item-1 #icon-ouroboros { @include show-from(0); --show-from: scale(.5) rotate(-360deg); transform-origin: center; overflow: visible; }
-  .column--item-1 #icon-tm        { @include show-from(1); }
-  .column--item-1 .section__title { @include show-from(2); }
-  .column--item-1 .subtitle       { @include show-from(3); }
-  .column--item-2 .image          { @include show-from(4); --show-from: perspective(50em) rotateY(90deg); }
-  .column--item-2 button          { @include show-from(5); }
-  .columns {
-    --columns-gap: 5;
-  }
-  .section__title h2 {
+  .box--1 #icon-ouroboros { @include show-from(0); --show-from: scale(.5) rotate(-360deg); transform-origin: center; overflow: visible; }
+  .box--1 #icon-tm        { @include show-from(1); }
+  .box--1 .box__title     { @include show-from(2); }
+  .box--1 .subtitle       { @include show-from(3); }
+  .box--2 .image          { @include show-from(4); --show-from: perspective(50em) rotateY(90deg); }
+  .box__title {
     font-size: 4.125em;
+    line-height: 1;
     color: var(--main);
+  }
+  .box--2 .image {
+    &:after {
+      content: '';
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68 48'%3E%3Cpath d='M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z' fill='%23#{ str-slice(#{ $link }, 2) }'/%3E%3Cpath d='M45 24 27 14v20' fill='%23#{ str-slice(#{ $link-contrast-neutral }, 2) }'/%3E%3C/svg%3E");
+      display: block;
+      width: 68px;
+      height: 48px;
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      filter: drop-shadow($shadow)
+    }
   }
 }
 

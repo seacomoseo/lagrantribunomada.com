@@ -1,5 +1,4 @@
 baseURL: https://lagrantribunomada.com
-Paginate: 24
 buildFuture: true
 theme: [sansoul]
 params:
@@ -9,27 +8,3 @@ params:
   hook: NjYzOTY5NzU4NjE0ODI1Y2EwNGUxMTg5Cg==
   drive_link: https://drive.google.com/file/d/1Uc8HA5OnKISLInxzvTmpAmI1Y4gzMbln
   drive_mails: lagrantribunomada@gmail.com
-defaultContentLanguage: es
-disableLanguages: [en,fr]
-languages:
-  es:
-    paginatePath: pagina
-    permalinks:
-      page:
-        pages: :slug
-        blog: :slug
-        events: evento/:year/:month/:day/:slug
-        products: producto/:slug
-        categories: categoria/:slug
-        tags: etiqueta/:slug
-        authors: autor/:slug
-        custom: :slug
-      section:
-        pages: paginas
-        blog: blog
-        events: eventos
-        products: productos
-        categories: categorias
-        tags: etiquetas
-        authors: autores
-        custom: personalizadas
