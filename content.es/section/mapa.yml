@@ -6,5 +6,5 @@ content: |
 size: xl
 boxes:
 - content: |
-    [btn Ver lista de Proyectos](/proyectos/)
     [btn ¡Únete!](/alta/)
+  # [btn Ver lista de Proyectos](/proyectos/)
