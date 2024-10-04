@@ -36,7 +36,7 @@ inputs:
   full: true
 - type: number
   name: Aportación
-  hint: ¿De cuánto va a ser tu aportación económica?
+  hint: ¿De cuánto va a ser tu aportación económica? (€)
   required: true
   min: 1
   full: true
