@@ -27,7 +27,7 @@ menu:
       label: Contacto
     - link: /alta/
       label: Hazte Soci@
-      button: link
+      button: alt
 modal:
   icon_type: top
   uppercase: true

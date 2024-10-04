@@ -1,16 +1,14 @@
 ---
-slug: alta
-title: Alta
+slug: formulario-samhain
+title: 🎃 SAMHAIN
 image: base/logo.png
 
 draft: false
 noindex: true
 translationKey: alta
-seo: Date de Alta 👣 La Gran Tribu Nómada
+seo: ''
 description: ¡Únete a La Gran Tribu Nómada! 👣
 
 sections:
-- file: formularios/alta
-  modals:
-  - file: te-interesa/como-entrar
+- file: formularios/samhain
 ---

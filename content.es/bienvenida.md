@@ -1,12 +1,14 @@
 ---
-title: Bienvenida
-seo: ¡Bienvenid@ a La Gran Tribu Nómada!
 slug: bienvenida
-description: ''
+title: Bienvenida
 image: base/logo.png
+
 draft: false
 noindex: true
 translationKey: bienvenida
+seo: ¡Bienvenid@ a 👣 La Gran Tribu Nómada!
+description: ''
+
 sections:
-- file: bienvenida
+- file: formularios/bienvenida
 ---

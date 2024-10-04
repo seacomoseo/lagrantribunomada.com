@@ -1,0 +1,69 @@
+name: 🎃 SAMHAIN
+title: 🎃 ¿Te apuntas a SAMHAIN?
+content: |
+  Información básica:
+  {#informacion-basica .subtitle}
+
+  - El evento tendrá lugar del __ a las __ al __ a las __. 
+  - Habrá espacios de camping y parking para pernoctar en tu vehículo. 
+  - Habrá espacios de barra y cocina con aportación, obviamente puedes traer tus alimentos y bebidas para ti o para compartir en Tribu ☺️
+  - Trae tus instrumentos, tu voz y tus ganas para las jams 😉
+  - Si vienes con perros o cualquier otro animal, es importante que te responsabilices de ellos y que tengan capacidad de convivencia con otras personas y perros.
+  - Durante el evento es posible que tomemos fotos y vídeos, si tienes inconveniente en ello, avísanos a tu llegada al evento.
+
+  [btn Más info del evento](#______)
+size: sm
+action: https://script.google.com/macros/s/AKfycbx5RVQdns92FbyCzQg1Q_n0rda51hgKgnU77OruuNhIRexOliMxoiAc7Bd6QQbivL24Og/exec
+inputs:
+
+- type: text
+  name: Nombre y Apellidos
+  required: true
+- type: text
+  name: Localidad Prigen
+  required: true
+- type: tel
+  name: Teléfono
+  required: true
+- type: email
+  name: Email
+  required: true
+
+- type: text
+  name: Pernocta
+  hint: ¿Cómo vais a pernoctar? Tienda, vehículo...
+  required: true
+  full: true
+- type: number
+  name: Aportación
+  hint: ¿De cuánto va a ser tu aportación económica?
+  required: true
+  min: 1
+  full: true
+- type: text
+  name: Artesanías
+  hint: ¿Tienes artesanías o quieres formar parte del mercadillo? ¿Cuáles son?
+  required: true
+  full: true
+- type: text
+  name: Servicios
+  hint: ¿Quieres ofrecer tus dones/servicios en el espacio? ¿Cuáles son?
+  required: true
+  full: true
+- type: text
+  name: Perros
+  hint: ¿Vienes con perros? ¿Cuántos? [Importante leer información básica](#informacion-basica)
+  required: true
+  full: true
+- type: text
+  name: Vehículo
+  hint: Si hay huecos en tu vehículo y quieres colaborar transportando personas, indícanos de cuantas plazas dispones y de donde sales
+  full: true
+- type: text
+  name: Cómo
+  hint: ¿Cómo nos has conocido?
+  full: true
+- type: textarea
+  name: Otros
+  hint: ¿Algo más que debamos saber sobre ti o alguna necesidad/duda que tengas?
+  full: true
