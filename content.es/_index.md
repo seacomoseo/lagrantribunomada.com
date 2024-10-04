@@ -8,6 +8,10 @@ draft: false
 noindex: false
 translationKey: home
 
+background:
+  bg: fotos/2024-08-13-009.jpg
+  alpha: 0.85
+  parallax: fix
 menu:
   logo: false
   sticky: auto
@@ -15,10 +19,7 @@ callnow:
   show: auto
 section:
 - uppercase: true
-  parallax: fix
   divider: brush
-  alpha: 0.85
-  color: main-dark
 - flip_x: true
   flip_y: true
   color: link

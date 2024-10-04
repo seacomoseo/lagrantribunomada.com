@@ -17,8 +17,6 @@ menu:
       label: Mapa
     - link: /#te-interesa
       label: ¿Te Interesa?
-    # - link: /#donaciones
-    #   label: Donaciones
     - link: /#eventos
       label: Eventos
     - link: /#galeria

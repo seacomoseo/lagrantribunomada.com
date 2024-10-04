@@ -1,9 +1,7 @@
 name: _header
-bg: fotos/2024-08-13-009.jpg
 full: true
 hanchor: La Gran Tribu Nómada
 # size: md
-color: main-dark
 box:
   columns: 3
   gap: 5

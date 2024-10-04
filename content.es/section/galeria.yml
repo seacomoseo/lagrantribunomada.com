@@ -2,6 +2,7 @@ name: Galeria
 title: Galería
 ph: true
 size: fluid
+color: main-dark
 gallery:
   type: grid
   columns: 6
