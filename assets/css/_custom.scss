@@ -24,6 +24,15 @@
   margin-bottom: 1em !important;
 }
 
+button:not(.button--icon) {
+  &:has([href="/draws.svg#telegram"]) {
+    --base: #24a1de;
+  }
+  &:has([href="/draws.svg#instagram"]) {
+    --base: #C13584;
+  }
+}
+
 #body-home #header {
   @mixin show-from($delay) { animation: show-from .5s (.25 + .25s * $delay) both; }
   .box--1 #icon-ouroboros { @include show-from(0); --show-from: scale(.5) rotate(-360deg); transform-origin: center; overflow: visible; }
