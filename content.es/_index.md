@@ -22,7 +22,7 @@ section:
   divider: brush
 - flip_x: true
   flip_y: true
-  color: link
+  color: main
 
 sections:
 - file: _header

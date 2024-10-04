@@ -7,14 +7,14 @@ fonts:
   google: true
   base:
     family: Comfortaa
-    weight: 400
-    strong: 0
+    weight: 300
+    bold: 0
     italic: false
     line-height: 1.25
   cursive:
     family: Shadows Into Light
     weight: 400
-    strong: 0
+    bold: 0
     italic: false
     line-height: 1.25
     size: 1.25
@@ -22,7 +22,7 @@ fonts:
   title:
     family: Lava Pro Grunge
     weight: 400
-    strong: 0
+    bold: 0
     italic: false
     line-height: 1.25
     size: 1.25
