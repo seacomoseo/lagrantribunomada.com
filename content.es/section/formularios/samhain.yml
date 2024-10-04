@@ -40,12 +40,12 @@ inputs:
   required: true
   min: 1
   full: true
-- type: text
+- type: textarea
   name: Artesanías
   hint: ¿Tienes artesanías o quieres formar parte del mercadillo? ¿Cuáles son?
   required: true
   full: true
-- type: text
+- type: textarea
   name: Servicios
   hint: ¿Quieres ofrecer tus dones/servicios en el espacio? ¿Cuáles son?
   required: true
