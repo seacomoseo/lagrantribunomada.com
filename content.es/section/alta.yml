@@ -51,12 +51,10 @@ inputs:
   name: Logo
   hint: Adjunta tu logo
   accept: image/*
-  multiple: true
 - type: file
   name: Imagen
   hint: Adjunta una imagen representativa
   accept: image/*
-  multiple: true
 - type: tel
   name: Teléfono Proyecto
   placeholder: Teléfono
