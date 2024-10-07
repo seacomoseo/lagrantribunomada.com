@@ -3,7 +3,7 @@ if: booking
 hanchor: Reserva
 node: div
 
-title: ¿Te apuntas a {{% param title %}}?
+title: ¿Te apuntas?
 subtitle: '{{< if "{{% param info %}}" >}}Información básica{{</ if >}}'
 params:
 - page: info
