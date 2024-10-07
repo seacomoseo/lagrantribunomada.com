@@ -17,12 +17,10 @@ info: |
   - Habrá espacios de barra y cocina con aportación, obviamente puedes traer tus alimentos y bebidas para ti o para compartir en Tribu ☺️
   - Trae tus instrumentos, tu voz y tus ganas para las jams 😉
   - Durante el evento es posible que tomemos fotos y vídeos, si tienes inconveniente en ello, avísanos a tu llegada al evento.
+  - En este evento no están permitados los perros ni otras mascotas
 inputs:
 - type: text
   name: Nombre y Apellidos
-  required: true
-- type: text
-  name: Localidad Prigen
   required: true
 - type: tel
   name: Teléfono
@@ -45,17 +43,21 @@ inputs:
   hint: ¿Quieres ofrecer tus dones/servicios en el espacio? ¿Cuáles son?
   required: true
   full: true
-- type: text
-  name: Perros
-  hint: |
-    ¿Vienes con perros? ¿Cuántos? \
-    Es importante que te responsabilices de ellos y que tengan capacidad de convivencia con otras personas y perros.
-  required: true
-  full: true
-  if: dogs
-- type: text
-  name: Vehículo
-  hint: Si hay huecos en tu vehículo y quieres colaborar transportando personas, indícanos de cuantas plazas dispones y de donde sales
+# - type: text
+#   name: Perros
+#   hint: |
+#     ¿Vienes con perros? ¿Cuántos? \
+#     Es importante que te responsabilices de ellos y que tengan capacidad de convivencia con otras personas y perros.
+#   required: true
+#   full: true
+# - type: text
+#   name: Vehículo
+#   hint: |
+#     Si hay huecos en tu vehículo y quieres colaborar transportando personas, indícanos de cuantas plazas dispones \
+#     o si no tienes cómo ir y te gustaría ir en el vehículo de alguien, indícalo
+# - type: text
+#   name: Punto de Partida
+#   hint: ¿Desde donde sales?
 - type: number
   name: Aportación
   hint: |
