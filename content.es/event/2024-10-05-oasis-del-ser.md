@@ -1,27 +1,22 @@
 ---
-title: 🌴 OASIS DEL SER
-seo: ''
 slug: oasis-del-ser
-description: ''
+title: 🌴 OASIS DEL SER
 image: carteles/2024-10-05-oasis-del-ser.jpg
-categories: []
-tags: []
-author: ''
 toc: true
 draft: false
 noindex: true
+seo: ''
+description: ''
 date: 2024-10-05 10:10:00
 end: 2024-10-05 22:20:00
 location: Oasis Artístico
-address: AP-7 Salida 289, 12591 Almenara, Castellón
-# price: 15
-translationKey: ''
+place: AP-7 Salida 289, 12591 Almenara, Castellón
 ---
 ¡Ahoo! 🍃🫶
 
 Somos la gran tribu nómada 👣 y estamos en pleno movimiento visitando proyectos de la comunidad valenciana 🗺️
 
-Este sábado 05 de octubre estaremos en “Oasis Artístico” 🌴 en Almenara (Castellón) 📍
+Este sábado 05 de octubre estaremos en “[Oasis Artístico](https://maps.app.goo.gl/354g4ZwTGrskpstn6 "nofollow")” 🌴 en Almenara (Castellón) 📍
 
 ¿Te apetece visitarlo con nosotres? ¡Te contamos lo que tenemos planeado para esta convivencia! 😍
 
@@ -40,10 +35,10 @@ Este sábado 05 de octubre estaremos en “Oasis Artístico” 🌴 en Almenara 
 
 ## 📲 Info y Reservas
 
-[btn:whatsapp icon:whatsapp Xemi → 699 00 01 99](https://wa.me/34699000199)
+[btn:whatsapp icon:whatsapp Xemi → 699 00 01 99](https://wa.me/34699000199 "nofollow")
 
 Estamos tejiendo la red, dando lugar a que proyectos maravillosos se expandan y a que personas mágicas se conecten. Si quieres ser parte y apoyar este sueño, ¡te esperamos! 🩵✨
 
 [btn:font-alt icon:instagram @oasisartistico](https://www.instagram.com/oasisartistico/ "nofollow")
 
-[btn Únete a la red 😉](/#como-entrar)
+[btn:alt Únete a la red 😉](/#como-entrar)

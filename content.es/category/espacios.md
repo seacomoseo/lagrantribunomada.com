@@ -9,7 +9,6 @@ category: null # string
 toc: false
 draft: false
 noindex: true
-translationKey: espacios
 seo: null # string
 description: null # string
 ---

@@ -5,7 +5,6 @@ image: base/logo.png
 
 draft: false
 noindex: false
-translationKey: home
 seo: 👣 La Gran Tribu Nómada - Red Itinerante
 description: Plataforma itinerante digital y física de diversas personas con valores similares, para potenciar dones y desarrollar una vida compartida, libre y dinámica.
 

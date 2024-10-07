@@ -1,0 +1,11 @@
+name: Cierre
+id: cierre
+hanchor: Cierre
+node: aside
+align: center
+content: |
+  ¿Todavía no nos conoces? \
+  ¿Todavía no estás en nuestro mapa interactivo?
+  {.subtitle}
+
+  [btn:alt ¡Únete a la red! 😉](/#como-entrar)

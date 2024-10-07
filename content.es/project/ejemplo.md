@@ -6,7 +6,6 @@ image: fondo.jpg
 toc: true
 draft: true
 noindex: false
-translationKey: ejemplo
 seo: ▷ Título SEO Proyecto de ejemplo 【Con caracteres llamativos】
 description: Esta es la descripción SEO de un proyecto de ejemplo.
 

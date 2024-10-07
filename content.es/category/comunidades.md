@@ -9,7 +9,6 @@ category: null # string
 toc: false
 draft: false
 noindex: true
-translationKey: comunidades
 seo: null # string
 description: null # string
 ---
