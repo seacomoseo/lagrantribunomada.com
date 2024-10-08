@@ -2,9 +2,10 @@ name: Reserva
 if: booking
 hanchor: Reserva
 node: div
+pt: 0
 
-title: ¿Te apuntas?
-subtitle: '{{< if "{{% param info %}}" >}}Información básica{{</ if >}}'
+# title: ¿Te apuntas?
+# subtitle: '{{< if "{{% param info %}}" >}}Información básica{{</ if >}}'
 params:
 - page: info
   box: content
