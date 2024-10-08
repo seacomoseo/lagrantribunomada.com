@@ -30,10 +30,16 @@ custom:
   - name: booking
     label: Formulario de Reserva
     type: boolean
-  - name: info
-    label: Información de reserva
-    type: markdown
+  # - name: info
+  #   label: Información de reserva
+  #   type: markdown
   - name: ~BOX_FORM_INPUTS
+  es:
+    permalinks: :year/:month/:day
+    slug: encuentros
+    singular: Encuentro
+    title: Encuentros
+
 - base: organization
   name: project
   icon: rocket-launch
@@ -45,7 +51,7 @@ custom:
   es:
     permalinks: proyecto
     slug: proyectos
-    singular: Proyectos
+    singular: Proyecto
     title: Proyectos
     image: null # string image path
     seo: null # string
