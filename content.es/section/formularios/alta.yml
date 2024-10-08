@@ -94,6 +94,8 @@ inputs:
   name: Provincia
 - type: text
   name: País
+- type: geo
+  name: Posición
 - type: textarea
   name: Resumen
   hint: ¿Cuáles son los servicios que ofrece tu proyecto a la red? (breve resumen de lo que haces)
