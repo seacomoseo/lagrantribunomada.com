@@ -35,7 +35,7 @@ Este sábado 05 de octubre estaremos en “[Oasis Artístico](https://maps.app.g
 
 ## 📲 Info y Reservas
 
-[btn:whatsapp icon:whatsapp Xemi → 699 00 01 99](https://wa.me/34699000199 "nofollow")
+[btn:whatsapp icon:whatsapp Xemi → 699 19 00 09](https://wa.me/34699190009 "nofollow")
 
 Estamos tejiendo la red, dando lugar a que proyectos maravillosos se expandan y a que personas mágicas se conecten. Si quieres ser parte y apoyar este sueño, ¡te esperamos! 🩵✨
 
