@@ -1,0 +1,85 @@
+name: Feedback
+title: Feedback
+content: |
+  Gracias a tu opinión, podremos mejorar los futuros encuentros y todo lo que rodea a LGTN 🫂💕♾️
+
+  Ningún campo es obligatorio 🫶
+size: xs
+action: https://script.google.com/macros/s/AKfycbx5RVQdns92FbyCzQg1Q_n0rda51hgKgnU77OruuNhIRexOliMxoiAc7Bd6QQbivL24Og/exec
+inputs:
+
+- type: text
+  name: Nombre
+- type: number
+  name: Edad
+  min: 1
+
+
+- type: h3
+  label: Espacio
+
+- type: textarea
+  name: Espacio Opinión
+  placeholder: ¿Qué te pareció el espacio?
+- type: textarea
+  name: Espacio Mejoras
+  placeholder: ¿Qué mejorarías del espacio?
+- type: textarea
+  name: Espacio Servicio
+  placeholder: ¿Echaste en falta algún servicio?
+- type: textarea
+  name: Espacio Más
+  placeholder: ¿Algo más a añadir?
+
+
+- type: h3
+  label: LGTN
+
+- type: textarea
+  name: LGTN Organización
+  placeholder: ¿Qué te pareció la organización?
+- type: textarea
+  name: LGTN Actividades
+  placeholder: ¿Te gustaron el tipo de actividades?
+- type: textarea
+  name: LGTN Actividades Futuras
+  placeholder: ¿Qué otras actividades/talleres te gustaría en el futuro?
+- type: textarea
+  name: LGTN Rol
+  placeholder: ¿Echaste en falta algún rol en la organización?
+
+
+- type: h3
+  label: Cocina
+
+- type: textarea
+  name: Cocina Menú
+  placeholder: ¿Qué te pareció el menú de cocina?
+- type: textarea
+  name: Cocina Precios
+  placeholder: ¿Qué te parecieron los precios?
+- type: textarea
+  name: Cocina Más
+  placeholder: ¿Algo más a añadir?
+
+
+- type: h3
+  label: Social
+
+- type: textarea
+  name: Social Disfrutaste
+  placeholder: ¿Disfrutaste del encuentro?
+- type: textarea
+  name: Social Incomodidad
+  placeholder: ¿Hubo alguna situación que te incomodase?
+- type: textarea
+  name: Social Más
+  placeholder: ¿Te gustaría contar con algún aspecto para un mayor disfrute de los encuentros?
+
+
+- type: h3
+  label: Otros
+
+- type: textarea
+  name: Otros
+  placeholder: Comentar libremente tu opinión o cualquier otra cosa
