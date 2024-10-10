@@ -18,6 +18,8 @@ custom:
     - file: base/_header
     - file: base/toc
     - file: base/content
+      modals:
+      - file: feedback
     - file: formularios/reserva
     - file: base/frase-final
     - file: base/author
@@ -27,6 +29,9 @@ custom:
     - file: base/share
     - file: base/related
   params:
+  - name: feedback
+    label: Formulario de Feedback
+    type: boolean
   - name: booking
     label: Formulario de Reserva
     type: boolean

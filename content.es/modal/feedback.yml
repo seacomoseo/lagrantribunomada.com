@@ -1,12 +1,19 @@
 name: Feedback
-title: Feedback
+if: feedback
+id: feedback
+title: Feedback {{% param title %}}
 content: |
   Gracias a tu opinión, podremos mejorar los futuros encuentros y todo lo que rodea a LGTN 🫂💕♾️
 
   Ningún campo es obligatorio 🫶
+align: center
 size: xs
 action: https://script.google.com/macros/s/AKfycbx5RVQdns92FbyCzQg1Q_n0rda51hgKgnU77OruuNhIRexOliMxoiAc7Bd6QQbivL24Og/exec
 inputs:
+
+- type: hidden
+  name: Encuentro
+  placeholder: '{{% param title %}}'
 
 - type: text
   name: Nombre
