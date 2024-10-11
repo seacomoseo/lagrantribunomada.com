@@ -19,8 +19,10 @@ custom:
     - file: base/toc
     - file: base/content
       modals:
-      - file: feedback
+      - file: formularios/feedback
     - file: formularios/reserva
+      modals:
+      - file: formularios/reserva-enviada
     - file: base/frase-final
     - file: base/author
     - file: base/social

@@ -1,0 +1,14 @@
+name: Reserva Enviada
+if: booking
+id: reserva-enviada
+hanchor: Reserva Enviada
+title: Importante
+content: |
+  El formulario de reserva para **{{% param title %}}** se ha enviado correctamente, pero todavía hay más.
+
+  Para que la reserva se haga efectiva, debes ingresar tu aportación consciente mediante bizum al número de móvil [+34 665 56 19 23](tel:+34665561923) (**Naiht**) con el concepto "<u>SAMHAIN</u>" y enviarle un WhatsApp con el texto "<u>BIZUM SAMHAIN HECHO</u>".
+
+  Tras esto te agregaremos al grupo de WhatsApp del encuentro.
+
+  ¡Muchas gracias!
+size: xs
