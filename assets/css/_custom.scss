@@ -9,7 +9,7 @@
   content: "-";
 }
 
-.form__item {
+.form__item:not(.form__item--tel) {
   display: flex;
   flex-direction: column;
 }

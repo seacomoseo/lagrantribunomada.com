@@ -49,7 +49,7 @@ inputs:
   hint: Puede ser el mismo o no que el de socio
 - type: file
   name: Logo
-  hint: Adjunta tu logo
+  hint: Adjunta tu logo (preferible en formato PNG con fondo transparente)
   accept: image/*
 - type: file
   name: Imagen
@@ -68,13 +68,13 @@ inputs:
   hint: Dirección del sitio web
 - type: text
   name: Instagram
-  hint: Enlace hacia el perfil de Instagram
+  hint: Enlace de Instagram
 - type: text
   name: Facebook
-  hint: Enlace hacia el perfil de Facebook
+  hint: Enlace de Facebook
 - type: text
   name: Otro
-  hint: Enlace hacia el perfil de otra red social
+  hint: Enlace de otra red social
 - type: content
   name: |
     Ubicación que quieres que aparezca en el Mapa Interactivo
