@@ -142,11 +142,9 @@ button:not(.button--icon) {
 
 .type-project {
   #content {
-    .box--4 {
-      a, [data-h], [data-b] {
-        --link: var(--invert);
-        @include font-base;
-      }
+    a, [data-h], [data-b] {
+      --link: var(--invert);
+      @include font-base;
     }
   }
 }

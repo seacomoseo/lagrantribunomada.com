@@ -53,7 +53,7 @@ custom:
   icon: rocket-launch
   emoji: 🚀
   disabled: false
-  noindex: true
+  noindex: false
   related: true
   related: false
   template:
