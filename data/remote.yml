@@ -1,1 +1,70 @@
-srcs: []
+srcs:
+- src: https://docs.google.com/spreadsheets/d/e/2PACX-1vT_r-PYs-o_6cFTrBvwk1e-Q6Jq9ZH_HraPeyRUobkx392OUesn9WJSVwyX72udT5BDn__rCDGMq5W6/pub?gid=805672466&single=true&output=tsv
+  csv: false
+  lang: es
+  types:
+  - type: project
+    index: projects
+    pairings:
+    - to: slug
+    - to: title
+    - to: email
+    - from: phone
+      to: phones
+      kind: slice
+    - from: whatsapp
+      to: phones
+      kind: slice
+    - from: web
+      to: social
+      kind: slice
+    - from: instagram
+      to: social
+      kind: slice
+    - from: facebook
+      to: social
+      kind: slice
+    - from: other
+      to: social
+      kind: slice
+    - from: title
+      to: address.name
+    - from: street
+      to: address.street
+    - from: door
+      to: address.door
+    - from: pc
+      to: address.pc
+    - from: locality
+      to: address.locality
+    - from: region
+      to: address.region
+    - from: country
+      to: address.country
+    - from: geo
+      to: address.geo
+    - from: geo_x
+      to: address.x
+    - from: geo_y
+      to: address.y
+    - from: geo_link
+      to: address.link
+    - to: summary
+    - from: description
+      to: content
+    - to: advantages
+    - to: category
+    - to: visitable
+    - to: observations
+    - to: logo
+    - from: logo
+      to: image
+    - from: image
+      to: images
+      kind: slice
+    - from: title
+      to: names
+      kind: slice
+    - to: types
+      default: Organization
+      kind: slice

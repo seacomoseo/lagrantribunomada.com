@@ -6,5 +6,6 @@ content: |
 size: xl
 boxes:
 - content: |
-    [btn:alt ¡Únete!](/alta/)
-  # [btn Ver lista de Proyectos](/proyectos/)
+    [btn icon:rocket          Proyectos ](/proyectos/)
+    [btn:invert icon:bookmark Categorías](/categorias/)
+    [btn:alt icon:star        ¡Únete!   ](/alta/)

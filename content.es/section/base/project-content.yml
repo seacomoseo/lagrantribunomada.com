@@ -1,0 +1,46 @@
+node: div
+id: content
+pt: 0
+size: xs
+align: left
+box:
+  gap: 2
+boxes:
+
+- title: Resumen
+  content: |
+    {{< param summary >}}
+
+- if: content
+  title: Descripción
+  content: |
+    {{< content >}}
+
+- if: advantages
+  title: Ventajas
+  content: |
+    {{< param advantages >}}
+
+- if: observations
+  title: Observaciones
+  content: |
+    {{< param observations >}}
+
+- title: Contacto
+  content: |
+    {{% if "{{ param email    }}" %}} - icon:envelope     {{% param email %}}                                                        {{% / if %}}
+    {{% if "{{ param phones.0 }}" %}} - icon:phone        [{{% param phones.0 %}}](tel:{{% palink phones.0 %}} "nofollow")           {{% / if %}}
+    {{% if "{{ param phones.1 }}" %}} - icon:whatsapp     [{{% param phones.1 %}}](https://wa.me/{{% palink phones.1 %}} "nofollow") {{% / if %}}
+    {{% if "{{ param social.0 }}" %}} - icon:link         [{{% param social.0 %}}]({{% param social.0 %}} "nofollow")                {{% / if %}}
+    {{% if "{{ param social.1 }}" %}} - icon:instagram    [{{% param social.1 %}}]({{% param social.1 %}} "nofollow")                {{% / if %}}
+    {{% if "{{ param social.2 }}" %}} - icon:facebook     [{{% param social.2 %}}]({{% param social.2 %}} "nofollow")                {{% / if %}}
+    {{% if "{{ param social.3 }}" %}} - icon:star         [{{% param social.3 %}}]({{% param social.3 %}} "nofollow")                {{% / if %}}
+    {{% if "{{ address        }}" %}} - icon:location-dot [{{% address %}}]({{% param address.link %}} "nofollow")                   {{% / if %}}
+
+- if: address
+  title: Ubicación
+  content: |
+    <div id="map-project" class="form__geo-map" data-y="{{% param address.y %}}" data-x="{{% param address.x %}}"></div>
+
+- if: images
+  image: '{{ param images.0 }}'

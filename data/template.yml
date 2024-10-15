@@ -35,8 +35,14 @@ modal:
 list:
   columns: 3
   card: true
-  align: left
-  color: white
+  rate: 1x1
   hide_content: true
-  reading_time: true
   button: hide
+  # color: white
+  # ratio: 2x1
+  # contain: true
+  # declive: true
+  # align: left
+  # button: alt
+  # licon: circle-info
+  # label: MÁS
