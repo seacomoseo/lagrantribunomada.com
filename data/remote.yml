@@ -55,7 +55,6 @@ srcs:
     - to: advantages
     - to: category
     - to: visitable
-    - to: observations
     - to: logo
     - from: logo
       to: image

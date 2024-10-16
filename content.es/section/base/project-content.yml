@@ -21,11 +21,6 @@ boxes:
   content: |
     {{< param advantages >}}
 
-- if: observations
-  title: Observaciones
-  content: |
-    {{< param observations >}}
-
 - title: Contacto
   content: |
     {{% if "{{ param email    }}" %}} - icon:envelope     {{% param email %}}                                                        {{% / if %}}

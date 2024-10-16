@@ -98,10 +98,11 @@ inputs:
   name: Posición
 - type: textarea
   name: Resumen
-  hint: ¿Cuáles son los servicios que ofrece tu proyecto a la red? (breve resumen de lo que haces)
+  hint: Breve resumen sobre tu proyecto (máximo 155 caracteres)
+  max: 155
 - type: textarea
   name: Descripción
-  hint: Cuéntanos sobre tu proyecto. ¿En qué consiste? ¿Cuál es tu objetivo/motivación? ¿De qué trata?...
+  hint: ¿En qué consiste tu proyecto? ¿Cuál es tu objetivo/motivación? ¿Qué servicios que ofrece a la red?...
 - type: textarea
   name: Ventajas
   hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
@@ -126,4 +127,4 @@ inputs:
     value: Entrevistable
 - type: textarea
   name: Observaciones
-  hint: ¿Alguna aclaración?
+  hint: ¿Alguna aclaración? (Esta información no aparecerá pública en el directorio)

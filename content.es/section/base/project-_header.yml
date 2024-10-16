@@ -11,23 +11,9 @@ boxes:
 - tag: row
   # tags:
   # - type: type
-  # - type: date
-  # - type: reading-time
   # - type: address
   # - type: taxonomy
-  #   taxonomy: all
-  # - type: param
-  #   param: job
-  #   icon: briefcase
-  # - type: param
-  #   param: job
-  #   icon: user-group
-  # - type: param
-  #   param: place
-  #   icon: location-dot
-  # - type: custom
-  #   label: ¡Holi!
-  #   icon: star
+  #   taxonomy: category
 - if: image
   params:
   - page: image
