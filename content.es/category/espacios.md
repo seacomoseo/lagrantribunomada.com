@@ -2,7 +2,7 @@
 slug: espacios
 title: Espacios
 summary: null # string
-image: null # string
+image: categorias/espacios.svg
 
 category: null # string
 

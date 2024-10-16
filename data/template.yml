@@ -37,6 +37,7 @@ list:
   card: true
   rate: 1x1
   hide_content: true
+  tag: hide
   button: hide
   # color: white
   # ratio: 2x1

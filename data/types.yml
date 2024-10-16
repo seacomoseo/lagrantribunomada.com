@@ -7,6 +7,15 @@ custom:
   - name: project
     multiple: false
     breadcrumbs: true
+  template:
+    list:
+      columns: 4
+      card: false
+      color: ''
+      ratio: 3x2
+      hs: 0
+      hide_content: true
+      button: hide
 
 - base: event
   related: true

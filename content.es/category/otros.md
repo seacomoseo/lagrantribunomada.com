@@ -2,7 +2,7 @@
 slug: otros
 title: Otros
 summary: null # string
-image: null # string
+image: categorias/otros.svg
 
 category: null # string
 

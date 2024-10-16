@@ -2,7 +2,7 @@
 slug: comunidades
 title: Comunidades
 summary: null # string
-image: null # string
+image: categorias/comunidades.svg
 
 category: null # string
 

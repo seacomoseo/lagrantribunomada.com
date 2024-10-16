@@ -2,7 +2,7 @@
 slug: servicios
 title: Servicios
 summary: null # string
-image: null # string
+image: categorias/servicios.svg
 
 category: null # string
 
