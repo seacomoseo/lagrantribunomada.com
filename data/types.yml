@@ -12,7 +12,7 @@ custom:
   related: true
   template:
     sections:
-    - file: base/_header
+    - file: base/event-_header
     - file: base/toc
     - file: base/content
       modals:
@@ -32,6 +32,9 @@ custom:
       rate: 3x4
       align: left
   params:
+  - name: video
+    label: Vídeo
+    type: image
   - name: feedback
     label: Formulario de Feedback
     type: boolean

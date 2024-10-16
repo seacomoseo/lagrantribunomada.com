@@ -1,5 +1,4 @@
 node: header
-size: xs
 align: left
 hide_reading_time: true
 boxes:
@@ -26,9 +25,20 @@ boxes:
   #   param: place
   #   icon: location-dot
   # - type: custom
-  #   label: ¡Holi!
   #   icon: star
-- if: image
-  params:
-  - page: image
-    box: image
+  #   label: ¡Holi!
+- box:
+    columns: 0
+  boxes:
+  - if: video
+    params:
+    - page: video
+      box: image
+    ratio: 9x16
+    span: .8625
+  - if: image
+    params:
+    - page: image
+      box: image
+    ratio: 3x4
+    span: 1.1375
