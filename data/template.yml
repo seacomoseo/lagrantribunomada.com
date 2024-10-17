@@ -34,16 +34,11 @@ modal:
   color: main-dark
 list:
   columns: 3
-  card: true
-  rate: 1x1
-  hide_content: true
-  tag: hide
-  button: hide
-  # color: white
-  # ratio: 2x1
-  # contain: true
-  # declive: true
-  # align: left
-  # button: alt
-  # licon: circle-info
-  # label: MÁS
+  color: white
+  ratio: 2x1
+  contain: true
+  declive: true
+  align: left
+  button: alt
+  licon: circle-info
+  label: MÁS

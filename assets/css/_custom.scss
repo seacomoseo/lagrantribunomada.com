@@ -86,11 +86,17 @@ button:not(.button--icon) {
     transition: transform .3s;
   }
   .leaflet-popup-close-button {
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 25px;
+    background-color: var(--alt);
+    border-radius: 50%;
+    color: white;
   }
-  .leaflet-popup-content-wrapper {
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
     border-radius: calc(20px + #{$radius});
+    background: var(--dark);
+    color: var(--light);
   }
   .leaflet-popup-content {
     width: max-content;
@@ -106,9 +112,10 @@ button:not(.button--icon) {
     h3 {
       transform: translateY(0.125em);
       margin-block: .25em -.5em;
+      padding-right: 28px;
     }
     a:not(.button) {
-      color: var(--alt);
+      color: var(--light);
     }
     .button {
       color: var(--base-text);
@@ -141,7 +148,7 @@ button:not(.button--icon) {
 /*! purgecss end ignore */
 
 .type-project {
-  #content {
+  #content ul {
     a, [data-h], [data-b] {
       --link: var(--invert);
       @include font-base;

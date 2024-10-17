@@ -10,12 +10,19 @@ custom:
   template:
     list:
       columns: 4
+      columns_min: 2
       card: false
       color: ''
-      ratio: 3x2
-      hs: 0
+      # ratio: 3x2
+      declive: false
+      image: hide
+      icon: _
+      align: center
+      hs: 2
       hide_content: true
-      button: hide
+      tag: hide
+      licon: ''
+      # button: hide
 
 - base: event
   related: true
@@ -38,8 +45,12 @@ custom:
     - file: base/related
     list:
       columns: 3
+      card: true
       rate: 3x4
-      align: left
+      color: dark
+      declive: false
+      hide_content: true
+      button: hide
   params:
   - name: video
     label: Vídeo
@@ -74,6 +85,23 @@ custom:
     - file: base/project-content
     - file: base/share
     - file: base/related
+    list:
+      columns: 4
+      columns_min: 2
+      # card: true
+      # rate: 1x1
+      color: dark
+      image: base/icon.svg
+      ratio: 1x1
+      contain: true
+      align: center
+      hide_content: true
+      tag: hide
+      # licon: circle-info
+      # label: MÁS
+      # font_alt: true
+      # button: alt
+      button: hide
   es:
     permalinks: proyecto
     slug: proyectos

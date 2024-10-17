@@ -8,7 +8,7 @@ boxes:
   content: |
     {{< breadcrumbs >}}
 - title: '{{% param title %}}'
-- tag: row
+# - tag: row
   # tags:
   # - type: type
   # - type: address
