@@ -1,0 +1,40 @@
+base: organization
+name: project
+icon: rocket-launch
+emoji: 🚀
+disabled: false
+noindex: false
+related: true
+related: false
+template:
+  sections:
+  - file: base/project-_header
+  - file: base/project-content
+  - file: base/share
+  - file: base/related
+  list:
+    columns: 4
+    columns_min: 2
+    # card: true
+    # rate: 1x1
+    color: dark
+    image: base/icon.svg
+    ratio: 1x1
+    contain: true
+    align: center
+    hide_content: true
+    tag: hide
+    # licon: circle-info
+    # label: MÁS
+    # font_alt: true
+    # button: alt
+    button: hide
+es:
+  permalinks: proyecto
+  slug: proyectos
+  singular: Proyecto
+  title: Proyectos
+  image: null # string image path
+  seo: null # string
+  description: null # string
+  content: null # string block

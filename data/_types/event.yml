@@ -1,0 +1,46 @@
+base: event
+related: true
+template:
+  sections:
+  - file: base/event-_header
+  - file: base/toc
+  - file: base/content
+    modals:
+    - file: formularios/feedback
+  - file: formularios/reserva
+    modals:
+    - file: formularios/reserva-enviada
+  - file: base/frase-final
+  - file: base/author
+  - file: base/social
+  - file: base/comments
+  - file: base/children
+  - file: base/share
+  - file: base/related
+  list:
+    columns: 3
+    card: true
+    rate: 3x4
+    color: dark
+    declive: false
+    hide_content: true
+    button: hide
+params:
+- name: video
+  label: Vídeo
+  type: image
+- name: feedback
+  label: Formulario de Feedback
+  type: boolean
+- name: booking
+  label: Formulario de Reserva
+  type: boolean
+# - name: info
+#   label: Información de reserva
+#   type: markdown
+- name: ~BOX_FORM_INPUTS
+es:
+  permalinks: :year/:month/:day
+  slug: encuentros
+  singular: Encuentro
+  title: Encuentros
