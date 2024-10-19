@@ -1,0 +1,61 @@
+title: Todas
+base: page
+disabled: false
+template:
+  background:
+    color: main-dark
+  menu:
+    logo: true
+    logo_align: center
+    transparent: true
+    color: dark
+    hide_icons: true
+    es:
+      image: base/logo-x.svg
+      items:
+      - link: /
+        label: Inicio
+      - link: /#proyecto
+        label: El Proyecto
+      - link: /#mapa
+        label: Mapa
+      - link: /#te-interesa
+        label: ¿Te Interesa?
+      - link: /#encuentros
+        label: Encuentros
+      - link: /#galeria
+        label: Galería
+      - link: /#redes
+        label: Redes
+      - link: /#contacto
+        label: Contacto
+      - link: /alta/
+        label: Hazte Soci@
+        button: alt
+  callnow: {}
+  section:
+  - size: sm
+  modal:
+    icon_type: top
+    uppercase: true
+    color: main-dark
+  sections:
+  - file: base/_header
+  - file: base/toc
+  - file: base/content
+  - file: base/place
+  - file: base/author
+  - file: base/social
+  - file: base/comments
+  - file: base/children
+  - file: base/share
+  - file: base/related
+  list:
+    columns: 3
+    button: hide
+    icon: hide
+    declive: true
+    ratio: 16x9
+    inset: true
+    align: left
+    color: white

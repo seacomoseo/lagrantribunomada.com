@@ -1,3 +1,5 @@
+title: Encuentros
+order: 1
 base: event
 related: true
 template:
@@ -23,7 +25,7 @@ template:
     rate: 3x4
     color: dark
     declive: false
-    hide_content: true
+    content: hide
     button: hide
 params:
 - name: video

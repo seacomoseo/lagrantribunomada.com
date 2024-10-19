@@ -1,11 +1,11 @@
+title: Proyectos
+order: 3
 base: organization
-name: project
 icon: rocket-launch
 emoji: 🚀
 disabled: false
 noindex: false
 related: true
-related: false
 template:
   sections:
   - file: base/project-_header
@@ -15,14 +15,13 @@ template:
   list:
     columns: 4
     columns_min: 2
-    # card: true
-    # rate: 1x1
     color: dark
     image: base/icon.svg
     ratio: 1x1
     contain: true
+    inset: false
     align: center
-    hide_content: true
+    content: hide
     tag: hide
     # licon: circle-info
     # label: MÁS

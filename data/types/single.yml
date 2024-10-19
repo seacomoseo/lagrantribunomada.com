@@ -1,0 +1,20 @@
+title: Páginas
+order: 0
+base: single
+disabled: false
+noindex: false
+# template:
+#   section:
+#   - color: white
+template:
+  list:
+    columns: 4
+    color: white
+    icon: hide
+    declive: true
+    ratio: 16x9
+    inset: true
+    align: left
+    content: hide
+    tag: hide
+    button: hide

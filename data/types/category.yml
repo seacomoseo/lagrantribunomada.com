@@ -1,3 +1,5 @@
+title: Categorías
+order: 2
 base: page
 disabled: false
 taxonomy_of:
@@ -13,10 +15,11 @@ template:
     # ratio: 3x2
     declive: false
     image: hide
-    icon: _
+    icon: bookmark
     align: center
     hs: 2
-    hide_content: true
+    content: hide
     tag: hide
-    licon: ''
-    # button: hide
+    button: alt
+    licon: circle-info
+    label: MÁS

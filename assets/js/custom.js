@@ -55,7 +55,6 @@ if (mapa) {
           const group = []
           data.project.forEach(item => {
             if (item.title && item.category[0].title === type) {
-              console.log(item.title)
               let content = ''
               if (item.image) content += `<img src="${item.image}" width=512 height=512>`
               content += `<h3 class="h5"><a href="${item.link}">${item.title}</a></h3>`
@@ -63,9 +62,7 @@ if (mapa) {
               if (item.visitable) content += '<h3 class="compare">Acepta visitas <svg><use xlink:href="/draws.svg#check"></use></svg></h3>'
               // content += `<p><svg><use href="/draws.svg#bookmark"></use></svg> Categoría: <a class="alt" href="${item.category[0].link}">${item.category[0].title}</a></p>`
               content += `<p><a class="button alt" href="${item.link}"><svg><use href="/draws.svg#circle-info"></use></svg> MÁS</a></p>`
-              // content = content
-              //   .replace(/(?<=(\n|<p>))- (.*?)(?=(\n|<\/p>))/g, '<span class="map-list"><svg><use xlink:href="/draws.svg#hyphen"></use></svg> $2</span>')
-              //   .replace(/\n/g, '<br>')
+              content = content.replace(/<li>(.*?)<\/li>/g, '<li class="li-svg"><svg><use xlink:href="/draws.svg#hyphen"></use></svg> <div>$1</div></li>')
               const marker = L.marker([item.address.x, item.address.y], { icon: icon(color) }).bindPopup(content/*, { maxHeight: 400 }*/)
               oms.addMarker(marker)
               group.push(marker)
