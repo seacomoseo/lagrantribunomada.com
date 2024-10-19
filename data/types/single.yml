@@ -16,5 +16,4 @@ template:
     inset: true
     align: left
     content: hide
-    tag: hide
     button: hide

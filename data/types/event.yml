@@ -27,6 +27,11 @@ template:
     declive: false
     content: hide
     button: hide
+    tags:
+    - type: date
+    - type: param
+      param: place
+      icon: location-dot
 params:
 - name: video
   label: Vídeo

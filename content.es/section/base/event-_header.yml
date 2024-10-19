@@ -7,14 +7,11 @@ boxes:
   content: |
     {{< breadcrumbs >}}
 - title: '{{% param title %}}'
-# - tag: row
-  # tags:
-  # - type: type
-  # - type: date
-  # - type: address
-  # - type: param
-  #   param: place
-  #   icon: location-dot
+- tags:
+  - type: date
+  - type: param
+    param: place
+    icon: location-dot
 - box:
     columns: 0
   boxes:

@@ -19,7 +19,6 @@ template:
     align: center
     hs: 2
     content: hide
-    tag: hide
     button: alt
     licon: circle-info
     label: MÁS

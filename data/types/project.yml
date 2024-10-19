@@ -22,12 +22,13 @@ template:
     inset: false
     align: center
     content: hide
-    tag: hide
     # licon: circle-info
     # label: MÁS
     # font_alt: true
     # button: alt
     button: hide
+    # tags:
+    # - type: address
 es:
   permalinks: proyecto
   slug: proyectos

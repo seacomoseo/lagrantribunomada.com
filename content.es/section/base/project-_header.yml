@@ -8,9 +8,9 @@ boxes:
   content: |
     {{< breadcrumbs >}}
 - title: '{{% param title %}}'
-# - tag: row
-  # tags:
-  # - type: type
+- tag: row
+  tags:
+  - type: type
   # - type: address
   # - type: taxonomy
   #   taxonomy: category
