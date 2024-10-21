@@ -25,10 +25,10 @@ inputs:
   name: DNI
   required: true
 - type: tel
-  name: Teléfono
+  name: Teléfono Personal
   required: true
 - type: email
-  name: Email
+  name: Email Personal
 - type: textarea
   name: Cómo
   placeholder: ¿Cómo nos has conocido?
@@ -47,13 +47,11 @@ inputs:
 
 - type: text
   name: Nombre Proyecto
-  placeholder: Nombre
   hint: Nombre de tu proyecto
   required: true
   show_if: Proyecto
 - type: text
-  name: Email Proyecto
-  placeholder: Email
+  name: Email
   hint: Puede ser diferente al de socio
   show_if: Proyecto
 - type: file
@@ -67,12 +65,10 @@ inputs:
   accept: image/*
   show_if: Proyecto
 - type: tel
-  name: Teléfono Proyecto
-  placeholder: Teléfono
+  name: Teléfono
   show_if: Proyecto
 - type: tel
-  name: WhatsApp Proyecto
-  placeholder: WhatsApp
+  name: WhatsApp
   show_if: Proyecto
 - type: text
   name: Web
