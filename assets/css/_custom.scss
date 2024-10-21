@@ -9,19 +9,16 @@
   content: "-";
 }
 
-.form__item:not(.form__item--tel) {
+.form__item {
   display: flex;
   flex-direction: column;
 }
 .form__hint {
   order: -1;
-  margin-block: 0 1em;
+  margin-block: 0 .5rem;
 }
 .text-sm {
   font-size: .75em;
-}
-.mb {
-  margin-bottom: 1em !important;
 }
 
 #body-home #header {

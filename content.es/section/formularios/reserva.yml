@@ -12,4 +12,5 @@ params:
 - page: inputs
   box: inputs
 size: sm
-action: https://script.google.com/macros/s/AKfycbx5RVQdns92FbyCzQg1Q_n0rda51hgKgnU77OruuNhIRexOliMxoiAc7Bd6QQbivL24Og/exec
+form:
+  action: https://script.google.com/macros/s/AKfycbx5RVQdns92FbyCzQg1Q_n0rda51hgKgnU77OruuNhIRexOliMxoiAc7Bd6QQbivL24Og/exec

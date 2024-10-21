@@ -33,80 +33,111 @@ inputs:
   name: Cómo
   placeholder: ¿Cómo nos has conocido?
   required: true
+- type: checkbox
+  name: Proyecto
+  hint: |
+    ¿Tienes un proyecto que quieras que aparezca en nuestra web?
+  options:
+  - option: Si
+    value: Proyecto
 
 - type: h3
   label: Proyecto
-- type: content
-  name: |
-    Si tienes un proyecto que quieras que aparezca en nuestra web rellena los siguientes campos
-    {.mb}
+  show_if: Proyecto
 
 - type: text
-  name: Proyecto
+  name: Nombre Proyecto
   placeholder: Nombre
   hint: Nombre de tu proyecto
+  required: true
+  show_if: Proyecto
 - type: text
   name: Email Proyecto
   placeholder: Email
   hint: Puede ser diferente al de socio
+  show_if: Proyecto
 - type: file
   name: Logo
   hint: Adjunta tu logo (preferible en formato PNG con fondo transparente)
   accept: image/*
+  show_if: Proyecto
 - type: file
   name: Imagen
   hint: Adjunta una imagen representativa
   accept: image/*
+  show_if: Proyecto
 - type: tel
   name: Teléfono Proyecto
   placeholder: Teléfono
+  show_if: Proyecto
 - type: tel
   name: WhatsApp Proyecto
   placeholder: WhatsApp
+  show_if: Proyecto
 - type: text
   name: Web
+  show_if: Proyecto
 - type: text
   name: Instagram
+  show_if: Proyecto
 - type: text
   name: Facebook
+  show_if: Proyecto
 - type: text
   name: Otro
   placeholder: Otra Red Social
+  show_if: Proyecto
 - type: content
   name: |
     Ubicación que quieres que aparezca en el Mapa Interactivo
     {.text-sm}
+  show_if: Proyecto
 - type: text
   name: Calle
+  show_if: Proyecto
 - type: text
   name: Número
+  show_if: Proyecto
 - type: text
   name: Puerta
+  show_if: Proyecto
 - type: text
   name: CP
   placeholder: Código Postal
+  show_if: Proyecto
 - type: text
   name: Ciudad / Localidad
+  show_if: Proyecto
 - type: text
   name: Provincia
+  show_if: Proyecto
 - type: text
   name: País
+  show_if: Proyecto
 - type: geo
   name: Posición
+  show_if: Proyecto
 - type: textarea
   name: Resumen
   hint: Breve resumen sobre tu proyecto (máximo 155 caracteres)
   max: 155
+  required: true
+  show_if: Proyecto
 - type: textarea
   name: Descripción
   hint: ¿En qué consiste tu proyecto? ¿Cuál es tu objetivo/motivación? ¿Qué servicios que ofrece a la red?...
+  show_if: Proyecto
 - type: textarea
   name: Ventajas
   hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
+  required: true
+  show_if: Proyecto
 - type: select
   name: Tipo
   placeholder: Tipo de Proyecto
   hint: ¿Qué tipo de proyecto dispones?
+  required: true
+  show_if: Proyecto
   options:
   - option: Soy una comunidad
     value: Comunidad
@@ -117,6 +148,7 @@ inputs:
   - option: Otro
 - type: checkbox
   name: Opciones
+  show_if: Proyecto
   options:
   - option: Acepto visitas
     value: Visitable
@@ -125,3 +157,4 @@ inputs:
 - type: textarea
   name: Observaciones
   hint: ¿Alguna aclaración? (Esta información no aparecerá pública en el directorio)
+  show_if: Proyecto
