@@ -145,6 +145,7 @@ inputs:
 - type: checkbox
   name: Opciones
   show_if: Proyecto
+  x: true
   options:
   - option: Acepto visitas
     value: Visitable
