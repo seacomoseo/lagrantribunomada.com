@@ -33,6 +33,9 @@
     line-height: 1;
     color: var(--main);
   }
+  // [data-iframe] svg {
+  //   top: 75%;
+  // }
   .box--2 .image {
     &:after {
       content: '';

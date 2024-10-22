@@ -13,9 +13,12 @@ boxes:
   hn: p
   hs: 0
   subtitle: Red Itinerante
+# - image: https://youtu.be/asGFNGdxdmc#poster=que-es.jpg
+#   ratio: 2x3
+#   icon_color: alt
 - image: que-es.jpg
   ratio: 2x3
   link: https://www.instagram.com/p/C_LnknTKUSB/
   ofuscate: true
-  # label: Más info
+  label: Más info
   button: hide
