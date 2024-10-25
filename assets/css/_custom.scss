@@ -81,6 +81,21 @@ button:not(.button--icon) {
     // line-height: unset;
     font-size: 1rem;
   }
+  .leaflet-control-layers-list {
+    font-size: 1.5em;
+    padding-block: 0;
+    text-align: left;
+  }
+  .leaflet-control-layers-selector {
+    display: none;
+    + span {
+      font-size: 1em;
+      svg {
+        width: 1.5em;
+        height: 1.5em;
+      }
+    }
+  }
   .leaflet-marker-icon,
   .leaflet-marker-shadow {
     transition: transform .3s;
@@ -92,11 +107,13 @@ button:not(.button--icon) {
     border-radius: 50%;
     color: white;
   }
-  .leaflet-popup-content-wrapper,
-  .leaflet-popup-tip {
+  .leaflet-popup-content-wrapper {
     border-radius: calc(20px + #{$radius});
     background: var(--dark);
     color: var(--light);
+  }
+  .leaflet-popup-tip {
+    background: var(--dark);
   }
   .leaflet-popup-content {
     width: max-content;
@@ -133,6 +150,35 @@ button:not(.button--icon) {
         margin: 0;
       }
     }
+  }
+  .donut {
+    filter: drop-shadow(0 0.15rem .15rem rgba(black, 0.75));
+    &:before {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      box-shadow: 0 0 0 1.5px white;
+      z-index: -1;
+    }
+    svg {
+      position: initial;
+      width: initial;
+      height: initial;
+      circle {
+        fill-opacity: .75;
+        stroke: white;
+        stroke-width: 3px;
+      }
+    }
+  }
+  .donut-text {
+    font-weight: 500;
+    color: var(--dark-text);
   }
 }
 /*! purgecss end ignore */

@@ -113,6 +113,7 @@ inputs:
 - type: geo
   name: Posición
   show_if: Proyecto
+  icon_color: alt
 - type: textarea
   name: Resumen
   hint: Breve resumen sobre tu proyecto (máximo 155 caracteres)

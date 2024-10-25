@@ -10,17 +10,17 @@ boxes:
 
 - title: Resumen
   content: |
-    {{< param summary >}}
+    {{% param summary %}}
 
 - if: content
   title: Descripción
   content: |
-    {{< content >}}
+    {{% content %}}
 
 - if: advantages
   title: Ventajas
   content: |
-    {{< param advantages >}}
+    {{% param advantages %}}
 
 - title: Contacto
   content: |
@@ -35,8 +35,15 @@ boxes:
 
 - if: address
   title: Ubicación
-  content: |
-    <div id="map-project" class="form__geo-map" data-y="{{% param address.y %}}" data-x="{{% param address.x %}}"></div>
+  params:
+  - page: address.geo
+    box: map
+  zoom: 6
+  licon: circle-dot
+  icon_color: alt
+  rate: 1x1
 
 - if: images
-  image: '{{ param images.0 }}'
+  params:
+  - page: images.0
+    box: image
