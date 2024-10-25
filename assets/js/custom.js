@@ -82,8 +82,10 @@ if (mapa) {
               if (item.visitable) content += '<h3 class="compare">Acepta visitas <svg><use xlink:href="/draws.svg#check"></use></svg></h3>'
               content += `<p><a class="button alt" href="${item.link}"><svg><use href="/draws.svg#circle-info"></use></svg> MÁS</a></p>`
               content = content.replace(/<li>(.*?)<\/li>/g, '<li class="li-svg"><svg><use xlink:href="/draws.svg#hyphen"></use></svg> <div>$1</div></li>')
+              let geo = item.address.geo
+              if (geo) geo = JSON.parse(geo).coordinates
               // eslint-disable-next-line
-              const marker = L.marker([item.address.x, item.address.y], { icon: icon(color, iconId), title: item.title }).bindPopup(content)
+              const marker = L.marker([geo[1], geo[0]], { icon: icon(color, iconId), title: item.title }).bindPopup(content)
               marker.feature = { properties: { category: type } } // Añadir categoría como propiedad del marcador
               donutCluster.addLayer(marker)
             }

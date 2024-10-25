@@ -43,10 +43,6 @@ srcs:
       to: address.country
     - from: geo
       to: address.geo
-    - from: geo_x
-      to: address.x
-    - from: geo_y
-      to: address.y
     - from: geo_link
       to: address.link
     - to: summary
