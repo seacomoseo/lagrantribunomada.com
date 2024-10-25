@@ -105,7 +105,7 @@ if (mapa) {
         }
 
         // eslint-disable-next-line
-        const layerControl = L.control.layers(null, overlayMaps).addTo(map)
+        const layerControl = L.control.layers(null, overlayMaps, {collapsed:false}).addTo(map)
 
         // Controlar la visibilidad de las capas
         map.on('overlayadd', function (eventLayer) {
