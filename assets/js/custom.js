@@ -24,8 +24,6 @@ if (mapa) {
     // base
     // eslint-disable-next-line
     const map = L.map('map', {
-      zoomSnap: 0.5, // Permite valores fraccionarios para el nivel de zoom
-      zoomDelta: 0.5,
       trackResize: true,
       scrollWheelZoom: false
     }).setView([40.007, -2.488], initialZoom)
