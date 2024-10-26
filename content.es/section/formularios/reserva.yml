@@ -14,3 +14,4 @@ params:
 size: sm
 form:
   action: https://script.google.com/macros/s/AKfycbx5RVQdns92FbyCzQg1Q_n0rda51hgKgnU77OruuNhIRexOliMxoiAc7Bd6QQbivL24Og/exec
+  to: '#reserva-enviada'
