@@ -13,6 +13,10 @@ form:
 inputs:
 
 - type: hidden
+  name: _sheetname
+  placeholder: Feedback
+
+- type: hidden
   name: Encuentro
   placeholder: '{{ param title }}'
 

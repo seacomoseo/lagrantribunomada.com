@@ -12,4 +12,5 @@ sections:
 - file: formularios/alta
   modals:
   - file: te-interesa/como-entrar
+  - file: formularios/bienvenida
 ---

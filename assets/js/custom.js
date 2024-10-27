@@ -147,22 +147,3 @@ if (mapa) {
     }
   })
 }
-
-
-// ALTA
-const formAlta = document.getElementById('form-alta')
-if (formAlta) {
-  // When form alta is submit
-  document.addEventListener('submited-form-alta', e => {
-    window.location = '/bienvenida/'
-  })
-}
-
-// RESERVA
-const formReserva = document.getElementById('form-reserva')
-if (formReserva) {
-  // When form reserva is submit
-  document.addEventListener('submited-form-reserva', e => {
-    window.location.hash = 'reserva-enviada'
-  })
-}
