@@ -46,6 +46,7 @@ sections:
 - file: redes
 - file: contacto
 
+base: organization
 types:
 - Organization
 names:

@@ -12,6 +12,10 @@ boxes:
   - type: param
     param: place
     icon: location-dot
+- if: cancelled
+  content: |
+    **{{< i18n cancelled >}}**
+    {.cancelled}
 - box:
     columns: 0
   boxes:
