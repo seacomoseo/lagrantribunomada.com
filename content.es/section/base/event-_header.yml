@@ -14,7 +14,7 @@ boxes:
     icon: location-dot
 - if: cancelled
   content: |
-    **{{< i18n cancelled >}}**
+    =={{< i18n cancelled >}}==
     {.cancelled}
 - box:
     columns: 0
