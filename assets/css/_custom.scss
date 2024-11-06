@@ -61,10 +61,10 @@
 }
 
 button:not(.button--icon) {
-  &:has([href="/draws.svg#telegram"]) {
+  &:has([href="/draws.#{$timestamp}.svg#telegram"]) {
     --base: #24a1de;
   }
-  &:has([href="/draws.svg#instagram"]) {
+  &:has([href="/draws.#{$timestamp}.svg#instagram"]) {
     --base: #C13584;
   }
 }
