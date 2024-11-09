@@ -33,15 +33,15 @@ boxes:
     {{% if "{{ param social.3 }}" %}} - icon:star         [{{% param social.3 %}}]({{% param social.3 %}} "nofollow")                {{% / if %}}
     {{% if "{{ address        }}" %}} - icon:location-dot [{{% address %}}]({{% param address.link %}} "nofollow")                   {{% / if %}}
 
-- if: address
+- if: address.geo
   title: Ubicación
-  params:
-  - page: address.geo
-    box: map
   zoom: 6
-  licon: circle-dot
-  icon_color: alt
-  rate: 1x1
+  rate: 1/1
+  map:
+  - type: point
+    geo: '{{ param address.geo }}'
+    icon: circle-dot
+    color: alt
 
 - if: images
   params:

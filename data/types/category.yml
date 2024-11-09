@@ -12,7 +12,7 @@ template:
     columns_min: 2
     card: false
     color: ''
-    # ratio: 3x2
+    # ratio: 3/2
     declive: false
     image: hide
     icon: bookmark

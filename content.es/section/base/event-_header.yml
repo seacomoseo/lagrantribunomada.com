@@ -10,8 +10,10 @@ boxes:
 - tags:
   - type: date
   - type: param
-    param: place
+    param: address.name
     icon: location-dot
+  - type: param
+    param: address.region
 - if: cancelled
   content: |
     =={{< i18n cancelled >}}==
@@ -23,7 +25,7 @@ boxes:
     params:
     - page: video
       box: image
-    ratio: 9x16
+    ratio: 9/16
     span: .76
   - if: image
     params:
@@ -31,5 +33,5 @@ boxes:
       box: image
     - page: image
       box: link
-    ratio: 3x4
+    ratio: 3/4
     button: hide

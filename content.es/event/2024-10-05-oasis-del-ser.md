@@ -9,8 +9,15 @@ seo: ''
 description: ''
 date: 2024-10-05 10:10:00
 end: 2024-10-05 22:20:00
-location: Oasis Artístico
-place: AP-7 Salida 289, 12591 Almenara, Castellón
+address:
+  name: Oasis Artístico
+  street: AP-7 Salida 289
+  pc: '12591'
+  locality: Almenara
+  region: Castellón
+  country: ES
+  geo: '{"type":"Point","coordinates":[-0.2243680,39.7706990]}'
+  link: https://maps.google.com/maps/search/39.7706990,-0.2243680
 ---
 ¡Ahoo! 🍃🫶
 

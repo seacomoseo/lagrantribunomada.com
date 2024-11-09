@@ -43,7 +43,7 @@ template:
   - file: base/_header
   - file: base/toc
   - file: base/content
-  - file: base/place
+  - file: base/address
   - file: base/author
   - file: base/social
   - file: base/comments
@@ -55,7 +55,7 @@ template:
     button: hide
     icon: hide
     declive: true
-    ratio: 16x9
+    ratio: 16/9
     inset: true
     align: left
     color: white

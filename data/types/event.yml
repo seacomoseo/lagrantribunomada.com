@@ -22,7 +22,7 @@ template:
   list:
     columns: 3
     card: true
-    rate: 3x4
+    rate: 3/4
     color: dark
     declive: false
     content: hide
@@ -30,8 +30,10 @@ template:
     tags:
     - type: date
     - type: param
-      param: place
+      param: address.name
       icon: location-dot
+    - type: param
+      param: address.region
 params:
 - name: video
   label: Vídeo

@@ -8,7 +8,7 @@ box:
   align_y: center
 boxes:
 # - bg: fotos/amores.jpg
-#   rate: 3x2
+#   rate: 3/2
 #   parallax: soft
 - image: fotos/2024-05-10-014.png
   parallax: box

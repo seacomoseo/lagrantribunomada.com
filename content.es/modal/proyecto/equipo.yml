@@ -8,7 +8,7 @@ box:
   gap: 2
 boxes:
 - box:
-    ratio: circle
+    circle: true
     grayscale: true
     columns: 4
     columns_min: 2
@@ -51,7 +51,7 @@ boxes:
     subtitle: El Solucionador
     content: Te hace Φ con un canuto impreso en 3D con sal del himalaya
 - box:
-    ratio: circle
+    circle: true
     grayscale: true
     columns: 4
     columns_min: 2

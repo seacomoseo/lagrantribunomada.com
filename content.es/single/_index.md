@@ -74,10 +74,10 @@ phones: []
 address:
   name: La Gran Tribu Nómada
   street: Ronda de Levante, 1
-  pc: 30008
+  pc: '30008'
   locality: Murcia
   region: Murcia
-  country: España
+  country: ES
   geo: '{"type":"Point","coordinates":[-1.1306520,37.9922180]}'
   link: https://maps.google.com/maps?q=Pen%C3%ADnsula%20Ib%C3%A9rica
 areas:
