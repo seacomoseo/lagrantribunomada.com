@@ -4,6 +4,8 @@ title: El Proyecto
 box:
   columns: 4
   columns_min: 2
+  hs: 3
+  button: alt
 boxes:
 - icon: campground
   title: ¿Qué Es?
