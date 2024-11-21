@@ -12,6 +12,7 @@ boxes:
   title: La Gran Tribu Nómada
   hn: p
   hs: 0
+  uppercase: true
   subtitle: Red Itinerante
 # - image: https://youtu.be/asGFNGdxdmc#poster=que-es.jpg
 #   ratio: 2/3

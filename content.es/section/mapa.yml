@@ -9,3 +9,6 @@ boxes:
     [btn icon:rocket          Proyectos ](/proyectos/)
     [btn:invert icon:bookmark Categorías](/categorias/)
     [btn:alt icon:star        ¡Únete!   ](/alta/)
+
+    icon:hyphen
+    {.hide}
