@@ -14,6 +14,7 @@ boxes:
     columns_min: 2
     gap: 3
     gap_ny: 1
+    icon_type: bottom
   boxes:
   - icon: user-hair-mullet
     image: equipo/indira.jpg
@@ -44,7 +45,7 @@ boxes:
     image: equipo/naiht.jpg
     title: Naiht
     subtitle: El Personaje
-    content: Miaugo, Miaugo, kikierehkihaga, kikierehkihaga
+    content: Con el juego y el teatro te explota el coco poco a poco
   - icon: user-robot
     image: equipo/rafa.jpg
     title: Rafa
@@ -57,6 +58,7 @@ boxes:
     columns_min: 2
     gap: 3
     gap_ny: 1
+    icon_type: bottom
   boxes:
   - icon: teddy-bear
     image: equipo/perruno/momo.jpg
