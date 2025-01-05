@@ -1,7 +1,7 @@
 ---
 slug: inicio
 title: Inicio
-image: base/logo.png
+image: base/poster.png
 
 draft: false
 noindex: false
@@ -58,8 +58,8 @@ names:
 summary: Plataforma itinerante digital y física, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
 legal: ''
 nif: ''
-email: ''
-logo: base/icon-tr.svg
+email: info@lagrantribunomada.com
+logo: base/poster.svg
 images:
 - fotos/2024-08-13-009.jpg
 - fotos/amores.jpg

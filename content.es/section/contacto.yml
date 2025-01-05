@@ -21,10 +21,11 @@ contact:
   font_alt: true
 form:
   action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+  email: info@lagrantribunomada.com
 inputs:
 - type: hidden
   name: _sheetname
-  placeholder: Contacto
+  label: Contacto
 - type: text
   name: Nombre
   required: true

@@ -10,15 +10,16 @@ align: center
 size: xs
 form:
   action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+  email: info@lagrantribunomada.com
 inputs:
 
 - type: hidden
   name: _sheetname
-  placeholder: Feedback
+  label: Feedback
 
 - type: hidden
   name: Encuentro
-  placeholder: '{{ param title }}'
+  label: '{{ param title }}'
 
 - type: text
   name: Nombre
@@ -32,16 +33,16 @@ inputs:
 
 - type: textarea
   name: Espacio Opinión
-  placeholder: ¿Qué te pareció el espacio?
+  label: ¿Qué te pareció el espacio?
 - type: textarea
   name: Espacio Mejoras
-  placeholder: ¿Qué mejorarías del espacio?
+  label: ¿Qué mejorarías del espacio?
 - type: textarea
   name: Espacio Servicio
-  placeholder: ¿Echaste en falta algún servicio?
+  label: ¿Echaste en falta algún servicio?
 - type: textarea
   name: Espacio Más
-  placeholder: ¿Algo más a añadir?
+  label: ¿Algo más a añadir?
 
 
 - type: h3
@@ -49,16 +50,16 @@ inputs:
 
 - type: textarea
   name: LGTN Organización
-  placeholder: ¿Qué te pareció la organización?
+  label: ¿Qué te pareció la organización?
 - type: textarea
   name: LGTN Actividades
-  placeholder: ¿Te gustaron el tipo de actividades?
+  label: ¿Te gustaron el tipo de actividades?
 - type: textarea
   name: LGTN Actividades Futuras
-  placeholder: ¿Qué otras actividades/talleres te gustaría en el futuro?
+  label: ¿Qué otras actividades/talleres te gustaría en el futuro?
 - type: textarea
   name: LGTN Rol
-  placeholder: ¿Echaste en falta algún rol en la organización?
+  label: ¿Echaste en falta algún rol en la organización?
 
 
 - type: h3
@@ -66,13 +67,13 @@ inputs:
 
 - type: textarea
   name: Cocina Menú
-  placeholder: ¿Qué te pareció el menú de cocina?
+  label: ¿Qué te pareció el menú de cocina?
 - type: textarea
   name: Cocina Precios
-  placeholder: ¿Qué te parecieron los precios?
+  label: ¿Qué te parecieron los precios?
 - type: textarea
   name: Cocina Más
-  placeholder: ¿Algo más a añadir?
+  label: ¿Algo más a añadir?
 
 
 - type: h3
@@ -80,13 +81,13 @@ inputs:
 
 - type: textarea
   name: Social Disfrutaste
-  placeholder: ¿Disfrutaste del encuentro?
+  label: ¿Disfrutaste del encuentro?
 - type: textarea
   name: Social Incomodidad
-  placeholder: ¿Hubo alguna situación que te incomodase?
+  label: ¿Hubo alguna situación que te incomodase?
 - type: textarea
   name: Social Más
-  placeholder: ¿Te gustaría contar con algún aspecto para un mayor disfrute de los encuentros?
+  label: ¿Te gustaría contar con algún aspecto para un mayor disfrute de los encuentros?
 
 
 - type: h3
@@ -94,4 +95,4 @@ inputs:
 
 - type: textarea
   name: Otros
-  placeholder: Comentar libremente tu opinión o cualquier otra cosa
+  label: Comentar libremente tu opinión o cualquier otra cosa

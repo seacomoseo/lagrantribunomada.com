@@ -20,7 +20,7 @@ names:
 legal: SAN SOUL S.L.
 nif: 00000000A
 summary: Esto es el resumen de un proyecto de ejemplo.
-logo: base/logo.svg
+logo: base/poster.svg
 images:
 - fondo.jpg
 social:

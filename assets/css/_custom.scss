@@ -3,7 +3,7 @@
 //   --main: #{$main-dark};
 // }
 
-// .collapsible__content ul > li:before,
+// .accordion__content ul > li:before,
 .content ul > li:before,
 .content ol > li:before {
   content: "-";
@@ -55,12 +55,12 @@
 
 /*! purgecss start ignore */
 #mapa {
-  .buttons button {
+  .buttons .button {
     font-size: 1.5em;
   }
 }
 
-button:not(.button--icon) {
+button:not(.button--dot) {
   &:has([href="/draws.#{$timestamp}.svg#telegram"]) {
     --base: #24a1de;
   }
@@ -185,7 +185,7 @@ button:not(.button--icon) {
 
 .type-project {
   #content ul {
-    a, [data-h], [data-b] {
+    .href {
       --link: var(--invert);
       @include font-base;
     }

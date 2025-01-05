@@ -1,7 +1,7 @@
 ---
 slug: alta
 title: Alta
-image: base/logo.png
+image: base/poster.png
 
 draft: false
 noindex: true
