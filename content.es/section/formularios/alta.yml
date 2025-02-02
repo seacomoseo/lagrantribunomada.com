@@ -144,12 +144,13 @@ inputs:
   show_if: Proyecto
   options:
   - option: Soy una comunidad
-    value: Comunidad
+    value: Comunidades
   - option: Soy un espacio
-    value: Espacio
+    value: Espacios
   - option: Solo ofrezco servicios
     value: Servicios
   - option: Otro
+    value: Otros
 - type: checkbox
   name: Opciones
   show_if: Proyecto
