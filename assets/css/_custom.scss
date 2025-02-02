@@ -9,6 +9,7 @@
   content: "-";
 }
 
+// Form hint before
 .form__item {
   display: flex;
   flex-direction: column;
@@ -19,6 +20,9 @@
 }
 .text-sm {
   font-size: .75em;
+}
+.form__pre {
+  translate: none; // Fix form__item flex
 }
 
 #body-home #header {
