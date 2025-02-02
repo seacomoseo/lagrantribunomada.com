@@ -40,7 +40,6 @@ boxes:
   map:
   - type: point
     geo: '{{ param address.geo }}'
-    icon: circle-dot
     color: alt
 
 - if: images
