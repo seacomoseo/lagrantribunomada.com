@@ -87,7 +87,7 @@ Y todo lo que ayude a crear una red autónoma en la que apoyarnos mutuamente ent
 - Si dudas qué compartir, pregúntanos❓
 
 
-## 🗣️ GRAN FOTO TRIBAL 🗣️
+## 🗣️ GRAN FORO TRIBAL 🗣️
 
 En este grupo está la mente de 
 **👣 La Gran Tribu Nómada 👣**
