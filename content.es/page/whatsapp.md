@@ -9,7 +9,7 @@ seo: ''
 description: ''
 ---
 
-Aquí tienes un desglose de cada grupo de la [icon:whatsapp Comunidad de WhatsApp](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "noindex") y para qué sirve cada uno.
+Aquí tienes un desglose de cada grupo de la [icon:whatsapp Comunidad de WhatsApp](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "nofollow") y para qué sirve cada uno.
 
 
 ## 🩵 AMORÍGENES 🩵
@@ -124,7 +124,7 @@ Si vas a formar parte de la Caravana, solicita entrar en este grupo para unirte 
 
 ¿Te quedó claro? ¡Vamos!
 
-[btn:whatsapp icon:whatsapp Comunidad de WhatsApp](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "noindex")
+[btn:whatsapp icon:whatsapp Comunidad de WhatsApp](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "nofollow")
 
 ¿Te quedan dudas?
 
