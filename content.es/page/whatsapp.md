@@ -113,7 +113,7 @@ Y todo lo que nos ayude a nutrir a esta preciosa familia 👩‍❤️‍👩...
 - Si dudas qué compartir, pregúntanos❓
 
 
-## 🚐 CARVANA AMORIGEN 🚐
+## 🚐 CARAVANA AMORIGEN 🚐
 
 Este grupo es para gestionar y coordinar la ruta actual de la [Caravana 🚐  AMORÍGEN 🩵](/#caravana-amorigen)
 
