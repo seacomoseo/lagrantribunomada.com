@@ -40,6 +40,7 @@ sections:
   - file: te-interesa/que-ofrecemos
   - file: te-interesa/como-entrar
   - file: te-interesa/caravana-amorigen
+  - file: te-interesa/donaciones
 - file: encuentros
 - file: galeria
 # - file: donaciones
