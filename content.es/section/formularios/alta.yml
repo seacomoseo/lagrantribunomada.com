@@ -44,7 +44,7 @@ inputs:
   name: Cuota
   label: Cuota Consciente Anual
   hint: |
-    ¿Cuánto sientes compartir?
+    ¿Cuánto sientes aportar?
   min: 0
 - type: checkbox
   name: Proyecto
