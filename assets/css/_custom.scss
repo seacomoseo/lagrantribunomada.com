@@ -3,6 +3,18 @@
 //   --main: #{$main-dark};
 // }
 
+// Underline
+.href {
+  --href-undeline-width: calc(var(--outline) / 2);
+}
+.content .href:not(#toc *, #breadcrumbs *, .list-inline *, .content__heading *) {
+  background-size: 100% 100%;
+  &:hover {
+    background-size: 0 100%;
+    color: var(--alt);
+  }
+}
+
 // .accordion__content ul > li:before,
 .content ul > li:before,
 .content ol > li:before {
@@ -190,8 +202,12 @@ button:not(.button--dot) {
 .type-project {
   #content ul {
     .href {
-      --link: var(--invert);
       @include font-base;
+      --link: var(--invert);
+      background-size: 0 100%;
+      &:hover {
+        background-size: 100% 100%;
+      }
     }
   }
 }

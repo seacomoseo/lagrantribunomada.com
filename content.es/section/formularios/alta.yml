@@ -40,6 +40,13 @@ inputs:
   name: Cómo
   label: ¿Cómo nos has conocido?
   required: true
+- type: number
+  name: Cuota
+  label: Cuota Consciente
+  hint: |
+    [Aporta lo que sientas](/#donaciones) anualmente
+  required: false
+  min: 0
 - type: checkbox
   name: Proyecto
   hint: |
