@@ -42,10 +42,9 @@ inputs:
   required: true
 - type: number
   name: Cuota
-  label: Cuota Consciente
+  label: Cuota Consciente Anual
   hint: |
-    [Aporta lo que sientas](/#donaciones) anualmente
-  required: false
+    ¿Cuánto sientes compartir?
   min: 0
 - type: checkbox
   name: Proyecto
@@ -75,7 +74,7 @@ inputs:
   show_if: Proyecto
 - type: file
   name: Imagen
-  hint: Adjunta una imagen representativa
+  hint: Adjunta una imagen representativa (MUY recomendable)
   accept: image/*
   show_if: Proyecto
 - type: tel
