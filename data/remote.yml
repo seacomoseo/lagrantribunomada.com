@@ -6,15 +6,47 @@ srcs:
   - type: project
     index: projects
     pairings:
+
+    # basic
     - to: slug
     - to: title
+    - from: logo
+      to: image
+    # content
+    - to: summary
+    - from: description
+      to: content
+    - to: advantages
+    - to: category
+    - to: visitable
+    # contact
     - to: email
+    - to: phone
+    - to: whatsapp
+    - to: web
+    - to: instagram
+    - to: facebook
+    - to: other
+
+    # schema
+    - to: types
+      default: Organization
+      kind: slice
+    - from: title
+      to: names
+      kind: slice
+    - to: logo
+    - from: image
+      to: images
+      kind: slice
+    # schema phones
     - from: phone
       to: phones
       kind: slice
     - from: whatsapp
       to: phones
       kind: slice
+    # schema social
     - from: web
       to: social
       kind: slice
@@ -27,6 +59,7 @@ srcs:
     - from: other
       to: social
       kind: slice
+    # schema address
     - from: title
       to: address.name
     - from: street
@@ -45,21 +78,3 @@ srcs:
       to: address.geo
     - from: geo_link
       to: address.link
-    - to: summary
-    - from: description
-      to: content
-    - to: advantages
-    - to: category
-    - to: visitable
-    - to: logo
-    - from: logo
-      to: image
-    - from: image
-      to: images
-      kind: slice
-    - from: title
-      to: names
-      kind: slice
-    - to: types
-      default: Organization
-      kind: slice

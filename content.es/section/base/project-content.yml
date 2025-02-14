@@ -24,14 +24,14 @@ boxes:
 
 - title: Contacto
   content: |
-    {{% if "{{ param email    }}" %}} - icon:envelope     {{% param email %}}                                                        {{% / if %}}
-    {{% if "{{ param phones.0 }}" %}} - icon:phone        [{{% param phones.0 %}}](tel:{{% palink phones.0 %}} "nofollow")           {{% / if %}}
-    {{% if "{{ param phones.1 }}" %}} - icon:whatsapp     [{{% param phones.1 %}}](https://wa.me/{{% palink phones.1 %}} "nofollow") {{% / if %}}
-    {{% if "{{ param social.0 }}" %}} - icon:link         [{{% param social.0 %}}]({{% param social.0 %}} "nofollow")                {{% / if %}}
-    {{% if "{{ param social.1 }}" %}} - icon:link         [{{% param social.1 %}}]({{% param social.1 %}} "nofollow")                {{% / if %}}
-    {{% if "{{ param social.2 }}" %}} - icon:link         [{{% param social.2 %}}]({{% param social.2 %}} "nofollow")                {{% / if %}}
-    {{% if "{{ param social.3 }}" %}} - icon:link         [{{% param social.3 %}}]({{% param social.3 %}} "nofollow")                {{% / if %}}
-    {{% if "{{ address        }}" %}} - icon:location-dot [{{% address %}}]({{% param address.link %}} "nofollow")                   {{% / if %}}
+    {{% if "{{ param email     }}" %}} - icon:envelope     {{% param email %}}                                                         {{% / if %}}
+    {{% if "{{ param phone     }}" %}} - icon:phone        [{{% param phone     %}}](tel:{{% palink phone %}} "nofollow")              {{% / if %}}
+    {{% if "{{ param whatsapp  }}" %}} - icon:whatsapp     [{{% param whatsapp  %}}](https://wa.me/{{% palink whatsapp %}} "nofollow") {{% / if %}}
+    {{% if "{{ param web       }}" %}} - icon:link         [{{% param web       %}}]({{% param web       %}} "nofollow")               {{% / if %}}
+    {{% if "{{ param instagram }}" %}} - icon:instagram    [{{% param instagram %}}]({{% param instagram %}} "nofollow")               {{% / if %}}
+    {{% if "{{ param facebook  }}" %}} - icon:facebook     [{{% param facebook  %}}]({{% param facebook  %}} "nofollow")               {{% / if %}}
+    {{% if "{{ param other     }}" %}} - icon:star         [{{% param other     %}}]({{% param other     %}} "nofollow")               {{% / if %}}
+    {{% if "{{ address         }}" %}} - icon:location-dot [{{% address         %}}]({{% param address.link %}} "nofollow")            {{% / if %}}
 
 - if: address.geo
   title: Ubicación
