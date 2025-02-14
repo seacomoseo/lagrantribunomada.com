@@ -17,8 +17,9 @@ template:
     columns_min: 2
     color: dark
     image: base/icon.svg
+    declive: false
     ratio: 1/1
-    contain: true
+    # contain: true
     inset: false
     align: center
     content: hide
