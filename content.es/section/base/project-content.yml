@@ -28,9 +28,9 @@ boxes:
     {{% if "{{ param phones.0 }}" %}} - icon:phone        [{{% param phones.0 %}}](tel:{{% palink phones.0 %}} "nofollow")           {{% / if %}}
     {{% if "{{ param phones.1 }}" %}} - icon:whatsapp     [{{% param phones.1 %}}](https://wa.me/{{% palink phones.1 %}} "nofollow") {{% / if %}}
     {{% if "{{ param social.0 }}" %}} - icon:link         [{{% param social.0 %}}]({{% param social.0 %}} "nofollow")                {{% / if %}}
-    {{% if "{{ param social.1 }}" %}} - icon:instagram    [{{% param social.1 %}}]({{% param social.1 %}} "nofollow")                {{% / if %}}
-    {{% if "{{ param social.2 }}" %}} - icon:facebook     [{{% param social.2 %}}]({{% param social.2 %}} "nofollow")                {{% / if %}}
-    {{% if "{{ param social.3 }}" %}} - icon:star         [{{% param social.3 %}}]({{% param social.3 %}} "nofollow")                {{% / if %}}
+    {{% if "{{ param social.1 }}" %}} - icon:link         [{{% param social.1 %}}]({{% param social.1 %}} "nofollow")                {{% / if %}}
+    {{% if "{{ param social.2 }}" %}} - icon:link         [{{% param social.2 %}}]({{% param social.2 %}} "nofollow")                {{% / if %}}
+    {{% if "{{ param social.3 }}" %}} - icon:link         [{{% param social.3 %}}]({{% param social.3 %}} "nofollow")                {{% / if %}}
     {{% if "{{ address        }}" %}} - icon:location-dot [{{% address %}}]({{% param address.link %}} "nofollow")                   {{% / if %}}
 
 - if: address.geo
