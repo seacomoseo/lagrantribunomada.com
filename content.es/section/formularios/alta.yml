@@ -134,7 +134,7 @@ inputs:
   show_if: Proyecto
 - type: textarea
   name: Descripción
-  hint: ¿En qué consiste tu proyecto? ¿Cuál es tu objetivo/motivación? ¿Qué servicios que ofrece a la red?...
+  hint: ¿En qué consiste tu proyecto? ¿Cuál es tu objetivo/motivación? ¿Qué servicios ofrece/s a la red?...
   show_if: Proyecto
 - type: textarea
   name: Ventajas

@@ -43,6 +43,7 @@ boxes:
     color: alt
 
 - if: images
+  alt: 'Imagen {{ param title }}'
   params:
   - page: images.0
     box: image

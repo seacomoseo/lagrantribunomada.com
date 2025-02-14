@@ -15,13 +15,13 @@ fonts:
     weight: 300
     bold: 0
     italic: false
-    line-height: 1.25
+    line_height: 1.25
   cursive:
     family: Shadows Into Light
     weight: 400
     bold: 0
     italic: false
-    line-height: 1.25
+    line_height: 1.25
     size: 1.25
     top: 0
   title:
@@ -29,7 +29,7 @@ fonts:
     weight: 400
     bold: 0
     italic: false
-    line-height: 1.25
+    line_height: 1.25
     size: 1.25
     top: 0.2
   blockquote_cursive: true
