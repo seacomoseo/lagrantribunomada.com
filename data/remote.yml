@@ -12,6 +12,7 @@ srcs:
     - to: title
     - from: logo
       to: image
+    - to: video
     # content
     - to: summary
     - from: description
@@ -36,10 +37,10 @@ srcs:
       to: names
       kind: slice
     - to: logo
-    - from: image
+    - from: images
       to: images
       kind: slice
-    # schema phones
+      delimit: ', '
     - from: phone
       to: phones
       kind: slice

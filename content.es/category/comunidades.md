@@ -6,6 +6,7 @@ image: categorias/comunidades.svg
 icon: people-group
 
 category: null # string
+weight: 1
 
 toc: false
 draft: false

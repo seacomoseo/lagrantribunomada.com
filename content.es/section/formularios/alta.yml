@@ -72,9 +72,16 @@ inputs:
   accept: image/*
   show_if: Proyecto
 - type: file
-  name: Imagen
-  hint: Adjunta una imagen representativa (MUY recomendable)
+  name: Imágenes
+  hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
   accept: image/*
+  multiple: true
+  max: 3
+  show_if: Proyecto
+- type: text
+  name: Vídeo
+  hint: Indica el enlace de un vídeo de Youtube o Vimeo sobre tu proyecto
+  full: true
   show_if: Proyecto
 - type: tel
   name: Teléfono

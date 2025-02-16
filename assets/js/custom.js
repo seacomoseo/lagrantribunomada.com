@@ -48,15 +48,15 @@ function mapStart () {
       // Añadir marcadores al cluster para cada tipo
       addMarkersToCluster(data, 'Comunidades', 'cornflowerblue', 'people-group')
       addMarkersToCluster(data, 'Espacios', 'green', 'campground')
-      addMarkersToCluster(data, 'Servicios', 'crimson', 'bullseye-arrow')
-      addMarkersToCluster(data, 'Otros', 'violet', 'hands-holding-heart')
+      addMarkersToCluster(data, 'Servicios', 'crimson', 'hands-holding-heart')
+      addMarkersToCluster(data, 'Otros', 'violet', 'bullseye-arrow')
 
       // layer control
       const overlayMaps = {
         [overlayMap('Comunidades', 'cornflowerblue', 'people-group')]: donutCluster,
         [overlayMap('Espacios', 'green', 'campground')]: donutCluster,
-        [overlayMap('Solo Servicios', 'crimson', 'bullseye-arrow')]: donutCluster,
-        [overlayMap('Otros', 'violet', 'hands-holding-heart')]: donutCluster
+        [overlayMap('Servicios', 'crimson', 'hands-holding-heart')]: donutCluster,
+        [overlayMap('Otros', 'violet', 'bullseye-arrow')]: donutCluster
       }
 
       /* const layerControl = */ window.L.control.layers(null, overlayMaps, { collapsed: false }).addTo(map)

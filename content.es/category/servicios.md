@@ -3,9 +3,10 @@ slug: servicios
 title: Servicios
 summary: null # string
 image: categorias/servicios.svg
-icon: bullseye-arrow
+icon: hands-holding-heart
 
 category: null # string
+weight: 3
 
 toc: false
 draft: false

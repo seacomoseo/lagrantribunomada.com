@@ -15,7 +15,7 @@ boxes:
   # - type: taxonomy
   #   taxonomy: category
 - if: image
-  alt: 'Logo {{ param title }}'
+  alt: 'Logo de {{ param title }}'
   params:
   - page: image
     box: image

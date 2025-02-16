@@ -24,14 +24,14 @@ boxes:
 
 - title: Contacto
   content: |
+    {{% if "{{ param web       }}" %}} - icon:link         [{{< replace "^https://(www\.)?(.+?)/?$" "$2"                        >}}{{% param web       %}}{{< / replace >}}]({{% param web          %}} "nofollow") {{% / if %}}
+    {{% if "{{ param instagram }}" %}} - icon:instagram    [{{< replace "^https://www.instagram.com/(.+?)/?$" "@$1"             >}}{{% param instagram %}}{{< / replace >}}]({{% param instagram    %}} "nofollow") {{% / if %}}
+    {{% if "{{ param facebook  }}" %}} - icon:facebook     [{{< replace "^https://www.facebook.com/(p/)?(.+?)(-\d*)?/?$"  "@$2" >}}{{% param facebook  %}}{{< / replace >}}]({{% param facebook     %}} "nofollow") {{% / if %}}
+    {{% if "{{ param other     }}" %}} - icon:star         [{{< replace "^https://(www\.)?(.+?)/?$" "$2"                        >}}{{% param other     %}}{{< / replace >}}]({{% param other        %}} "nofollow") {{% / if %}}
     {{% if "{{ param email     }}" %}} - icon:envelope     {{% param email %}}                                                         {{% / if %}}
     {{% if "{{ param phone     }}" %}} - icon:phone        [{{% param phone     %}}](tel:{{% palink phone %}} "nofollow")              {{% / if %}}
     {{% if "{{ param whatsapp  }}" %}} - icon:whatsapp     [{{% param whatsapp  %}}](https://wa.me/{{% palink whatsapp %}} "nofollow") {{% / if %}}
-    {{% if "{{ param web       }}" %}} - icon:link         [{{% param web       %}}]({{% param web       %}} "nofollow")               {{% / if %}}
-    {{% if "{{ param instagram }}" %}} - icon:instagram    [{{% param instagram %}}]({{% param instagram %}} "nofollow")               {{% / if %}}
-    {{% if "{{ param facebook  }}" %}} - icon:facebook     [{{% param facebook  %}}]({{% param facebook  %}} "nofollow")               {{% / if %}}
-    {{% if "{{ param other     }}" %}} - icon:star         [{{% param other     %}}]({{% param other     %}} "nofollow")               {{% / if %}}
-    {{% if "{{ address         }}" %}} - icon:location-dot [{{% address         %}}]({{% param address.link %}} "nofollow")            {{% / if %}}
+    {{% if "{{ address         }}" %}} - icon:location-dot [{{< replace "ES$" "España"                                          >}}{{% address         %}}{{< / replace >}}]({{% param address.link %}} "nofollow") {{% / if %}}
 
 - if: address.geo
   title: Ubicación
@@ -43,7 +43,18 @@ boxes:
     color: alt
 
 - if: images
-  alt: 'Imagen {{ param title }}'
   params:
-  - page: images.0
+  - page: images
+    box: images
+  gallery:
+    columns: 1
+    type: boxes
+    alt: 'Imagen de {{ param title }}'
+
+- if: video
+  alt: 'Vídeo de {{ param title }}'
+  params:
+  - page: video
     box: image
+  ratio: 1
+  icon_color: alt
