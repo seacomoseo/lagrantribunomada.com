@@ -34,7 +34,6 @@ inputs:
   required: true
 - type: email
   name: Email Personal
-  # required_if: Proyecto
 - type: textarea
   name: Cómo
   label: ¿Cómo nos has conocido?
@@ -71,6 +70,7 @@ inputs:
   hint: Adjunta tu logo (preferible en formato PNG con fondo transparente)
   accept: image/*
   show_if: Proyecto
+  base_name: Nombre Proyecto
 - type: file
   name: Imágenes
   hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
@@ -78,6 +78,7 @@ inputs:
   multiple: true
   max: 3
   show_if: Proyecto
+  base_name: Nombre Proyecto
 - type: text
   name: Vídeo
   hint: Indica el enlace de un vídeo de Youtube o Vimeo sobre tu proyecto
