@@ -6,8 +6,8 @@ color: main-dark
 gallery:
   type: grid
   columns: 6
-  button: hide
   ratio: 1/1
+  button: hide
 images:
 - fotos/2024-08-13-005.jpg
 - fotos/2024-08-13-006.jpg

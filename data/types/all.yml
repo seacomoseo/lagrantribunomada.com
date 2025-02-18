@@ -8,7 +8,7 @@ template:
     logo: true
     logo_align: center
     transparent: true
-    color: similar
+    color: dark
     hide_icons: true
     es:
       image: base/logo-x.svg
