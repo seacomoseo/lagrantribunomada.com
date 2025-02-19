@@ -19,7 +19,7 @@ boxes:
     =={{< i18n cancelled >}}==
     {.cancelled}
 - box:
-    columns: 0
+    cols: 0
   boxes:
   - if: video
     params:

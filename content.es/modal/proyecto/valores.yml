@@ -2,7 +2,7 @@ name: Valores
 icon: hands-holding-heart
 title: Valores
 box:
-  columns: 1
+  cols: 1
   gap_min: 3
 boxes:
 - content: |

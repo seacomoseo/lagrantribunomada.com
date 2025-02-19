@@ -10,8 +10,8 @@ boxes:
 - box:
     circle: true
     grayscale: true
-    columns: 4
-    columns_min: 2
+    cols: 4
+    cols_min: 2
     gap: 3
     gap_ny: 1
     icon_type: bottom
@@ -54,8 +54,8 @@ boxes:
 - box:
     circle: true
     grayscale: true
-    columns: 4
-    columns_min: 2
+    cols: 4
+    cols_min: 2
     gap: 3
     gap_ny: 1
     icon_type: bottom

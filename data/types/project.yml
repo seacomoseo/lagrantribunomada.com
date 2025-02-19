@@ -13,8 +13,8 @@ template:
   - file: base/share
   - file: base/related
   list:
-    columns: 4
-    columns_min: 2
+    cols: 4
+    cols_min: 2
     color: dark
     image: base/icon.svg
     declive: false

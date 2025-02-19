@@ -2,7 +2,7 @@ name: Cabecera
 full: true
 # size: md
 box:
-  columns: 3
+  cols: 3
   gap: 5
   align_y: center
 boxes:

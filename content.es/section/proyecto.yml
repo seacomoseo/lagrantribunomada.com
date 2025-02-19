@@ -2,8 +2,8 @@ name: Proyecto
 id: proyecto
 title: El Proyecto
 box:
-  columns: 4
-  columns_min: 2
+  cols: 4
+  cols_min: 2
   hs: 3
   button: alt
 boxes:

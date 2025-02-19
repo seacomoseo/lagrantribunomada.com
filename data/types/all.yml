@@ -51,7 +51,7 @@ template:
   - file: base/share
   - file: base/related
   list:
-    columns: 3
+    cols: 3
     button: hide
     icon: hide
     declive: true

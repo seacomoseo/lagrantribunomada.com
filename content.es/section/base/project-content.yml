@@ -47,7 +47,7 @@ boxes:
   - page: images
     box: images
   gallery:
-    columns: 1
+    cols: 1
     type: boxes
     alt: 'Imagen de {{ param title }}'
 

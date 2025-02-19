@@ -6,7 +6,7 @@ content: |
   Personas cuyo estilo de vida se dirige hacia la soberanía, la libertad y el disfrute de la vida en red:
 align: center
 box:
-  columns: 3
+  cols: 3
 boxes:
 - icon: dove
   title: Nómades

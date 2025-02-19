@@ -10,8 +10,8 @@ params:
 - name: ~BOX_ICON_ID
 template:
   list:
-    columns: 4
-    columns_min: 2
+    cols: 4
+    cols_min: 2
     card: false
     color: ''
     # ratio: 3/2

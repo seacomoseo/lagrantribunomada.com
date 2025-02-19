@@ -5,7 +5,7 @@ size: fluid
 color: main-dark
 gallery:
   type: grid
-  columns: 6
+  cols: 6
   ratio: 1/1
   button: hide
 images:

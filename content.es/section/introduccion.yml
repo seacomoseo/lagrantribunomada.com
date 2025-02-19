@@ -2,7 +2,7 @@ name: Introduccion
 title: Introducción
 menu_button: hide
 box:
-  columns: 2
+  cols: 2
   gap: 3
   align: left
   align_y: center
