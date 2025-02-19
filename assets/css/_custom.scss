@@ -3,6 +3,10 @@
 //   --main: #{$main-dark};
 // }
 
+.loader {
+  translate: -3em -.5em;
+}
+
 // Underline
 .href {
   --href-undeline-width: calc(var(--outline) / 2);
