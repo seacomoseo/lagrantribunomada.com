@@ -18,26 +18,26 @@ inputs:
 - type: text
   name: Pseudónimo
   hint: ¿Cómo quieres que te llamemos? (A ti, no a tu proyecto)
-  required: true
+  # required: true
   full: true
 - type: text
   name: Nombre
-  required: true
+  # required: true
 - type: text
   name: Apellidos
-  required: true
+  # required: true
 - type: text
   name: DNI
-  required: true
+  # required: true
 - type: tel
   name: Teléfono Personal
-  required: true
+  # required: true
 - type: email
   name: Email Personal
 - type: textarea
   name: Cómo
   label: ¿Cómo nos has conocido?
-  required: true
+  # required: true
 - type: number
   name: Cuota
   label: Cuota Consciente Anual
@@ -59,7 +59,7 @@ inputs:
 - type: text
   name: Nombre Proyecto
   hint: Nombre de tu proyecto
-  required: true
+  # required: true
   show_if: Proyecto
 - type: text
   name: Email
@@ -138,7 +138,7 @@ inputs:
   name: Resumen
   hint: Breve resumen sobre tu proyecto (máximo 155 caracteres)
   max: 155
-  required: true
+  # required: true
   show_if: Proyecto
 - type: textarea
   name: Descripción
@@ -147,13 +147,13 @@ inputs:
 - type: textarea
   name: Ventajas
   hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
-  required: true
+  # required: true
   show_if: Proyecto
 - type: select
   name: Tipo
   label: Tipo de Proyecto
   hint: ¿Qué tipo de proyecto dispones?
-  required: true
+  # required: true
   show_if: Proyecto
   options:
   - option: Soy una comunidad

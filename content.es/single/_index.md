@@ -20,9 +20,9 @@ callnow:
 section:
 - uppercase: true
   divider: brush
-- flip_x: true
-  flip_y: true
-  color: main
+# - flip_x: true
+#   flip_y: true
+#   color: main
 
 sections:
 - file: _header

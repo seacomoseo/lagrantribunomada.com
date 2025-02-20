@@ -6,3 +6,4 @@ box:
 list:
   type: event
   max: 4
+pb: 15
