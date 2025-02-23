@@ -17,9 +17,11 @@ inputs:
 
 - type: text
   name: Pseudónimo
-  hint: ¿Cómo quieres que te llamemos? (A ti, no a tu proyecto)
+  hint: ¿Cómo quieres que te llamemos? (A ti, no a tu proyecto / servicio)
   required: true
   full: true
+
+# Socio
 - type: text
   name: Nombre
   required: true
@@ -34,55 +36,115 @@ inputs:
   required: true
 - type: email
   name: Email Personal
-- type: textarea
-  name: Cómo
-  label: ¿Cómo nos has conocido?
-  required: true
 - type: number
   name: Cuota
   label: Cuota Consciente Anual
   hint: |
     ¿Cuánto sientes aportar?
   min: 0
+  full: true
+- type: textarea
+  name: Cómo
+  label: ¿Cómo nos has conocido?
+  required: true
+
+# Básico
 - type: checkbox
-  name: Proyecto
-  hint: |
-    ¿Tienes un proyecto que quieras que aparezca en nuestra web?
   options:
-  - option: Si
+  - option: Quiero que mi proyecto / servicio aparezca en vuestra web
     value: Proyecto
+  # name: Poyecto
+  # hint: |
+  #   ¿Quieres aparecer en nuestra web?
+  # - option: Si
+  #   value: Proyecto Personal
 
-- type: h3
-  label: Proyecto
+- type: h2
+  label: Proyecto / Servicio
   show_if: Proyecto
-
 - type: text
   name: Nombre Proyecto
-  hint: Nombre de tu proyecto
+  label: Nombre de tu Proyecto / Servicio
   required: true
+  show_if: Proyecto
+- type: checkbox
+  show_if: Proyecto
+  options:
+  - option: Ofrezco espacio
+    value: Espacio
+- type: content
+  content: |
+    Si cobras por el espacio, marca "Ofrezco servicio/s"
+    {.text-sm .align-left}
+  show_if: Proyecto&&Espacio
+- type: checkbox
+  show_if: Proyecto
+  options:
+  - option: Ofrezco servicio/s
+    value: Servicios
+- type: checkbox
+  show_if: Proyecto
+  options:
+  - option: Soy una comunidad
+    value: Comunidad
+- type: checkbox
+  show_if: Comunidad||Espacio
+  options:
+  - option: Acepto visitas
+    value: Visitable
+- type: textarea
+  name: Resumen
+  hint: Breve resumen sobre tu proyecto / servicio (máximo 155 caracteres)
+  max: 155
+  required: true
+  show_if: Proyecto
+- type: textarea
+  name: Descripción
+  label: Descripción larga
+  hint: ¿En qué consiste? ¿Cuál es tu objetivo/motivación? ¿Qué ofrece/s a la red?...
+  show_if: Proyecto
+- type: textarea
+  name: Ventajas
+  hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
+  required: true
+  show_if: Proyecto
+# - type: select
+#   name: Tipo
+#   label: Tipo de Proyecto
+#   hint: ¿Qué tipo de proyecto dispones?
+#   required: true
+#   show_if: Proyecto
+#   options:
+#   - option: Soy una comunidad
+#     value: Comunidades
+#   - option: Soy un espacio
+#     value: Espacios
+#   - option: Solo ofrezco servicios
+#     value: Servicios
+#   - option: Otro
+#     value: Otros
+- type: checkbox
+  show_if: Proyecto
+  options:
+  - option: Me apetece/interesa que me hagais una entrevista
+    value: Entrevistable
+# - type: check
+#   show_if: Proyecto
+#   name: Me apetece/interesa que me hagais una entrevista
+#   label: Entrevistable
+
+
+# Contacto
+- type: h3
+  label: Contacto
+  show_if: Proyecto
+- type: content
+  content: |
+    Los datos pueden ser diferentes al de socio
+    {.text-sm}
   show_if: Proyecto
 - type: text
   name: Email
-  hint: Puede ser diferente al de socio
-  show_if: Proyecto
-- type: file
-  name: Logo
-  hint: Adjunta tu logo (preferible en formato PNG con fondo transparente)
-  accept: image/*
-  show_if: Proyecto
-  base_name: Nombre Proyecto
-- type: file
-  name: Imágenes
-  hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
-  accept: image/*
-  multiple: true
-  max: 3
-  show_if: Proyecto
-  base_name: Nombre Proyecto
-- type: text
-  name: Vídeo
-  hint: Indica el enlace de un vídeo de Youtube o Vimeo sobre tu proyecto
-  full: true
   show_if: Proyecto
 - type: tel
   name: Teléfono
@@ -101,79 +163,88 @@ inputs:
   show_if: Proyecto
 - type: text
   name: Otro
-  label: Otra Red Social
+  label: Otro enlace relevante
   show_if: Proyecto
-- type: content
-  name: |
-    Ubicación que quieres que aparezca en el Mapa Interactivo
-    {.text-sm}
+
+# Ubicación
+- type: h3
+  label: Ubicación
+  show_if: Proyecto
+- type: checkbox
+  show_if: Proyecto
+  options:
+  - option: Quiero aparecer en el mapa interactivo
+    value: Mapa
   show_if: Proyecto
 - type: text
   name: Calle
-  show_if: Proyecto
+  show_if: Proyecto&&Mapa
 - type: text
   name: Número
-  show_if: Proyecto
+  show_if: Proyecto&&Mapa
 - type: text
   name: Puerta
-  show_if: Proyecto
+  show_if: Proyecto&&Mapa
 - type: text
   name: CP
   label: Código Postal
-  show_if: Proyecto
+  show_if: Proyecto&&Mapa
 - type: text
   name: Ciudad / Localidad
-  show_if: Proyecto
+  show_if: Proyecto&&Mapa
 - type: text
   name: Provincia
-  show_if: Proyecto
+  show_if: Proyecto&&Mapa
 - type: text
   name: País
-  show_if: Proyecto
+  show_if: Proyecto&&Mapa
 - type: geo
   name: Posición
-  show_if: Proyecto
   color: alt
-- type: textarea
-  name: Resumen
-  hint: Breve resumen sobre tu proyecto (máximo 155 caracteres)
-  max: 155
   required: true
+  show_if: Proyecto&&Mapa
+
+# Multimedia
+- type: h3
+  label: Multimedia
   show_if: Proyecto
-- type: textarea
-  name: Descripción
-  hint: ¿En qué consiste tu proyecto? ¿Cuál es tu objetivo/motivación? ¿Qué servicios ofrece/s a la red?...
+- type: file
+  name: Logo
+  hint: Adjunta tu logo (preferible en formato PNG con fondo transparente)
+  accept: image/*
   show_if: Proyecto
-- type: textarea
-  name: Ventajas
-  hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
-  required: true
+  base_name: Nombre Proyecto
+- type: file
+  name: Imágenes
+  hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
+  accept: image/*
+  multiple: true
+  max: 3
   show_if: Proyecto
-- type: select
-  name: Tipo
-  label: Tipo de Proyecto
-  hint: ¿Qué tipo de proyecto dispones?
-  required: true
+  base_name: Nombre Proyecto
+- type: text
+  name: Vídeo
+  hint: Indica el enlace relevante de un vídeo de Youtube o Vimeo
+  full: true
   show_if: Proyecto
-  options:
-  - option: Soy una comunidad
-    value: Comunidades
-  - option: Soy un espacio
-    value: Espacios
-  - option: Solo ofrezco servicios
-    value: Servicios
-  - option: Otro
-    value: Otros
+
+# Otros
+- type: h3
+  label: Otros
+  show_if: Proyecto
+
 - type: checkbox
-  name: Opciones
-  show_if: Proyecto
-  x: true
   options:
-  - option: Acepto visitas
-    value: Visitable
-  - option: Me apetece/interesa que me hagais una entrevista
-    value: Entrevistable
+  - option: Ofrezco mis dones y/o espacio para vuestros encuentros
+    value: Encuentros
+- type: textarea
+  name: Encuentros Descripción
+  label: Descripción sobre lo que ofreces
+  hint: Qué ofreces para nuestros encuentros (Esto no aparecerá públicamente)
+  required: true
+  show_if: Encuentros
+
 - type: textarea
   name: Observaciones
-  hint: ¿Alguna aclaración? (Esta información no aparecerá pública en el directorio)
-  show_if: Proyecto
+  hint: ¿Alguna aclaración? (Esto no aparecerá públicamente)
+  show_if: Proyecto||Encuentros

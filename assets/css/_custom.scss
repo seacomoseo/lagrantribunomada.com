@@ -26,6 +26,9 @@
 }
 
 // Form hint before
+.form {
+  align-items: flex-end;
+}
 .form__item {
   display: flex;
   flex-direction: column;
