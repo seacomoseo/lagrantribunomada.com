@@ -67,6 +67,12 @@ inputs:
   label: Nombre de tu Proyecto / Servicio
   required: true
   show_if: Proyecto
+
+- type: checkbox
+  show_if: Proyecto
+  options:
+  - option: Soy una comunidad
+    value: Comunidad
 - type: checkbox
   show_if: Proyecto
   options:
@@ -78,20 +84,16 @@ inputs:
     {.text-sm .align-left}
   show_if: Proyecto&&Espacio
 - type: checkbox
-  show_if: Proyecto
-  options:
-  - option: Ofrezco servicio/s
-    value: Servicios
-- type: checkbox
-  show_if: Proyecto
-  options:
-  - option: Soy una comunidad
-    value: Comunidad
-- type: checkbox
   show_if: Comunidad||Espacio
   options:
   - option: Acepto visitas
     value: Visitable
+- type: checkbox
+  show_if: Proyecto
+  options:
+  - option: Ofrezco servicio/s
+    value: Servicios
+
 - type: textarea
   name: Resumen
   hint: Breve resumen sobre tu proyecto / servicio (máximo 155 caracteres)
@@ -108,31 +110,12 @@ inputs:
   hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
   required: true
   show_if: Proyecto
-# - type: select
-#   name: Tipo
-#   label: Tipo de Proyecto
-#   hint: ¿Qué tipo de proyecto dispones?
-#   required: true
-#   show_if: Proyecto
-#   options:
-#   - option: Soy una comunidad
-#     value: Comunidades
-#   - option: Soy un espacio
-#     value: Espacios
-#   - option: Solo ofrezco servicios
-#     value: Servicios
-#   - option: Otro
-#     value: Otros
 - type: checkbox
   show_if: Proyecto
+  hint: Podemos entrevistarte por gusto o por visibilizarte publicándolo en nuestra web y/o RRSS
   options:
-  - option: Me apetece/interesa que me hagais una entrevista
+  - option: Acepto entrevistas
     value: Entrevistable
-# - type: check
-#   show_if: Proyecto
-#   name: Me apetece/interesa que me hagais una entrevista
-#   label: Entrevistable
-
 
 # Contacto
 - type: h3

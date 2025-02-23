@@ -32,6 +32,9 @@
 .form__item {
   display: flex;
   flex-direction: column;
+  &[data-showif].form__item--show {
+    display: flex;
+  }
 }
 .form__hint {
   order: -1;

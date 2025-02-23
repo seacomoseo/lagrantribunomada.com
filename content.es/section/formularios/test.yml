@@ -1,0 +1,76 @@
+name: Test
+title: Test
+content: |
+  Formulario solamente para pruebas
+size: sm
+form:
+  action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+  email: lorensansol@gmail.com
+inputs:
+
+- type: hidden
+  name: _sheetname
+  label: Test
+
+- type: tel
+  name: Teléfono
+
+- type: file
+  name: Imagen
+  hint: Adjunta una imagen
+  accept: image/*
+
+# - type: check
+#   name: Ejemplo
+#   label: Ejemplo molón
+
+# - type: text
+#   name: Nombre Proyecto
+
+# - type: checkbox
+#   options:
+#   - option: Ofrezco espacio
+#     value: Espacio
+# - type: content
+#   content: |
+#     Si cobras por el espacio, marca "Ofrezco servicio/s"
+#     {.text-sm .align-left}
+#   show_if: Espacio
+# - type: checkbox
+#   options:
+#   - option: Ofrezco servicio/s
+#     value: Servicios
+# - type: checkbox
+#   options:
+#   - option: Soy una comunidad
+#     value: Comunidad
+# - type: checkbox
+#   show_if: Comunidad||Espacio
+#   options:
+#   - option: Acepto visitas
+#     value: Visitable
+
+# - type: checkbox
+#   options:
+#   - option: Ofrezco mis dones y/o espacio para vuestros encuentros
+#     value: Encuentros
+# - type: textarea
+#   name: Encuentros Descripción
+#   label: Descripción sobre lo que ofreces
+#   hint: Qué ofreces para nuestros encuentros (Esto no aparecerá públicamente)
+#   required: true
+#   show_if: Encuentros
+
+# - type: file
+#   name: Logo
+#   hint: Adjunta tu logo (preferible en formato PNG con fondo transparente)
+#   accept: image/*
+#   base_name: Nombre Proyecto
+
+# - type: file
+#   name: Imágenes
+#   hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
+#   accept: image/*
+#   multiple: true
+#   max: 3
+#   base_name: Nombre Proyecto
