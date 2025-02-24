@@ -201,7 +201,6 @@ inputs:
   name: Imágenes
   hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
   accept: image/*
-  multiple: true
   max: 3
   show_if: Proyecto
   base_name: Nombre Proyecto

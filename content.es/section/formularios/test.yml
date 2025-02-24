@@ -12,13 +12,16 @@ inputs:
   name: _sheetname
   label: Test
 
-- type: tel
-  name: Teléfono
+- type: file
+  name: Imagen HEIC
+  hint: Adjunta una imagen en formato HEIC
+  accept: image/heic,image/heif
 
 - type: file
-  name: Imagen
-  hint: Adjunta una imagen
-  accept: image/*
+  name: Imagen Otra
+  hint: Adjunta una imagen en otro formato
+  accept: .png,.jpg,.jpeg,.gif,.webp
+  max: 2
 
 # - type: check
 #   name: Ejemplo
@@ -71,6 +74,5 @@ inputs:
 #   name: Imágenes
 #   hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
 #   accept: image/*
-#   multiple: true
 #   max: 3
 #   base_name: Nombre Proyecto
