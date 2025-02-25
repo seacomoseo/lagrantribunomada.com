@@ -17,9 +17,8 @@ inputs:
 
 - type: text
   name: Pseudónimo
-  hint: ¿Cómo quieres que te llamemos? (A ti, no a tu proyecto / servicio)
+  hint: ¿Cómo quieres que te llamemos? <br> (A ti, no a tu proyecto / servicio)
   required: true
-  full: true
 
 # Socio
 - type: text
@@ -39,25 +38,18 @@ inputs:
 - type: number
   name: Cuota
   label: Cuota Consciente Anual
-  hint: |
-    ¿Cuánto sientes aportar?
+  hint: ¿Cuánto sientes aportar?
   min: 0
-  full: true
 - type: textarea
   name: Cómo
   label: ¿Cómo nos has conocido?
   required: true
 
 # Básico
-- type: checkbox
-  options:
-  - option: Quiero que mi proyecto / servicio aparezca en vuestra web
-    value: Proyecto
-  # name: Poyecto
-  # hint: |
-  #   ¿Quieres aparecer en nuestra web?
-  # - option: Si
-  #   value: Proyecto Personal
+- type: check
+  name: Proyecto
+  label: Quiero que mi proyecto / servicio aparezca en vuestra web
+  full: true
 
 - type: h2
   label: Proyecto / Servicio
@@ -68,31 +60,27 @@ inputs:
   required: true
   show_if: Proyecto
 
-- type: checkbox
+- type: check
+  name: Comunidad
+  label: Soy una comunidad
   show_if: Proyecto
-  options:
-  - option: Soy una comunidad
-    value: Comunidad
-- type: checkbox
+- type: check
+  name: Espacio
+  label: Ofrezco espacio
   show_if: Proyecto
-  options:
-  - option: Ofrezco espacio
-    value: Espacio
 - type: content
   content: |
     Si cobras por el espacio, marca "Ofrezco servicio/s"
     {.text-sm .align-left}
   show_if: Proyecto&&Espacio
-- type: checkbox
+- type: check
+  name: Visitable
+  label: Acepto visitas
   show_if: Comunidad||Espacio
-  options:
-  - option: Acepto visitas
-    value: Visitable
-- type: checkbox
+- type: check
+  name: Servicios
+  label: Ofrezco servicio/s
   show_if: Proyecto
-  options:
-  - option: Ofrezco servicio/s
-    value: Servicios
 
 - type: textarea
   name: Resumen
@@ -110,12 +98,12 @@ inputs:
   hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
   required: true
   show_if: Proyecto
-- type: checkbox
-  show_if: Proyecto
+- type: check
+  name: Entrevistable
+  label: Acepto entrevistas
   hint: Podemos entrevistarte por gusto o por visibilizarte publicándolo en nuestra web y/o RRSS
-  options:
-  - option: Acepto entrevistas
-    value: Entrevistable
+  full: true
+  show_if: Proyecto
 
 # Contacto
 - type: h3
@@ -128,6 +116,7 @@ inputs:
   show_if: Proyecto
 - type: text
   name: Email
+  full: true
   show_if: Proyecto
 - type: tel
   name: Teléfono
@@ -137,6 +126,7 @@ inputs:
   show_if: Proyecto
 - type: text
   name: Web
+  label: Sitio Web
   show_if: Proyecto
 - type: text
   name: Instagram
@@ -153,11 +143,10 @@ inputs:
 - type: h3
   label: Ubicación
   show_if: Proyecto
-- type: checkbox
-  show_if: Proyecto
-  options:
-  - option: Quiero aparecer en el mapa interactivo
-    value: Mapa
+- type: check
+  name: Mapa
+  label: Quiero aparecer en el mapa interactivo
+  full: true
   show_if: Proyecto
 - type: text
   name: Calle
@@ -178,9 +167,16 @@ inputs:
 - type: text
   name: Provincia
   show_if: Proyecto&&Mapa
-- type: text
+- type: select
   name: País
   show_if: Proyecto&&Mapa
+  options:
+  - option: 🇪🇸 España
+    value: ES
+  - option: 🇵🇹 Portugal
+    value: PT
+  - option: 🇫🇷 Francia
+    value: FR
 - type: geo
   name: Posición
   color: alt
@@ -215,10 +211,10 @@ inputs:
   label: Otros
   show_if: Proyecto
 
-- type: checkbox
-  options:
-  - option: Ofrezco mis dones y/o espacio para vuestros encuentros
-    value: Encuentros
+- type: check
+  name: Encuentros
+  label: Ofrezco mis dones y/o espacio para vuestros encuentros
+  full: true
 - type: textarea
   name: Encuentros Descripción
   label: Descripción sobre lo que ofreces
