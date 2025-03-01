@@ -1,0 +1,23 @@
+name: Reserva Enviada
+if: booking
+id: reserva-enviada
+hanchor: Reserva Enviada
+title: Importante
+content: |
+  El formulario de reserva para **🌈 OSTARA** se ha enviado correctamente, pero todavía hay más.
+
+  Para que la reserva se haga efectiva, debes ingresar tu aportación consciente mediante bizum
+  a este número de móvil (**Naiht**):
+
+  [+34 665 56 19 23](tel:+34665561923)
+  {.h0 .align-center}
+
+  Con el concepto
+  "<u>OSTARA [mismos nombres que en formulario]</u>"
+  (quitando corchetes) y enviarle un WhatsApp con el texto
+  "<u>BIZUM OSTARA HECHO [mismos nombres que en formulario]</u>".
+
+  Tras esto te agregaremos al grupo de WhatsApp del encuentro.
+
+  ¡Muchas gracias!
+size: xs

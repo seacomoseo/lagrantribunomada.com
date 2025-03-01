@@ -8,4 +8,6 @@ noindex: true
 
 sections:
 - file: formularios/rezagados
+  modals:
+  - file: formularios/reserva-enviada-rezagados
 ---
