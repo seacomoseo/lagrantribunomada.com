@@ -12,7 +12,7 @@ let bounds
 
 function mapStart () {
   // base
-  const map = window.L.map('map', {
+  const map = L.map('map', {
     trackResize: true,
     scrollWheelZoom: false
   }) // .setView([40.007, -2.488], initialZoom)
@@ -20,7 +20,7 @@ function mapStart () {
   tile(map)
 
   // Crear un solo cluster para todos los marcadores
-  donutCluster = window.L.DonutCluster({
+  donutCluster = L.DonutCluster({
     chunkedLoading: true
   }, {
     key: 'category',
@@ -43,7 +43,7 @@ function mapStart () {
   fetch('/index.json')
     .then(response => response.json())
     .then(data => {
-      bounds = window.L.latLngBounds() // Crea límites manualmente
+      bounds = L.latLngBounds() // Crea límites manualmente
 
       // Añadir marcadores al cluster para cada tipo
       addMarkersToCluster(data, 'Comunidades', 'cornflowerblue', 'people-group')
@@ -59,7 +59,7 @@ function mapStart () {
         [overlayMap('Otros', 'violet', 'bullseye-arrow')]: donutCluster
       }
 
-      /* const layerControl = */ window.L.control.layers(null, overlayMaps, { collapsed: false }).addTo(map)
+      /* const layerControl = */ L.control.layers(null, overlayMaps, { collapsed: false }).addTo(map)
 
       // Controlar la visibilidad de las capas
       map.on('overlayadd', function (eventLayer) {
@@ -74,7 +74,7 @@ function mapStart () {
 
       // popup over top elements when popupopen in small screen sizes
       const mapPane = document.querySelector('.leaflet-map-pane')
-      if (window.innerWidth < 480) {
+      if (innerWidth < 480) {
         map.on('popupopen', () => { mapPane.style.zIndex = 10000 })
         map.on('popupclose', () => { mapPane.style.zIndex = '' })
       }
@@ -95,7 +95,7 @@ function addMarkersToCluster (data, type, color, iconId) {
       content = content.replace(/<li>(.*?)<\/li>/g, `<li class="li-icon"><svg class="icon"><use xlink:href="/draws.${timestamp}.svg#hyphen"></use></svg> <div>$1</div></li>`)
       let geo = item.address.geo
       if (geo) geo = JSON.parse(geo).coordinates
-      const marker = window.L.marker([geo[1], geo[0]], { icon: icon(color, iconId), title: item.title }).bindPopup(content)
+      const marker = L.marker([geo[1], geo[0]], { icon: icon(color, iconId), title: item.title }).bindPopup(content)
       marker.feature = { properties: { category: type } } // Añadir categoría como propiedad del marcador
       donutCluster.addLayer(marker)
       bounds.extend(marker.getLatLng())
@@ -104,7 +104,7 @@ function addMarkersToCluster (data, type, color, iconId) {
 }
 
 function icon (color, iconId) {
-  return window.L.divIcon({
+  return L.divIcon({
     className: 'leaflet-data-marker',
     html: `<svg class="leaflet-data-marker__svg" viewBox="0 -5 149 188"><path fill="${color}" stroke="white" stroke-width="12" paint-order="stroke" stroke-miterlimit="10" d="M126 23l-6-6A69 69 0 0 0 74 1a69 69 0 0 0-51 22A70 70 0 0 0 1 74c0 21 7 38 22 52l43 47c6 6 11 6 16 0l48-51c12-13 18-29 18-48 0-20-8-37-22-51z"/><use fill="white" href="/draws.${timestamp}.svg#${iconId}" x="36" y="16" transform="scale(.67)"></use></svg>`,
     iconAnchor: [24, 50],
