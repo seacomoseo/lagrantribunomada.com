@@ -44,7 +44,7 @@ colors:
     light: ''
     dark: ''
     contrast: text
-  link:
+  cta:
     color: ''
     light: ''
     dark: ''

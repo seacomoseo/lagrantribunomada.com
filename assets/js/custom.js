@@ -90,9 +90,9 @@ function addMarkersToCluster (data, type, color, iconId) {
       if (item.image) content += `<img src="${item.image}" width=512 height=512>`
       content += `<h3 class="h5"><a href="${item.link}">${item.title}</a></h3>`
       if (item.summary) content += `<p>${item.summary}</p>`
-      if (item.visitable) content += `<h3 class="compare">Acepta visitas <svg><use xlink:href="/draws.${timestamp}.svg#check"></use></svg></h3>`
-      content += `<p><a class="button alt" href="${item.link}"><svg><use href="/draws.${timestamp}.svg#circle-info"></use></svg> MÁS</a></p>`
-      content = content.replace(/<li>(.*?)<\/li>/g, `<li class="li-svg"><svg><use xlink:href="/draws.${timestamp}.svg#hyphen"></use></svg> <div>$1</div></li>`)
+      if (item.visitable) content += `<h3 class="compare">Acepta visitas <svg class="icon"><use xlink:href="/draws.${timestamp}.svg#check"></use></svg></h3>`
+      content += `<p><a class="button alt" href="${item.link}"><svg class="icon"><use href="/draws.${timestamp}.svg#circle-info"></use></svg> MÁS</a></p>`
+      content = content.replace(/<li>(.*?)<\/li>/g, `<li class="li-icon"><svg class="icon"><use xlink:href="/draws.${timestamp}.svg#hyphen"></use></svg> <div>$1</div></li>`)
       let geo = item.address.geo
       if (geo) geo = JSON.parse(geo).coordinates
       const marker = window.L.marker([geo[1], geo[0]], { icon: icon(color, iconId), title: item.title }).bindPopup(content)

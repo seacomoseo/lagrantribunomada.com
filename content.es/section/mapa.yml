@@ -6,9 +6,9 @@ content: |
 size: xl
 boxes:
 - content: |
-    [btn icon:rocket          Proyectos ](/proyectos/)
-    [btn:invert icon:bookmark Categorías](/categorias/)
-    [btn:alt icon:star        ¡Únete!   ](/alta/)
+    [[:rocket:   Proyectos ]](/proyectos/)
+    [[:bookmark: Categorías]](/categorias/ "[invert]")
+    [[:star:     ¡Únete!   ]](/alta/ "[alt]")
 
-    icon:hyphen
+    :hyphen:
     {.hide}

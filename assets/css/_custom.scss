@@ -1,5 +1,5 @@
 // .bg-main,
-// .bg-link {
+// .bg-cta {
 //   --main: #{$main-dark};
 // }
 
@@ -8,10 +8,10 @@
 }
 
 // Underline
-.href {
-  --href-undeline-width: calc(var(--outline) / 2);
+.link {
+  --link-undeline-width: calc(var(--outline) / 2);
 }
-.content .href:not(#toc *, #breadcrumbs *, .list-inline *, .content__heading *) {
+.content .link:not(#toc *, #breadcrumbs *, .list-inline *, .content__heading *) {
   background-size: 100% 100%;
   &:hover {
     background-size: 0 100%;
@@ -211,9 +211,9 @@ button:not(.button--dot) {
 
 .type-project {
   #content ul {
-    .href {
+    .link {
       @include font-base;
-      --link: var(--invert);
+      --cta: var(--invert);
       background-size: 0 100%;
       &:hover {
         background-size: 100% 100%;

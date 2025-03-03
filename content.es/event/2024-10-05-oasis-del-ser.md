@@ -23,7 +23,7 @@ address:
 
 Somos la gran tribu nómada 👣 y estamos en pleno movimiento visitando proyectos de la comunidad valenciana 🗺️
 
-Este sábado 05 de octubre estaremos en “[Oasis Artístico](https://maps.app.goo.gl/354g4ZwTGrskpstn6 "nofollow")” 🌴 en Almenara (Castellón) 📍
+Este sábado 05 de octubre estaremos en “[Oasis Artístico](https://maps.app.goo.gl/354g4ZwTGrskpstn6 "[nofollow]")” 🌴 en Almenara (Castellón) 📍
 
 ¿Te apetece visitarlo con nosotres? ¡Te contamos lo que tenemos planeado para esta convivencia! 😍
 
@@ -42,10 +42,10 @@ Este sábado 05 de octubre estaremos en “[Oasis Artístico](https://maps.app.g
 
 ## 📲 Info y Reservas
 
-[btn:whatsapp icon:whatsapp Xemi → 699 19 00 09](https://wa.me/34699190009 "nofollow")
+[[:whatsapp: Xemi → 699 19 00 09]](https://wa.me/34699190009 "[nofollow whatsapp]")
 
 Estamos tejiendo la red, dando lugar a que proyectos maravillosos se expandan y a que personas mágicas se conecten. Si quieres ser parte y apoyar este sueño, ¡te esperamos! 🩵✨
 
-[btn:alt-font-alt icon:instagram @oasisartistico](https://www.instagram.com/oasisartistico/ "nofollow")
+[[:instagram: @oasisartistico]](https://www.instagram.com/oasisartistico/ "[nofollow alt-font-alt]")
 
-[btn:alt Únete a la red 😉](/#como-entrar)
+[[Únete a la red 😉]](/#como-entrar "[alt]")

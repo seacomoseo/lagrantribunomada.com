@@ -2,9 +2,9 @@ name: Redes
 title: Redes
 subtitle: '@lagrantribunomada'
 content: |
-  [btn:whatsapp icon:whatsapp  Comunidad     ](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "nofollow")
-  [btn:alt icon:telegram      Canal Noticias](https://t.me/lagrantribunomada                   "nofollow")
-  [btn:alt icon:instagram     Instagram     ](https://www.instagram.com/lagrantribunomada/     "nofollow")
-  [btn:alt icon:youtube        Youtube       ](https://www.youtube.com/@lagrantribunomada       "nofollow")
+  [[:whatsapp:  Comunidad     ]](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow whatsapp]")
+  [[:telegram:  Canal Noticias]](https://t.me/lagrantribunomada                   "[nofollow alt]")
+  [[:instagram: Instagram     ]](https://www.instagram.com/lagrantribunomada/     "[nofollow alt]")
+  [[:youtube:   Youtube       ]](https://www.youtube.com/@lagrantribunomada       "[nofollow alt]")
 align: center
 pt: 10

@@ -12,10 +12,12 @@ contact:
   ofuscate: true
   ga4: true
   button: dark
+- type: br
 - type: phone
   label: 699 19 00 09
 - type: phone
   label: 638 61 03 22
+- type: br
 - type: mail
   label: info@lagrantribunomada.com
   button: invert

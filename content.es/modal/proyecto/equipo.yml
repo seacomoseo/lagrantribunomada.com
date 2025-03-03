@@ -64,7 +64,7 @@ boxes:
     image: equipo/perruno/momo.jpg
     title: Momo
     subtitle: El Oso
-    content: Arrambla por donde pasa, ¡to bonico! icon:heart
+    content: 'Arrambla por donde pasa, ¡to bonico! :heart:'
   - icon: dog
     image: equipo/perruno/guiro.jpg
     title: Güiro

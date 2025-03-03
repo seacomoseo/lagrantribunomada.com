@@ -1,9 +1,9 @@
 name: Alta
 title: Hazte Soci@
 content: |
-  [btn ¿Cómo Entrar?](#como-entrar)
+  [[¿Cómo Entrar?]](#como-entrar)
 
-  icon:asterisk Cuota consciente, [aporta lo que sientas](/#donaciones) anualmente.
+  :asterisk: Cuota consciente, [aporta lo que sientas](/#donaciones) anualmente.
 size: sm
 form:
   action: https://script.google.com/macros/s/AKfycbwfPh0W-ZybAtECYFO0BhUaTrEK6E-JXNKzqlnYPoF4QYtKGRdnSEXBeQDB9qWtwoc21Q/exec
@@ -113,6 +113,7 @@ inputs:
   content: |
     Los datos pueden ser diferentes al de socio
     {.text-sm}
+  full: true
   show_if: Proyecto
 - type: text
   name: Email
