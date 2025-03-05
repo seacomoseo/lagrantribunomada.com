@@ -141,6 +141,7 @@ if (mapa) {
       }).catch(error => {
         console.error(error)
       })
-    }
+    },
+    doEnd: () => null // For unobserve
   })
 }
