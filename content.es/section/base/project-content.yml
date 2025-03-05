@@ -35,9 +35,10 @@ boxes:
 
 - if: address.geo
   title: Ubicación
-  zoom: 6
   rate: 1/1
   map:
+    zoom: 6
+  geos:
   - type: point
     geo: '{{ param address.geo }}'
     color: alt

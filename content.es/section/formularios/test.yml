@@ -15,6 +15,7 @@ inputs:
 
 - type: text
   name: Nombre Proyecto
+  required: true
 
 - type: check
   name: Comunidad

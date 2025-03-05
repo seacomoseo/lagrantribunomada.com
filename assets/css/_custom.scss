@@ -100,26 +100,9 @@ button:not(.button--dot) {
   height: calc(100svh - 10em);
   border-radius: $radius;
   filter: drop-shadow($shadow);
-  // container: map / size;
-  .leaflet-control-zoom a {
-    font-family: unset;
-    font-weight: unset;
-    // line-height: unset;
-    font-size: 1rem;
-  }
-  .leaflet-control-layers-list {
-    // font-size: 1.25em;
-    padding-block: 0;
-    text-align: left;
-  }
-  .leaflet-control-layers-selector {
-    display: none;
-    + span {
-      font-size: 1em;
-      svg {
-        width: 1.5em;
-        height: 1.5em;
-      }
+  .leaflet-control-layers:first-child {
+    .leaflet-control-layers-selector {
+      display: none;
     }
   }
   .leaflet-marker-icon,
@@ -128,18 +111,13 @@ button:not(.button--dot) {
   }
   .leaflet-popup-close-button {
     top: 20px;
-    right: 25px;
+    right: 20px;
     background-color: var(--alt);
     border-radius: 50%;
     color: white;
   }
   .leaflet-popup-content-wrapper {
     border-radius: calc(20px + #{$radius});
-    background: var(--dark);
-    color: var(--light);
-  }
-  .leaflet-popup-tip {
-    background: var(--dark);
   }
   .leaflet-popup-content {
     width: max-content;

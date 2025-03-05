@@ -17,8 +17,6 @@ function mapStart () {
     scrollWheelZoom: false
   }) // .setView([40.007, -2.488], initialZoom)
 
-  tile(map)
-
   // Crear un solo cluster para todos los marcadores
   donutCluster = L.DonutCluster({
     chunkedLoading: true
@@ -60,6 +58,8 @@ function mapStart () {
       }
 
       /* const layerControl = */ L.control.layers(null, overlayMaps, { collapsed: false }).addTo(map)
+
+      tile(map)
 
       // Controlar la visibilidad de las capas
       map.on('overlayadd', function (eventLayer) {
