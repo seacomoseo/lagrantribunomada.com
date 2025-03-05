@@ -39,6 +39,8 @@ Y todo lo que nos ayude a sostener esta preciosa familia 👩‍❤️‍👩...
 - Respeta la intención del grupo 👣
 - Si dudas qué compartir, pregúntanos ❓
 
+[[:whatsapp: Grupo 🩵 AMORÍGENES 🩵]](https://chat.whatsapp.com/JddRsib2DYQKtS50a9IEjZ "[nofollow whatsapp]")
+
 
 ## 🪄 SERVICIOS 🪄
 
@@ -61,6 +63,8 @@ Y todo lo que ayude a crear una red autónoma en la que apoyarnos mutuamente ent
 - Respeta la intención del grupo 🙏🏽
 - No es un grupo social, para eso entra en [🩵 AMORÍGENES 🩵](#amorigenes)
 - Si dudas qué compartir, pregúntanos ❓
+
+[[:whatsapp: Grupo 🪄 SERVICIOS 🪄]](https://chat.whatsapp.com/GPge8QjNCb5LY8PfwTOu6O "[nofollow whatsapp]")
 
 
 ## ⛺ TRIBNB ⛺
@@ -85,6 +89,8 @@ Y todo lo que ayude a crear una red autónoma en la que apoyarnos mutuamente ent
 - No es un grupo social, para eso entra en [🩵 AMORÍGENES 🩵](#amorigenes)
 - Si alquilas o vendes entra en [🪄 SERVICIOS 🪄](#servicios)
 - Si dudas qué compartir, pregúntanos❓
+
+[[:whatsapp: Grupo ⛺ TRIBNB ⛺]](https://chat.whatsapp.com/E1QVEsh7I7VGVMQaiKGebT "[nofollow whatsapp]")
 
 
 ## 🗣️ GRAN FORO TRIBAL 🗣️
@@ -112,12 +118,16 @@ Y todo lo que nos ayude a nutrir a esta preciosa familia 👩‍❤️‍👩...
 - Respeta la intención del grupo 👣
 - Si dudas qué compartir, pregúntanos❓
 
+[[:whatsapp: Grupo 🗣️ GRAN FORO TRIBAL 🗣️]](https://chat.whatsapp.com/H7X2CQcahnoHB5rhapOw6a "[nofollow whatsapp]")
+
 
 ## 🚐 CARAVANA AMORIGEN 🚐
 
 Este grupo es para gestionar y coordinar la ruta actual de la [Caravana 🚐  AMORÍGEN 🩵](/#caravana-amorigen)
 
 Si vas a formar parte de la Caravana, solicita entrar en este grupo para unirte a la ruta 🗺️
+
+[[:whatsapp: Grupo 🚐 CARAVANA AMORIGEN 🚐]](https://chat.whatsapp.com/KOqT75eGaaa2oqwQdPr5M7 "[nofollow whatsapp]")
 
 
 ---
