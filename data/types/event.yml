@@ -24,8 +24,8 @@ template:
     card: true
     rate: 3/4
     color: dark
-    declive: false
-    content: hide
+    shade: false
+    md: hide
     button: hide
     tags:
     - type: date

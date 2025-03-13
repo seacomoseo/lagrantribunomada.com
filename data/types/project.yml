@@ -14,18 +14,18 @@ template:
   - file: base/related
   list:
     cols: 4
-    cols_min: 2
+    cols_vs: 2
     color: dark
     image: base/icon.svg
-    declive: false
+    shade: false
     ratio: 1/1
     # contain: true
     inset: false
     align: center
-    content: hide
-    # licon: circle-info
+    md: hide
+    # pin: circle-info
     # label: MÁS
-    # font_alt: true
+    # swap: true
     # button: alt
     button: hide
     # tags:
@@ -38,4 +38,4 @@ es:
   image: null # string image path
   seo: null # string
   description: null # string
-  content: null # string block
+  md: null # string block

@@ -1,11 +1,11 @@
 name: Mapa
 title: Mapa
 subtitle: Amorígenes, Comunidades y Espacios
-content: |
+md: |
   <div id="map"></div>
 size: xl
 boxes:
-- content: |
+- md: |
     [[:rocket:   Proyectos ]](/proyectos/)
     [[:bookmark: Categorías]](/categorias/ "[invert]")
     [[:star:     ¡Únete!   ]](/alta/ "[alt]")

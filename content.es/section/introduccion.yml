@@ -12,7 +12,7 @@ boxes:
 #   parallax: soft
 - image: fotos/2024-05-10-014.png
   parallax: box
-- content: |
+- md: |
     Esta historia comienza con la certeza de cómo absolutamente **todo** lo que te pasa es una **oportunidad**. Nace de la unión de personitas buscadoras llenas de potencial y gustosas de compartir ese camino desde un corazón abierto, en hermandad y horizontalidad.
 
     Somos soñador@s natos y sabemos que, cuando las cabezas y los corazones se juntan, el potencial, el aprendizaje y la diversión se multiplican exponencialmente.

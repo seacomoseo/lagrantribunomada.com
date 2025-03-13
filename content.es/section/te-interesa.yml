@@ -2,7 +2,7 @@ name: ¿Te Interesa?
 title: ¿Te Interesa?
 box:
   cols: 5
-  cols_min: 2
+  cols_vs: 2
   hs: 5
   button: alt
 boxes:

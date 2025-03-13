@@ -11,9 +11,9 @@ template:
     cols: 4
     color: white
     icon: hide
-    declive: true
+    shade: true
     ratio: 16/9
     inset: true
     align: left
-    content: hide
+    md: hide
     button: hide

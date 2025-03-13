@@ -19,9 +19,9 @@ callnow:
   show: auto
 section:
 - uppercase: true
-  divider: brush
-# - flip_x: true
-#   flip_y: true
+  div: brush
+# - div_x: true
+#   div_y: true
 #   color: main
 
 sections:

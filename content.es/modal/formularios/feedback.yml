@@ -2,7 +2,7 @@ name: Feedback
 if: feedback
 id: feedback
 title: Feedback {{ param title }}
-content: |
+md: |
   Gracias a tu opinión, podremos mejorar los futuros encuentros y todo lo que rodea a LGTN 🫂💕♾️
 
   Ningún campo es obligatorio 🫶

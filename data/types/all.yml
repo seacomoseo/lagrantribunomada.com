@@ -54,7 +54,7 @@ template:
     cols: 3
     button: hide
     icon: hide
-    declive: true
+    shade: true
     ratio: 16/9
     inset: true
     align: left

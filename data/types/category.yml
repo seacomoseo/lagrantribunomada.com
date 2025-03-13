@@ -6,21 +6,19 @@ taxonomy_of:
 - name: project
   multiple: false
   breadcrumbs: true
-params:
-- name: ~BOX_ICON_ID
 template:
   list:
     cols: 4
-    cols_min: 2
+    cols_vs: 2
     card: false
     color: ''
     # ratio: 3/2
-    declive: false
+    shade: false
     image: hide
     icon: bookmark
     align: center
     hs: 2
-    content: hide
+    md: hide
     button: alt
-    licon: circle-info
+    pin: circle-info
     label: MÁS

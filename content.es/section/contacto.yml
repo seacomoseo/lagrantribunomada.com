@@ -21,7 +21,7 @@ contact:
 - type: mail
   label: info@lagrantribunomada.com
   button: invert
-  font_alt: true
+  swap: true
 form:
   action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
   email: lagrantribunomada@gmail.com

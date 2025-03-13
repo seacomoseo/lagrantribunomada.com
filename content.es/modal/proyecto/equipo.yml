@@ -9,9 +9,9 @@ box:
 boxes:
 - box:
     circle: true
-    grayscale: true
+    gray: true
     cols: 4
-    cols_min: 2
+    cols_vs: 2
     gap: 3
     gap_ny: 1
     icon_type: bottom
@@ -20,42 +20,42 @@ boxes:
     image: equipo/indira.jpg
     title: Indira
     subtitle: La Hechicera
-    content: Te hace unas terapias que flipas en colores (guiño guiño)
+    md: Te hace unas terapias que flipas en colores (guiño guiño)
   - icon: user-cowboy
     image: equipo/xemi.jpg
     title: Xemi
     subtitle: El Fenicio
-    content: Organiza cosas, ¿a quién no le va a gustar un fenicio del siglo 1º?
+    md: Organiza cosas, ¿a quién no le va a gustar un fenicio del siglo 1º?
   - icon: user-ninja
     image: equipo/loren.jpg
     title: Loren
     subtitle: El Bailongo
-    content: Te saca tu eneatipo con ChatGPT y te diseña una web con eso
+    md: Te saca tu eneatipo con ChatGPT y te diseña una web con eso
   - icon: user-astronaut
     image: equipo/paula.jpg
     title: Paula
     subtitle: La Electroduende
-    content: Fantasía audiovisual y emocional everywhere, all time
+    md: Fantasía audiovisual y emocional everywhere, all time
   - icon: user-vneck-hair-long
     image: equipo/lua.jpg
     title: Lua
     subtitle: La Artemisana
-    content: Esencias de cosas naturales que huelen mu rico
+    md: Esencias de cosas naturales que huelen mu rico
   - icon: user-shakespeare
     image: equipo/naiht.jpg
     title: Naiht
     subtitle: El Personaje
-    content: Con el juego y el teatro te explota el coco poco a poco
+    md: Con el juego y el teatro te explota el coco poco a poco
   - icon: user-robot
     image: equipo/rafa.jpg
     title: Rafa
     subtitle: El Solucionador
-    content: Te hace Φ con un canuto impreso en 3D con sal del himalaya
+    md: Te hace Φ con un canuto impreso en 3D con sal del himalaya
 - box:
     circle: true
-    grayscale: true
+    gray: true
     cols: 4
-    cols_min: 2
+    cols_vs: 2
     gap: 3
     gap_ny: 1
     icon_type: bottom
@@ -64,29 +64,29 @@ boxes:
     image: equipo/perruno/momo.jpg
     title: Momo
     subtitle: El Oso
-    content: 'Arrambla por donde pasa, ¡to bonico! :heart:'
+    md: 'Arrambla por donde pasa, ¡to bonico! :heart:'
   - icon: dog
     image: equipo/perruno/guiro.jpg
     title: Güiro
     subtitle: El ComeCaras
-    content: Si bostezas te chupa la campanilla
+    md: Si bostezas te chupa la campanilla
   - icon: dinosaur
     image: equipo/perruno/paco.jpg
     title: Paco
     subtitle: El Veterano
-    content: El más sabio y experimentado de todos
+    md: El más sabio y experimentado de todos
   - icon: dolphin
     image: equipo/perruno/romeo.jpg
     title: Romeo
     subtitle: El Sireno
-    content: Canto angelical, trompacelga y paraico
+    md: Canto angelical, trompacelga y paraico
   - icon: dragon
     image: equipo/perruno/yang.jpg
     title: Yang
     subtitle: El Chino
-    content: Perro medicina y protector de la manada
+    md: Perro medicina y protector de la manada
   - icon: paw-claws
     image: equipo/perruno/akela.jpg
     title: Akela
     subtitle: La Loba
-    content: La compitrueno de Mowgli a.k.a. Artemisana
+    md: La compitrueno de Mowgli a.k.a. Artemisana

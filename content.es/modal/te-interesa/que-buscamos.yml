@@ -2,7 +2,7 @@ name: que Buscamos
 icon: person-through-window
 title: ¿Qué Buscamos?
 size: lg
-content: |
+md: |
   Personas cuyo estilo de vida se dirige hacia la soberanía, la libertad y el disfrute de la vida en red:
 align: center
 box:
@@ -10,17 +10,17 @@ box:
 boxes:
 - icon: dove
   title: Nómades
-  content: |
+  md: |
     Estilo de vida nómada permanente o intermitente.
 
     Si tu intención es iniciarte en este estilo de vida o tienes curiosidad, súmate, en tribu es más sencillo.
 - icon: elephant
   title: Comunidades
-  content: |
+  md: |
     Espacios de convivencia, voluntariado y creación en los que la motivación sea caminar en tribu, lograr autonomía, contacto con la naturaleza, restaurar espacios con potencial…
 - icon: cat
   title: Freelancer
-  content: |
+  md: |
     Emprendedores, artistas, personas que quieren desarrollar su potencial y su economía de manera independiente.
 
     Si estás planteándote este camino, estás empezando o te encuentras en el proceso de descubrir tus dones, también este es tu espacio.

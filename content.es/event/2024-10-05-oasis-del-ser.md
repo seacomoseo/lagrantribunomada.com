@@ -46,6 +46,6 @@ Este sábado 05 de octubre estaremos en “[Oasis Artístico](https://maps.app.g
 
 Estamos tejiendo la red, dando lugar a que proyectos maravillosos se expandan y a que personas mágicas se conecten. Si quieres ser parte y apoyar este sueño, ¡te esperamos! 🩵✨
 
-[[:instagram: @oasisartistico]](https://www.instagram.com/oasisartistico/ "[nofollow alt-font-alt]")
+[[:instagram: @oasisartistico]](https://www.instagram.com/oasisartistico/ "[nofollow alt-swap]")
 
 [[Únete a la red 😉]](/#como-entrar "[alt]")

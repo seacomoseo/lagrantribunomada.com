@@ -3,9 +3,9 @@ icon: hands-holding-heart
 title: Valores
 box:
   cols: 1
-  gap_min: 3
+  gap_vs: 3
 boxes:
-- content: |
+- md: |
     - *Humildad*
     - *Honestidad*
     - *Respeto	Compromiso*
@@ -33,7 +33,7 @@ boxes:
     - *Agradecimiento*
     {.list-inline .h4}
 - title: Y cuando viajamos o visitamos…
-  content: |
+  md: |
     - Respeto a la **naturaleza** (animales, entorno, contaminación acústica…).
     - **Conciencia ambiental** (plásticos, basura, reutilizar. reciclar, productos naturales…).
     - **Integración** con el entorno y respeto de la vecindad y comunidad asentada.

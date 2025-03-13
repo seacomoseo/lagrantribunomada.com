@@ -1,7 +1,7 @@
 name: Footer
 color: similar
-divider: brush
-gap_y: 2
+div: brush
+space: 2
 boxes:
 - social:
   - link: https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
@@ -10,7 +10,7 @@ boxes:
     icon: telegram
   - link: https://www.instagram.com/lagrantribunomada/
   - link: https://www.youtube.com/@lagrantribunomada
-- content: |
+- md: |
     - :copyright:      {{< internal-link index >}}
     - :scale-balanced: {{< internal-link legal >}}
     - :shield-keyhole: {{< internal-link privacy >}}

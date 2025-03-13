@@ -3,7 +3,7 @@ id: proyecto
 title: El Proyecto
 box:
   cols: 4
-  cols_min: 2
+  cols_vs: 2
   hs: 3
   button: alt
 boxes:

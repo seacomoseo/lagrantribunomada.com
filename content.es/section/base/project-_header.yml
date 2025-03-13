@@ -5,9 +5,9 @@ align: left
 boxes:
 - if: breadcrumbs
   node: nav
-  content: |
-    {{< breadcrumbs >}}
-- title: '{{% param title %}}'
+  md: '{{< breadcrumbs >}}'
+- params:
+  - box: title
 - tag: row
   tags:
   - type: type
@@ -17,5 +17,8 @@ boxes:
 - if: image
   alt: 'Logo de {{ param title }}'
   params:
-  - page: image
-    box: image
+  - box: image
+  - page: title
+    box: alt
+  - page: seo
+    box: alt

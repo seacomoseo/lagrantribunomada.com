@@ -3,7 +3,7 @@ if: booking
 id: reserva-enviada
 hanchor: Reserva Enviada
 title: Importante
-content: |
+md: |
   El formulario de reserva para **🌈 OSTARA** se ha enviado correctamente, pero todavía hay más.
 
   Para que la reserva se haga efectiva, debes ingresar tu aportación consciente mediante bizum

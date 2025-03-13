@@ -4,9 +4,9 @@ align: left
 boxes:
 - if: breadcrumbs
   node: nav
-  content: |
-    {{< breadcrumbs >}}
-- title: '{{% param title %}}'
+  md: '{{< breadcrumbs >}}'
+- params:
+  - box: title
 - tags:
   - type: date
   - type: param
@@ -15,7 +15,7 @@ boxes:
   - type: param
     param: address.region
 - if: cancelled
-  content: |
+  md: |
     =={{< i18n cancelled >}}==
     {.cancelled}
 - box:
@@ -26,12 +26,16 @@ boxes:
     - page: video
       box: image
     ratio: 9/16
-    span: .76
+    fit: .76
   - if: image
     params:
     - page: image
       box: image
     - page: image
       box: link
+    - page: title
+      box: alt
+    - page: seo
+      box: alt
     ratio: 3/4
     button: hide

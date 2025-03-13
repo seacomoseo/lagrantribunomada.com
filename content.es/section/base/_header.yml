@@ -4,7 +4,7 @@ align: left
 boxes:
 - if: breadcrumbs
   node: nav
-  content: |
+  md: |
     {{< breadcrumbs >}}
 - title: '{{% param title %}}'
 # - tags:
@@ -16,3 +16,7 @@ boxes:
 #   params:
 #   - page: image
 #     box: image
+#   - page: title
+#     box: alt
+#   - page: seo
+#     box: alt

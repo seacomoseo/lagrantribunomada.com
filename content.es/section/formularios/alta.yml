@@ -1,6 +1,6 @@
 name: Alta
 title: Hazte Soci@
-content: |
+md: |
   [[¿Cómo Entrar?]](#como-entrar)
 
   :asterisk: Cuota consciente, [aporta lo que sientas](/#donaciones) anualmente.
@@ -68,8 +68,8 @@ inputs:
   name: Espacio
   label: Ofrezco espacio
   show_if: Proyecto
-- type: content
-  content: |
+- type: md
+  md: |
     Si cobras por el espacio, marca "Ofrezco servicio/s"
     {.text-sm .align-left}
   show_if: Proyecto&&Espacio
@@ -109,8 +109,8 @@ inputs:
 - type: h3
   label: Contacto
   show_if: Proyecto
-- type: content
-  content: |
+- type: md
+  md: |
     Los datos pueden ser diferentes al de socio
     {.text-sm}
   full: true

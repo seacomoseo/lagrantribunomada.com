@@ -3,7 +3,7 @@ id: cierre
 hanchor: Cierre
 node: aside
 align: center
-content: |
+md: |
   ¿Todavía no nos conoces? \
   ¿Todavía no estás en nuestro mapa interactivo?
   {.subtitle}

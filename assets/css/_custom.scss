@@ -11,7 +11,7 @@
 .link {
   --link-undeline-width: calc(var(--outline) / 2);
 }
-.content .link:not(#toc *, #breadcrumbs *, .list-inline *, .content__heading *) {
+.md .link:not(#toc *, #breadcrumbs *, .list-inline *, .md__heading *) {
   background-size: 100% 100%;
   &:hover {
     background-size: 0 100%;
@@ -19,9 +19,8 @@
   }
 }
 
-// .accordion__content ul > li:before,
-.content ul > li:before,
-.content ol > li:before {
+// .accordion__md ul > li:before,
+.md ul > li:before {
   content: "-";
 }
 

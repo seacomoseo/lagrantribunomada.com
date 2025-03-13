@@ -1,6 +1,6 @@
 name: Test
 title: Test
-content: |
+md: |
   Formulario solamente para pruebas
 size: sm
 form:
@@ -23,8 +23,8 @@ inputs:
 - type: check
   name: Espacio
   label: Ofrezco espacio
-- type: content
-  content: |
+- type: md
+  md: |
     Si cobras por el espacio, marca "Ofrezco servicio/s"
     {.text-sm .align-left}
   show_if: Espacio
