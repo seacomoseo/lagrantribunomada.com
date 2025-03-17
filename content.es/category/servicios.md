@@ -8,7 +8,6 @@ icon: hands-holding-heart
 category: null # string
 weight: 3
 
-toc: false
 draft: false
 noindex: true
 seo: null # string

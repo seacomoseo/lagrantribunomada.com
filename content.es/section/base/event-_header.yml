@@ -5,15 +5,22 @@ boxes:
 - if: breadcrumbs
   node: nav
   md: '{{< breadcrumbs >}}'
-- params:
+- if: icon
+  params:
+  - box: title
+  - box: icon
+  icon_type: side
+- if: not icon
+  params:
   - box: title
 - tags:
   - type: date
   - type: param
     param: address.name
-    icon: location-dot
+    icon: campground
   - type: param
     param: address.region
+    icon: location-dot
 - if: cancelled
   md: |
     =={{< i18n cancelled >}}==
@@ -31,11 +38,11 @@ boxes:
     params:
     - page: image
       box: image
-    - page: image
-      box: link
     - page: title
       box: alt
     - page: seo
       box: alt
-    ratio: 3/4
+    - page: image
+      box: link
     button: hide
+    ratio: 3/4

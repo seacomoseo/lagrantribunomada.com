@@ -8,7 +8,6 @@ icon: campground
 category: null # string
 weight: 2
 
-toc: false
 draft: false
 noindex: true
 seo: null # string

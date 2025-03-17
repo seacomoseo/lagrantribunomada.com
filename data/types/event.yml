@@ -2,7 +2,7 @@ title: Encuentros
 order: 1
 base: event
 related: true
-template:
+tpl:
   sections:
   - file: base/event-_header
   - file: base/toc
@@ -23,17 +23,21 @@ template:
     cols: 3
     card: true
     rate: 3/4
-    color: dark
+    align: left
     shade: false
+    image: ''
+    icon: ''
+    icon_type: side
     md: hide
     button: hide
     tags:
     - type: date
     - type: param
       param: address.name
-      icon: location-dot
+      icon: campground
     - type: param
       param: address.region
+      icon: location-dot
 params:
 - name: video
   label: Vídeo

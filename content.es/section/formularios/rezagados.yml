@@ -3,6 +3,7 @@ title: Rezagados 🌈 OSTARA 2025
 md: |
   Formulario de reserva solamente para ti, rezagado, que lo has recibido \
   (no lo compartas, por favor)
+align: center
 size: sm
 form:
   action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec

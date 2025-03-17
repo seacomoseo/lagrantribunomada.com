@@ -2,23 +2,7 @@ title: Categorías
 order: 2
 base: page
 disabled: false
-taxonomy_of:
+tax_of:
 - name: project
   multiple: false
   breadcrumbs: true
-template:
-  list:
-    cols: 4
-    cols_vs: 2
-    card: false
-    color: ''
-    # ratio: 3/2
-    shade: false
-    image: hide
-    icon: bookmark
-    align: center
-    hs: 2
-    md: hide
-    button: alt
-    pin: circle-info
-    label: MÁS

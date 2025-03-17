@@ -1,8 +1,8 @@
 ---
 slug: oasis-del-ser
-title: 🌴 OASIS DEL SER
+title: OASIS DEL SER
+icon: 🌴
 image: carteles/2024-10-05-oasis-del-ser.jpg
-toc: true
 draft: false
 noindex: true
 seo: ''

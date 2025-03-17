@@ -1,13 +1,13 @@
 ---
 slug: rezagados
 title: Rezagados
+icon: turtle
 image: base/poster.png
-
 draft: false
 noindex: true
-
-sections:
-- file: formularios/rezagados
-  modals:
-  - file: formularios/reserva-enviada-rezagados
+tpl:
+  sections:
+  - file: formularios/rezagados
+    modals:
+    - file: formularios/reserva-enviada-rezagados
 ---

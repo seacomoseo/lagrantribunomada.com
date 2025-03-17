@@ -3,17 +3,6 @@ order: 0
 base: single
 disabled: false
 noindex: false
-# template:
-#   section:
-#   - color: white
-template:
-  list:
-    cols: 4
-    color: white
-    icon: hide
-    shade: true
-    ratio: 16/9
-    inset: true
-    align: left
-    md: hide
-    button: hide
+tpl:
+  section:
+  - size: lg

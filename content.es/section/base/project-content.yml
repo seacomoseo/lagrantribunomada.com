@@ -31,7 +31,7 @@ boxes:
     {{% if "{{ param instagram }}" %}} - :instagram:    [{{< replace "^https://www.instagram.com/(.+?)/?$" "@$1"             >}}{{% param instagram %}}{{< / replace >}}]({{% param instagram    %}} "[nofollow]") {{% / if %}}
     {{% if "{{ param facebook  }}" %}} - :facebook:     [{{< replace "^https://www.facebook.com/(p/)?(.+?)(-\d*)?/?$"  "@$2" >}}{{% param facebook  %}}{{< / replace >}}]({{% param facebook     %}} "[nofollow]") {{% / if %}}
     {{% if "{{ param other     }}" %}} - :star:         [{{< replace "^https://(www\.)?(.+?)/?$" "$2"                        >}}{{% param other     %}}{{< / replace >}}]({{% param other        %}} "[nofollow]") {{% / if %}}
-    {{% if "{{ param email     }}" %}} - :envelope:     {{% param email %}}                                                         {{% / if %}}
+    {{% if "{{ param email     }}" %}} - :envelope:     {{% param email %}}                                                           {{% / if %}}
     {{% if "{{ param phone     }}" %}} - :phone:        [{{% param phone     %}}](tel:{{% palink phone %}} "[nofollow]")              {{% / if %}}
     {{% if "{{ param whatsapp  }}" %}} - :whatsapp:     [{{% param whatsapp  %}}](https://wa.me/{{% palink whatsapp %}} "[nofollow]") {{% / if %}}
     {{% if "{{ address         }}" %}} - :location-dot: [{{< replace "ES$" "España"                                          >}}{{% address         %}}{{< / replace >}}]({{% param address.link %}} "[nofollow]") {{% / if %}}

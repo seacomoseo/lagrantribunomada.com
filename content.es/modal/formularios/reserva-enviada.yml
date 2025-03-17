@@ -4,7 +4,7 @@ id: reserva-enviada
 hanchor: Reserva Enviada
 title: Importante
 md: |
-  El formulario de reserva para **{{% param title %}}** se ha enviado correctamente, pero todavía hay más.
+  El formulario de reserva para **{{% param icon %}} {{% param title %}}** se ha enviado correctamente, pero todavía hay más.
 
   Para que la reserva se haga efectiva, debes ingresar tu aportación consciente mediante bizum
   a este número de móvil (**Naiht**):
@@ -13,9 +13,9 @@ md: |
   {.h0 .align-center}
 
   Con el concepto
-  "<u>{{< replace "\s?[^\w\s]+\s?" "" >}}{{% param title %}}{{< / replace >}} [mismos nombres que en formulario]</u>"
+  "<u>{{% param title %}} [mismos nombres que en formulario]</u>"
   (quitando corchetes) y enviarle un WhatsApp con el texto
-  "<u>BIZUM {{< replace "\s?[^\w\s]+\s?" "" >}}{{% param title %}}{{< / replace >}} HECHO [mismos nombres que en formulario]</u>".
+  "<u>BIZUM {{% param title %}} HECHO [mismos nombres que en formulario]</u>".
 
   Tras esto te agregaremos al grupo de WhatsApp del encuentro.
 

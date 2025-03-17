@@ -4,14 +4,20 @@ align: left
 boxes:
 - if: breadcrumbs
   node: nav
-  md: |
-    {{< breadcrumbs >}}
-- title: '{{% param title %}}'
+  md: '{{< breadcrumbs >}}'
+- if: icon
+  params:
+  - box: title
+  - box: icon
+  icon_type: side
+- if: not icon
+  params:
+  - box: title
 # - tags:
 #   - type: type
 #   - type: address
-#   - type: taxonomy
-#     taxonomy: category
+#   - type: tax
+#     tax: category
 # - if: image
 #   params:
 #   - page: image

@@ -1,7 +1,7 @@
 name: Feedback
 if: feedback
 id: feedback
-title: Feedback {{ param title }}
+title: Feedback {{ param icon }} {{ param title }}
 md: |
   Gracias a tu opinión, podremos mejorar los futuros encuentros y todo lo que rodea a LGTN 🫂💕♾️
 
@@ -19,7 +19,7 @@ inputs:
 
 - type: hidden
   name: Encuentro
-  label: '{{ param title }}'
+  label: '{{ param icon }} {{ param title }}'
 
 - type: text
   name: Nombre

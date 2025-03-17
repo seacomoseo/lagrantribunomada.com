@@ -1,8 +1,8 @@
 ---
 slug: whatsapp
 title: Grupos de la Comunidad en WhatsApp
+icon: whatsapp
 image: ''
-toc: true
 draft: false
 noindex: true
 seo: ''
@@ -12,7 +12,7 @@ description: ''
 Aquí tienes un desglose de cada grupo de la [:whatsapp: Comunidad de WhatsApp](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow]") y para qué sirve cada uno.
 
 
-## 🩵 AMORÍGENES 🩵
+## ::🩵 AMORÍGENES
 
 En este grupo está el alma de
 **👣 La Gran Tribu Nómada 👣**
@@ -39,10 +39,10 @@ Y todo lo que nos ayude a sostener esta preciosa familia 👩‍❤️‍👩...
 - Respeta la intención del grupo 👣
 - Si dudas qué compartir, pregúntanos ❓
 
-[[:whatsapp: Grupo 🩵 AMORÍGENES 🩵]](https://chat.whatsapp.com/JddRsib2DYQKtS50a9IEjZ "[nofollow whatsapp]")
+[[:whatsapp: Grupo AMORÍGENES 🩵]](https://chat.whatsapp.com/JddRsib2DYQKtS50a9IEjZ "[nofollow whatsapp]")
 
 
-## 🪄 SERVICIOS 🪄
+## ::🪄 SERVICIOS
 
 Bienvenid@ al espacio donde ofrecer/recibir los dones y potenciales ✨🪄 de
 **👣 La Gran Tribu Nómada 👣**
@@ -64,10 +64,10 @@ Y todo lo que ayude a crear una red autónoma en la que apoyarnos mutuamente ent
 - No es un grupo social, para eso entra en [🩵 AMORÍGENES 🩵](#amorigenes)
 - Si dudas qué compartir, pregúntanos ❓
 
-[[:whatsapp: Grupo 🪄 SERVICIOS 🪄]](https://chat.whatsapp.com/GPge8QjNCb5LY8PfwTOu6O "[nofollow whatsapp]")
+[[:whatsapp: Grupo SERVICIOS 🪄]](https://chat.whatsapp.com/GPge8QjNCb5LY8PfwTOu6O "[nofollow whatsapp]")
 
 
-## ⛺ TRIBNB ⛺
+## ::⛺ TRIBNB
 
 Bienvenid@ al espacio donde ofrecer/solicitar alojamiento temporal o de larga duración a los Amorigenes de 
 **👣 La Gran Tribu Nómada 👣**
@@ -90,10 +90,10 @@ Y todo lo que ayude a crear una red autónoma en la que apoyarnos mutuamente ent
 - Si alquilas o vendes entra en [🪄 SERVICIOS 🪄](#servicios)
 - Si dudas qué compartir, pregúntanos❓
 
-[[:whatsapp: Grupo ⛺ TRIBNB ⛺]](https://chat.whatsapp.com/E1QVEsh7I7VGVMQaiKGebT "[nofollow whatsapp]")
+[[:whatsapp: Grupo TRIBNB ⛺]](https://chat.whatsapp.com/E1QVEsh7I7VGVMQaiKGebT "[nofollow whatsapp]")
 
 
-## 🗣️ GRAN FORO TRIBAL 🗣️
+## ::🗣️ GRAN FORO TRIBAL
 
 En este grupo está la mente de 
 **👣 La Gran Tribu Nómada 👣**
@@ -118,24 +118,24 @@ Y todo lo que nos ayude a nutrir a esta preciosa familia 👩‍❤️‍👩...
 - Respeta la intención del grupo 👣
 - Si dudas qué compartir, pregúntanos❓
 
-[[:whatsapp: Grupo 🗣️ GRAN FORO TRIBAL 🗣️]](https://chat.whatsapp.com/H7X2CQcahnoHB5rhapOw6a "[nofollow whatsapp]")
+[[:whatsapp: Grupo GRAN FORO TRIBAL 🗣️]](https://chat.whatsapp.com/H7X2CQcahnoHB5rhapOw6a "[nofollow whatsapp]")
 
 
-## 🚐 CARAVANA AMORIGEN 🚐
+## ::🚐 CARAVANA AMORIGEN
 
 Este grupo es para gestionar y coordinar la ruta actual de la [Caravana 🚐  AMORÍGEN 🩵](/#caravana-amorigen)
 
 Si vas a formar parte de la Caravana, solicita entrar en este grupo para unirte a la ruta 🗺️
 
-[[:whatsapp: Grupo 🚐 CARAVANA AMORIGEN 🚐]](https://chat.whatsapp.com/KOqT75eGaaa2oqwQdPr5M7 "[nofollow whatsapp]")
+[[:whatsapp: Grupo CARAVANA AMORIGEN 🚐]](https://chat.whatsapp.com/KOqT75eGaaa2oqwQdPr5M7 "[nofollow whatsapp]")
 
 
 ---
 
 ¿Te quedó claro? ¡Vamos!
 
-[[:whatsapp: Comunidad de WhatsApp]](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow whatsapp]")
+[[:whatsapp: Comunidad de WhatsApp 👣]](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow whatsapp]")
 
 ¿Te quedan dudas?
 
-[[Contacto]](/#contacto "[alt]")
+[[Contacto 😉]](/#contacto "[alt]")

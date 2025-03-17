@@ -6,30 +6,27 @@ emoji: 🚀
 disabled: false
 noindex: false
 related: true
-template:
+tpl:
   sections:
   - file: base/project-_header
   - file: base/project-content
   - file: base/share
   - file: base/related
   list:
-    cols: 4
+    # cols: 3
     cols_vs: 2
-    color: dark
+    align: center
     image: base/icon.svg
     shade: false
-    ratio: 1/1
-    # contain: true
     inset: false
-    align: center
+    ratio: 1/1
+    hs: 6
     md: hide
-    # pin: circle-info
-    # label: MÁS
-    # swap: true
     # button: alt
-    button: hide
-    # tags:
-    # - type: address
+    tags:
+    - type: param
+      param: address.region
+      icon: location-dot
 es:
   permalinks: proyecto
   slug: proyectos

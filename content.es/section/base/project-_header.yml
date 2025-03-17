@@ -11,14 +11,16 @@ boxes:
 - tag: row
   tags:
   - type: type
-  # - type: address
-  # - type: taxonomy
-  #   taxonomy: category
+  - type: tax
+    tax: category
 - if: image
   alt: 'Logo de {{ param title }}'
   params:
   - box: image
+  - page: image
+    box: link
   - page: title
     box: alt
   - page: seo
     box: alt
+  button: hide

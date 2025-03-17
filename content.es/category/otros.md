@@ -8,7 +8,6 @@ icon: bullseye-arrow
 category: null # string
 weight: 4
 
-toc: false
 draft: false
 noindex: true
 seo: null # string

@@ -1,51 +1,47 @@
 ---
 slug: inicio
 title: Inicio
+icon: house
 image: base/poster.png
-
 draft: false
 noindex: false
 seo: 👣 La Gran Tribu Nómada - Red Itinerante
 description: Plataforma física y digital para conectar y apoyar proyectos, espacios, comunidades y personitas que buscan una vida alternativa.
 
-background:
-  bg: fotos/2024-08-13-009.jpg
-  alpha: 0.85
-  parallax: fix
-menu:
-  logo: false
-  sticky: auto
-callnow:
-  show: auto
-section:
-- uppercase: true
-  div: brush
-# - div_x: true
-#   div_y: true
-#   color: main
-
-sections:
-- file: _header
-- file: introduccion
-- file: proyecto
-  modals:
-  - file: proyecto/que-es
-  - file: proyecto/objetivos
-  - file: proyecto/valores
-  - file: proyecto/equipo
-- file: mapa
-- file: te-interesa
-  modals:
-  - file: te-interesa/que-buscamos
-  - file: te-interesa/que-ofrecemos
-  - file: te-interesa/como-entrar
-  - file: te-interesa/caravana-amorigen
-  - file: te-interesa/donaciones
-- file: encuentros
-- file: galeria
-# - file: donaciones
-- file: redes
-- file: contacto
+tpl:
+  back:
+    bg: fotos/2024-08-13-009.jpg
+    alpha: 0.85
+    parallax: fix
+  menu:
+    logo: false
+    sticky: auto
+  callnow:
+    show: auto
+  section:
+  - div: brush
+  sections:
+  - file: _header
+  - file: introduccion
+  - file: proyecto
+    modals:
+    - file: proyecto/que-es
+    - file: proyecto/objetivos
+    - file: proyecto/valores
+    - file: proyecto/equipo
+  - file: mapa
+  - file: te-interesa
+    modals:
+    - file: te-interesa/que-buscamos
+    - file: te-interesa/que-ofrecemos
+    - file: te-interesa/como-entrar
+    - file: te-interesa/caravana-amorigen
+    - file: te-interesa/donaciones
+  - file: encuentros
+  - file: galeria
+  # - file: donaciones
+  - file: redes
+  - file: contacto
 
 base: organization
 types:
