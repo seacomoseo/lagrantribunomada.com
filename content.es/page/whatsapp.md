@@ -12,7 +12,7 @@ description: ''
 Aquí tienes un desglose de cada grupo de la [:whatsapp: Comunidad de WhatsApp](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow]") y para qué sirve cada uno.
 
 
-## ::🩵 AMORÍGENES
+## ::🩵:: AMORÍGENES
 
 En este grupo está el alma de
 **👣 La Gran Tribu Nómada 👣**
@@ -42,7 +42,7 @@ Y todo lo que nos ayude a sostener esta preciosa familia 👩‍❤️‍👩...
 [[:whatsapp: Grupo AMORÍGENES 🩵]](https://chat.whatsapp.com/JddRsib2DYQKtS50a9IEjZ "[nofollow whatsapp]")
 
 
-## ::🪄 SERVICIOS
+## ::🪄:: SERVICIOS
 
 Bienvenid@ al espacio donde ofrecer/recibir los dones y potenciales ✨🪄 de
 **👣 La Gran Tribu Nómada 👣**
@@ -67,7 +67,7 @@ Y todo lo que ayude a crear una red autónoma en la que apoyarnos mutuamente ent
 [[:whatsapp: Grupo SERVICIOS 🪄]](https://chat.whatsapp.com/GPge8QjNCb5LY8PfwTOu6O "[nofollow whatsapp]")
 
 
-## ::⛺ TRIBNB
+## ::⛺:: TRIBNB
 
 Bienvenid@ al espacio donde ofrecer/solicitar alojamiento temporal o de larga duración a los Amorigenes de 
 **👣 La Gran Tribu Nómada 👣**
@@ -93,7 +93,7 @@ Y todo lo que ayude a crear una red autónoma en la que apoyarnos mutuamente ent
 [[:whatsapp: Grupo TRIBNB ⛺]](https://chat.whatsapp.com/E1QVEsh7I7VGVMQaiKGebT "[nofollow whatsapp]")
 
 
-## ::🗣️ GRAN FORO TRIBAL
+## ::🗣️:: GRAN FORO TRIBAL
 
 En este grupo está la mente de 
 **👣 La Gran Tribu Nómada 👣**
@@ -121,7 +121,7 @@ Y todo lo que nos ayude a nutrir a esta preciosa familia 👩‍❤️‍👩...
 [[:whatsapp: Grupo GRAN FORO TRIBAL 🗣️]](https://chat.whatsapp.com/H7X2CQcahnoHB5rhapOw6a "[nofollow whatsapp]")
 
 
-## ::🚐 CARAVANA AMORIGEN
+## ::🚐:: CARAVANA AMORIGEN
 
 Este grupo es para gestionar y coordinar la ruta actual de la [Caravana 🚐  AMORÍGEN 🩵](/#caravana-amorigen)
 
