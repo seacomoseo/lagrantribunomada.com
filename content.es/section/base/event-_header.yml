@@ -2,9 +2,6 @@ name: Cabecera de Eventos
 node: header
 align: left
 boxes:
-- if: breadcrumbs
-  node: nav
-  md: '{{< breadcrumbs >}}'
 - if: icon
   params:
   - box: title
