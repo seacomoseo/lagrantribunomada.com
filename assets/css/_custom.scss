@@ -138,6 +138,7 @@ button:not(.button--dot) {
       color: var(--light);
     }
     .button {
+      width: 100%;
       color: var(--base-text);
       line-height: 1;
       z-index: 1;

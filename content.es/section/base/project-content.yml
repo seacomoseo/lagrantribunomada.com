@@ -43,16 +43,17 @@ boxes:
     zoom: 6
   geos:
   - type: point
-    geo: '{{ param address.geo }}'
+    geo: '{{ param organization.address.geo }}'
     color: alt
 
-- if: images
+- if: organization.images
   gallery:
     cols: 1
     type: boxes
     alt: 'Imagen de {{ param title }}'
   params:
-  - box: images
+  - page: organization.images
+    box: images
 
 - if: video
   alt: 'Vídeo de {{ param title }}'
