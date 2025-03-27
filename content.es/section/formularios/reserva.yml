@@ -1,18 +1,15 @@
 name: Reserva
-if: booking
+if: booking.active
 hanchor: Reserva
-node: div
-pt: 0
-
 # title: ¿Te apuntas?
 # subtitle: '{{< if "{{% param info %}}" >}}Información básica{{</ if >}}'
-params:
-- page: info
-  box: content
-- page: inputs
-  box: inputs
+node: div
+pt: 0
 size: sm
 form:
   action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
   email: lorensansol@gmail.com
   to: '#reserva-enviada'
+params:
+- page: booking.inputs
+  box: inputs
