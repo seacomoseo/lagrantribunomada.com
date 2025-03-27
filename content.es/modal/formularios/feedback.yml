@@ -7,7 +7,7 @@ md: |
 
   Ningún campo es obligatorio 🫶
 align: center
-size: xs
+size: sm
 form:
   action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
   email: lagrantribunomada@gmail.com
@@ -28,71 +28,402 @@ inputs:
   min: 1
 
 
+- type: radio
+  name: General
+  label: El encuentro OSTARA en general
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
+- type: textarea
+  name: General Observaciones
+  label: Observaciones
+  # show_if: General
+
+
+- type: h3
+  label: Organización
+
+- type: radio
+  name: Organización
+  label: La organización del encuentro
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
+- type: textarea
+  name: Organización Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Organización Sostén
+  label: Sostén y resolución del personal de organización
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
+- type: textarea
+  name: Organización Sostén Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Organización Publicidad
+  label: Publicidad/redes del encuentro
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
+- type: textarea
+  name: Organización Publicidad Observaciones
+  label: Observaciones
+
+
 - type: h3
   label: Espacio
 
+- type: radio
+  name: Espacio Infraestructura
+  label: Infraestructura/servicios
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
 - type: textarea
-  name: Espacio Opinión
-  label: ¿Qué te pareció el espacio?
+  name: Espacio Infraestructura Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Espacio Entorno
+  label: Entorno
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
 - type: textarea
-  name: Espacio Mejoras
-  label: ¿Qué mejorarías del espacio?
+  name: Espacio Entorno Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Espacio Zonas
+  label: Zonas
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
 - type: textarea
-  name: Espacio Servicio
-  label: ¿Echaste en falta algún servicio?
-- type: textarea
-  name: Espacio Más
-  label: ¿Algo más a añadir?
+  name: Espacio Zonas Observaciones
+  label: Observaciones
 
 
 - type: h3
-  label: LGTN
+  label: Actividades
 
+- type: radio
+  name: Actividades Programación
+  label: Programación general
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
 - type: textarea
-  name: LGTN Organización
-  label: ¿Qué te pareció la organización?
+  name: Actividades Programación Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Actividades Oda a la Madre Tierra
+  label: Performance "Oda a la Madre Tierra"
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
 - type: textarea
-  name: LGTN Actividades
-  label: ¿Te gustaron el tipo de actividades?
+  name: Actividades Oda a la Madre Tierra Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Actividades Teatro del Ser
+  label: Teatro del Ser
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
 - type: textarea
-  name: LGTN Actividades Futuras
-  label: ¿Qué otras actividades/talleres te gustaría en el futuro?
+  name: Actividades Teatro del Ser Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Actividades El Viaje de la Semilla Mágica
+  label: El Viaje de la Semilla Mágica
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
 - type: textarea
-  name: LGTN Rol
-  label: ¿Echaste en falta algún rol en la organización?
+  name: Actividades El Viaje de la Semilla Mágica Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Actividades La Danza del Corzo
+  label: La Danza del Corzo
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
+- type: textarea
+  name: Actividades La Danza del Corzo Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Actividades Ceremonia de Cacao
+  label: Ceremonia de Cacao
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
+- type: textarea
+  name: Actividades Ceremonia de Cacao Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Actividades Tantric Love Music
+  label: Concierto de Tantric Love Music
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
+- type: textarea
+  name: Actividades Tantric Love Music Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Actividades Micro Abierto
+  label: Micro Abierto
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
+- type: textarea
+  name: Actividades Micro Abierto Observaciones
+  label: Observaciones
 
 
 - type: h3
   label: Cocina
 
-- type: textarea
+- type: radio
   name: Cocina Menú
-  label: ¿Qué te pareció el menú de cocina?
+  label: El menú de cocina
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
 - type: textarea
-  name: Cocina Precios
-  label: ¿Qué te parecieron los precios?
+  name: Cocina Menú Observaciones
+  label: Observaciones
+
+- type: radio
+  name: Cocina Precio
+  label: El precio de cocina
+  x: true
+  options:
+  - option: 1
+  - option: 2
+  - option: 3
+  - option: 4
+  - option: 5
+  - option: 6
+  - option: 7
+  - option: 8
+  - option: 9
+  - option: 10
 - type: textarea
-  name: Cocina Más
-  label: ¿Algo más a añadir?
+  name: Cocina Precio Observaciones
+  label: Observaciones
 
 
 - type: h3
-  label: Social
+  label: Talleristas
 
+- type: check
+  name: Tallerista Fuiste
+  label: ¿Fuiste tallerista en el encuentro?
 - type: textarea
-  name: Social Disfrutaste
-  label: ¿Disfrutaste del encuentro?
+  name: Tallerista Mejoras
+  label: Observcaiones
+  hint: ¿Algo que quieras mencionar para mejorar en próximos encuentros?
+  show_if: Tallerista Fuiste
+
+
+- type: h3
+  label: Terapias
+
+- type: check
+  name: Terapias Recibiste
+  label: ¿Recibiste alguna terapia?
 - type: textarea
-  name: Social Incomodidad
-  label: ¿Hubo alguna situación que te incomodase?
+  name: Terapias Mejoras
+  label: Observcaiones
+  hint: ¿Algo que quieras mencionar para mejorar en próximos encuentros?
+  show_if: Terapias Recibiste
+
+
+- type: h3
+  label: Artesanias
+
+- type: check
+  name: Artesanias Pusiste
+  label: ¿Pusiste algún puesto en el mercadillo?
 - type: textarea
-  name: Social Más
-  label: ¿Te gustaría contar con algún aspecto para un mayor disfrute de los encuentros?
+  name: Artesanias Mejoras
+  label: Observcaiones
+  hint: ¿Alguna petición para el espacio de artesanías para próximos encuentros?
+  show_if: Artesanias Pusiste
 
 
 - type: h3
   label: Otros
 
+- type: check
+  name: Otros Primera Vez
+  label: ¿Era tu primera vez en un encuentro de LGTN?
 - type: textarea
-  name: Otros
-  label: Comentar libremente tu opinión o cualquier otra cosa
+  name: Otros Primera Experiencia
+  label: Observcaiones
+  hint: ¿Podrías comentar tu primera experiencia?
+  show_if: Otros Primera Vez
+
+# - type: md
+#   md: Hayas venido a uno o a todos, responde, nos interesa tu opinión
+
+- type: textarea
+  name: Otros Caracteriza
+  label: Hayas venido a uno o a todos, responde, nos interesa tu opinión
+  hint: Según tú, ¿qué caracteriza estos encuentros o qué los puede diferenciar de otros que conoces? ¿Qué ofrecen al usuario estos encuentros?
