@@ -42,16 +42,25 @@ params:
 - name: video
   label: Vídeo
   type: image
-- name: feedback
-  label: Formulario de Feedback
-  type: boolean
 - name: booking
   label: Formulario de Reserva
-  type: boolean
+  type: object
+  list:
+  - name: active
+    label: Activar
+    type: boolean
+  - name: ~BOX_FORM_INPUTS
+- name: feedback
+  label: Formulario de Feedback
+  type: object
+  list:
+  - name: active
+    label: Activar
+    type: boolean
+  - name: ~BOX_FORM_INPUTS
 # - name: info
 #   label: Información de reserva
 #   type: markdown
-- name: ~BOX_FORM_INPUTS
 es:
   permalinks: :year/:month/:day
   slug: encuentros
