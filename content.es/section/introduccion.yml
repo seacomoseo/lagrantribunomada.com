@@ -1,8 +1,9 @@
 name: Introduccion
 title: Introducción
 menu_button: hide
+size: xl
 box:
-  cols: 2
+  cols: 3
   gap: 3
   align: left
   align_y: center
@@ -10,7 +11,7 @@ boxes:
 # - bg: fotos/amores.jpg
 #   rate: 3/2
 #   parallax: soft
-- image: fotos/2024-05-10-014.png
+- image: fotos/2024-08-13-013.png
   parallax: box
 - md: |
     Esta historia comienza con la certeza de cómo absolutamente **todo** lo que te pasa es una **oportunidad**. Nace de la unión de personitas buscadoras llenas de potencial y gustosas de compartir ese camino desde un corazón abierto, en hermandad y horizontalidad.
@@ -20,3 +21,5 @@ boxes:
     Estamos creando el espacio que logre que la vida que soñamos se materialice, a la vez que facilitamos que esto ocurra para más personas que comparten nuestro enfoque a las que con mucho amor y sentido llamamos “**AMORÍGENES**”.
 
     Queremos contarte cómo se crea este proyecto y cómo podemos, si quieres, formar parte de tu historia y tú de la nuestra. Porque de esto trata, de conectar y nutrirnos en red 👣
+- image: fotos/2024-05-10-014.png
+  parallax: box
