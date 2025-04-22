@@ -3,7 +3,7 @@ title: Introducción
 menu_button: hide
 size: xl
 box:
-  cols: 3
+  cols: 2
   gap: 3
   align: left
   align_y: center
@@ -21,5 +21,5 @@ boxes:
     Estamos creando el espacio que logre que la vida que soñamos se materialice, a la vez que facilitamos que esto ocurra para más personas que comparten nuestro enfoque a las que con mucho amor y sentido llamamos “**AMORÍGENES**”.
 
     Queremos contarte cómo se crea este proyecto y cómo podemos, si quieres, formar parte de tu historia y tú de la nuestra. Porque de esto trata, de conectar y nutrirnos en red 👣
-- image: fotos/2024-05-10-014.png
-  parallax: box
+# - image: fotos/2024-05-10-014.png
+#   parallax: box
