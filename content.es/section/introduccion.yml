@@ -1,7 +1,6 @@
 name: Introduccion
 title: Introducción
 menu_button: hide
-size: xl
 box:
   cols: 2
   gap: 3
