@@ -25,8 +25,8 @@ function mapStart () {
     arcColorDict: {
       Comunidades: 'cornflowerblue',
       Espacios: 'green',
-      Servicios: 'crimson',
-      Otros: 'violet'
+      Servicios: 'crimson'
+      // Otros: 'violet'
     },
     style: {
       size: 40,
@@ -48,14 +48,14 @@ function mapStart () {
       addMarkersToCluster(data, 'Comunidades', 'cornflowerblue', 'people-group')
       addMarkersToCluster(data, 'Espacios', 'green', 'campground')
       addMarkersToCluster(data, 'Servicios', 'crimson', 'hands-holding-heart')
-      addMarkersToCluster(data, 'Otros', 'violet', 'bullseye-arrow')
+      // addMarkersToCluster(data, 'Otros', 'violet', 'bullseye-arrow')
 
       // layer control
       const overlayMaps = {
         [overlayMap('Comunidades', 'cornflowerblue', 'people-group')]: donutCluster,
         [overlayMap('Espacios', 'green', 'campground')]: donutCluster,
-        [overlayMap('Servicios', 'crimson', 'hands-holding-heart')]: donutCluster,
-        [overlayMap('Otros', 'violet', 'bullseye-arrow')]: donutCluster
+        [overlayMap('Servicios', 'crimson', 'hands-holding-heart')]: donutCluster
+        // [overlayMap('Otros', 'violet', 'bullseye-arrow')]: donutCluster
       }
 
       /* const layerControl = */ L.control.layers(null, overlayMaps, { collapsed: false }).addTo(map)

@@ -30,7 +30,7 @@ tpl:
     - file: proyecto/objetivos
     - file: proyecto/valores
     - file: proyecto/equipo
-  - file: mapa
+  - file: directorio
   - file: te-interesa
     modals:
     - file: te-interesa/que-buscamos

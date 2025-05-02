@@ -13,6 +13,7 @@ srcs:
     - from: logo
       to: image
     - to: video
+    - to: weight
     # content
     - to: summary
     - from: description

@@ -1,0 +1,30 @@
+name: Directorio
+title: Directorio
+subtitle: Amorígenes, Comunidades y Espacios
+size: xl
+# box:
+#   gap: 2
+boxes:
+- md: |
+    <br>
+
+    Últimos proyectos:
+  list:
+    type: project
+    max: -10
+  box:
+    cols: 6
+    slider: true
+    interval: 5
+    direction: left
+- md: |
+    [[Más Proyectos]](/categorias/)
+
+    <br>
+
+    <div id="map"></div>
+
+    [[¡Únete!]](/alta/ "[alt]")
+
+    :hyphen:
+    {.hide}

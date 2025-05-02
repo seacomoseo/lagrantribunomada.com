@@ -17,8 +17,8 @@ tpl:
         label: Inicio
       - link: /#proyecto
         label: El Proyecto
-      - link: /#mapa
-        label: Mapa
+      - link: /#directorio
+        label: Directorio
       - link: /#te-interesa
         label: ¿Te Interesa?
       - link: /#encuentros

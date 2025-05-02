@@ -4,5 +4,5 @@ base: page
 disabled: false
 tax_of:
 - name: project
-  multiple: false
+  multiple: true
   breadcrumbs: true

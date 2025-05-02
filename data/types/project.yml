@@ -25,7 +25,7 @@ tpl:
     # button: alt
     tags:
     - type: param
-      param: address.region
+      param: organization.address.region
       icon: location-dot
 es:
   permalinks: proyecto
