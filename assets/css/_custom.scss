@@ -139,7 +139,7 @@ button:not(.button--dot) {
     }
     .button {
       width: 100%;
-      color: var(--base-text);
+      color: var(--base-in);
       line-height: 1;
       z-index: 1;
     }
@@ -182,7 +182,7 @@ button:not(.button--dot) {
   }
   .donut-text {
     font-weight: 500;
-    color: var(--dark-text);
+    color: var(--dark-in);
   }
 }
 /*! purgecss end ignore */
