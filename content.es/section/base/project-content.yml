@@ -34,9 +34,9 @@ boxes:
     {{% if "{{ param email     }}" %}} - :envelope:     {{% param email %}}                                                           {{% / if %}}
     {{% if "{{ param phone     }}" %}} - :phone:        [{{% param phone     %}}](tel:{{% palink phone %}} "[nofollow]")              {{% / if %}}
     {{% if "{{ param whatsapp  }}" %}} - :whatsapp:     [{{% param whatsapp  %}}](https://wa.me/{{% palink whatsapp %}} "[nofollow]") {{% / if %}}
-    {{% if "{{ address         }}" %}} - :location-dot: [{{< replace "ES$" "España"                                          >}}{{% address         %}}{{< / replace >}}]({{% param address.link %}} "[nofollow]") {{% / if %}}
+    {{% if "{{ address         }}" %}} - :location-dot: [{{< replace "ES$" "España"                                          >}}{{% address         %}}{{< / replace >}}]({{% param organization.address.link %}} "[nofollow]") {{% / if %}}
 
-- if: address.geo
+- if: organization.address.geo
   title: Ubicación
   rate: 1/1
   map:
