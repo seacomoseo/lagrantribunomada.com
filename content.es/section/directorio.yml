@@ -18,7 +18,7 @@ boxes:
     interval: 5
     direction: left
 - md: |
-    [[Más Proyectos]](/categorias/)
+    [[Más Proyectos]](/categorias/ "[alt]")
 
     <br>
 
