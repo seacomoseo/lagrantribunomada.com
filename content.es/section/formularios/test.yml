@@ -5,7 +5,7 @@ md: |
 align: center
 size: sm
 form:
-  action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+  action: https://script.google.com/macros/s/AKfycbwfPh0W-ZybAtECYFO0BhUaTrEK6E-JXNKzqlnYPoF4QYtKGRdnSEXBeQDB9qWtwoc21Q/exec
   email: lorensansol@gmail.com
   full: true
 inputs:
