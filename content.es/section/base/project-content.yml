@@ -62,3 +62,4 @@ boxes:
     box: image
   ratio: 1
   icon_color: alt
+  contain: true
