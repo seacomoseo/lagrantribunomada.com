@@ -8,14 +8,15 @@ icons:
   left: ''
   right: ''
 fonts:
-  google: true
   base:
+    google: true
     family: Comfortaa
     weight: 300
     bold: 0
     italic: false
     line_height: 1.25
   cursive:
+    google: true
     family: Shadows Into Light
     weight: 400
     bold: 0
@@ -24,6 +25,7 @@ fonts:
     size: 1.25
     top: 0
   title:
+    google: true
     family: Lava Pro Grunge
     weight: 400
     bold: 0

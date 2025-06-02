@@ -14,9 +14,10 @@ boxes:
 # - image: https://youtu.be/asGFNGdxdmc#poster=que-es.jpg
 #   ratio: 2/3
 #   icon_color: alt
-- image: que-es.jpg
-  ratio: 2/3
-  link: https://www.instagram.com/p/C_LnknTKUSB/
-  ofuscate: true
-  label: Más info
-  button: hide
+- image: https://www.youtube.com/watch?v=IYMCGHB_KhA&list=PL_3uko0zrvozdAIPxooM2SL89HwM8L0XO#mute
+  ratio: 9/16
+  button: alt
+  # link: https://www.instagram.com/p/C_LnknTKUSB/
+  # ofuscate: true
+  # label: Más info
+  # button: hide
