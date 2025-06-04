@@ -9,14 +9,14 @@ icons:
   right: ''
 fonts:
   base:
-    google: true
+    google: false
     family: Comfortaa
     weight: 300
     bold: 0
     italic: false
     line_height: 1.25
   cursive:
-    google: true
+    google: false
     family: Shadows Into Light
     weight: 400
     bold: 0
