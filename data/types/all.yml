@@ -2,7 +2,7 @@ title: Todas
 base: page
 disabled: false
 tpl:
-  back:
+  bg:
     color: main-dark
   menu:
     logo: true

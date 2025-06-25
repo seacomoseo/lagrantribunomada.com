@@ -6,7 +6,7 @@ align: center
 box:
   gap_vs: 3
 boxes:
-- if: feedback
+- if: feedback.active
   md: |
     Este evento ya terminó \
     Si asististe, por favor, ayúdanos a mejorar

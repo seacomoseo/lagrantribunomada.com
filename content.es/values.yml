@@ -1,7 +1,7 @@
 footer:
   color: similar
   div: brush
-  social:
+  dots:
   - link: https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
     icon: whatsapp
   - link: https://t.me/lagrantribunomada

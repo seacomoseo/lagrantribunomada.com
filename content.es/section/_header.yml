@@ -9,7 +9,7 @@ boxes:
 - image: base/icon-animation.svg
   ratio: 4/3
   title: La Gran Tribu Nómada
-  uppercase: true
+  caps: true
   subtitle: Red Itinerante
 - image: https://www.youtube.com/watch?v=IYMCGHB_KhA&list=PL_3uko0zrvozdAIPxooM2SL89HwM8L0XO#mute
   ratio: 9/16

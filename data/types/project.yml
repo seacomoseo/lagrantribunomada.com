@@ -1,6 +1,6 @@
 title: Proyectos
 order: 3
-base: organization
+base: org
 icon: rocket-launch
 emoji: 🚀
 disabled: false
@@ -25,7 +25,7 @@ tpl:
     # button: alt
     tags:
     - type: param
-      param: organization.address.region
+      param: org.address.region
       icon: location-dot
 es:
   permalinks: proyecto

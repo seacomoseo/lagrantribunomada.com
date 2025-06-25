@@ -15,8 +15,8 @@ boxes:
   box:
     cols: 6
     slider: true
-    interval: 5
-    direction: left
+    time: 5
+    to: left
 - md: |
     [[Más Proyectos]](/categorias/ "[alt]")
 

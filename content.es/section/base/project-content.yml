@@ -34,25 +34,25 @@ boxes:
     {{% if "{{ param email     }}" %}} - :envelope:     {{% param email %}}                                                           {{% / if %}}
     {{% if "{{ param phone     }}" %}} - :phone:        [{{% param phone     %}}](tel:{{% palink phone %}} "[nofollow]")              {{% / if %}}
     {{% if "{{ param whatsapp  }}" %}} - :whatsapp:     [{{% param whatsapp  %}}](https://wa.me/{{% palink whatsapp %}} "[nofollow]") {{% / if %}}
-    {{% if "{{ address         }}" %}} - :location-dot: [{{< replace "ES$" "España"                                          >}}{{% address         %}}{{< / replace >}}]({{% param organization.address.link %}} "[nofollow]") {{% / if %}}
+    {{% if "{{ address         }}" %}} - :location-dot: [{{< replace "ES$" "España"                                          >}}{{% address         %}}{{< / replace >}}]({{% param org.address.link %}} "[nofollow]") {{% / if %}}
 
-- if: organization.address.geo
+- if: org.address.geo
   title: Ubicación
   rate: 1/1
   map:
     zoom: 6
   geos:
   - type: point
-    geo: '{{ param organization.address.geo }}'
+    geo: '{{ param org.address.geo }}'
     color: alt
 
-- if: organization.images
+- if: org.images
   gallery:
     cols: 1
     type: boxes
     alt: 'Imagen de {{ param title }}'
   params:
-  - page: organization.images
+  - page: org.images
     box: images
 
 - if: video

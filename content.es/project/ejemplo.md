@@ -23,7 +23,7 @@ summary: Esto es el resumen de un proyecto de ejemplo.
 logo: base/poster.svg
 images:
 - fondo.jpg
-social:
+as:
 - https://www.facebook.com/QuantumFracture
 - https://www.instagram.com/quantumfracture/
 - https://g.page/r/CQsVjy4qsR1NEBM

@@ -32,53 +32,53 @@ srcs:
 
     # schema
     - from: types
-      to: organization.types
+      to: org.types
       default: Organization
       kind: slice
     - from: title
-      to: organization.names
+      to: org.names
       kind: slice
     - from: logo
-      to: organization.logo
+      to: org.logo
     - from: images
-      to: organization.images
+      to: org.images
       kind: slice
       delimit: ', '
     - from: phone
-      to: organization.phones
+      to: org.phones
       kind: slice
     - from: whatsapp
-      to: organization.phones
+      to: org.phones
       kind: slice
     # schema social
     - from: web
-      to: organization.social
+      to: org.as
       kind: slice
     - from: instagram
-      to: organization.social
+      to: org.as
       kind: slice
     - from: facebook
-      to: organization.social
+      to: org.as
       kind: slice
     - from: other
-      to: organization.social
+      to: org.as
       kind: slice
     # schema address
     - from: title
-      to: organization.address.name
+      to: org.address.name
     - from: street
-      to: organization.address.street
+      to: org.address.street
     - from: door
-      to: organization.address.door
+      to: org.address.door
     - from: pc
-      to: organization.address.pc
+      to: org.address.pc
     - from: locality
-      to: organization.address.locality
+      to: org.address.locality
     - from: region
-      to: organization.address.region
+      to: org.address.region
     - from: country
-      to: organization.address.country
+      to: org.address.country
     - from: geo
-      to: organization.address.geo
+      to: org.address.geo
     - from: geo_link
-      to: organization.address.link
+      to: org.address.link

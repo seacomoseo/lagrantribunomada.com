@@ -8,7 +8,7 @@ contact:
   link: https://t.me/+34699190009
   label: 699 19 00 09
   icon: telegram
-  ofuscate: true
+  lock: true
   ga4: true
   button: dark
 - type: br

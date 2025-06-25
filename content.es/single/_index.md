@@ -10,8 +10,8 @@ seo: 👣 La Gran Tribu Nómada - Red Itinerante
 description: Plataforma física y digital para conectar y apoyar proyectos, espacios, comunidades y personitas que buscan una vida alternativa.
 
 tpl:
-  back:
-    bg: fotos/2024-08-13-009.jpg
+  bg:
+    bi: fotos/2024-08-13-009.jpg
     alpha: 0.85
     parallax: fix
   menu:
@@ -44,8 +44,8 @@ tpl:
   - file: redes
   - file: contacto
 
-base: organization
-organization:
+base: org
+org:
   types:
   - Organization
   names:
@@ -64,7 +64,7 @@ organization:
   - fotos/amores.jpg
   - fotos/2024-08-13-008.jpg
   - fotos/2024-08-13-001.jpg
-  social:
+  as:
   - https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
   - https://t.me/lagrantribunomada
   - https://www.instagram.com/lagrantribunomada/
