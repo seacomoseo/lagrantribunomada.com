@@ -190,6 +190,7 @@ Las zonas habilitadas serán:
 - Os animamos a **compartir vehículo** por sostenibilidad, economía y placer de compartir 🚙 (se gestionará por WhatsApp).
 - Durante el encuentro se podrán tomar fotos y vídeos; si tienes inconveniente, avísanos a tu llegada 📸
 - Si tu compa perruno debe acompañarte, ponte en contacto con nosotres 🐾
+- Toda iluminación personal y general es bienvenida 🔦, sobre todo para los trayectos hacia las diferentes zonas de noche 🌌. Pedimos desde el espacio que seáis autónomos en la carga de vuestros dispositivos ⚡ (mechero del coche, cargadores solares, etc.). De todos modos, habrá una zona de carga para emergencias 🔌🙏
 
 ## ::📅:: Programación
 
