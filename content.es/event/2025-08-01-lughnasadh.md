@@ -614,7 +614,8 @@ Todas las actividades de la programación están incluidas en tu aportación
 
 ## ::📲:: Info
 
-[[:whatsapp: Naiht → 665 56 19 23]](https://wa.me/34665561923 "[nofollow whatsapp]")
+[[:whatsapp: Indira → 665 56 19 23]](https://wa.me/34665561923 "[nofollow whatsapp]")
+[[:whatsapp: Xemi → 623 58 84 19]](https://wa.me/34623588419 "[nofollow whatsapp]")
 
 ## ::📝:: ¿Cómo asistir?
 
