@@ -146,7 +146,7 @@ Es el lugar que parte del equipo está sembrando para establecer un hogar y un p
 ## ::🎯:: ¿Cuál es el objetivo de estos encuentros?
 
 - Visibilizar y aportar a **espacios o proyectos** comunitarios (serán los lugares de encuentro).
-- Dar lugar a **talleristas, artesanes y artistas** para darse a conocer.
+- Dar lugar a **talleristas, artesanes, artistas y terapeutas** para darse a conocer.
 - Crear espacios donde generar y fomentar una **economía circular entre los participantes**.
 - Ofrecer un lugar donde **convivir, compartir y disfrutar en tribu**.
 - Hacer crecer la red, la familia 🤍
@@ -191,6 +191,7 @@ Las zonas habilitadas serán:
 - Durante el encuentro se podrán tomar fotos y vídeos; si tienes inconveniente, avísanos a tu llegada 📸
 - Si tu compa perruno debe acompañarte, ponte en contacto con nosotres 🐾
 - Toda iluminación personal y general es bienvenida 🔦, sobre todo para los trayectos hacia las diferentes zonas de noche 🌌. Pedimos desde el espacio que seáis autónomos en la carga de vuestros dispositivos ⚡ (mechero del coche, cargadores solares, etc.). De todos modos, habrá una zona de carga para emergencias 🔌🙏
+- Se habilitará una zona para poner puesto de artesanías y un espacio para intercambio de servicios y terapias.
 
 ## ::📅:: Programación
 
@@ -207,8 +208,8 @@ Todas las actividades de la programación están incluidas en tu aportación
 
 ## ::📲:: Info
 
-[[:whatsapp: Indira → 665 56 19 23]](https://wa.me/34665561923 "[nofollow whatsapp]")
-[[:whatsapp: Xemi → 623 58 84 19]](https://wa.me/34623588419 "[nofollow whatsapp]")
+[[:whatsapp: Indira → 623 58 84 19]](https://wa.me/34623588419 "[nofollow whatsapp]")
+[[:whatsapp: Xemi → 699 190 009]](https://wa.me/34699190009 "[nofollow whatsapp]")
 
 ## ::📝:: ¿Cómo asistir?
 
