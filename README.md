@@ -1,6 +1,6 @@
 # lagrantribunomada.com
 
-[![lagrantribunomada.com](/assets/media/logo.png)](https://lagrantribunomada.com/)
+[![lagrantribunomada.com](/assets/media/logo.svg)](https://lagrantribunomada.com/)
 
 
 ## STEPS
