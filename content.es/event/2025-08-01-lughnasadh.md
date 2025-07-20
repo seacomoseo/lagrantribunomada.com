@@ -1,15 +1,11 @@
 ---
 slug: lughnasadh
 title: LUGHNASADH
-icon: ☀️
 image: carteles/2025-08-01-lughnasadh.jpg
-hide: true
-draft: false
-noindex: true
-seo: ''
-description: ''
+icon: ☀️
 date: 2025-08-01 00:00:00
 end: 2025-08-03 00:00:00
+cancelled: false
 address:
   name: Bosque ADIWA
   street: ''
@@ -19,14 +15,9 @@ address:
   country: ES
   geo: '{"type":"Point","coordinates":[0.133333,40.883333]}'
   link: ''
-
 video: ''
-cancelled: false
-
-
-# BOOKING
 booking:
-  active: true
+  active: false
   inputs:
   - type: hidden
     name: _sheetname
@@ -73,24 +64,17 @@ booking:
     name: Otros
     hint: ¿Algo más que debamos saber o alguna necesidad/duda que tengas?
     full: true
-
-
-# FEEDBACK
 feedback:
   active: false
   inputs:
-
   - type: hidden
     name: _sheetname
     label: Feedback ☀️ LUGHNASADH 2025
-
   - type: text
     name: Nombre
   - type: number
     name: Edad
     min: 1
-
-
   - type: radio
     name: General
     label: El encuentro LUGHNASADH en general
@@ -111,7 +95,11 @@ feedback:
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
     show_if: General
-    # show_if: General
+draft: false
+hide: true
+noindex: true
+seo: ''
+description: ''
 ---
 
 🌬️ Este es un llamado para la convivencia en tribu, festejando la rueda de la vida 🌈🌻🌸
