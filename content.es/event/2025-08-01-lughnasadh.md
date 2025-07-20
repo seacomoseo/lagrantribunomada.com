@@ -101,9 +101,7 @@ noindex: true
 seo: ''
 description: ''
 ---
-
-🌬️ Este es un llamado para la convivencia en tribu, festejando la rueda de la vida 🌈🌻🌸
-{.subtitle}
+🌬️ Este es un llamado para la convivencia en tribu, festejando la rueda de la vida 🌈🌻🌸 {.subtitle}
 
 ## ::👣:: ¿Qué es LGTN?
 
@@ -185,39 +183,40 @@ Las zonas habilitadas serán:
 
 Eres bienvenide para voluntariar y compartir **a partir del martes 29** en el espacio 👷‍♀️
 
-| Día         | Hora  | ⭐️ | Actividad                                                                            |
-|-------------|-------|----|--------------------------------------------------------------------------------------|
-| **Viernes** | 18:00 | 🚀 | Aterrizaje                                                                           |
-|             | 21:00 | 🫕 | Cena                                                                                 |
-|             | 22:00 | 👣 | Bienvenida                                                                           |
-|             | 22:30 | 🔥 | Jam Salvaje                                                                          |
-| **Sábado**  | 09:00 | 🥞 | Desayuno                                                                             |
-|             | 11:00 | 🪷 | "Baño de Gracia Tribal" con Michalina Sakowska                                       |
-|             | 13:00 | 🧚🏽 | "Círculo de Dones"                                                                   |
-|             | 14:00 | 🫕 | Comida                                                                               |
-|             | 17:00 | 💝 | "Calidez Humana" con Nerea DiRo                                                      |
-|             | 19:00 | 🌞 | Ritual "Lughnasadh" y Ceremonia de Cacao con Lua Moonrise, Paula Aguarón y Bea Almar |
-|             | 21:00 | 🥙 | Cena                                                                                 |
-|             | 22:00 | 🕺 | Ecstatic Dance "Tu Sol en Danza" con DJ Nashwa                                       |
-| **Domingo** | 09:00 | 🥞 | Desayuno                                                                             |
-|             | 10:30 | 🗣️ | Charla Dinámica "Enciende tu llama vital" con Dr. Mario Navarro                      |
-|             | 12:30 | 🧘‍♂️ | "Conecta con tu energía interior" con Fran Rivero                                    |
-|             | 14:00 | 🫕 | Comida                                                                               |
-|             | 17:00 | 🫂 | Círculo de Cierre                                                                    |
-|             | 18:00 | 💃 | "Micro Abierto" con TNT                                                              |
-|             | 21:00 | 🥙 | Cena                                                                                 |
-| **Lunes**   |       | 👨‍🌾 | Voluntariado para la recogida del espacio                                            |
+|Día|Hora|⭐️|Actividad|
+|---|---|---|---|
+|**Viernes**|18:00|🚀|Aterrizaje|
+| |21:00|🫕|Cena|
+| |22:00|👣|Bienvenida|
+| |22:30|🔥|Jam Salvaje|
+|**Sábado**|09:00|🥞|Desayuno|
+| |11:00|🪷|"Baño de Gracia Tribal" con Michalina Sakowska|
+| |13:00|🧚🏽|"Círculo de Dones"|
+| |14:00|🫕|Comida|
+| |17:00|💝|"Calidez Humana" con Nerea DiRo|
+| |19:00|🌞|Ritual "Lughnasadh" y Ceremonia de Cacao con Lua Moonrise, Paula Aguarón y Bea Almar|
+| |21:00|🥙|Cena|
+| |22:00|🕺|Ecstatic Dance "Tu Sol en Danza" con DJ Nashwa|
+|**Domingo**|09:00|🥞|Desayuno|
+| |10:30|🗣️|Charla Dinámica "Enciende tu llama vital" con Dr. Mario Navarro|
+| |12:30|🧘‍♂️|"Conecta con tu energía interior" con Fran Rivero|
+| |14:00|🫕|Comida|
+| |17:00|🫂|Círculo de Cierre|
+| |18:00|💃|"Micro Abierto" con TNT|
+| |21:00|🥙|Cena|
+|**Lunes**| |👨‍🌾|Voluntariado para la recogida del espacio|
 
-Todas las actividades de la programación están incluidas en tu aportación
-{.subtitle}
+Todas las actividades de la programación están incluidas en tu aportación {.subtitle}
 
 ## ::📲:: Info
 
-[[:whatsapp: Indira → 623 58 84 19]](https://wa.me/34623588419 "[nofollow whatsapp]")
-[[:whatsapp: Xemi → 699 190 009]](https://wa.me/34699190009 "[nofollow whatsapp]")
+[[:whatsapp: Indira → 623 58 84 19]](https://wa.me/34623588419)
+[[:whatsapp: Xemi → 699 190 009]](https://wa.me/34699190009)
 
 ## ::📝:: ¿Cómo asistir?
 
 Las plazas son limitadas.
 
-Rellena el siguiente formulario para reservar la tuya:
+~~Rellena el siguiente formulario para reservar la tuya:~~
+
+Las plazas ya se han cubierto
