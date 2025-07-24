@@ -32,7 +32,6 @@ tpl:
       - link: /alta/
         label: Hazte Soci@
         button: alt
-  callnow: {}
   section:
   - size: sm
   modal:

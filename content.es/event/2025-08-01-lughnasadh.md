@@ -26,7 +26,7 @@ cancelled: false
 
 # BOOKING
 booking:
-  active: false
+  active: true
   inputs:
   - type: hidden
     name: _sheetname
@@ -232,6 +232,6 @@ Todas las actividades de la programación están incluidas en tu aportación
 
 Las plazas son limitadas.
 
-~~Rellena el siguiente formulario para reservar la tuya:~~
+Rellena el siguiente formulario para reservar la tuya:
 
-Las plazas ya se han cubierto
+*IMPORTANTE:* ya se han cubierto, reservar te colocará en lista de espera.
