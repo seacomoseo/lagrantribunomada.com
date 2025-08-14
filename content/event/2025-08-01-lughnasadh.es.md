@@ -159,26 +159,26 @@ feedback:
     hint: ¿Algo que añadir o que quieras comentar?
     show_if: Organización Sostén
 
-  - type: radio
-    name: Organización Publicidad
-    label: Publicidad/redes del encuentro
-    x: true
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
-    name: Organización Publicidad Observaciones
-    label: Observaciones
-    hint: ¿Algo que añadir o que quieras comentar?
-    show_if: Organización Publicidad
+  # - type: radio
+  #   name: Organización Publicidad
+  #   label: Publicidad/redes del encuentro
+  #   x: true
+  #   options:
+  #   - option: 1
+  #   - option: 2
+  #   - option: 3
+  #   - option: 4
+  #   - option: 5
+  #   - option: 6
+  #   - option: 7
+  #   - option: 8
+  #   - option: 9
+  #   - option: 10
+  # - type: textarea
+  #   name: Organización Publicidad Observaciones
+  #   label: Observaciones
+  #   hint: ¿Algo que añadir o que quieras comentar?
+  #   show_if: Organización Publicidad
 
 
   - type: h3
@@ -420,8 +420,8 @@ feedback:
     show_if: Actividades 🗣️ Charla Dinámica 'Enciende tu llama vital'
 
   - type: radio
-    name: Actividades 🧘‍♂️ Conecta con tu energía interior
-    label: 🧘‍♂️ Conecta con tu energía interior
+    name: Actividades 🧘‍♂️ Conecta con tu energía interior (Chi Kung)
+    label: 🧘‍♂️ Conecta con tu energía interior (Chi Kung)
     x: true
     options:
     - option: 1
@@ -435,10 +435,10 @@ feedback:
     - option: 9
     - option: 10
   - type: textarea
-    name: Actividades 🧘‍♂️ Conecta con tu energía interior Observaciones
+    name: Actividades 🧘‍♂️ Conecta con tu energía interior (Chi Kung) Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
-    show_if: Actividades 🧘‍♂️ Conecta con tu energía interior
+    show_if: Actividades 🧘‍♂️ Conecta con tu energía interior (Chi Kung)
 
   - type: radio
     name: Actividades 💃 Micro Abierto
