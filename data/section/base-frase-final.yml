@@ -1,0 +1,36 @@
+name: Base ➡️ Cierre
+id: cierre
+hanchor: Cierre
+node: aside
+align: center
+box:
+  gap_vs: 3
+boxes:
+- if: feedback.active
+  md: |
+    Este evento ya terminó \
+    Si asististe, por favor, ayúdanos a mejorar
+
+    [[:comments: Feedback]](#feedback "[alt]")
+- md: |
+    ¿Todavía no nos conoces? \
+    ¿Todavía no estás en nuestro directorio?
+    {.subtitle}
+
+    [[¡Únete a la red! 😉]](/#como-entrar "[alt]")
+modals:
+- if: feedback.active
+  id: feedback
+  title: Feedback {{ param icon }} {{ param title }}
+  md: |
+    Gracias a tu opinión, podremos mejorar los futuros encuentros y todo lo que rodea a LGTN 🫂💕♾️
+
+    Ningún campo es obligatorio 🫶
+  align: center
+  size: sm
+  form:
+    action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+    email: lagrantribunomada@gmail.com
+  params:
+  - page: feedback.inputs
+    box: inputs

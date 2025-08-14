@@ -10,44 +10,19 @@ tpl:
     transparent: true
     color: dark
     hide_icons: true
-    es:
-      image: base/logo-x.svg
-      items:
-      - link: /
-        label: Inicio
-      - link: /#proyecto
-        label: El Proyecto
-      - link: /#directorio
-        label: Directorio
-      - link: /#te-interesa
-        label: ¿Te Interesa?
-      - link: /#encuentros
-        label: Encuentros
-      - link: /#galeria
-        label: Galería
-      - link: /#redes
-        label: Redes
-      - link: /#contacto
-        label: Contacto
-      - link: /alta/
-        label: Hazte Soci@
-        button: alt
   section:
   - size: sm
-  modal:
-    icon_type: top
-    # color: main-dark
   sections:
-  - file: base/_header
-  - file: base/toc
-  - file: base/content
-  - file: base/address
-  - file: base/author
-  - file: base/social
-  - file: base/comments
-  - file: base/children
-  - file: base/share
-  - file: base/related
+  - file: base-_header
+  - file: base-toc
+  - file: base-content
+  - file: base-address
+  - file: base-author
+  - file: base-social
+  - file: base-comments
+  - file: base-children
+  - file: base-share
+  - file: base-related
   list:
     cols: 4
     align: center

@@ -1,0 +1,30 @@
+name: Formularios ➡️ Reserva
+if: booking.active
+hanchor: Reserva
+node: div
+pt: 0
+size: sm
+form:
+  action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+  email: lorensansol@gmail.com
+  to: '#reserva-enviada'
+params:
+- page: booking.inputs
+  box: inputs
+modal:
+  icon_type: top
+modals:
+- if: booking
+  id: reserva-enviada
+  hanchor: Reserva Enviada
+  title: Importante
+  md: |
+    El formulario de reserva para **{{% param icon %}} {{% param title %}}** se ha enviado correctamente.
+
+    La aportación se realizará al llegar al espacio.
+
+    Te agregaremos al grupo de WhatsApp del encuentro.
+
+    ¡Muchas gracias!
+  size: xs
+  align: center

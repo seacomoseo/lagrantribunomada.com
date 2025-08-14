@@ -1,0 +1,178 @@
+name: Proyecto
+id: proyecto
+title: El Proyecto
+box:
+  cols: 4
+  cols_vs: 2
+  hs: 3
+  button: alt
+boxes:
+- icon: campground
+  title: ¿Qué Es?
+  link: '#que-es'
+- icon: bullseye-arrow
+  title: Objetivos
+  link: '#objetivos'
+- icon: hands-holding-heart
+  title: Valores
+  link: '#valores'
+- icon: people-group
+  title: Equipo
+  link: '#equipo'
+modal:
+  icon_type: top
+modals:
+- icon: campground
+  title: ¿Qué Es?
+  subtitle: La Gran Tribu Nómada
+  md: |
+    Este proyecto ha sido creado y desarrollado por un **GRAN** equipo multidisciplinar y consiste en una plataforma itinerante digital y física cuyo objetivo es ofrecer los recursos y la red necesarias para cocrear la realidad que queremos, como dice Seth Godin, “una vida de la que no necesitemos escapar”.
+
+    Esta **TRIBU** está compuesta por una comunidad de **AMORÍGENES**, personas con valores afines, cuyo enfoque de vida es potenciar los propios dones y vivir junt@s una vida compartida, libre y llena de aventuras.
+
+    Además, estaremos viajando en una **CARAVANA VIVA** de vehículos (furgos, caravanas, coches en los que puedas pernoctar…) por diferentes puntos de interés de la Tribu: comunidades que conocer y en las que colaborar, lugares donde reunirnos y conocer más amorígenes y en los que podamos desarrollar encuentros para generar economía personal… la ruta la crearemos entre to@s y si te apetece, puedes sumarte a ella icon:heart
+- icon: caravan
+  title: Objetivos
+  md: |
+    Nuestro objetivo principal es **crear una plataforma itinerante digital y física para dar visibilidad, sostén y recursos a personas que tengan o quieran tener un estilo de vida autónomo, comunitario y/o nómada**.
+
+    Más objetivos:
+    - **Mapear** la península (de momento) de **comunidades y proyectos personales afines**.
+    - Recoger **información útil** de **interés nómada**.
+    - Creación y mantenimiento de una **caravana viva** que viaja en tribu.
+    - Desarrollar y gozar **encuentros y eventos** entre **amorígenes**.
+    - **Encontrar** lugares para alquilar **espacios para eventos, talleres…** con las mejores **ventajas**.
+    - **Interconectar amorígenes** para crear **red** con múltiple función (intercambio de servicios, cocreación, viajar, alojamiento, apoyo, disfrute…).
+    - Crear una **red** lo más **autosuficiente** posible.
+    - **Visitar, conocer y colaborar** con distintas **comunidades**.
+    - Explorar una **filosofía de vida comunitaria** repleta de valores.
+- icon: hands-holding-heart
+  title: Valores
+  box:
+    cols: 1
+    gap_vs: 3
+  boxes:
+  - md: |
+      - *Humildad*
+      - *Honestidad*
+      - *Respeto  Compromiso*
+      - *Amor*
+      - *Coherencia*
+      - *Autocuidado*
+      - *Escucha*
+      - *Responsabilidad afectiva*
+      - *Compasión*
+      - *Gozo y diversión*
+      - *Inclusión*
+      - *Creatividad*
+      - *Curiosidad*
+      - *Autoobservación*
+      - *Creer en ti*
+      - *Confianza*
+      - *Apertura*
+      - *Flexibilidad*
+      - *Desarrollo y expansión personal*
+      - *Compartir*
+      - *Con(tribu)ir*
+      - *Simplicidad*
+      - *Libertad*
+      - *Autonomía*
+      - *Agradecimiento*
+      {.list-inline .h4}
+  - title: Y cuando viajamos o visitamos…
+    md: |
+      - Respeto a la **naturaleza** (animales, entorno, contaminación acústica…).
+      - **Conciencia ambiental** (plásticos, basura, reutilizar. reciclar, productos naturales…).
+      - **Integración** con el entorno y respeto de la vecindad y comunidad asentada.
+      - Ir a **sumar**, a **aportar**, no sólo a coger. Conciencia del dar y recibir.
+      - Disposición a **colaborar**, **incluir** y **aprender** del otro :seedling:
+- icon_type: bottom
+  title: Equipo
+  subtitle: Coordinación
+  size: lg
+  box:
+    gap: 2
+  boxes:
+  - box:
+      circle: true
+      gray: true
+      cols: 4
+      cols_vs: 2
+      gap: 3
+      gap_ny: 1
+      icon_type: bottom
+    boxes:
+    - icon: user-hair-mullet
+      image: equipo/indira.jpg
+      title: Indira
+      subtitle: La Hechicera
+      md: Te hace unas terapias que flipas en colores (guiño guiño)
+    - icon: user-cowboy
+      image: equipo/xemi.jpg
+      title: Xemi
+      subtitle: El Fenicio
+      md: Organiza cosas, ¿a quién no le va a gustar un fenicio del siglo 1º?
+    - icon: user-ninja
+      image: equipo/loren.jpg
+      title: Loren
+      subtitle: El Bailongo
+      md: Te saca tu eneatipo con ChatGPT y te diseña una web con eso
+    - icon: user-astronaut
+      image: equipo/paula.jpg
+      title: Paula
+      subtitle: La Electroduende
+      md: Fantasía audiovisual y emocional everywhere, all time
+    - icon: user-vneck-hair-long
+      image: equipo/lua.jpg
+      title: Lua
+      subtitle: La Artemisana
+      md: Esencias de cosas naturales que huelen mu rico
+    - icon: user-shakespeare
+      image: equipo/naiht.jpg
+      title: Naiht
+      subtitle: El Personaje
+      md: Con el juego y el teatro te explota el coco poco a poco
+    - icon: user-robot
+      image: equipo/rafa.jpg
+      title: Rafa
+      subtitle: El Solucionador
+      md: Te hace Φ con un canuto impreso en 3D con sal del himalaya
+  - box:
+      circle: true
+      gray: true
+      cols: 4
+      cols_vs: 2
+      gap: 3
+      gap_ny: 1
+      icon_type: bottom
+    boxes:
+    - icon: teddy-bear
+      image: equipo/perruno/momo.jpg
+      title: Momo
+      subtitle: El Oso
+      md: 'Arrambla por donde pasa, ¡to bonico! :heart:'
+    - icon: dog
+      image: equipo/perruno/guiro.jpg
+      title: Güiro
+      subtitle: El ComeCaras
+      md: Si bostezas te chupa la campanilla
+    - icon: dinosaur
+      image: equipo/perruno/paco.jpg
+      title: Paco
+      subtitle: El Veterano
+      md: El más sabio y experimentado de todos
+    - icon: dolphin
+      image: equipo/perruno/romeo.jpg
+      title: Romeo
+      subtitle: El Sireno
+      md: Canto angelical, trompacelga y paraico
+    - icon: dragon
+      image: equipo/perruno/yang.jpg
+      title: Yang
+      subtitle: El Chino
+      md: Perro medicina y protector de la manada
+    - icon: paw-claws
+      image: equipo/perruno/akela.jpg
+      title: Akela
+      subtitle: La Loba
+      md: La compitrueno de Mowgli a.k.a. Artemisana

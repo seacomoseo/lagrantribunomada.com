@@ -4,21 +4,17 @@ base: event
 related: true
 tpl:
   sections:
-  - file: base/event-_header
-  - file: base/toc
-  - file: base/content
-    modals:
-    - file: formularios/feedback
-  - file: formularios/reserva
-    modals:
-    - file: formularios/reserva-enviada
-  - file: base/frase-final
-  - file: base/author
-  - file: base/social
-  - file: base/comments
-  - file: base/children
-  - file: base/share
-  - file: base/related
+  - file: base-event-_header
+  - file: base-toc
+  - file: base-content
+  - file: formularios-reserva
+  - file: base-frase-final
+  - file: base-author
+  - file: base-social
+  - file: base-comments
+  - file: base-children
+  - file: base-share
+  - file: base-related
   list:
     cols: 3
     card: true
@@ -58,9 +54,6 @@ params:
     label: Activar
     widget: boolean
   - var: box_inputs
-# - name: info
-#   label: Información de reserva
-#   widget: markdown
 es:
   permalinks: :year/:month/:day
   slug: encuentros

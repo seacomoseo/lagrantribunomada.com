@@ -1,0 +1,82 @@
+name: Formularios ➡️ rezagados
+title: Rezagados 🌈 OSTARA 2025
+md: |
+  Formulario de reserva solamente para ti, rezagado, que lo has recibido \
+  (no lo compartas, por favor)
+align: center
+size: sm
+form:
+  action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+  email: lorensansol@gmail.com
+  to: '#reserva-enviada'
+inputs:
+- type: hidden
+  name: _sheetname
+  label: Reservas
+- type: hidden
+  name: Encuentro
+  label: 🌈 OSTARA 2025
+- type: text
+  name: Nombre y Apellidos
+  required: true
+- type: tel
+  name: Teléfono
+  required: true
+- type: email
+  name: Email
+  required: true
+- type: text
+  name: Pernocta
+  hint: ¿Cómo vais a pernoctar? Tienda, vehículo...
+  required: true
+  full: true
+- type: textarea
+  name: Artesanías
+  hint: ¿Tienes artesanías o quieres formar parte del mercadillo? Si es así, cuéntanos cuales son
+  full: true
+- type: textarea
+  name: Servicios
+  hint: ¿Quieres ofrecer tus dones/servicios en el espacio? Si es así, cuéntanos cuales son
+  full: true
+- type: number
+  name: Aportación
+  label: 'Aportación sugerida: 40 €'
+  hint: |
+    ¿De cuánto va a ser tu aportación consciente? (€) \
+    Hemos estimado que 40 € es una cantidad apropiada para valorar el espacio, las actividades, el trabajo del equipo y para permitir que LGTN continúe expandiendo esta hermosa red y sus encuentros. Tu contribución, sea cual sea, será valorada y apreciada. \
+    Tras enviar el formulario contactaremos contigo para darte indicaciones.
+  required: true
+  min: 1
+- type: text
+  name: Cómo
+  hint: ¿Cómo nos has conocido?
+  full: true
+- type: textarea
+  name: Otros
+  hint: ¿Algo más que debamos saber o alguna necesidad/duda que tengas?
+  full: true
+modal:
+  icon_type: top
+modals:
+- if: booking
+  id: reserva-enviada
+  hanchor: Reserva Enviada
+  title: Importante
+  md: |
+    El formulario de reserva para **🌈 OSTARA** se ha enviado correctamente, pero todavía hay más.
+
+    Para que la reserva se haga efectiva, debes ingresar tu aportación consciente mediante bizum
+    a este número de móvil **(Christian T. I.)**:
+
+    [+34 665 56 19 23](tel:+34665561923)
+    {.h0 .align-center}
+
+    Con el concepto
+    "<u>OSTARA [mismos nombres que en formulario]</u>"
+    (quitando corchetes) y enviarle un WhatsApp con el texto
+    "<u>BIZUM OSTARA HECHO [mismos nombres que en formulario]</u>".
+
+    Tras esto te agregaremos al grupo de WhatsApp del encuentro.
+
+    ¡Muchas gracias!
+  size: xs

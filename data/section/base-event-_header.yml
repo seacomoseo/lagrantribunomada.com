@@ -1,0 +1,45 @@
+name: Base ➡️ Cabecera de Eventos
+node: header
+align: left
+boxes:
+- if: icon
+  params:
+  - box: title
+  - box: icon
+  icon_type: side
+- if: not icon
+  params:
+  - box: title
+- tags:
+  - type: date
+  - type: param
+    param: address.name
+    icon: campground
+  - type: param
+    param: address.region
+    icon: location-dot
+- if: cancelled
+  md: |
+    =={{< i18n cancelled >}}==
+    {.cancelled}
+- box:
+    cols: 0
+  boxes:
+  - if: video
+    params:
+    - page: video
+      box: image
+    ratio: 9/16
+    fit: 0.76
+  - if: image
+    params:
+    - page: image
+      box: image
+    - page: title
+      box: alt
+    - page: seo
+      box: alt
+    - page: image
+      box: link
+    button: hide
+    ratio: 3/4

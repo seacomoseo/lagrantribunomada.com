@@ -1,0 +1,136 @@
+name: ¿Te Interesa?
+title: ¿Te Interesa?
+box:
+  cols: 5
+  cols_vs: 2
+  hs: 5
+  button: alt
+boxes:
+- icon: person-through-window
+  title: ¿Qué Buscamos?
+  link: '#que-buscamos'
+- icon: street-view
+  title: ¿Qué Ofrecemos?
+  link: '#que-ofrecemos'
+- icon: person-to-portal
+  title: ¿Cómo Entrar?
+  link: '#como-entrar'
+- icon: caravan
+  title: Caravana Amorigen
+  link: '#caravana-amorigen'
+- icon: hand-holding-heart
+  title: Donaciones
+  link: '#donaciones'
+modal:
+  icon_type: top
+modals:
+- icon: person-through-window
+  title: ¿Qué Buscamos?
+  size: lg
+  md: |
+    Personas cuyo estilo de vida se dirige hacia la soberanía, la libertad y el disfrute de la vida en red:
+  align: center
+  box:
+    cols: 3
+  boxes:
+  - icon: dove
+    title: Nómades
+    md: |
+      Estilo de vida nómada permanente o intermitente.
+
+      Si tu intención es iniciarte en este estilo de vida o tienes curiosidad, súmate, en tribu es más sencillo.
+  - icon: elephant
+    title: Comunidades
+    md: |
+      Espacios de convivencia, voluntariado y creación en los que la motivación sea caminar en tribu, lograr autonomía, contacto con la naturaleza, restaurar espacios con potencial…
+  - icon: cat
+    title: Freelancer
+    md: |
+      Emprendedores, artistas, personas que quieren desarrollar su potencial y su economía de manera independiente.
+
+      Si estás planteándote este camino, estás empezando o te encuentras en el proceso de descubrir tus dones, también este es tu espacio.
+- icon: street-view
+  title: ¿Qué Ofrecemos?
+  md: |
+    #### Si no eres soci@
+    pero estás dentro de la comunidad/redes
+
+    - Acceso a contactos con motivaciones afines a las tuyas con los que realizar intercambios, compartir viajes, cocrear proyectos, solicitar u ofrecer voluntariado, lugar para pernoctar…
+    - Acceso al grupo de WhatsApp “Servicios” :wand-magic-sparkles:, donde promocionarte y conocer a otr@s freelancers.
+    - Acceso a información relevante como el directorio de comunidades, servicios, amorígenes, espacios con ventajas para organizar eventos…
+    - Acceso al seguimiento de nuestro proyecto, con la puerta abierta si quieres sumarte a nuestro nomadismo :heart:
+
+    #### Si eres soci@
+    - Dispondrás de un espacio de promoción dentro de la plataforma web de tu proyecto personal o comunitario, difusión en nuestras redes sociales de tus eventos y estarás ubicado do en nuestro directorio.
+    - Contarás con el sostén del equipo de coordinación que tendrá en cuenta tus propuestas y necesidades. Tendrás voz en el proyecto LGTN.
+    - También, abrimos la opción de cocrear contigo tu evento, taller o retiro (la logística, el espacio, la programación, la coordinación de l@s asistentes, el encuentro, la alimentación…). Consulta con nosotr@s las condiciones de este servicio.
+    - Ventajas en los servicios entre soci@s :lightbulb:
+
+    #### Si sois una comunidad
+    - Nuestra intención es visitar vuestro espacio y conocer vuestro proyecto, reunir información a través de la convivencia y de una entrevista diseñada para recoger información de interés para el público. También acudimos como voluntari@s y con el foco de nutrir y dejarnos nutrir por vosotr@s :leaf:
+- icon: person-to-portal
+  title: ¿Cómo Entrar?
+  md: |
+    ¡Convirtiéndote en **Amorígen**!
+
+    Puedes solicitar estar dentro de la **COMUNIDAD** de WhatsApp de **LGTN**.
+
+    [[:whatsapp: Comunidad de WhatsApp]](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow whatsapp]")
+    [[Info de cada grupo]](/whatsapp/)
+
+    También puedes seguir nuestra trayectoria y apoyarnos en redes sociales ([Instagram](https://www.instagram.com/lagrantribunomada/ "[nofollow]") y [Telegram](https://t.me/lagrantribunomada "[nofollow]")).
+
+    Una vez estés dentro de la comunidad de WhatsApp, podrás sumarte en ruta a la [caravana viva](/#caravana-amorigen) y viajar con nosotr@s.
+
+    Si quieres ser soci@, puedes formar parte de nuestra **ASOCIACIÓN**:
+
+    [[Hazte Soci@]](/alta/ "[alt]")
+
+    Al entrar en la asociación, además de apoyar el proyecto :heart:, tendrás acceso a las ventajas de soci@ que te explicamos en el[ apartado “Qué ofrecemos”](/#que-ofrecemos).
+
+    Y por supuesto, si te apetece **COLABORAR** con nuestro proyecto a través de [donaciones](/#donaciones) económicas o de cualquier otro tipo, toda ayuda es bienvenida y agradecida desde el corazón.
+
+    Por último, si crees que tus dones pueden ser necesarios dentro del Equipo de Coordinación y quieres trabajar con nosotros en la creación y desarrollo del proyecto, [coméntanos](/#contacto) tu propuesta para que la valoremos.
+- icon: caravan
+  title: Caravana Amorigen
+  md: |
+    🌬️ Si quieres vivir la experiencia de la primera caravana amorígen, únete y compartiremos la cocreación de esta maravillosa red itinerante 😍
+
+    #### 🎯 ¿Cuál es el objetivo?
+    - Visitar **espacios, proyectos, comunidades** y colaborar en sus necesidades.
+    - Hacer crecer la **red**, la familia 🤍
+    - Compartir un viaje comunitario en **Tribu**.
+    - Fomentar y crear una **economía sostenible y circular** a través de nuestros dones mientras viajamos.
+
+    #### 🫂 ¿Cómo nos relacionamos?
+    - Con las **personas**, desde el amor, el respeto y la consciencia.
+    - Con **nuestro cuerpo**, como un templo, cuidando nuestra alimentación y sacándolo a bailar.
+    - Con el **entorno**, cuidando la naturaleza, dejándolo todo mejor de lo que estaba.
+
+    ### 🚐 ¿Cómo viajamos?
+    - En **furgo**, **caravana** o cualquier **vehículo** que te permita dormir en él.
+    - Compartiendo vehículo, siempre es mejor.
+
+    #### 📍 Punto de partida
+    Comenzó al finalizar el encuentro de [MABON](/evento/2024/09/20/mabon/) (23 de septiembre de 2024), en el espacio "**Cami Iyasareru**" (Valencia).
+
+    Finalizaremos la caravana en el próximo evento a finales de Octubre, en SAMHAIN 🧙🏼‍♀️
+
+    #### 📝 ¿Cómo unirte?
+    Ponte en contacto con nosotres y te informamos.
+
+    #### 📲 Contacto
+    [[:whatsapp: Xemi → 699 19 00 09]](https://wa.me/34699190009 "[nofollow whatsapp]")
+
+    Puedes unirte a la caravana en cualquier momento del viaje sin importar la fecha de salida de la caravana amorígen 😉
+- icon: hand-holding-heart
+  title: Donaciones
+  md: |
+    Toda ayuda es bienvenida y agradecida desde el corazón.
+
+    Puedes realizar bizum a este número de móvil:
+
+    [+34 665 56 19 23](tel:+34665561923)
+    {.h0}
+    **(Christian T. I.)**
+  align: center

@@ -1,0 +1,263 @@
+name: Formularios ➡️ Alta
+title: Hazte Soci@
+md: |
+  [[¿Cómo Entrar?]](#como-entrar)
+
+  :asterisk: Cuota consciente, [aporta lo que sientas](/#donaciones) anualmente.
+align: center
+size: sm
+form:
+  action: https://script.google.com/macros/s/AKfycbwfPh0W-ZybAtECYFO0BhUaTrEK6E-JXNKzqlnYPoF4QYtKGRdnSEXBeQDB9qWtwoc21Q/exec
+  email: lorensansol@gmail.com
+  to: '#bienvenida'
+inputs:
+- type: hidden
+  name: _sheetname
+  label: Socios
+- type: text
+  name: Pseudónimo
+  hint: ¿Cómo quieres que te llamemos? <br> (A ti, no a tu proyecto / servicio)
+  required: true
+- type: text
+  name: Nombre
+  required: true
+- type: text
+  name: Apellidos
+  required: true
+- type: text
+  name: DNI
+  required: true
+- type: tel
+  name: Teléfono Personal
+  required: true
+- type: email
+  name: Email Personal
+- type: number
+  name: Cuota
+  label: Cuota Consciente Anual
+  hint: ¿Cuánto sientes aportar?
+  min: 0
+- type: textarea
+  name: Cómo
+  label: ¿Cómo nos has conocido?
+  required: true
+- type: check
+  name: Proyecto
+  label: Quiero que mi proyecto / servicio aparezca en vuestra web
+  full: true
+- type: h2
+  label: Proyecto / Servicio
+  show_if: Proyecto
+- type: text
+  name: Nombre Proyecto
+  label: Nombre de tu Proyecto / Servicio
+  required: true
+  show_if: Proyecto
+- type: check
+  name: Comunidad
+  label: Soy una comunidad
+  show_if: Proyecto
+- type: check
+  name: Espacio
+  label: Ofrezco espacio
+  show_if: Proyecto
+- type: md
+  md: |
+    Si cobras por el espacio, marca "Ofrezco servicio/s"
+    {.text-sm .align-left}
+  show_if: Proyecto&&Espacio
+- type: check
+  name: Visitable
+  label: Acepto visitas
+  show_if: Comunidad||Espacio
+- type: check
+  name: Servicios
+  label: Ofrezco servicio/s
+  show_if: Proyecto
+- type: textarea
+  name: Resumen
+  hint: Breve resumen sobre tu proyecto / servicio (máximo 155 caracteres)
+  max: 155
+  required: true
+  show_if: Proyecto
+- type: textarea
+  name: Descripción
+  label: Descripción larga
+  hint: ¿En qué consiste? ¿Cuál es tu objetivo/motivación? ¿Qué ofrece/s a la red?...
+  show_if: Proyecto
+- type: textarea
+  name: Ventajas
+  hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
+  required: true
+  show_if: Proyecto
+- type: check
+  name: Entrevistable
+  label: Acepto entrevistas
+  hint: Podemos entrevistarte por gusto o por visibilizarte publicándolo en nuestra web y/o RRSS
+  full: true
+  show_if: Proyecto
+- type: h3
+  label: Contacto
+  show_if: Proyecto
+- type: md
+  md: |
+    Los datos pueden ser diferentes al de socio
+    {.text-sm}
+  full: true
+  show_if: Proyecto
+- type: text
+  name: Email
+  full: true
+  show_if: Proyecto
+- type: tel
+  name: Teléfono
+  show_if: Proyecto
+- type: tel
+  name: WhatsApp
+  show_if: Proyecto
+- type: text
+  name: Web
+  label: Sitio Web
+  show_if: Proyecto
+- type: text
+  name: Instagram
+  show_if: Proyecto
+- type: text
+  name: Facebook
+  show_if: Proyecto
+- type: text
+  name: Otro
+  label: Otro enlace relevante
+  show_if: Proyecto
+- type: h3
+  label: Ubicación
+  show_if: Proyecto
+- type: check
+  name: Mapa
+  label: Quiero aparecer en el mapa interactivo
+  full: true
+  show_if: Proyecto
+- type: text
+  name: Calle
+  show_if: Proyecto&&Mapa
+- type: text
+  name: Número
+  show_if: Proyecto&&Mapa
+- type: text
+  name: Puerta
+  show_if: Proyecto&&Mapa
+- type: text
+  name: CP
+  label: Código Postal
+  show_if: Proyecto&&Mapa
+- type: text
+  name: Ciudad / Localidad
+  show_if: Proyecto&&Mapa
+- type: text
+  name: Provincia
+  show_if: Proyecto&&Mapa
+- type: select
+  name: País
+  show_if: Proyecto&&Mapa
+  options:
+  - option: 🇪🇸 España
+    value: ES
+  - option: 🇵🇹 Portugal
+    value: PT
+  - option: 🇫🇷 Francia
+    value: FR
+- type: geo
+  name: Posición
+  color: alt
+  required: true
+  show_if: Proyecto&&Mapa
+- type: h3
+  label: Multimedia
+  show_if: Proyecto
+- type: file
+  name: Logo
+  hint: Adjunta tu logo (preferible en formato PNG con fondo transparente)
+  accept: image/*
+  show_if: Proyecto
+  base_name: Nombre Proyecto
+- type: file
+  name: Imágenes
+  hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
+  accept: image/*
+  max: 3
+  show_if: Proyecto
+  base_name: Nombre Proyecto
+- type: text
+  name: Vídeo
+  hint: Indica el enlace relevante de un vídeo de Youtube o Vimeo
+  full: true
+  show_if: Proyecto
+- type: h3
+  label: Otros
+  show_if: Proyecto
+- type: check
+  name: Encuentros
+  label: Ofrezco mis dones y/o espacio para vuestros encuentros
+  full: true
+- type: textarea
+  name: Encuentros Descripción
+  label: Descripción sobre lo que ofreces
+  hint: Qué ofreces para nuestros encuentros (Esto no aparecerá públicamente)
+  required: true
+  show_if: Encuentros
+- type: textarea
+  name: Observaciones
+  hint: ¿Alguna aclaración? (Esto no aparecerá públicamente)
+  show_if: Proyecto||Encuentros
+modal:
+  icon_type: top
+modals:
+- icon: person-to-portal
+  title: ¿Cómo Entrar?
+  md: |
+    ¡Convirtiéndote en **Amorígen**!
+
+    Puedes solicitar estar dentro de la **COMUNIDAD** de WhatsApp de **LGTN**.
+
+    [[:whatsapp: Comunidad de WhatsApp]](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow whatsapp]")
+    [[Info de cada grupo]](/whatsapp/)
+
+    También puedes seguir nuestra trayectoria y apoyarnos en redes sociales ([Instagram](https://www.instagram.com/lagrantribunomada/ "[nofollow]") y [Telegram](https://t.me/lagrantribunomada "[nofollow]")).
+
+    Una vez estés dentro de la comunidad de WhatsApp, podrás sumarte en ruta a la [caravana viva](/#caravana-amorigen) y viajar con nosotr@s.
+
+    Si quieres ser soci@, puedes formar parte de nuestra **ASOCIACIÓN**:
+
+    [[Hazte Soci@]](/alta/ "[alt]")
+
+    Al entrar en la asociación, además de apoyar el proyecto :heart:, tendrás acceso a las ventajas de soci@ que te explicamos en el[ apartado “Qué ofrecemos”](/#que-ofrecemos).
+
+    Y por supuesto, si te apetece **COLABORAR** con nuestro proyecto a través de [donaciones](/#donaciones) económicas o de cualquier otro tipo, toda ayuda es bienvenida y agradecida desde el corazón.
+
+    Por último, si crees que tus dones pueden ser necesarios dentro del Equipo de Coordinación y quieres trabajar con nosotros en la creación y desarrollo del proyecto, [coméntanos](/#contacto) tu propuesta para que la valoremos.
+- id: bienvenida
+  title: ¡¡¡Bienvenid@ AMORIGEN!!!
+  md: |
+    Agradecemos de corazón tu deseo de formar parte de esta gran familia 👣
+
+    Toda ayuda es bienvenida y agradecida desde el corazón.
+
+    Para aportar tu cuota consciente, puedes realizar bizum con el concepto
+    "<u>ALTA LGTN</u>" a este número de móvil **(Christian T. I.)**:
+
+    [+34 665 56 19 23](tel:+34665561923)
+    {.h0 .align-center}
+
+    Con tu colaboración, permites que esta preciosa red crezca y nos nutra en todos los sentidos 🩵
+
+    Estamos deseando conocerte y descubrir tus dones 🪄
+
+    Iniciamos este viaje sin destino, porque lo que nos importa es el camino y, sobretodo, caminarlo junt@s 🗺️
+
+    Tienes toda la información que necesitas en [🔗 lagrantribunomada.com](/)
+
+    Si tienes dudas, contáctanos 🗣️
+
+    AHOOO!!! 🪇
+  size: xs
+  align: left

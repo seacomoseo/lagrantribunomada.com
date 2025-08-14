@@ -8,12 +8,11 @@ noindex: false
 related: true
 tpl:
   sections:
-  - file: base/project-_header
-  - file: base/project-content
-  - file: base/share
-  - file: base/related
+  - file: base-project-_header
+  - file: base-project-content
+  - file: base-share
+  - file: base-related
   list:
-    # cols: 3
     cols_vs: 2
     align: center
     image: base/icon.svg
@@ -22,7 +21,6 @@ tpl:
     ratio: 1/1
     hs: 6
     md: hide
-    # button: alt
     tags:
     - type: param
       param: org.address.region
@@ -32,7 +30,7 @@ es:
   slug: proyectos
   singular: Proyecto
   title: Proyectos
-  image: null # string image path
-  seo: null # string
-  description: null # string
-  md: null # string block
+  image: null
+  seo: null
+  description: null
+  md: null
