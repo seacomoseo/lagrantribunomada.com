@@ -29,7 +29,6 @@ tpl:
     color: similar
     shade: true
     inset: true
-    image: hide
     icon: hide
     md: hide
     button: cta
