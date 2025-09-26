@@ -1,9 +1,8 @@
 ---
 slug: rezagados
 title: Rezagados
-icon: turtle
+icon: history
 image: base/poster.png
-draft: false
 noindex: true
 tpl:
   sections:

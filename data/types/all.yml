@@ -30,7 +30,7 @@ tpl:
     shade: true
     inset: true
     image: hide
-    icon: ''
+    icon: hide
     md: hide
     button: cta
     tags:

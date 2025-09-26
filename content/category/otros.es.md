@@ -3,7 +3,7 @@ slug: otros
 title: Otros
 summary: null # string
 image: categorias/otros.svg
-icon: bullseye-arrow
+icon: gps_fixed
 
 category: null # string
 weight: 4

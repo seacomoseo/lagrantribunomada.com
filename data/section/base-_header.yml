@@ -4,9 +4,9 @@ align: left
 boxes:
 - if: icon
   params:
-  - box: title
-  - box: icon
+  - to: title
+  - to: icon
   icon_type: side
 - if: not icon
   params:
-  - box: title
+  - to: title

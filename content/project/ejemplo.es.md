@@ -5,7 +5,6 @@ image: fondo.jpg
 
 toc: true
 draft: true
-noindex: false
 seo: ▷ Título SEO Proyecto de ejemplo 【Con caracteres llamativos】
 description: Esta es la descripción SEO de un proyecto de ejemplo.
 
@@ -45,18 +44,18 @@ areas:
 - Online
 schedule:
 - days:
-  - monday
-  - tuesday
-  - wednesday
-  - thursday
-  - friday
+    mon: true
+    tue: true
+    wed: true
+    thu: true
+    fri: true
   hours:
   - open: 9:00
     close: 14:00
   - open: 17:00
     close: 20:00
 - days:
-  - saturday
+    sat: true
   open: 9:00
   close: 13:00
 prices: €€

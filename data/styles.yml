@@ -1,22 +1,18 @@
 icons:
-  type: solid
-  sharp: false
-  emojis: false
-  play: youtube-iframe
-  up: ''
-  down: ''
-  left: ''
-  right: ''
+  fill: true
+  weight: 700
+  grade: 0
+  optical: 24
+  style: rounded
+  play: svg:youtube-iframe
 fonts:
   base:
-    google: false
     family: Comfortaa
     weight: 300
     bold: 0
     italic: false
     line_height: 1.25
   cursive:
-    google: false
     family: Shadows Into Light
     weight: 400
     bold: 0
@@ -25,7 +21,6 @@ fonts:
     size: 1.25
     top: 0
   title:
-    google: false
     family: Lava Pro Grunge
     weight: 400
     bold: 0

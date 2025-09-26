@@ -26,8 +26,8 @@ footer:
   div: brush
   dots:
   - link: https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
-    icon: whatsapp
+    icon: brand:whatsapp
   - link: https://t.me/lagrantribunomada
-    icon: telegram
+    icon: brand:telegram
   - link: https://www.instagram.com/lagrantribunomada/
   - link: https://www.youtube.com/@lagrantribunomada

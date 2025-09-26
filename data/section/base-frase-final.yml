@@ -11,7 +11,7 @@ boxes:
     Este evento ya terminó \
     Si asististe, por favor, ayúdanos a mejorar
 
-    [[:comments: Feedback]](#feedback "[alt]")
+    [[::forum:: Feedback]](#feedback "[alt]")
 - md: |
     ¿Todavía no nos conoces? \
     ¿Todavía no estás en nuestro directorio?
@@ -32,5 +32,5 @@ modals:
     action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
     email: lagrantribunomada@gmail.com
   params:
-  - page: feedback.inputs
-    box: inputs
+  - from: feedback.inputs
+    to: inputs

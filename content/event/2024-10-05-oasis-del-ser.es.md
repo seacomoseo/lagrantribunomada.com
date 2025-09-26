@@ -3,10 +3,7 @@ slug: oasis-del-ser
 title: OASIS DEL SER
 icon: 🌴
 image: carteles/2024-10-05-oasis-del-ser.jpg
-draft: false
 noindex: true
-seo: ''
-description: ''
 date: 2024-10-05 10:10:00
 end: 2024-10-05 22:20:00
 address:
@@ -42,10 +39,10 @@ Este sábado 05 de octubre estaremos en “[Oasis Artístico](https://maps.app.g
 
 ## 📲 Info y Reservas
 
-[[:whatsapp: Xemi → 699 19 00 09]](https://wa.me/34699190009 "[nofollow whatsapp]")
+[[::brand:whatsapp:: Xemi → 699 19 00 09]](https://wa.me/34699190009 "[nofollow whatsapp]")
 
 Estamos tejiendo la red, dando lugar a que proyectos maravillosos se expandan y a que personas mágicas se conecten. Si quieres ser parte y apoyar este sueño, ¡te esperamos! 🩵✨
 
-[[:instagram: @oasisartistico]](https://www.instagram.com/oasisartistico/ "[nofollow alt-swap]")
+[[::brand:instagram:: @oasisartistico]](https://www.instagram.com/oasisartistico/ "[nofollow alt-swap]")
 
 [[Únete a la red 😉]](/#como-entrar "[alt]")

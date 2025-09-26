@@ -1,4 +1,3 @@
-import { timestamp } from '@params'
 import { scrollShot } from './scroll-shot'
 import { loadLeaflet, tile } from './leaflet'
 import { loadScript } from './load-script'
@@ -45,16 +44,16 @@ function mapStart () {
       bounds = L.latLngBounds() // Crea límites manualmente
 
       // Añadir marcadores al cluster para cada tipo
-      addMarkersToCluster(data, 'Comunidades', 'cornflowerblue', 'people-group')
-      addMarkersToCluster(data, 'Espacios', 'green', 'campground')
-      addMarkersToCluster(data, 'Servicios', 'crimson', 'hands-holding-heart')
+      addMarkersToCluster(data, 'Comunidades', 'cornflowerblue', 'groups_3')
+      addMarkersToCluster(data, 'Espacios', 'green', 'camping')
+      addMarkersToCluster(data, 'Servicios', 'crimson', 'volunteer_activism')
       // addMarkersToCluster(data, 'Otros', 'violet', 'bullseye-arrow')
 
       // layer control
       const overlayMaps = {
-        [overlayMap('Comunidades', 'cornflowerblue', 'people-group')]: donutCluster,
-        [overlayMap('Espacios', 'green', 'campground')]: donutCluster,
-        [overlayMap('Servicios', 'crimson', 'hands-holding-heart')]: donutCluster
+        [overlayMap('Comunidades', 'cornflowerblue', 'groups_3')]: donutCluster,
+        [overlayMap('Espacios', 'green', 'camping')]: donutCluster,
+        [overlayMap('Servicios', 'crimson', 'volunteer_activism')]: donutCluster
         // [overlayMap('Otros', 'violet', 'bullseye-arrow')]: donutCluster
       }
 
@@ -98,10 +97,10 @@ function addMarkersToCluster (data, type, color, iconId) {
       if (item.image) content += `<img src="${item.image}" width=512 height=512>`
       content += `<h3 class="h5"><a href="${item.link}">${item.title}</a></h3>`
       if (item.summary) content += `<p>${item.summary}</p>`
-      if (item.visitable) content += `<h3 class="compare">Acepta visitas <svg class="icon"><use xlink:href="/draws.${timestamp}.svg#check"></use></svg></h3>`
-      content += `<p><a class="button alt" href="${item.link}"><svg class="icon"><use href="/draws.${timestamp}.svg#circle-info"></use></svg> M\xC1S</a></p>`
+      if (item.visitable) content += `<h3 class="compare">Acepta visitas <i class="icon">check</i>`
+      content += `<p><a class="button alt" href="${item.link}"><i class="icon">info</i> M\xC1S</a></p>`
 
-      content = content.replace(/<li>(.*?)<\/li>/g, `<li class="li-icon"><svg class="icon"><use xlink:href="/draws.${timestamp}.svg#hyphen"></use></svg> <div>$1</div></li>`)
+      content = content.replace(/<li>(.*?)<\/li>/g, `<li class="li-icon"><i class="icon">remove</i> <div>$1</div></li>`)
 
       let geo = item.address?.geo
       if (geo) {
@@ -128,7 +127,7 @@ function addMarkersToCluster (data, type, color, iconId) {
 function icon (color, iconId) {
   return L.divIcon({
     className: 'leaflet-data-marker',
-    html: `<svg class="leaflet-data-marker__svg" viewBox="0 -5 149 188"><path fill="${color}" stroke="white" stroke-width="12" paint-order="stroke" stroke-miterlimit="10" d="M126 23l-6-6A69 69 0 0 0 74 1a69 69 0 0 0-51 22A70 70 0 0 0 1 74c0 21 7 38 22 52l43 47c6 6 11 6 16 0l48-51c12-13 18-29 18-48 0-20-8-37-22-51z"/><use fill="white" href="/draws.${timestamp}.svg#${iconId}" x="36" y="16" transform="scale(.67)"></use></svg>`,
+    html: `<svg class="leaflet-data-marker__svg" viewBox="0 -5 149 188"><path fill="${color}" stroke="white" stroke-width="12" paint-order="stroke" stroke-miterlimit="10" d="M126 23l-6-6A69 69 0 0 0 74 1a69 69 0 0 0-51 22A70 70 0 0 0 1 74c0 21 7 38 22 52l43 47c6 6 11 6 16 0l48-51c12-13 18-29 18-48 0-20-8-37-22-51z"/></svg><i class="icon leaflet-data-marker__icon">${iconId}</i>`,
     iconAnchor: [24, 50],
     iconSize: [48, 48],
     popupAnchor: [0, -46]
@@ -138,8 +137,9 @@ function icon (color, iconId) {
 function overlayMap (type, color, iconId) {
   return '<svg class="leaflet-data-marker__svg" viewBox="0 -5 149 188">' +
     `<path fill="${color}" stroke="white" stroke-width="12" paint-order="stroke" stroke-miterlimit="10" d="M126 23l-6-6A69 69 0 0 0 74 1a69 69 0 0 0-51 22A70 70 0 0 0 1 74c0 21 7 38 22 52l43 47c6 6 11 6 16 0l48-51c12-13 18-29 18-48 0-20-8-37-22-51z"/>` +
-    `<use fill="white" href="/draws.${timestamp}.svg#${iconId}" x="36" y="16" transform="scale(.67)"></use>` +
-    `</svg> ${type}`
+    `</svg>` +
+    `<i class="icon">${iconId}</i>` +
+    ` ${type}`
 }
 
 const mapa = document.getElementById('map')

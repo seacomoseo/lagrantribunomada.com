@@ -1,9 +1,8 @@
 ---
 slug: test
 title: Test
-icon: vial
+icon: experiment
 image: base/poster.png
-draft: false
 noindex: true
 tpl:
   sections:

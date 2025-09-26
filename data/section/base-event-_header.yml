@@ -4,42 +4,42 @@ align: left
 boxes:
 - if: icon
   params:
-  - box: title
-  - box: icon
+  - to: title
+  - to: icon
   icon_type: side
 - if: not icon
   params:
-  - box: title
+  - to: title
 - tags:
   - type: date
   - type: param
     param: address.name
-    icon: campground
+    icon: camping
   - type: param
     param: address.region
-    icon: location-dot
+    icon: place
 - if: cancelled
   md: |
     =={{< i18n cancelled >}}==
     {.cancelled}
 - box:
-    cols: 0
+    cols: 1
   boxes:
   - if: video
     params:
-    - page: video
-      box: image
+    - from: video
+      to: image
     ratio: 9/16
     fit: 0.76
   - if: image
     params:
-    - page: image
-      box: image
-    - page: title
-      box: alt
-    - page: seo
-      box: alt
-    - page: image
-      box: link
+    - from: image
+      to: image
+    - from: title
+      to: alt
+    - from: seo
+      to: alt
+    - from: image
+      to: link
     button: hide
-    ratio: 3/4
+    # ratio: 3/4

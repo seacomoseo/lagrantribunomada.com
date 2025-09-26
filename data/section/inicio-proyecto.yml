@@ -7,22 +7,22 @@ box:
   hs: 3
   button: alt
 boxes:
-- icon: campground
+- icon: camping
   title: ¿Qué Es?
   link: '#que-es'
-- icon: bullseye-arrow
+- icon: gps_fixed
   title: Objetivos
   link: '#objetivos'
-- icon: hands-holding-heart
+- icon: heart_smile
   title: Valores
   link: '#valores'
-- icon: people-group
+- icon: groups_3
   title: Equipo
   link: '#equipo'
 modal:
   icon_type: top
 modals:
-- icon: campground
+- icon: camping
   title: ¿Qué Es?
   subtitle: La Gran Tribu Nómada
   md: |
@@ -30,8 +30,8 @@ modals:
 
     Esta **TRIBU** está compuesta por una comunidad de **AMORÍGENES**, personas con valores afines, cuyo enfoque de vida es potenciar los propios dones y vivir junt@s una vida compartida, libre y llena de aventuras.
 
-    Además, estaremos viajando en una **CARAVANA VIVA** de vehículos (furgos, caravanas, coches en los que puedas pernoctar…) por diferentes puntos de interés de la Tribu: comunidades que conocer y en las que colaborar, lugares donde reunirnos y conocer más amorígenes y en los que podamos desarrollar encuentros para generar economía personal… la ruta la crearemos entre to@s y si te apetece, puedes sumarte a ella icon:heart
-- icon: caravan
+    Además, estaremos viajando en una **CARAVANA VIVA** de vehículos (furgos, caravanas, coches en los que puedas pernoctar…) por diferentes puntos de interés de la Tribu: comunidades que conocer y en las que colaborar, lugares donde reunirnos y conocer más amorígenes y en los que podamos desarrollar encuentros para generar economía personal… la ruta la crearemos entre to@s y si te apetece, puedes sumarte a ella ::favorite::
+- icon: rv_hookup
   title: Objetivos
   md: |
     Nuestro objetivo principal es **crear una plataforma itinerante digital y física para dar visibilidad, sostén y recursos a personas que tengan o quieran tener un estilo de vida autónomo, comunitario y/o nómada**.
@@ -46,7 +46,7 @@ modals:
     - Crear una **red** lo más **autosuficiente** posible.
     - **Visitar, conocer y colaborar** con distintas **comunidades**.
     - Explorar una **filosofía de vida comunitaria** repleta de valores.
-- icon: hands-holding-heart
+- icon: heart_smile
   title: Valores
   box:
     cols: 1
@@ -85,7 +85,7 @@ modals:
       - **Conciencia ambiental** (plásticos, basura, reutilizar. reciclar, productos naturales…).
       - **Integración** con el entorno y respeto de la vecindad y comunidad asentada.
       - Ir a **sumar**, a **aportar**, no sólo a coger. Conciencia del dar y recibir.
-      - Disposición a **colaborar**, **incluir** y **aprender** del otro :seedling:
+      - Disposición a **colaborar**, **incluir** y **aprender** del otro ::psychiatry::
 - icon_type: bottom
   title: Equipo
   subtitle: Coordinación
@@ -100,39 +100,40 @@ modals:
       cols_vs: 2
       gap: 3
       gap_ny: 1
-      icon_type: bottom
+      # icon_type: bottom
+      line: true
     boxes:
-    - icon: user-hair-mullet
+    - # icon: user-hair-mullet
       image: equipo/indira.jpg
       title: Indira
       subtitle: La Hechicera
       md: Te hace unas terapias que flipas en colores (guiño guiño)
-    - icon: user-cowboy
+    - # icon: user-cowboy
       image: equipo/xemi.jpg
       title: Xemi
       subtitle: El Fenicio
       md: Organiza cosas, ¿a quién no le va a gustar un fenicio del siglo 1º?
-    - icon: user-ninja
+    - # icon: user-ninja
       image: equipo/loren.jpg
       title: Loren
       subtitle: El Bailongo
       md: Te saca tu eneatipo con ChatGPT y te diseña una web con eso
-    - icon: user-astronaut
+    - # icon: stylus_brush
       image: equipo/paula.jpg
       title: Paula
       subtitle: La Electroduende
       md: Fantasía audiovisual y emocional everywhere, all time
-    - icon: user-vneck-hair-long
+    - # icon: user-vneck-hair-long
       image: equipo/lua.jpg
       title: Lua
       subtitle: La Artemisana
       md: Esencias de cosas naturales que huelen mu rico
-    - icon: user-shakespeare
+    - # icon: theater_comedy
       image: equipo/naiht.jpg
       title: Naiht
       subtitle: El Personaje
       md: Con el juego y el teatro te explota el coco poco a poco
-    - icon: user-robot
+    - # icon: smart_toy
       image: equipo/rafa.jpg
       title: Rafa
       subtitle: El Solucionador
@@ -144,34 +145,35 @@ modals:
       cols_vs: 2
       gap: 3
       gap_ny: 1
-      icon_type: bottom
+      # icon_type: bottom
+      line: true
     boxes:
-    - icon: teddy-bear
+    - # icon: teddy-bear
       image: equipo/perruno/momo.jpg
       title: Momo
       subtitle: El Oso
-      md: 'Arrambla por donde pasa, ¡to bonico! :heart:'
-    - icon: dog
+      md: 'Arrambla por donde pasa, ¡to bonico! ::favorite::'
+    - # icon: sound_detection_dog_barking
       image: equipo/perruno/guiro.jpg
       title: Güiro
       subtitle: El ComeCaras
       md: Si bostezas te chupa la campanilla
-    - icon: dinosaur
+    - # icon: dinosaur
       image: equipo/perruno/paco.jpg
       title: Paco
       subtitle: El Veterano
       md: El más sabio y experimentado de todos
-    - icon: dolphin
+    - # icon: dolphin
       image: equipo/perruno/romeo.jpg
       title: Romeo
       subtitle: El Sireno
       md: Canto angelical, trompacelga y paraico
-    - icon: dragon
+    - # icon: dragon
       image: equipo/perruno/yang.jpg
       title: Yang
       subtitle: El Chino
       md: Perro medicina y protector de la manada
-    - icon: paw-claws
+    - # icon: pets
       image: equipo/perruno/akela.jpg
       title: Akela
       subtitle: La Loba

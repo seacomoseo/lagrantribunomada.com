@@ -9,8 +9,8 @@ form:
   email: lorensansol@gmail.com
   to: '#reserva-enviada'
 params:
-- page: booking.inputs
-  box: inputs
+- from: booking.inputs
+  to: inputs
 modal:
   icon_type: top
 modals:

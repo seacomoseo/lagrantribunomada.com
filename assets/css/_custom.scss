@@ -76,10 +76,10 @@
 }
 
 button:not(.button--dot) {
-  &:has([href="/draws.#{$timestamp}.svg#telegram"]) {
+  &:has([href="/draws.#{$timestamp}.svg#brand-telegram"]) {
     --base: #24a1de;
   }
-  &:has([href="/draws.#{$timestamp}.svg#instagram"]) {
+  &:has([href="/draws.#{$timestamp}.svg#brand-instagram"]) {
     --base: #C13584;
   }
 }
@@ -173,6 +173,14 @@ button:not(.button--dot) {
   .donut-text {
     font-weight: 500;
     color: var(--dark-in);
+  }
+  .leaflet-data-marker__icon {
+    translate: 0 var(--translate-x);
+  }
+  .leaflet-control-layers-overlays .icon {
+    position: absolute;
+    translate: -1.25em .125em;
+    scale: 0.8;
   }
 }
 /*! purgecss end ignore */

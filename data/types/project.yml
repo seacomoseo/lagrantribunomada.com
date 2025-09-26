@@ -1,10 +1,9 @@
 title: Proyectos
 weight: 3
 base: org
-icon: rocket-launch
+icon: rocket_launch
 emoji: 🚀
 disabled: false
-noindex: false
 related: true
 tpl:
   sections:
@@ -24,7 +23,7 @@ tpl:
     tags:
     - type: param
       param: org.address.region
-      icon: location-dot
+      icon: place
 es:
   permalinks: proyecto
   slug: proyectos

@@ -4,7 +4,7 @@ size: xs
 align: left
 boxes:
 - params:
-  - box: title
+  - to: title
 - tag: row
   tags:
   - type: type
@@ -13,11 +13,11 @@ boxes:
 - if: image
   alt: Logo de {{ param title }}
   params:
-  - box: image
-  - page: image
-    box: link
-  - page: title
-    box: alt
-  - page: seo
-    box: alt
+  - to: image
+  - from: image
+    to: link
+  - from: title
+    to: alt
+  - from: seo
+    to: alt
   button: hide

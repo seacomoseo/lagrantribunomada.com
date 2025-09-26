@@ -1,11 +1,9 @@
 ---
 slug: inicio
 title: Inicio
-icon: house
+icon: home
 image: base/poster.png
 summary: Plataforma itinerante digital y física, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
-draft: false
-noindex: false
 seo: 👣 La Gran Tribu Nómada - Red Itinerante
 description: Plataforma física y digital para conectar y apoyar proyectos, espacios, comunidades y personitas que buscan una vida alternativa.
 tpl:
@@ -39,9 +37,9 @@ org:
   - LGTN
   - LGT
   - La Gran Tribu
-  description: ''
-  legal: ''
-  nif: ''
+  description: null
+  legal: null
+  nif: null
   email: info@lagrantribunomada.com
   logo: base/poster.svg
   images:
