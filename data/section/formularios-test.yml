@@ -7,14 +7,14 @@ size: sm
 form:
   action: https://script.google.com/macros/s/AKfycbwfPh0W-ZybAtECYFO0BhUaTrEK6E-JXNKzqlnYPoF4QYtKGRdnSEXBeQDB9qWtwoc21Q/exec
   email: lorensansol@gmail.com
-  full: true
+  full: y
 inputs:
 - type: hidden
   name: _sheetname
   label: Test
 - type: text
   name: Nombre Proyecto
-  required: true
+  required: y
 - type: check
   name: Comunidad
   label: Soy una comunidad
@@ -40,7 +40,7 @@ inputs:
   name: Encuentros Descripción
   label: Descripción sobre lo que ofreces
   hint: Qué ofreces para nuestros encuentros (Esto no aparecerá públicamente)
-  required: true
+  required: y
   show_if: Encuentros
 - type: file
   name: Logo

@@ -1,7 +1,7 @@
 title: Encuentros
 weight: 1
 base: event
-related: true
+related: y
 tpl:
   sections:
   - file: base-event-_header
@@ -17,10 +17,10 @@ tpl:
   - file: base-related
   list:
     cols: 3
-    card: true
+    card: y
     rate: 3/4
     align: left
-    shade: false
+    shade: n
     icon: hide
     icon_type: side
     md: hide

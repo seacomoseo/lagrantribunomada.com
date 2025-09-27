@@ -12,7 +12,7 @@ boxes:
     max: -10
   box:
     cols: 6
-    slider: true
+    slider: y
     time: 5
     to: left
 - md: |

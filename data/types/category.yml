@@ -1,8 +1,8 @@
 title: Categorías
 weight: 2
 base: page
-disabled: false
+disabled: n
 tax_of:
 - name: project
-  multiple: true
-  breadcrumbs: true
+  multiple: y
+  breadcrumbs: y

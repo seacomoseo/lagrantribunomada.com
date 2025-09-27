@@ -12,7 +12,7 @@ tpl:
     alpha: 0.85
     parallax: fix
   menu:
-    logo: false
+    logo: n
     sticky: auto
   callnow: auto
   section:

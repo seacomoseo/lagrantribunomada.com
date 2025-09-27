@@ -3,7 +3,7 @@ slug: rezagados
 title: Rezagados
 icon: history
 image: base/poster.png
-noindex: true
+noindex: y
 tpl:
   sections:
   - file: formularios-rezagados

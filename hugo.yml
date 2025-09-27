@@ -1,5 +1,5 @@
 baseURL: https://lagrantribunomada.com
-buildFuture: true
+buildFuture: y
 theme: [sansoul]
 params:
   domain: lagrantribunomada.com

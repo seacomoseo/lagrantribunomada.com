@@ -2,7 +2,7 @@ name: Encuentros
 title: Encuentros
 box:
   cols: 4
-  slider: true
+  slider: y
 list:
   type: event
   max: 4

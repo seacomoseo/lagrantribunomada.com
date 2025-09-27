@@ -3,8 +3,8 @@ weight: 3
 base: org
 icon: rocket_launch
 emoji: 🚀
-disabled: false
-related: true
+disabled: n
+related: y
 tpl:
   sections:
   - file: base-project-_header
@@ -15,8 +15,8 @@ tpl:
     cols_vs: 2
     align: center
     image: base/icon.svg
-    shade: false
-    inset: false
+    shade: n
+    inset: n
     ratio: 1/1
     hs: 6
     md: hide

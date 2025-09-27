@@ -94,14 +94,14 @@ modals:
     gap: 2
   boxes:
   - box:
-      circle: true
-      gray: true
+      circle: y
+      gray: y
       cols: 4
       cols_vs: 2
       gap: 3
       gap_ny: 1
       # icon_type: bottom
-      line: true
+      line: y
     boxes:
     - # icon: user-hair-mullet
       image: equipo/indira.jpg
@@ -139,14 +139,14 @@ modals:
       subtitle: El Solucionador
       md: Te hace Φ con un canuto impreso en 3D con sal del himalaya
   - box:
-      circle: true
-      gray: true
+      circle: y
+      gray: y
       cols: 4
       cols_vs: 2
       gap: 3
       gap_ny: 1
       # icon_type: bottom
-      line: true
+      line: y
     boxes:
     - # icon: teddy-bear
       image: equipo/perruno/momo.jpg

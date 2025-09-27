@@ -8,8 +8,8 @@ contact:
 #   link: https://t.me/+34699190009
 #   label: 665 56 19 23
 #   icon: brand:telegram
-#   lock: true
-#   ga4: true
+#   lock: y
+#   ga4: y
 #   button: dark
 # - type: br
 - type: phone
@@ -18,7 +18,7 @@ contact:
 - type: mail
   label: info@lagrantribunomada.com
   button: invert
-  swap: true
+  swap: y
 form:
   action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
   email: lagrantribunomada@gmail.com
@@ -28,12 +28,12 @@ inputs:
   label: Contacto
 - type: text
   name: Nombre
-  required: true
+  required: y
 - type: tel
   name: Teléfono
 - type: email
   name: Email
-  required: true
+  required: y
 - type: textarea
   name: Mensaje
-  required: true
+  required: y

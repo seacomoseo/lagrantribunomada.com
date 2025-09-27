@@ -55,4 +55,4 @@ boxes:
     to: image
   ratio: 1
   icon_color: alt
-  contain: true
+  contain: y

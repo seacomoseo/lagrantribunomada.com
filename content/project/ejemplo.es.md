@@ -3,8 +3,8 @@ slug: ejemplo
 title: Proyecto de ejemplo
 image: fondo.jpg
 
-toc: true
-draft: true
+toc: y
+draft: y
 seo: ▷ Título SEO Proyecto de ejemplo 【Con caracteres llamativos】
 description: Esta es la descripción SEO de un proyecto de ejemplo.
 
@@ -44,18 +44,18 @@ areas:
 - Online
 schedule:
 - days:
-    mon: true
-    tue: true
-    wed: true
-    thu: true
-    fri: true
+    mon: y
+    tue: y
+    wed: y
+    thu: y
+    fri: y
   hours:
   - open: 9:00
     close: 14:00
   - open: 17:00
     close: 20:00
 - days:
-    sat: true
+    sat: y
   open: 9:00
   close: 13:00
 prices: €€

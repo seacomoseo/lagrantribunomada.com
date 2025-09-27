@@ -1,6 +1,6 @@
 name: Galeria
 title: Galería
-ph: true
+ph: y
 size: fluid
 gallery:
   type: grid

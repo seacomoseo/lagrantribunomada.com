@@ -1,15 +1,15 @@
 title: Todas
 base: page
-disabled: false
+disabled: n
 tpl:
   bg:
     color: main-dark
   menu:
-    logo: true
+    logo: y
     logo_align: center
-    transparent: true
+    transparent: y
     color: dark
-    hide_icons: true
+    hide_icons: y
   section:
   - size: sm
   sections:
@@ -27,8 +27,8 @@ tpl:
     cols: 4
     align: center
     color: similar
-    shade: true
-    inset: true
+    shade: y
+    inset: y
     icon: hide
     md: hide
     button: cta

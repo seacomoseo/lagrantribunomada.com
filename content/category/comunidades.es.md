@@ -8,7 +8,7 @@ icon: groups_3
 category: null # string
 weight: 1
 
-noindex: true
+noindex: y
 seo: null # string
 description: null # string
 ---

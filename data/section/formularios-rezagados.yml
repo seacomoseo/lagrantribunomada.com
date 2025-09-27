@@ -18,26 +18,26 @@ inputs:
   label: 🌈 OSTARA 2025
 - type: text
   name: Nombre y Apellidos
-  required: true
+  required: y
 - type: tel
   name: Teléfono
-  required: true
+  required: y
 - type: email
   name: Email
-  required: true
+  required: y
 - type: text
   name: Pernocta
   hint: ¿Cómo vais a pernoctar? Tienda, vehículo...
-  required: true
-  full: true
+  required: y
+  full: y
 - type: textarea
   name: Artesanías
   hint: ¿Tienes artesanías o quieres formar parte del mercadillo? Si es así, cuéntanos cuales son
-  full: true
+  full: y
 - type: textarea
   name: Servicios
   hint: ¿Quieres ofrecer tus dones/servicios en el espacio? Si es así, cuéntanos cuales son
-  full: true
+  full: y
 - type: number
   name: Aportación
   label: 'Aportación sugerida: 40 €'
@@ -45,16 +45,16 @@ inputs:
     ¿De cuánto va a ser tu aportación consciente? (€) \
     Hemos estimado que 40 € es una cantidad apropiada para valorar el espacio, las actividades, el trabajo del equipo y para permitir que LGTN continúe expandiendo esta hermosa red y sus encuentros. Tu contribución, sea cual sea, será valorada y apreciada. \
     Tras enviar el formulario contactaremos contigo para darte indicaciones.
-  required: true
+  required: y
   min: 1
 - type: text
   name: Cómo
   hint: ¿Cómo nos has conocido?
-  full: true
+  full: y
 - type: textarea
   name: Otros
   hint: ¿Algo más que debamos saber o alguna necesidad/duda que tengas?
-  full: true
+  full: y
 modal:
   icon_type: top
 modals:
