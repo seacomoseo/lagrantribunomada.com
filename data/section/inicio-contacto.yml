@@ -3,19 +3,17 @@ title: Contacto
 size: sm
 contact:
 - type: whatsapp
-  label: 699 19 00 09
-- type: custom
-  link: https://t.me/+34699190009
-  label: 699 19 00 09
-  icon: brand:telegram
-  lock: true
-  ga4: true
-  button: dark
-- type: br
+  label: 665 56 19 23
+# - type: custom
+#   link: https://t.me/+34699190009
+#   label: 665 56 19 23
+#   icon: brand:telegram
+#   lock: true
+#   ga4: true
+#   button: dark
+# - type: br
 - type: phone
-  label: 699 19 00 09
-- type: phone
-  label: 638 61 03 22
+  label: 665 56 19 23
 - type: br
 - type: mail
   label: info@lagrantribunomada.com
