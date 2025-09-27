@@ -100,8 +100,6 @@ function addMarkersToCluster (data, type, color, iconId) {
       if (item.visitable) content += `<h3 class="compare">Acepta visitas <i class="icon">check</i>`
       content += `<p><a class="button alt" href="${item.link}"><i class="icon">info</i> M\xC1S</a></p>`
 
-      content = content.replace(/<li>(.*?)<\/li>/g, `<li class="li-icon"><i class="icon">remove</i> <div>$1</div></li>`)
-
       let geo = item.address?.geo
       if (geo) {
         try {
