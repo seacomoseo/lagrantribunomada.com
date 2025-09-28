@@ -3,7 +3,7 @@ icons:
   weight: 700
   grade: 0
   optical: 24
-  style: outlined
+  style: rounded
   play: svg:youtube-iframe
 fonts:
   base:
