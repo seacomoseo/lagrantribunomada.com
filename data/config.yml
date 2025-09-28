@@ -4,3 +4,5 @@ langs:
   description: Plataforma itinerante digital y física, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
   google_analytics: G-BG77TYCSDZ
   google_file_verification: google7467d923cbb3eb4c.html
+cms:
+  logo: base/icon.svg

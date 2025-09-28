@@ -9,7 +9,7 @@ boxes:
 - icon: search
   title: ¿Qué Buscamos?
   link: '#que-buscamos'
-- icon: guardian
+- icon: diversity_2
   title: ¿Qué Ofrecemos?
   link: '#que-ofrecemos'
 - icon: login
@@ -49,7 +49,7 @@ modals:
       Emprendedores, artistas, personas que quieren desarrollar su potencial y su economía de manera independiente.
 
       Si estás planteándote este camino, estás empezando o te encuentras en el proceso de descubrir tus dones, también este es tu espacio.
-- icon: guardian
+- icon: diversity_2
   title: ¿Qué Ofrecemos?
   md: |
     #### Si no eres soci@
