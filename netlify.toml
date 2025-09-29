@@ -3,7 +3,6 @@ publish = "public"
 command = "sh do hugo"
 
 [build.environment]
-HUGO_NUMWORKERMULTIPLIER = "1"
 HUGO_VERSION = "0.147.7"
 NODE_VERSION = "23.5.0"
 

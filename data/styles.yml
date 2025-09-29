@@ -1,9 +1,9 @@
 icons:
-  fill: n
+  fill: y
   weight: 700
   grade: 0
   optical: 24
-  style: rounded
+  style: outlined
   play: svg:youtube-iframe
 fonts:
   base:
