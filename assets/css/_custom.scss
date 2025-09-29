@@ -48,8 +48,6 @@
 
 #body-home #header {
   @mixin show-from($delay) { animation: show-from .5s (.25 + .25s * $delay) both; }
-  .box--1 #icon-ouroboros { @include show-from(0); --show-from: scale(.5) rotate(-360deg); transform-origin: center; overflow: visible; }
-  .box--1 #icon-tm        { @include show-from(1); }
   .box--1 .box__title     { @include show-from(2); }
   .box--1 .subtitle       { @include show-from(3); }
   .box--2 .image          { @include show-from(4); --show-from: perspective(50em) rotateY(90deg); }
