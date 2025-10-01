@@ -24,12 +24,3 @@ tpl:
     - type: param
       param: org.address.region
       icon: place
-es:
-  permalinks: proyecto
-  slug: proyectos
-  singular: Proyecto
-  title: Proyectos
-  image: null
-  seo: null
-  description: null
-  md: null

@@ -53,8 +53,3 @@ params:
     label: Activar
     widget: boolean
   - var: box_inputs
-es:
-  permalinks: :year/:month/:day
-  slug: encuentros
-  singular: Encuentro
-  title: Encuentros
