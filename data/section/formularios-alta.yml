@@ -15,7 +15,7 @@ inputs:
   name: _sheetname
   label: Socios
 - type: text
-  name: Pseudónimo
+  name: Apodo
   hint: ¿Cómo quieres que te llamemos? <br> (A ti, no a tu proyecto / servicio)
   required: y
 - type: text

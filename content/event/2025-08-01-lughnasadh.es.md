@@ -82,7 +82,7 @@ feedback:
     label: Feedback ☀️ LUGHNASADH 2025
 
   - type: text
-    name: Nombre
+    name: Nombre (no es obligatorio)
   - type: number
     name: Edad
     min: 1

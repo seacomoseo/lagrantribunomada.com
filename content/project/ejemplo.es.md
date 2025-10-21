@@ -56,8 +56,9 @@ schedule:
     close: 20:00
 - days:
     sat: y
-  open: 9:00
-  close: 13:00
+  hours:
+  - open: 9:00
+    close: 13:00
 prices: €€
 services:
 - name: Diseño Web

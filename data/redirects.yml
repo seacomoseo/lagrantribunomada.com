@@ -1,0 +1,2 @@
+- { from: /mabon24 , to: https://forms.gle/h8yweEVdxMrQyjZS6 }
+- { from: /evento/* , to: /:splat }

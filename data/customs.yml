@@ -1,0 +1,24 @@
+- types: [ event ]
+  name: video
+  label: Vídeo
+  widget: image
+
+- types: [ event ]
+  name: booking
+  label: Formulario de Reserva
+  widget: object
+  sub:
+  - name: active
+    label: Activar
+    widget: boolean
+  - var: box_inputs
+
+- types: [ event ]
+  name: feedback
+  label: Formulario de Feedback
+  widget: object
+  sub:
+  - name: active
+    label: Activar
+    widget: boolean
+  - var: box_inputs

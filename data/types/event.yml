@@ -33,23 +33,3 @@ tpl:
     - type: param
       param: address.region
       icon: place
-params:
-- name: video
-  label: Vídeo
-  widget: image
-- name: booking
-  label: Formulario de Reserva
-  widget: object
-  params:
-  - name: active
-    label: Activar
-    widget: boolean
-  - var: box_inputs
-- name: feedback
-  label: Formulario de Feedback
-  widget: object
-  params:
-  - name: active
-    label: Activar
-    widget: boolean
-  - var: box_inputs

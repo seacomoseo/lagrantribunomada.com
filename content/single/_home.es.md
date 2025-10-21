@@ -68,4 +68,3 @@ org:
   prices: €
   services: []
 ---
-

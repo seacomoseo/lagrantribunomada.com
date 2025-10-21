@@ -4,4 +4,3 @@ slug: proyectos
 singular: Proyecto
 title: Proyectos
 ---
-
