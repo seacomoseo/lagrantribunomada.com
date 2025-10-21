@@ -20,6 +20,7 @@ inputs:
   required: y
 - type: text
   name: Nombre
+  label: Nombre real
   required: y
 - type: text
   name: Apellidos
