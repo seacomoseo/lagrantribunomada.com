@@ -3,56 +3,56 @@ node: div
 id: content
 pt: 0
 size: xs
-align: left
-box:
-  gap: 2
 boxes:
-- title: Resumen
-  params:
-  - from: summary
-    to: md
-- if: content
-  title: Descripción
-  params:
-  - from: content
-    to: md
-- if: advantages
-  title: Ventajas
-  params:
-  - from: advantages
-    to: md
-- title: Contacto
-  md: |
-    {{% if "{{ param web       }}" %}} - ::link::         [{{< replace "^https://(www\.)?(.+?)/?$" "$2"                        >}}{{% param web       %}}{{< / replace >}}]({{% param web          %}} "[nofollow]") {{% / if %}}
-    {{% if "{{ param instagram }}" %}} - ::brand:instagram::    [{{< replace "^https://www.instagram.com/(.+?)/?$" "@$1"             >}}{{% param instagram %}}{{< / replace >}}]({{% param instagram    %}} "[nofollow]") {{% / if %}}
-    {{% if "{{ param facebook  }}" %}} - ::brand:facebook::     [{{< replace "^https://www.facebook.com/(p/)?(.+?)(-\d*)?/?$"  "@$2" >}}{{% param facebook  %}}{{< / replace >}}]({{% param facebook     %}} "[nofollow]") {{% / if %}}
-    {{% if "{{ param other     }}" %}} - ::star::         [{{< replace "^https://(www\.)?(.+?)/?$" "$2"                        >}}{{% param other     %}}{{< / replace >}}]({{% param other        %}} "[nofollow]") {{% / if %}}
-    {{% if "{{ param email     }}" %}} - ::mail::     {{% param email %}}                                                           {{% / if %}}
-    {{% if "{{ param phone     }}" %}} - ::phone::        [{{% param phone     %}}](tel:{{% palink phone %}} "[nofollow]")              {{% / if %}}
-    {{% if "{{ param whatsapp  }}" %}} - ::brand:whatsapp::     [{{% param whatsapp  %}}](https://wa.me/{{% palink whatsapp %}} "[nofollow]") {{% / if %}}
-    {{% if "{{ address         }}" %}} - ::place:: [{{< replace "ES$" "España"                                          >}}{{% address         %}}{{< / replace >}}]({{% param org.address.link %}} "[nofollow]") {{% / if %}}
-- if: org.address.geo
-  title: Ubicación
-  rate: 1/1
-  map:
-    zoom: 6
-  geos:
-  - type: point
-    geo: '{{ param org.address.geo }}'
-    color: alt
-- if: org.images
-  gallery:
-    cols: 1
-    type: boxes
-    alt: Imagen de {{ param title }}
-  params:
-  - from: org.images
-    to: images
-- if: video
-  alt: Vídeo de {{ param title }}
-  params:
-  - from: video
-    to: image
-  ratio: 1
-  icon_color: alt
-  contain: y
+- align: left
+  box:
+    gap: 2
+  boxes:
+  - title: Resumen
+    get:
+    - from: sum
+      to: md
+  - if: content
+    title: Descripción
+    get:
+    - from: content
+      to: md
+  - if: advantages
+    title: Ventajas
+    get:
+    - from: advantages
+      to: md
+  - title: Contacto
+    md: |
+      {{% if "{{ get web       }}" %}} - ::link::            [{{< replace "^https://(www\.)?(.+?)/?$" "$2"                        >}}{{% get web       %}}{{< / replace >}}]({{% get web              %}} "[nofollow]") {{% / if %}}
+      {{% if "{{ get instagram }}" %}} - ::brand:instagram:: [{{< replace "^https://www.instagram.com/(.+?)/?$" "@$1"             >}}{{% get instagram %}}{{< / replace >}}]({{% get instagram        %}} "[nofollow]") {{% / if %}}
+      {{% if "{{ get facebook  }}" %}} - ::brand:facebook::  [{{< replace "^https://www.facebook.com/(p/)?(.+?)(-\d*)?/?$"  "@$2" >}}{{% get facebook  %}}{{< / replace >}}]({{% get facebook         %}} "[nofollow]") {{% / if %}}
+      {{% if "{{ get other     }}" %}} - ::star::            [{{< replace "^https://(www\.)?(.+?)/?$" "$2"                        >}}{{% get other     %}}{{< / replace >}}]({{% get other            %}} "[nofollow]") {{% / if %}}
+      {{% if "{{ get email     }}" %}} - ::mail::            {{% get email %}}                                                                                                                                          {{% / if %}}
+      {{% if "{{ get phone     }}" %}} - ::phone::           [{{% get phone     %}}](tel:{{% palink phone %}} "[nofollow]")                                                                                             {{% / if %}}
+      {{% if "{{ get whatsapp  }}" %}} - ::brand:whatsapp::  [{{% get whatsapp  %}}](https://wa.me/{{% palink whatsapp %}} "[nofollow]")                                                                                {{% / if %}}
+      {{% if "{{ address       }}" %}} - ::place::           [{{< replace "ES$" "España"                                          >}}{{% address       %}}{{< / replace >}}]({{% get org.address.link %}} "[nofollow]") {{% / if %}}
+  - if: org.address.geo
+    title: Ubicación
+    rate: 1/1
+    map:
+      zoom: 6
+    geos:
+    - type: point
+      geo: '{{ get org.address.geo }}'
+      color: alt
+  - if: org.imgs
+    gallery:
+      cols: 1
+      type: boxes
+      alt: Imagen de {{ get title }}
+    get:
+    - from: org.imgs
+      to: imgs
+  - if: vid
+    alt: Vídeo de {{ get title }}
+    get:
+    - to: img
+    ratio: 1/1
+    icon_color: alt
+    contain: y

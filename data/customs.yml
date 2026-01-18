@@ -1,24 +1,24 @@
 - types: [ event ]
   name: video
   label: Vídeo
-  widget: image
+  widget: img
 
 - types: [ event ]
   name: booking
   label: Formulario de Reserva
-  widget: object
+  widget: dict
   sub:
   - name: active
     label: Activar
-    widget: boolean
-  - var: box_inputs
+    widget: bool
+  - var: inputs
 
 - types: [ event ]
   name: feedback
   label: Formulario de Feedback
-  widget: object
+  widget: dict
   sub:
   - name: active
     label: Activar
-    widget: boolean
-  - var: box_inputs
+    widget: bool
+  - var: inputs

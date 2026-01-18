@@ -1,33 +1,33 @@
 title: Valores Globales
 menu:
-  image: base/logo-x.svg
+  img: /u/base/logo-x.svg
   items:
-  - link: /
+  - url: /
     label: Inicio
-  - link: /#proyecto
+  - url: /#proyecto
     label: El Proyecto
-  - link: /#directorio
+  - url: /#directorio
     label: Directorio
-  - link: /#te-interesa
+  - url: /#te-interesa
     label: ¿Te Interesa?
-  - link: /#encuentros
+  - url: /#encuentros
     label: Encuentros
-  - link: /#galeria
+  - url: /#galeria
     label: Galería
-  - link: /#redes
+  - url: /#redes
     label: Redes
-  - link: /#contacto
+  - url: /#contacto
     label: Contacto
-  - link: /alta/
+  - url: /alta/
     label: Hazte Soci@
-    button: alt
+    btn: alt
 footer:
-  color: similar
+  color: such
   div: brush
   dots:
-  - link: https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
+  - url: https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
     icon: brand:whatsapp
-  - link: https://t.me/lagrantribunomada
+  - url: https://t.me/lagrantribunomada
     icon: brand:telegram
-  - link: https://www.instagram.com/lagrantribunomada/
-  - link: https://www.youtube.com/@lagrantribunomada
+  - url: https://www.instagram.com/lagrantribunomada/
+  - url: https://www.youtube.com/@lagrantribunomada

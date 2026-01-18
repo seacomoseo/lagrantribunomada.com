@@ -1,25 +1,26 @@
 name: Formularios ➡️ Reserva
 if: booking.active
-hanchor: Reserva
 node: div
 pt: 0
 size: sm
-form:
-  action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
-  email: lorensansol@gmail.com
-  to: '#reserva-enviada'
-params:
-- from: booking.inputs
-  to: inputs
+boxes:
+- hanchor: Reserva
+  form:
+    action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+    mail: lorensansol@gmail.com
+    to: '#reserva-enviada'
+  get:
+  - from: booking.inputs
+    to: inputs
 modal:
-  icon_type: top
+  icon_pos: top
 modals:
 - if: booking
   id: reserva-enviada
   hanchor: Reserva Enviada
   title: Importante
   md: |
-    El formulario de reserva para **{{% param icon %}} {{% param title %}}** se ha enviado correctamente.
+    El formulario de reserva para **{{% get icon %}} {{% get title %}}** se ha enviado correctamente.
 
     La aportación se realizará al llegar al espacio o, si lo prefieres, puedes hacer una transferencia bancaria aquí:
 

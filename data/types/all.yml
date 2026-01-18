@@ -1,13 +1,13 @@
 title: Todas
 base: page
-disabled: n
+hide: n
 tpl:
   bg:
     color: main-dark
   menu:
     logo: y
     logo_align: center
-    transparent: y
+    clear: y
     color: dark
     hide_icons: y
   section:
@@ -22,16 +22,16 @@ tpl:
   - file: base-comments
   - file: base-children
   - file: base-share
-  - file: base-related
+  - file: base-rel
   list:
     cols: 4
     align: center
-    color: similar
+    color: such
     shade: y
     inset: y
     icon: hide
     md: hide
-    button: cta
+    btn: cta
     tags:
     - type: date
     - type: address

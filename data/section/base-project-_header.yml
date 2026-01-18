@@ -1,23 +1,20 @@
 name: Base ➡️ Cabecera de Proyectos
 node: header
 size: xs
-align: left
+box:
+  align: left
 boxes:
-- params:
+- get:
   - to: title
 - tag: row
   tags:
   - type: type
   - type: tax
     tax: category
-- if: image
-  alt: Logo de {{ param title }}
-  params:
-  - to: image
-  - from: image
-    to: link
-  - from: title
-    to: alt
-  - from: seo
-    to: alt
-  button: hide
+- if: img
+  alt: Logo de {{ get title }}
+  get:
+  - to: img
+  - from: img
+    to: url
+  btn: hide

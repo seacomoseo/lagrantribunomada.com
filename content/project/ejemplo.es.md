@@ -1,12 +1,13 @@
 ---
 slug: ejemplo
 title: Proyecto de ejemplo
-image: fondo.jpg
+img: /u/fondo.jpg
 
 toc: y
 draft: y
-seo: ▷ Título SEO Proyecto de ejemplo 【Con caracteres llamativos】
-description: Esta es la descripción SEO de un proyecto de ejemplo.
+seo:
+  title: ▷ Título SEO Proyecto de ejemplo 【Con caracteres llamativos】
+  desc: Esta es la descripción SEO de un proyecto de ejemplo.
 
 category: comunidades
 
@@ -18,10 +19,10 @@ names:
 - SanSoul
 legal: SAN SOUL S.L.
 nif: 00000000A
-summary: Esto es el resumen de un proyecto de ejemplo.
-logo: base/poster.svg
-images:
-- fondo.jpg
+sum: Esto es el resumen de un proyecto de ejemplo.
+logo: /u/base/poster.svg
+imgs:
+- /u/fondo.jpg
 as:
 - https://www.facebook.com/QuantumFracture
 - https://www.instagram.com/quantumfracture/
@@ -30,19 +31,19 @@ phones:
 - 123456789
 - +34 987 654 321
 address:
-  name: Sea Como SEO
+- name: Sea Como SEO
   street: Ronda de Levante, 1
   pc: 30008
   locality: Murcia
   region: Murcia
   country: ES
   geo: '{"type":"Point","coordinates":[-1.1306520,37.9922180]}'
-  link: https://g.page/r/CQsVjy4qsR1NEBM
+  url: https://g.page/r/CQsVjy4qsR1NEBM
 areas:
 - Región de Murcia
 - Internacional
 - Online
-schedule:
+when:
 - days:
     mon: y
     tue: y
@@ -62,15 +63,15 @@ schedule:
 prices: €€
 services:
 - name: Diseño Web
-  description: null
+  desc: null
   price: 800.00
   area: Internacional
 - name: SEO
-  description: null
+  desc: null
   price: 250.00
   area: Internacional
 - name: SEM
-  description: Descripción de ejemplo
+  desc: Descripción de ejemplo
   area: Internacional
 food_menu:
 - https://sansoul.netlify.app/#menu

@@ -1,12 +1,14 @@
 name: Base ➡️ Cabecera
 node: header
-align: left
+boxes:
+box:
+  align: left
 boxes:
 - if: icon
-  params:
+  get:
   - to: title
   - to: icon
-  icon_type: side
+  icon_pos: side
 - if: not icon
-  params:
+  get:
   - to: title

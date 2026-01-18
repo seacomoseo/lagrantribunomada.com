@@ -2,9 +2,10 @@
 slug: lughnasadh
 title: LUGHNASADH
 icon: ☀️
-image: carteles/2025-08-01-lughnasadh.jpg
+img: /u/carteles/2025-08-01-lughnasadh.jpg
 hide: n
-noindex: y
+seo:
+  noindex: y
 date: 2025-08-01 00:00:00
 end: 2025-08-03 00:00:00
 address:
@@ -15,11 +16,10 @@ address:
   region: Teruel
   country: ES
   geo: '{"type":"Point","coordinates":[0.133333,40.883333]}'
-  link: null
+  url: null
 
 video: ''
 cancelled: n
-
 
 # BOOKING
 booking:
@@ -33,23 +33,23 @@ booking:
     label: ☀️ LUGHNASADH 2025
   - type: text
     name: Nombre y Apellidos
-    required: y
-  - type: tel
+    req: y
+  - type: phone
     name: Teléfono
-    required: y
-  - type: email
+    req: y
+  - type: mail
     name: Email
-    required: y
+    req: y
   - type: text
     name: Pernocta
     hint: ¿Cómo vais a pernoctar? Tienda, vehículo...
-    required: y
+    req: y
     full: y
-  - type: textarea
+  - type: area
     name: Artesanías
     hint: ¿Tienes artesanías o quieres formar parte del mercadillo? Si es así, cuéntanos cuales son
     full: y
-  - type: textarea
+  - type: area
     name: Servicios
     hint: ¿Quieres ofrecer tus dones/servicios en el espacio? Si es así, cuéntanos cuales son
     full: y
@@ -60,17 +60,16 @@ booking:
       ¿De cuánto va a ser tu aportación consciente? (€) \
       Hemos estimado que 40 € es una cantidad apropiada para valorar el espacio, las actividades, el trabajo del equipo y para permitir que LGTN continúe expandiendo esta hermosa red y sus encuentros. Tu contribución, sea cual sea, será valorada y apreciada. \
       Tras enviar el formulario contactaremos contigo para darte indicaciones.
-    required: y
+    req: y
     min: 1
   - type: text
     name: Cómo
     hint: ¿Cómo nos has conocido?
     full: y
-  - type: textarea
+  - type: area
     name: Otros
     hint: ¿Algo más que debamos saber o alguna necesidad/duda que tengas?
     full: y
-
 
 # FEEDBACK
 feedback:
@@ -88,23 +87,22 @@ feedback:
     name: Edad
     min: 1
 
-
   - type: radio
     name: General
     label: El encuentro LUGHNASADH en general
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: General Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -119,18 +117,18 @@ feedback:
     name: Organización
     label: La organización del encuentro
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Organización Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -140,18 +138,18 @@ feedback:
     name: Organización Sostén
     label: Sostén y resolución del personal de organización
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Organización Sostén Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -161,18 +159,18 @@ feedback:
   #   name: Organización Publicidad
   #   label: Publicidad/redes del encuentro
   #   x: y
-  #   options:
-  #   - option: 1
-  #   - option: 2
-  #   - option: 3
-  #   - option: 4
-  #   - option: 5
-  #   - option: 6
-  #   - option: 7
-  #   - option: 8
-  #   - option: 9
-  #   - option: 10
-  # - type: textarea
+  #   items:
+  #   - label: 1
+  #   - label: 2
+  #   - label: 3
+  #   - label: 4
+  #   - label: 5
+  #   - label: 6
+  #   - label: 7
+  #   - label: 8
+  #   - label: 9
+  #   - label: 10
+  # - type: area
   #   name: Organización Publicidad Observaciones
   #   label: Observaciones
   #   hint: ¿Algo que añadir o que quieras comentar?
@@ -186,18 +184,18 @@ feedback:
     name: Espacio Infraestructura
     label: Infraestructura/servicios
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Espacio Infraestructura Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -207,18 +205,18 @@ feedback:
     name: Espacio Entorno
     label: Entorno
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Espacio Entorno Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -228,23 +226,22 @@ feedback:
     name: Espacio Zonas
     label: Zonas
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Espacio Zonas Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
     show_if: Espacio Zonas
-
 
   - type: h3
     label: Actividades
@@ -253,18 +250,18 @@ feedback:
     name: Actividades Programación
     label: Programación general
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades Programación Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -274,18 +271,18 @@ feedback:
     name: Actividades 🔥 Jam Salvaje (Batucada)
     label: 🔥 Jam Salvaje (Batucada)
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades 🔥 Jam Salvaje (Batucada) Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -295,18 +292,18 @@ feedback:
     name: Actividades 🪷 Baño de Gracia Tribal
     label: 🪷 Baño de Gracia Tribal
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades 🪷 Baño de Gracia Tribal Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -316,18 +313,18 @@ feedback:
     name: Actividades 🧚🏽 Círculo de Dones
     label: 🧚🏽 Círculo de Dones
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades 🧚🏽 Círculo de Dones Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -337,18 +334,18 @@ feedback:
     name: Actividades 💝 Calidez Humana
     label: 💝 Calidez Humana
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades 💝 Calidez Humana Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -358,18 +355,18 @@ feedback:
     name: Actividades 🌞 Ritual Lughnasadh y Ceremonia de Cacao
     label: 🌞 Ritual Lughnasadh y Ceremonia de Cacao
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades 🌞 Ritual Lughnasadh y Ceremonia de Cacao Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -379,18 +376,18 @@ feedback:
     name: Actividades 🕺 Ecstatic Dance 'Tu Sol en Danza'
     label: 🕺 Ecstatic Dance 'Tu Sol en Danza'
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades 🕺 Ecstatic Dance 'Tu Sol en Danza' Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -400,18 +397,18 @@ feedback:
     name: Actividades 🗣️ Charla Dinámica 'Enciende tu llama vital'
     label: 🗣️ Charla Dinámica 'Enciende tu llama vital'
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades 🗣️ Charla Dinámica 'Enciende tu llama vital' Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -421,18 +418,18 @@ feedback:
     name: Actividades 🧘‍♂️ Conecta con tu energía interior (Chi Kung)
     label: 🧘‍♂️ Conecta con tu energía interior (Chi Kung)
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades 🧘‍♂️ Conecta con tu energía interior (Chi Kung) Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -442,23 +439,22 @@ feedback:
     name: Actividades 💃 Micro Abierto
     label: 💃 Micro Abierto
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Actividades 💃 Micro Abierto Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
     show_if: Actividades 💃 Micro Abierto
-
 
   - type: h3
     label: Cocina
@@ -467,18 +463,18 @@ feedback:
     name: Cocina Menú
     label: El menú de cocina
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Cocina Menú Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
@@ -488,23 +484,22 @@ feedback:
     name: Cocina Precio
     label: El precio de cocina
     x: y
-    options:
-    - option: 1
-    - option: 2
-    - option: 3
-    - option: 4
-    - option: 5
-    - option: 6
-    - option: 7
-    - option: 8
-    - option: 9
-    - option: 10
-  - type: textarea
+    items:
+    - label: 1
+    - label: 2
+    - label: 3
+    - label: 4
+    - label: 5
+    - label: 6
+    - label: 7
+    - label: 8
+    - label: 9
+    - label: 10
+  - type: area
     name: Cocina Precio Observaciones
     label: Observaciones
     hint: ¿Algo que añadir o que quieras comentar?
     show_if: Cocina Precio
-
 
   - type: h3
     label: Talleristas
@@ -512,12 +507,11 @@ feedback:
   - type: check
     name: Tallerista Fuiste
     label: ¿Fuiste tallerista en el encuentro?
-  - type: textarea
+  - type: area
     name: Tallerista Mejoras
     label: Observaciones
     hint: ¿Algo que quieras mencionar para mejorar en próximos encuentros?
     show_if: Tallerista Fuiste
-
 
   - type: h3
     label: Terapias
@@ -525,12 +519,11 @@ feedback:
   - type: check
     name: Terapias Recibiste
     label: ¿Recibiste alguna terapia?
-  - type: textarea
+  - type: area
     name: Terapias Mejoras
     label: Observaciones
     hint: ¿Algo que quieras mencionar para mejorar en próximos encuentros?
     show_if: Terapias Recibiste
-
 
   - type: h3
     label: Artesanias
@@ -538,12 +531,11 @@ feedback:
   - type: check
     name: Artesanias Pusiste
     label: ¿Pusiste algún puesto en el mercadillo?
-  - type: textarea
+  - type: area
     name: Artesanias Mejoras
     label: Observaciones
     hint: ¿Alguna petición para el espacio de artesanías para próximos encuentros?
     show_if: Artesanias Pusiste
-
 
   - type: h3
     label: Otros
@@ -551,20 +543,20 @@ feedback:
   - type: check
     name: Otros Primera Vez
     label: ¿Era tu primera vez en un encuentro de LGTN?
-  - type: textarea
+  - type: area
     name: Otros Primera Experiencia
     label: Observaciones
     hint: ¿Podrías comentar tu primera experiencia?
     show_if: Otros Primera Vez
 
-  - type: textarea
+  - type: area
     name: Otros Caracteriza
     label: Hayas venido a uno o a todos, responde, nos interesa tu opinión
     hint: Según tú, ¿qué caracteriza estos encuentros o qué los puede diferenciar de otros que conoces? ¿Qué ofrecen al usuario estos encuentros?
 ---
 
 🌬️ Este es un llamado para la convivencia en tribu, festejando la rueda de la vida 🌈🌻🌸
-{.subtitle}
+{.sub}
 
 ## ::👣:: ¿Qué es LGTN?
 
@@ -670,7 +662,7 @@ Eres bienvenide para voluntariar y compartir **a partir del martes 29** en el es
 | **Lunes**   |       | 👨‍🌾 | Voluntariado para la recogida del espacio                                            |
 
 Todas las actividades de la programación están incluidas en tu aportación
-{.subtitle}
+{.sub}
 
 ## ::📲:: Info
 

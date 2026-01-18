@@ -94,11 +94,11 @@ function addMarkersToCluster (data, type, color, iconId) {
     if (item.title && item.category?.[0]?.title === type) {
       let content = ''
 
-      if (item.image) content += `<img src="${item.image}" width=512 height=512>`
+      if (item.img) content += `<img src="${item.img}" width=512 height=512>`
       content += `<h3 class="h5"><a href="${item.link}">${item.title}</a></h3>`
-      if (item.summary) content += `<p>${item.summary}</p>`
-      if (item.visitable) content += `<h3 class="compare">Acepta visitas <i class="icon">check</i>`
-      content += `<p><a class="button alt" href="${item.link}"><i class="icon">info</i> M\xC1S</a></p>`
+      if (item.sum) content += `<p>${item.sum}</p>`
+      if (item.visitable) content += '<h3 class="compare">Acepta visitas <i class="icon">check</i>'
+      content += `<p><a class="btn alt" href="${item.link}"><i class="icon">info</i> M\xC1S</a></p>`
 
       let geo = item.address?.geo
       if (geo) {
@@ -135,7 +135,7 @@ function icon (color, iconId) {
 function overlayMap (type, color, iconId) {
   return '<svg class="leaflet-data-marker__svg" viewBox="0 -5 149 188">' +
     `<path fill="${color}" stroke="white" stroke-width="12" paint-order="stroke" stroke-miterlimit="10" d="M126 23l-6-6A69 69 0 0 0 74 1a69 69 0 0 0-51 22A70 70 0 0 0 1 74c0 21 7 38 22 52l43 47c6 6 11 6 16 0l48-51c12-13 18-29 18-48 0-20-8-37-22-51z"/>` +
-    `</svg>` +
+    '</svg>' +
     `<i class="icon">${iconId}</i>` +
     ` ${type}`
 }

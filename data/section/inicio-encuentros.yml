@@ -1,8 +1,9 @@
 name: Encuentros
-title: Encuentros
-box:
-  cols: 4
-  slider: y
-list:
-  type: event
-  max: 4
+boxes:
+- title: Encuentros
+  list:
+    type: event
+    max: 4
+  box:
+    cols: 4
+    slider: y

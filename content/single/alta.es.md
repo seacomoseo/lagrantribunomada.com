@@ -2,10 +2,11 @@
 slug: alta
 title: Alta
 icon: id_card
-image: base/poster.png
-noindex: y
-seo: Date de Alta 👣 La Gran Tribu Nómada
-description: ¡Únete a La Gran Tribu Nómada! 👣
+img: /u/base/poster.png
+seo:
+  title: Date de Alta 👣 La Gran Tribu Nómada
+  desc: ¡Únete a La Gran Tribu Nómada! 👣
+  noindex: y
 tpl:
   sections:
   - file: formularios-alta

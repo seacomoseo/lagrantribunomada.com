@@ -2,8 +2,9 @@
 slug: oasis-del-ser
 title: OASIS DEL SER
 icon: 🌴
-image: carteles/2024-10-05-oasis-del-ser.jpg
-noindex: y
+img: /u/carteles/2024-10-05-oasis-del-ser.jpg
+seo:
+  noindex: y
 date: 2024-10-05 10:10:00
 end: 2024-10-05 22:20:00
 address:
@@ -14,7 +15,7 @@ address:
   region: Castellón
   country: ES
   geo: '{"type":"Point","coordinates":[-0.2243680,39.7706990]}'
-  link: https://maps.google.com/maps/search/39.7706990,-0.2243680
+  url: https://maps.google.com/maps/search/39.7706990,-0.2243680
 ---
 ¡Ahoo! 🍃🫶
 

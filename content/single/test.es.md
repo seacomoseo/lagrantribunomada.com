@@ -2,8 +2,9 @@
 slug: test
 title: Test
 icon: experiment
-image: base/poster.png
-noindex: y
+img: /u/base/poster.png
+seo:
+  noindex: y
 tpl:
   sections:
   - file: formularios-test

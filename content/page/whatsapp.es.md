@@ -2,7 +2,8 @@
 slug: whatsapp
 title: Grupos de la Comunidad en WhatsApp
 icon: brand:whatsapp
-noindex: y
+seo:
+  noindex: y
 ---
 
 Aquí tienes un desglose de cada grupo de la [::brand:whatsapp:: Comunidad de WhatsApp](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow]") y para qué sirve cada uno.

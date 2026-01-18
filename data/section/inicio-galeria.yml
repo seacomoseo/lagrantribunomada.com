@@ -1,22 +1,23 @@
 name: Galeria
-title: Galería
 ph: y
 size: fluid
-gallery:
-  type: grid
-  cols: 6
-  ratio: 1/1
-  button: hide
-images:
-- fotos/2024-08-13-005.jpg
-- fotos/2024-08-13-006.jpg
-- fotos/2024-08-13-007.jpg
-- fotos/2024-08-13-008.jpg
-- fotos/2024-08-13-001.jpg
-- fotos/2024-08-13-002.jpg
-- fotos/2024-08-13-003.jpg
-- fotos/2024-08-13-009.jpg
-- fotos/2024-08-13-010.jpg
-- fotos/2025-04-22-002.jpg
-- fotos/2025-04-22-001.jpg
-- fotos/2024-08-13-011.jpg
+boxes:
+- title: Galería
+  gallery:
+    type: grid
+    cols: 6
+    ratio: 1/1
+    btn: hide
+  imgs:
+  - /u/fotos/2024-08-13-005.jpg
+  - /u/fotos/2024-08-13-006.jpg
+  - /u/fotos/2024-08-13-007.jpg
+  - /u/fotos/2024-08-13-008.jpg
+  - /u/fotos/2024-08-13-001.jpg
+  - /u/fotos/2024-08-13-002.jpg
+  - /u/fotos/2024-08-13-003.jpg
+  - /u/fotos/2024-08-13-009.jpg
+  - /u/fotos/2024-08-13-010.jpg
+  - /u/fotos/2025-04-22-002.jpg
+  - /u/fotos/2025-04-22-001.jpg
+  - /u/fotos/2024-08-13-011.jpg

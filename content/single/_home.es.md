@@ -2,15 +2,16 @@
 slug: inicio
 title: Inicio
 icon: home
-image: base/poster.png
-summary: Plataforma itinerante digital y física, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
-seo: 👣 La Gran Tribu Nómada - Red Itinerante
-description: Plataforma física y digital para conectar y apoyar proyectos, espacios, comunidades y personitas que buscan una vida alternativa.
+img: /u/base/poster.png
+sum: Plataforma itinerante digital y física, compuesta por una amplia diversidad de personas con un enfoque de vida y valores similares, que buscan potenciar sus dones y desarrollar una vida compartida, libre y dinámica.
+seo:
+  title: 👣 La Gran Tribu Nómada - Red Itinerante
+  desc: Plataforma física y digital para conectar y apoyar proyectos, espacios, comunidades y personitas que buscan una vida alternativa.
 tpl:
   bg:
-    bi: fotos/2024-08-13-009.jpg
+    bi: /u/fotos/2024-08-13-009.jpg
     alpha: 0.85
-    parallax: fix
+    scroll: fix
   menu:
     logo: n
     sticky: auto
@@ -37,16 +38,16 @@ org:
   - LGTN
   - LGT
   - La Gran Tribu
-  description: null
+  desc: null
   legal: null
   nif: null
-  email: info@lagrantribunomada.com
-  logo: base/poster.svg
-  images:
-  - fotos/2024-08-13-009.jpg
-  - fotos/amores.jpg
-  - fotos/2024-08-13-008.jpg
-  - fotos/2024-08-13-001.jpg
+  mail: info@lagrantribunomada.com
+  logo: /u/base/poster.svg
+  imgs:
+  - /u/fotos/2024-08-13-009.jpg
+  - /u/fotos/amores.jpg
+  - /u/fotos/2024-08-13-008.jpg
+  - /u/fotos/2024-08-13-001.jpg
   as:
   - https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
   - https://t.me/lagrantribunomada
@@ -54,17 +55,17 @@ org:
   - https://www.youtube.com/@lagrantribunomada
   phones: []
   address:
-    name: La Gran Tribu Nómada
+  - name: La Gran Tribu Nómada
     street: Ronda de Levante, 1
     pc: '30008'
     locality: Murcia
     region: Murcia
     country: ES
     geo: '{"type":"Point","coordinates":[-1.1306520,37.9922180]}'
-    link: https://maps.google.com/maps?q=Pen%C3%ADnsula%20Ib%C3%A9rica
+    url: https://maps.google.com/maps?q=Pen%C3%ADnsula%20Ib%C3%A9rica
   areas:
   - España
-  schedule: []
+  when: []
   prices: €
   services: []
 ---

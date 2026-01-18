@@ -1,8 +1,8 @@
 name: Directorio
-title: Directorio
-subtitle: Amorígenes, Comunidades y Espacios
 size: xl
 boxes:
+- title: Directorio
+  sub: Amorígenes, Comunidades y Espacios
 - md: |
     <br>
 

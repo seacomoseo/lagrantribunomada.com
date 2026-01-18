@@ -1,15 +1,14 @@
 ---
 slug: otros
 title: Otros
-summary: null # string
-image: categorias/otros.svg
+sum: null # string
+img: /u/categorias/otros.svg
 icon: gps_fixed
 
 category: null # string
 weight: 4
 
 draft: y
-noindex: y
-seo: null # string
-description: null # string
+seo:
+  noindex: y
 ---

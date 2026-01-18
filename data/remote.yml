@@ -4,17 +4,19 @@
   types:
   - type: project
     index: projects
-    pairings:
+    maps:
 
     # basic
     - to: slug
     - to: title
     - from: logo
-      to: image
-    - to: video
+      to: img
+    - from: video
+      to: vid
     - to: weight
     # content
-    - to: summary
+    - from: summary
+      to: sum
     - from: description
       to: content
     - to: advantages
@@ -32,7 +34,7 @@
     # schema
     - from: types
       to: org.types
-      default: Organization
+      def: Organization
       kind: slice
     - from: title
       to: org.names
@@ -40,9 +42,9 @@
     - from: logo
       to: org.logo
     - from: images
-      to: org.images
+      to: org.imgs
       kind: slice
-      delimit: ', '
+      sep: ', '
     - from: phone
       to: org.phones
       kind: slice
@@ -80,4 +82,4 @@
     - from: geo
       to: org.address.geo
     - from: geo_link
-      to: org.address.link
+      to: org.address.url

@@ -1,39 +1,32 @@
 name: Contacto
-title: Contacto
 size: sm
-contact:
-- type: whatsapp
-  label: 665 56 19 23
-# - type: custom
-#   link: https://t.me/+34699190009
-#   label: 665 56 19 23
-#   icon: brand:telegram
-#   lock: y
-#   ga4: y
-#   button: dark
-# - type: br
-- type: phone
-  label: 665 56 19 23
-- type: br
-- type: mail
-  label: info@lagrantribunomada.com
-  button: invert
-  swap: y
-form:
-  action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
-  email: lagrantribunomada@gmail.com
-inputs:
-- type: hidden
-  name: _sheetname
-  label: Contacto
-- type: text
-  name: Nombre
-  required: y
-- type: tel
-  name: Teléfono
-- type: email
-  name: Email
-  required: y
-- type: textarea
-  name: Mensaje
-  required: y
+boxes:
+- title: Contacto
+  links:
+  - type: whatsapp
+    label: 665 56 19 23
+  - type: phone
+    label: 665 56 19 23
+  - type: br
+  - type: mail
+    label: info@lagrantribunomada.com
+    btn: turn
+    swap: y
+  form:
+    action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+    mail: lagrantribunomada@gmail.com
+  inputs:
+  - type: hidden
+    name: _sheetname
+    label: Contacto
+  - type: text
+    name: Nombre
+    req: y
+  - type: phone
+    name: Teléfono
+  - type: mail
+    name: Email
+    req: y
+  - type: area
+    name: Mensaje
+    req: y

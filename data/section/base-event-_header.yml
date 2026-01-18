@@ -1,15 +1,23 @@
 name: Base ➡️ Cabecera de Eventos
 node: header
-align: left
+box:
+  align: left
 boxes:
+# - if: breadcrumbs
+#   node: nav
+#   md: '{{< breadcrumbs >}}'
 - if: icon
-  params:
+  get:
   - to: title
+  - from: h1
+    to: title
   - to: icon
-  icon_type: side
+  icon_pos: side
 - if: not icon
-  params:
+  get:
   - to: title
+  - from: h1
+    to: title
 - tags:
   - type: date
   - type: param
@@ -25,21 +33,19 @@ boxes:
 - box:
     cols: 1
   boxes:
-  - if: video
-    params:
-    - from: video
-      to: image
+  - if: vid
+    get:
+    - from: vid
+      to: img
     ratio: 9/16
     fit: 0.76
-  - if: image
-    params:
-    - from: image
-      to: image
+  - if: img
+    get:
+    - to: img
     - from: title
       to: alt
-    - from: seo
+    - from: seo.title
       to: alt
-    - from: image
-      to: link
-    button: hide
-    # ratio: 3/4
+    - from: img
+      to: url
+    btn: hide

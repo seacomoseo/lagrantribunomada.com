@@ -1,217 +1,218 @@
 name: Formularios ➡️ Alta
-title: Hazte Soci@
-md: |
-  [[¿Cómo Entrar?]](#como-entrar)
-
-  ::asterisk:: Cuota consciente, [aporta lo que sientas](/#donaciones) anualmente.
-align: center
 size: sm
-form:
-  action: https://script.google.com/macros/s/AKfycbwfPh0W-ZybAtECYFO0BhUaTrEK6E-JXNKzqlnYPoF4QYtKGRdnSEXBeQDB9qWtwoc21Q/exec
-  email: lorensansol@gmail.com
-  to: '#bienvenida'
-inputs:
-- type: hidden
-  name: _sheetname
-  label: Socios
-- type: text
-  name: Apodo
-  hint: ¿Cómo quieres que te llamemos? <br> (A ti, no a tu proyecto / servicio)
-  required: y
-- type: text
-  name: Nombre
-  label: Nombre real
-  required: y
-- type: text
-  name: Apellidos
-  required: y
-- type: text
-  name: DNI
-  required: y
-- type: tel
-  name: Teléfono Personal
-  required: y
-- type: email
-  name: Email Personal
-- type: number
-  name: Cuota
-  label: Cuota Consciente Anual
-  hint: ¿Cuánto sientes aportar?
-  min: 0
-- type: textarea
-  name: Cómo
-  label: ¿Cómo nos has conocido?
-  required: y
-- type: check
-  name: Proyecto
-  label: Quiero que mi proyecto / servicio aparezca en vuestra web
-  full: y
-- type: h2
-  label: Proyecto / Servicio
-  show_if: Proyecto
-- type: text
-  name: Nombre Proyecto
-  label: Nombre de tu Proyecto / Servicio
-  required: y
-  show_if: Proyecto
-- type: check
-  name: Comunidad
-  label: Soy una comunidad
-  show_if: Proyecto
-- type: check
-  name: Espacio
-  label: Ofrezco espacio
-  show_if: Proyecto
-- type: md
+boxes:
+- title: Hazte Soci@
   md: |
-    Si cobras por el espacio, marca "Ofrezco servicio/s"
-    {.text-sm .align-left}
-  show_if: Proyecto&&Espacio
-- type: check
-  name: Visitable
-  label: Acepto visitas
-  show_if: Comunidad||Espacio
-- type: check
-  name: Servicios
-  label: Ofrezco servicio/s
-  show_if: Proyecto
-- type: textarea
-  name: Resumen
-  hint: Breve resumen sobre tu proyecto / servicio (máximo 155 caracteres)
-  max: 155
-  required: y
-  show_if: Proyecto
-- type: textarea
-  name: Descripción
-  label: Descripción larga
-  hint: ¿En qué consiste? ¿Cuál es tu objetivo/motivación? ¿Qué ofrece/s a la red?...
-  show_if: Proyecto
-- type: textarea
-  name: Ventajas
-  hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
-  required: y
-  show_if: Proyecto
-- type: check
-  name: Entrevistable
-  label: Acepto entrevistas
-  hint: Podemos entrevistarte por gusto o por visibilizarte publicándolo en nuestra web y/o RRSS
-  full: y
-  show_if: Proyecto
-- type: h3
-  label: Contacto
-  show_if: Proyecto
-- type: md
-  md: |
-    Los datos pueden ser diferentes al de socio
-    {.text-sm}
-  full: y
-  show_if: Proyecto
-- type: text
-  name: Email
-  full: y
-  show_if: Proyecto
-- type: tel
-  name: Teléfono
-  show_if: Proyecto
-- type: tel
-  name: WhatsApp
-  show_if: Proyecto
-- type: text
-  name: Web
-  label: Sitio Web
-  show_if: Proyecto
-- type: text
-  name: Instagram
-  show_if: Proyecto
-- type: text
-  name: Facebook
-  show_if: Proyecto
-- type: text
-  name: Otro
-  label: Otro enlace relevante
-  show_if: Proyecto
-- type: h3
-  label: Ubicación
-  show_if: Proyecto
-- type: check
-  name: Mapa
-  label: Quiero aparecer en el mapa interactivo
-  full: y
-  show_if: Proyecto
-- type: text
-  name: Calle
-  show_if: Proyecto&&Mapa
-- type: text
-  name: Número
-  show_if: Proyecto&&Mapa
-- type: text
-  name: Puerta
-  show_if: Proyecto&&Mapa
-- type: text
-  name: CP
-  label: Código Postal
-  show_if: Proyecto&&Mapa
-- type: text
-  name: Ciudad / Localidad
-  show_if: Proyecto&&Mapa
-- type: text
-  name: Provincia
-  show_if: Proyecto&&Mapa
-- type: select
-  name: País
-  show_if: Proyecto&&Mapa
-  options:
-  - option: 🇪🇸 España
-    value: ES
-  - option: 🇵🇹 Portugal
-    value: PT
-  - option: 🇫🇷 Francia
-    value: FR
-- type: geo
-  name: Posición
-  color: alt
-  required: y
-  show_if: Proyecto&&Mapa
-- type: h3
-  label: Multimedia
-  show_if: Proyecto
-- type: file
-  name: Logo
-  hint: Adjunta tu logo (preferible en formato PNG con fondo transparente)
-  accept: image/*
-  show_if: Proyecto
-  base_name: Nombre Proyecto
-- type: file
-  name: Imágenes
-  hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
-  accept: image/*
-  max: 3
-  show_if: Proyecto
-  base_name: Nombre Proyecto
-- type: text
-  name: Vídeo
-  hint: Indica el enlace relevante de un vídeo de Youtube o Vimeo
-  full: y
-  show_if: Proyecto
-- type: h3
-  label: Otros
-  show_if: Proyecto
-- type: check
-  name: Encuentros
-  label: Ofrezco mis dones y/o espacio para vuestros encuentros
-  full: y
-- type: textarea
-  name: Encuentros Descripción
-  label: Descripción sobre lo que ofreces
-  hint: Qué ofreces para nuestros encuentros (Esto no aparecerá públicamente)
-  required: y
-  show_if: Encuentros
-- type: textarea
-  name: Observaciones
-  hint: ¿Alguna aclaración? (Esto no aparecerá públicamente)
-  show_if: Proyecto||Encuentros
+    [[¿Cómo Entrar?]](#como-entrar)
+
+    ::asterisk:: Cuota consciente, [aporta lo que sientas](/#donaciones) anualmente.
+  align: center
+  form:
+    action: https://script.google.com/macros/s/AKfycbwfPh0W-ZybAtECYFO0BhUaTrEK6E-JXNKzqlnYPoF4QYtKGRdnSEXBeQDB9qWtwoc21Q/exec
+    mail: lorensansol@gmail.com
+    to: '#bienvenida'
+  inputs:
+  - type: hidden
+    name: _sheetname
+    label: Socios
+  - type: text
+    name: Apodo
+    hint: ¿Cómo quieres que te llamemos? <br> (A ti, no a tu proyecto / servicio)
+    req: y
+  - type: text
+    name: Nombre
+    label: Nombre real
+    req: y
+  - type: text
+    name: Apellidos
+    req: y
+  - type: text
+    name: DNI
+    req: y
+  - type: phone
+    name: Teléfono Personal
+    req: y
+  - type: mail
+    name: Email Personal
+  - type: number
+    name: Cuota
+    label: Cuota Consciente Anual
+    hint: ¿Cuánto sientes aportar?
+    min: 0
+  - type: area
+    name: Cómo
+    label: ¿Cómo nos has conocido?
+    req: y
+  - type: check
+    name: Proyecto
+    label: Quiero que mi proyecto / servicio aparezca en vuestra web
+    full: y
+  - type: h2
+    label: Proyecto / Servicio
+    show_if: Proyecto
+  - type: text
+    name: Nombre Proyecto
+    label: Nombre de tu Proyecto / Servicio
+    req: y
+    show_if: Proyecto
+  - type: check
+    name: Comunidad
+    label: Soy una comunidad
+    show_if: Proyecto
+  - type: check
+    name: Espacio
+    label: Ofrezco espacio
+    show_if: Proyecto
+  - type: md
+    md: |
+      Si cobras por el espacio, marca "Ofrezco servicio/s"
+      {.text-sm .align-left}
+    show_if: Proyecto&&Espacio
+  - type: check
+    name: Visitable
+    label: Acepto visitas
+    show_if: Comunidad||Espacio
+  - type: check
+    name: Servicios
+    label: Ofrezco servicio/s
+    show_if: Proyecto
+  - type: area
+    name: Resumen
+    hint: Breve resumen sobre tu proyecto / servicio (máximo 155 caracteres)
+    max: 155
+    req: y
+    show_if: Proyecto
+  - type: area
+    name: Descripción
+    label: Descripción larga
+    hint: ¿En qué consiste? ¿Cuál es tu objetivo/motivación? ¿Qué ofrece/s a la red?...
+    show_if: Proyecto
+  - type: area
+    name: Ventajas
+    hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
+    req: y
+    show_if: Proyecto
+  - type: check
+    name: Entrevistable
+    label: Acepto entrevistas
+    hint: Podemos entrevistarte por gusto o por visibilizarte publicándolo en nuestra web y/o RRSS
+    full: y
+    show_if: Proyecto
+  - type: h3
+    label: Contacto
+    show_if: Proyecto
+  - type: md
+    md: |
+      Los datos pueden ser diferentes al de socio
+      {.text-sm}
+    full: y
+    show_if: Proyecto
+  - type: text
+    name: Email
+    full: y
+    show_if: Proyecto
+  - type: phone
+    name: Teléfono
+    show_if: Proyecto
+  - type: phone
+    name: WhatsApp
+    show_if: Proyecto
+  - type: text
+    name: Web
+    label: Sitio Web
+    show_if: Proyecto
+  - type: text
+    name: Instagram
+    show_if: Proyecto
+  - type: text
+    name: Facebook
+    show_if: Proyecto
+  - type: text
+    name: Otro
+    label: Otro enlace relevante
+    show_if: Proyecto
+  - type: h3
+    label: Ubicación
+    show_if: Proyecto
+  - type: check
+    name: Mapa
+    label: Quiero aparecer en el mapa interactivo
+    full: y
+    show_if: Proyecto
+  - type: text
+    name: Calle
+    show_if: Proyecto&&Mapa
+  - type: text
+    name: Número
+    show_if: Proyecto&&Mapa
+  - type: text
+    name: Puerta
+    show_if: Proyecto&&Mapa
+  - type: text
+    name: CP
+    label: Código Postal
+    show_if: Proyecto&&Mapa
+  - type: text
+    name: Ciudad / Localidad
+    show_if: Proyecto&&Mapa
+  - type: text
+    name: Provincia
+    show_if: Proyecto&&Mapa
+  - type: select
+    name: País
+    show_if: Proyecto&&Mapa
+    items:
+    - label: 🇪🇸 España
+      key: ES
+    - label: 🇵🇹 Portugal
+      key: PT
+    - label: 🇫🇷 Francia
+      key: FR
+  - type: geo
+    name: Posición
+    color: alt
+    req: y
+    show_if: Proyecto&&Mapa
+  - type: h3
+    label: Multimedia
+    show_if: Proyecto
+  - type: file
+    name: Logo
+    hint: Adjunta tu logo (preferible en formato PNG con fondo transparente)
+    accept: image/*
+    show_if: Proyecto
+    base_name: Nombre Proyecto
+  - type: file
+    name: Imágenes
+    hint: Adjunta un máximo de 3 imágenes representativas (MUY recomendable)
+    accept: image/*
+    max: 3
+    show_if: Proyecto
+    base_name: Nombre Proyecto
+  - type: text
+    name: Vídeo
+    hint: Indica el enlace relevante de un vídeo de Youtube o Vimeo
+    full: y
+    show_if: Proyecto
+  - type: h3
+    label: Otros
+    show_if: Proyecto
+  - type: check
+    name: Encuentros
+    label: Ofrezco mis dones y/o espacio para vuestros encuentros
+    full: y
+  - type: area
+    name: Encuentros Descripción
+    label: Descripción sobre lo que ofreces
+    hint: Qué ofreces para nuestros encuentros (Esto no aparecerá públicamente)
+    req: y
+    show_if: Encuentros
+  - type: area
+    name: Observaciones
+    hint: ¿Alguna aclaración? (Esto no aparecerá públicamente)
+    show_if: Proyecto||Encuentros
 modal:
-  icon_type: top
+  icon_pos: top
 modals:
 - icon: login
   title: ¿Cómo Entrar?

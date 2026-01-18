@@ -11,7 +11,7 @@
 .link {
   --link-undeline-width: calc(var(--outline) / 2);
 }
-.md .link:not(#toc *, #breadcrumbs *, .list-inline *, .md__heading *) {
+.md .link:not(#toc *, #crumbs *, .list-inline *, .md__heading *) {
   background-size: 100% 100%;
   &:hover {
     background-size: 0 100%;
@@ -19,7 +19,7 @@
   }
 }
 
-// .accordion__md ul > li::before,
+// .faq__md ul > li::before,
 .md ul > li::before {
   content: "-";
 }
@@ -31,7 +31,7 @@
 .form__item {
   display: flex;
   flex-direction: column;
-  &[data-showif].form__item--show {
+  &[data-show-if].form__item--show {
     display: flex;
   }
 }
@@ -49,8 +49,8 @@
 #body-home #header {
   @mixin show-from($delay) { animation: show-from .5s (.25 + .25s * $delay) both; }
   .box--1 .box__title     { @include show-from(2); }
-  .box--1 .subtitle       { @include show-from(3); }
-  .box--2 .image          { @include show-from(4); --show-from: perspective(50em) rotateY(90deg); }
+  .box--1 .sub       { @include show-from(3); }
+  .box--2 .img          { @include show-from(4); --show-from: perspective(50em) rotateY(90deg); }
   .box__title {
     font-size: 4.125em;
     line-height: 1;
@@ -59,7 +59,7 @@
   // [data-iframe] .icon {
   //   top: 75%;
   // }
-  // .box--2 .image .icon {
+  // .box--2 .img .icon {
   //   position: absolute;
   //   top: 75%;
   //   left: 50%;
@@ -68,12 +68,12 @@
 
 /*! purgecss start ignore */
 #directorio {
-  .buttons .button {
+  .btns .btn {
     font-size: 1.5em;
   }
 }
 
-button:not(.button--dot) {
+button:not(.btn--dot) {
   &:has([href="/draws.#{$timestamp}.svg#brand-telegram"]) {
     --base: #24a1de;
   }
@@ -96,7 +96,7 @@ button:not(.button--dot) {
   .leaflet-marker-shadow {
     transition: transform .3s;
   }
-  .leaflet-popup-close-button {
+  .leaflet-popup-close-btn {
     top: 20px;
     right: 20px;
     background-color: var(--alt);
@@ -122,10 +122,10 @@ button:not(.button--dot) {
       margin-block: .25em -.5em;
       padding-right: 28px;
     }
-    a:not(.button) {
+    a:not(.btn) {
       color: var(--light);
     }
-    .button {
+    .btn {
       width: 100%;
       color: var(--base-in);
       line-height: 1;
@@ -187,7 +187,7 @@ button:not(.button--dot) {
   #content ul {
     .link {
       @include font-base;
-      --cta: var(--invert);
+      --cta: var(--turn);
       background-size: 0 100%;
       &:hover {
         background-size: 100% 100%;

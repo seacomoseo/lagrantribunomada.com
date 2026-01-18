@@ -1,30 +1,31 @@
 name: Proyecto
 id: proyecto
-title: El Proyecto
-box:
-  cols: 4
-  cols_vs: 2
-  hs: 3
-  button: alt
 boxes:
-- icon: camping
-  title: ¿Qué Es?
-  link: '#que-es'
-- icon: gps_fixed
-  title: Objetivos
-  link: '#objetivos'
-- icon: heart_smile
-  title: Valores
-  link: '#valores'
-- icon: groups_3
-  title: Equipo
-  link: '#equipo'
+- title: El Proyecto
+  box:
+    cols: 4
+    cols_vs: 2
+    hs: 3
+    btn: alt
+  boxes:
+  - icon: camping
+    title: ¿Qué Es?
+    url: '#que-es'
+  - icon: gps_fixed
+    title: Objetivos
+    url: '#objetivos'
+  - icon: heart_smile
+    title: Valores
+    url: '#valores'
+  - icon: groups_3
+    title: Equipo
+    url: '#equipo'
 modal:
-  icon_type: top
+  icon_pos: top
 modals:
 - icon: camping
   title: ¿Qué Es?
-  subtitle: La Gran Tribu Nómada
+  sub: La Gran Tribu Nómada
   md: |
     Este proyecto ha sido creado y desarrollado por un **GRAN** equipo multidisciplinar y consiste en una plataforma itinerante digital y física cuyo objetivo es ofrecer los recursos y la red necesarias para cocrear la realidad que queremos, como dice Seth Godin, “una vida de la que no necesitemos escapar”.
 
@@ -86,95 +87,78 @@ modals:
       - **Integración** con el entorno y respeto de la vecindad y comunidad asentada.
       - Ir a **sumar**, a **aportar**, no sólo a coger. Conciencia del dar y recibir.
       - Disposición a **colaborar**, **incluir** y **aprender** del otro ::psychiatry::
-- icon_type: bottom
+- icon_pos: sub
   title: Equipo
-  subtitle: Coordinación
+  sub: Coordinación
   size: lg
   box:
     gap: 2
   boxes:
   - box:
-      circle: y
+      disc: y
       gray: y
       cols: 4
       cols_vs: 2
       gap: 3
-      gap_ny: 1
-      # icon_type: bottom
       line: y
     boxes:
-    - # icon: user-hair-mullet
-      image: equipo/indira.jpg
+    - img: /u/equipo/indira.jpg
       title: Indira
-      subtitle: La Hechicera
+      sub: La Hechicera
       md: Te hace unas terapias que flipas en colores (guiño guiño)
-    - # icon: user-cowboy
-      image: equipo/xemi.jpg
+    - img: /u/equipo/xemi.jpg
       title: Xemi
-      subtitle: El Fenicio
+      sub: El Fenicio
       md: Organiza cosas, ¿a quién no le va a gustar un fenicio del siglo 1º?
-    - # icon: user-ninja
-      image: equipo/loren.jpg
+    - img: /u/equipo/loren.jpg
       title: Loren
-      subtitle: El Bailongo
+      sub: El Bailongo
       md: Te saca tu eneatipo con ChatGPT y te diseña una web con eso
-    - # icon: stylus_brush
-      image: equipo/paula.jpg
+    - img: /u/equipo/paula.jpg
       title: Paula
-      subtitle: La Electroduende
+      sub: La Electroduende
       md: Fantasía audiovisual y emocional everywhere, all time
-    - # icon: user-vneck-hair-long
-      image: equipo/lua.jpg
+    - img: /u/equipo/lua.jpg
       title: Lua
-      subtitle: La Artemisana
+      sub: La Artemisana
       md: Esencias de cosas naturales que huelen mu rico
-    - # icon: theater_comedy
-      image: equipo/naiht.jpg
+    - img: /u/equipo/naiht.jpg
       title: Naiht
-      subtitle: El Personaje
+      sub: El Personaje
       md: Con el juego y el teatro te explota el coco poco a poco
-    - # icon: smart_toy
-      image: equipo/rafa.jpg
+    - img: /u/equipo/rafa.jpg
       title: Rafa
-      subtitle: El Solucionador
+      sub: El Solucionador
       md: Te hace Φ con un canuto impreso en 3D con sal del himalaya
   - box:
-      circle: y
+      disc: y
       gray: y
       cols: 4
       cols_vs: 2
       gap: 3
-      gap_ny: 1
-      # icon_type: bottom
       line: y
     boxes:
-    - # icon: teddy-bear
-      image: equipo/perruno/momo.jpg
+    - img: /u/equipo/perruno/momo.jpg
       title: Momo
-      subtitle: El Oso
+      sub: El Oso
       md: 'Arrambla por donde pasa, ¡to bonico! ::favorite::'
-    - # icon: sound_detection_dog_barking
-      image: equipo/perruno/guiro.jpg
+    - img: /u/equipo/perruno/guiro.jpg
       title: Güiro
-      subtitle: El ComeCaras
+      sub: El ComeCaras
       md: Si bostezas te chupa la campanilla
-    - # icon: dinosaur
-      image: equipo/perruno/paco.jpg
+    - img: /u/equipo/perruno/paco.jpg
       title: Paco
-      subtitle: El Veterano
+      sub: El Veterano
       md: El más sabio y experimentado de todos
-    - # icon: dolphin
-      image: equipo/perruno/romeo.jpg
+    - img: /u/equipo/perruno/romeo.jpg
       title: Romeo
-      subtitle: El Sireno
+      sub: El Sireno
       md: Canto angelical, trompacelga y paraico
-    - # icon: dragon
-      image: equipo/perruno/yang.jpg
+    - img: /u/equipo/perruno/yang.jpg
       title: Yang
-      subtitle: El Chino
+      sub: El Chino
       md: Perro medicina y protector de la manada
-    - # icon: pets
-      image: equipo/perruno/akela.jpg
+    - img: /u/equipo/perruno/akela.jpg
       title: Akela
-      subtitle: La Loba
+      sub: La Loba
       md: La compitrueno de Mowgli a.k.a. Artemisana

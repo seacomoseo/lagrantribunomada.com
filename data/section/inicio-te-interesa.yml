@@ -1,28 +1,29 @@
 name: ¿Te Interesa?
-title: ¿Te Interesa?
-box:
-  cols: 5
-  cols_vs: 2
-  hs: 5
-  button: alt
 boxes:
-- icon: search
-  title: ¿Qué Buscamos?
-  link: '#que-buscamos'
-- icon: diversity_2
-  title: ¿Qué Ofrecemos?
-  link: '#que-ofrecemos'
-- icon: login
-  title: ¿Cómo Entrar?
-  link: '#como-entrar'
-- icon: rv_hookup
-  title: Caravana Amorigen
-  link: '#caravana-amorigen'
-- icon: volunteer_activism
-  title: Donaciones
-  link: '#donaciones'
+- title: ¿Te Interesa?
+  box:
+    cols: 5
+    cols_vs: 2
+    hs: 5
+    btn: alt
+  boxes:
+  - icon: search
+    title: ¿Qué Buscamos?
+    url: '#que-buscamos'
+  - icon: diversity_2
+    title: ¿Qué Ofrecemos?
+    url: '#que-ofrecemos'
+  - icon: login
+    title: ¿Cómo Entrar?
+    url: '#como-entrar'
+  - icon: rv_hookup
+    title: Caravana Amorigen
+    url: '#caravana-amorigen'
+  - icon: volunteer_activism
+    title: Donaciones
+    url: '#donaciones'
 modal:
-  icon_type: top
+  icon_pos: top
 modals:
 - icon: search
   title: ¿Qué Buscamos?
