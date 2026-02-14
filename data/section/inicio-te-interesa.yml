@@ -2,7 +2,7 @@ name: ¿Te Interesa?
 boxes:
 - title: ¿Te Interesa?
   box:
-    cols: 5
+    cols: 6
     cols_vs: 2
     hs: 5
     btn: alt
@@ -19,6 +19,9 @@ boxes:
   - icon: rv_hookup
     title: Caravana Amorigen
     url: '#caravana-amorigen'
+  - icon: adjust
+    title: Pangea
+    url: '#pangea'
   - icon: volunteer_activism
     title: Donaciones
     url: '#donaciones'
@@ -124,6 +127,27 @@ modals:
     [[::brand:whatsapp:: Xemi → 665 56 19 23]](https://wa.me/34665561923 "[nofollow whatsapp]")
 
     Puedes unirte a la caravana en cualquier momento del viaje sin importar la fecha de salida de la caravana amorígen 😉
+- icon: adjust
+  title: Pangea
+  md: |
+    Así se llamaba a casi toda la capa terrestre del planeta que estaba unificada en una sola. Hace 175 millones de años, comenzó a fracturarse y a convertirse en los continentes que conocemos hoy día.
+
+    Tal como la tierra se dividió, fuimos diviéndonos los humanos en territorios, códigos y culturas distintas. 
+
+    Gracias a ello, ahora somos infinitamente diversos. Y en LGTN, creemos en la riqueza que sucede cuando, después de construir nuestra individualidad, volvemos a unirnos. 
+
+    En la actualidad, hay más de doscientos proyectos comunitarios en España. Muchas personas han adquirido una tierra y la habitan a su modo, anhelando compartirla. 
+
+    Cada proyecto es una proyección de quien lo crea. Cada comunidad, es un mundo. Hay de todo tipo, formando un amplio y diverso universo en el que, probablemente, haya lugar para todos. 
+
+    Desde LGTN, queremos unificar las fuerzas de estos proyectos y poner en contacto a las personas que los anfitrionan y aguardianan para que puedan apoyarse y aprender unas de otras, colaborando, inspirándose y nutriéndose con la sabiduría que albergan.
+
+    Asimismo, dentro de este proyecto "Pangea", haremos una recaudación de información de estos proyectos/comunidades a través de entrevistas, con el fin de ofrecer datos de interés para aquellas personas que quieran conocer este estilo de vida o directamente  colaborar o convivir en estos espacios.
+
+    ¿Anfitrionas un espacio abierto a comunidad o voluntariado? Contáctanos 👣
+
+    [[::brand:telegram:: Grupo de anfitriones]](https://t.me/+yFjBSvzQ2xsxMjlk "[nofollow alt]")
+    [[::brand:whatsapp:: Indira → 623 58 84 19]](https://wa.me/34623588419 "[nofollow whatsapp]")
 - icon: volunteer_activism
   title: Donaciones
   md: |
