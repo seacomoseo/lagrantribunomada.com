@@ -22,13 +22,9 @@ modals:
   md: |
     El formulario de reserva para **{{% get icon %}} {{% get title %}}** se ha enviado correctamente.
 
-    La aportación es mediante transferencia bancaria aquí:
+    Te escribiremos para darte indicaciones sobre la aportación y te agregaremos al grupo de WhatsApp del encuentro.
 
-    **IBAN:** BE15 9055 1915 6030
-
-    **Swift/BIC:** TRWIBEB1XXX
-
-    Te agregaremos al grupo de WhatsApp del encuentro cuando la realices.
+    Si las plazas ya están cubiertas, entrarás en lista de espera y te avisaremos si se libera alguna.
 
     ¡Muchas gracias!
   size: xs
