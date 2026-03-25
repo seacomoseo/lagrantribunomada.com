@@ -90,14 +90,14 @@ modals:
 - icon_pos: sub
   title: Equipo
   sub: Coordinación
-  size: lg
+  size: md
   box:
     gap: 2
   boxes:
   - box:
       disc: y
       gray: y
-      cols: 4
+      cols: 3
       cols_vs: 2
       gap: 3
       line: y
@@ -106,14 +106,6 @@ modals:
       title: Indira
       sub: La Hechicera
       md: Te hace unas terapias que flipas en colores (guiño guiño)
-    - img: /u/equipo/xemi.jpg
-      title: Xemi
-      sub: El Fenicio
-      md: Organiza cosas, ¿a quién no le va a gustar un fenicio del siglo 1º?
-    - img: /u/equipo/loren.jpg
-      title: Loren
-      sub: El Bailongo
-      md: Te saca tu eneatipo con ChatGPT y te diseña una web con eso
     - img: /u/equipo/paula.jpg
       title: Paula
       sub: La Electroduende
@@ -130,10 +122,18 @@ modals:
       title: Rafa
       sub: El Solucionador
       md: Te hace Φ con un canuto impreso en 3D con sal del himalaya
+    - img: /u/equipo/loren.jpg
+      title: Loren
+      sub: El Bailongo
+      md: Te saca tu eneatipo con ChatGPT y te diseña una web con eso
+    # - img: /u/equipo/xemi.jpg
+    #   title: Xemi
+    #   sub: El Fenicio
+    #   md: Organiza cosas, ¿a quién no le va a gustar un fenicio del siglo 1º?
   - box:
       disc: y
       gray: y
-      cols: 4
+      cols: 3
       cols_vs: 2
       gap: 3
       line: y
@@ -146,18 +146,18 @@ modals:
       title: Güiro
       sub: El ComeCaras
       md: Si bostezas te chupa la campanilla
-    - img: /u/equipo/perruno/paco.jpg
-      title: Paco
-      sub: El Veterano
-      md: El más sabio y experimentado de todos
-    - img: /u/equipo/perruno/romeo.jpg
-      title: Romeo
-      sub: El Sireno
-      md: Canto angelical, trompacelga y paraico
-    - img: /u/equipo/perruno/yang.jpg
-      title: Yang
-      sub: El Chino
-      md: Perro medicina y protector de la manada
+    # - img: /u/equipo/perruno/paco.jpg
+    #   title: Paco
+    #   sub: El Veterano
+    #   md: El más sabio y experimentado de todos
+    # - img: /u/equipo/perruno/romeo.jpg
+    #   title: Romeo
+    #   sub: El Sireno
+    #   md: Canto angelical, trompacelga y paraico
+    # - img: /u/equipo/perruno/yang.jpg
+    #   title: Yang
+    #   sub: El Chino
+    #   md: Perro medicina y protector de la manada
     - img: /u/equipo/perruno/akela.jpg
       title: Akela
       sub: La Loba
