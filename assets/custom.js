@@ -95,10 +95,10 @@ function addMarkersToCluster (data, type, color, iconId) {
       let content = ''
 
       if (item.img) content += `<img src="${item.img}" width=512 height=512>`
-      content += `<h3 class="h5"><a href="${item.link}">${item.title}</a></h3>`
+      content += `<h3 class="h5"><a href="${item.url}">${item.title}</a></h3>`
       if (item.sum) content += `<p>${item.sum}</p>`
       if (item.visitable) content += '<h3 class="compare">Acepta visitas <i class="icon">check</i>'
-      content += `<p><a class="btn alt" href="${item.link}"><i class="icon">info</i> M\xC1S</a></p>`
+      content += `<p><a class="btn alt" href="${item.url}"><i class="icon">info</i> M\xC1S</a></p>`
 
       let geo = item.address?.geo
       if (geo) {
