@@ -10,7 +10,7 @@ fonts:
   base:
     family: Comfortaa
     weight: 300
-    bold: 0
+    bold: 700
     italic: n
     line_height: 1.25
   cursive:
@@ -68,13 +68,13 @@ btns:
   deep: n
   outline: n
   font:
-    type: title
-    bold: n
-    caps: y
-  swap:
-    type: base
+    type: cursive
     bold: n
     caps: n
+  swap:
+    type: bold
+    bold: n
+    caps: y
 inputs:
   fill: y
   labels: in

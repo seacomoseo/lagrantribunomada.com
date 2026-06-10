@@ -1,0 +1,126 @@
+name: Formularios ➡️ WhatsApp Grupos
+box:
+  gap_vs: 5
+boxes:
+- get:
+  - to: title
+  - from: h1
+    to: title
+  - to: icon
+  icon_pos: side
+
+- title: Grupos
+  md: |
+    Toca en cada uno para ver su información
+
+    [[::🩵:: Amorígenes]](#grupo-amorigenes "[alt sm]")
+    [[::🪄:: Anuncios]](#grupo-anuncios "[alt sm]")
+    [[::⏳:: Agenda]](#grupo-agenda "[alt sm]")
+    [[::⛺:: Tribnb]](#grupo-tribnb "[alt sm]")
+    [[::🗣️:: Gran Foro Tribal]](#grupo-gran-foro-tribal "[alt sm]")
+    [[::🚐:: Caravana Amorigen]](#grupo-caravana-amorigen "[alt sm]")
+
+modal:
+  icon_pos: side
+  size: xs
+
+modals:
+
+- id: grupo-amorigenes
+  icon: 🩵
+  title: AMORÍGENES
+  md: |
+    En este grupo está el corazón de
+    **👣 La Gran Tribu Nómada 👣**
+
+    Es un espacio donde **conocernos, compartirnos e intrerelacionarnos**.
+
+    - ::➡️:: Bienvenidas presentaciones, fotos, música, sentires, quedadas informales...
+    - ::❌:: Cartelería, eventos ni publicidad. Para ello dirígete a [Agenda](#grupo-agenda) o [Anuncios](#grupo-anuncios).
+    - ::❓:: Si la idea es traer una reflexión a debate dirígete al grupo [Gran Foro Tribal](#grupo-gran-foro-tribal) para seguir nutriéndonos sin sobrecargar este grupo 🙏
+    - ::asterisk:: Si el contenido de tu mensaje no coincide con la descripción de este grupo, será borrado.
+
+    [[¡Quiero entrar!]](#formulario "[alt]")
+
+- id: grupo-anuncios
+  icon: 🪄
+  title: ANUNCIOS
+  md: |
+    En este grupo está la abundancia de
+    **👣 La Gran Tribu Nómada 👣**
+
+    Aquí puedes anunciar cualquier cosa de interés. Por ejemplo:
+    - ::format_quote:: Busco...
+    - ::format_quote:: Ofrezco...
+    - ::format_quote:: Regalo...
+    - ::format_quote:: Intercambio...
+    - ::format_quote:: Vendo...
+    - ::format_quote:: Voluntariado...
+
+    - ::asterisk:: Si el contenido de tu mensaje no coincide con la descripción de este grupo, será borrado.
+
+    [[¡Quiero entrar!]](#formulario "[alt]")
+
+- id: grupo-agenda
+  icon: ⏳
+  title: AGENDA
+  md: |
+    En este grupo está la presencia de
+    **👣 La Gran Tribu Nómada 👣**
+
+    Aquí podrás compartir **cartelería y publicidad diversa** (ocio, retiros terapéuticos, puertas abiertas...) **que tengan fecha** establecida. Así todes tenemos acceso a diversidad de planes donde, además, podemos coincidir y conocernos 🥳
+
+    - ::❌:: No es un espacio donde ofrecer tus servicios o ofertas. Sólo eventos con fecha. Para anunciar tus servicios puedes darte de alta en nuestra web o dirigirte al grupo [Anuncios](#grupo-anuncios) 🙏
+    - ::asterisk:: Si el contenido de tu mensaje no coincide con la descripción de este grupo, será borrado.
+
+    [[¡Quiero entrar!]](#formulario "[alt]")
+
+- id: grupo-tribnb
+  icon: ⛺
+  title: TRIBNB
+  md: |
+    En este grupo está la hospitalidad de
+    **👣 La Gran Tribu Nómada 👣**
+
+    En este grupo **ofrecemos y solicitamos alojamiento para corta o larga estancia** sin intercambio económico.
+
+    - ::❌:: No es un espacio inmobiliario. Si quieres vender/alquilar tu casa puedes dirigirte al grupo [Anuncios](#grupo-anuncios).
+    - ::asterisk:: Si el contenido de tu mensaje no coincide con la descripción de este grupo, será borrado.
+
+    [[¡Quiero entrar!]](#formulario "[alt]")
+
+- id: grupo-gran-foro-tribal
+  icon: 🗣️
+  title: GRAN FORO TRIBAL
+  md: |
+    En este grupo está la mente de
+    **👣 La Gran Tribu Nómada 👣**
+
+    Aquí **puedes compartir información de interés y también abrir debate sobre ello** generando un hilo de conversación todo lo extenso que se quiera.
+
+    - ::❌:: Sin devaluar ni mantener conductas despectivas ante opiniones ajenas 🙏
+    - ::asterisk:: Si el contenido de tu mensaje no coincide con la descripción de este grupo, será borrado.
+
+    [[¡Quiero entrar!]](#formulario "[alt]")
+
+- id: grupo-caravana-amorigen
+  icon: 🚐
+  title: CARAVANA AMORIGEN
+  md: |
+    En este grupo esta la esencia de
+    **👣 La Gran Tribu Nómada 👣**
+
+    Este espacio esta dirigido a personas **abiertas a viajar en tribu, con otras personas**.
+
+    Aquí puedes **proponer rutas de viaje, lugares o comunidades que vayas a visitar**... para que más personas se sumen contigo, sea **compartiendo vehículo o llevando cada uno el suyo propio**.
+
+    Compartir nomadismo, compartir experiencias juntes 🧚
+
+    Todes podemos proponer.
+
+    Puntualmente, será el equipo de LGTN el que propondrá rutas, mas ya no está ceñido el grupo únicamente a ello.
+
+    - ::❌:: No es un espacio para lucrarte ofreciendo transporte puntual 🙏
+    - ::asterisk:: Si el contenido de tu mensaje no coincide con la descripción de este grupo, será borrado.
+
+    [[¡Quiero entrar!]](#formulario "[alt]")

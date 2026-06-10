@@ -2,7 +2,6 @@ name: Formularios ➡️ Reserva
 if: booking.active
 node: div
 pt: 0
-size: sm
 boxes:
 - hanchor: Reserva
   form:

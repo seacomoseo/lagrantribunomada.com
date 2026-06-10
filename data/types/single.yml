@@ -4,4 +4,4 @@ base: single
 hide: n
 tpl:
   section:
-  - size: lg
+  - size: sm

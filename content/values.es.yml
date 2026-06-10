@@ -25,7 +25,7 @@ footer:
   color: such
   div: brush
   dots:
-  - url: https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
+  - url: /whatsapp/
     icon: brand:whatsapp
   - url: https://t.me/lagrantribunomada
     icon: brand:telegram

@@ -1,0 +1,61 @@
+name: Formularios ➡️ WhatsApp
+id: formulario
+pt: 1
+box:
+  gap_vs: 5
+boxes:
+
+- title: ¿Cómo Entrar?
+  md: Rellena el siguiente formulario para obtener el enlace de invitación
+
+  form:
+    id: form
+    action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
+    mail: lagrantribunomada@gmail.com
+    to: '#bienvenida'
+  inputs:
+  - type: hidden
+    name: _sheetname
+    label: WhatsApp
+  - type: text
+    name: Apodo
+    hint: ¿Cómo te suelen llamar?
+  - type: text
+    name: Nombre
+    label: Nombre real
+    req: y
+  - type: text
+    name: Apellidos
+    req: y
+  - type: phone
+    name: Teléfono
+    req: y
+  - type: date
+    name: Nacimiento
+    label: Fecha de Nacimiento
+  - type: text
+    name: Ciudad
+  - type: area
+    name: Cómo
+    label: ¿Cómo nos has conocido?
+    req: y
+
+- md: |
+    ¿Te quedan dudas?
+
+    [[Contacto 😉]](/#contacto "[alt]")
+
+modals:
+- id: bienvenida
+  title: ¡¡¡Bienvenid@ AMORIGEN!!!
+  md: |
+    [[::brand:whatsapp:: Comunidad ::👣::]](https://chat.whatsapp.com/HOKJqQWPRksDJOQXgWtocO "[nofollow whatsapp]")
+    {.h4}
+
+    Toca el botón para acceder a la comunidad
+
+    Dentro puedes unirte al grupo que desees
+
+    ¡¡¡AHOOO!!! 🪇
+  size: xs
+  align: center

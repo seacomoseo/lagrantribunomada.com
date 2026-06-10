@@ -1,12 +1,20 @@
 ---
 slug: whatsapp
-title: Grupos de la Comunidad en WhatsApp
+title: Comunidad de WhatsApp
 icon: brand:whatsapp
+img: /u/base/poster.png
 seo:
   noindex: y
+tpl:
+  sections:
+  - file: formularios-whatsapp-grupos
+  - file: formularios-whatsapp
+  # - file: base-toc
+  # - file: base-content
+  - file: base-share
 ---
-
-Aquí tienes un desglose de cada grupo de la [::brand:whatsapp:: Comunidad de WhatsApp](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow]") y para qué sirve cada uno.
+<!--
+Aquí tienes un desglose de cada grupo de la Comunidad de WhatsApp y para qué sirve cada uno.
 
 
 ## ::🩵:: AMORÍGENES
@@ -131,8 +139,9 @@ Si vas a formar parte de la Caravana, solicita entrar en este grupo para unirte 
 
 ¿Te quedó claro? ¡Vamos!
 
-[[::brand:whatsapp:: Comunidad de WhatsApp 👣]](https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22 "[nofollow whatsapp]")
+[[::brand:whatsapp:: Comunidad de WhatsApp 👣]](https://chat.whatsapp.com/HOKJqQWPRksDJOQXgWtocO "[nofollow whatsapp]")
 
 ¿Te quedan dudas?
 
 [[Contacto 😉]](/#contacto "[alt]")
+-->

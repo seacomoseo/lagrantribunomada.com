@@ -17,7 +17,8 @@ tpl:
     sticky: auto
   callnow: auto
   section:
-  - div: brush
+  - size: lg
+    div: brush
   sections:
   - file: inicio-_header
   - file: inicio-introduccion
@@ -49,7 +50,6 @@ org:
   - /u/fotos/2024-08-13-008.jpg
   - /u/fotos/2024-08-13-001.jpg
   as:
-  - https://chat.whatsapp.com/DPbPJBRTk8pChDJBJP6q22
   - https://t.me/lagrantribunomada
   - https://www.instagram.com/lagrantribunomada/
   - https://www.youtube.com/@lagrantribunomada

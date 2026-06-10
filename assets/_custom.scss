@@ -7,9 +7,15 @@
   translate: -3em -.5em;
 }
 
-// Underline
+// Strong
+.box__md strong {
+  color: var(--sub);
+}
+
+// Link
 .link {
-  --link-undeline-width: calc(var(--outline) / 2);
+  --link-line-top: calc(100% - var(--outline) / 2);
+  --cta: var(--alt);
 }
 .md .link:not(#toc *, #crumbs *, .list-inline *, .md__heading *) {
   background-size: 100% 100%;
@@ -48,9 +54,9 @@
 
 #body-home #header {
   @mixin show-from($delay) { animation: show-from .5s (.25 + .25s * $delay) both; }
-  .box--1 .box__title     { @include show-from(2); }
-  .box--1 .sub       { @include show-from(3); }
-  .box--2 .img          { @include show-from(4); --show-from: perspective(50em) rotateY(90deg); }
+  .box--1 .box__title { @include show-from(2); }
+  .box--1 .sub        { @include show-from(3); }
+  .box--2 .img        { @include show-from(4); --show-from: perspective(50em) rotateY(90deg); }
   .box__title {
     font-size: 4.125em;
     line-height: 1;
@@ -96,7 +102,7 @@ button:not(.btn--dot) {
   .leaflet-marker-shadow {
     transition: transform .3s;
   }
-  .leaflet-popup-close-btn {
+  .leaflet-popup-close-button {
     top: 20px;
     right: 20px;
     background-color: var(--alt);
