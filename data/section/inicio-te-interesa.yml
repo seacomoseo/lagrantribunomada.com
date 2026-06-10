@@ -26,6 +26,7 @@ boxes:
     title: Donaciones
     url: '#donaciones'
 modal:
+  color: main-dark
   icon_pos: top
 modals:
 - icon: search

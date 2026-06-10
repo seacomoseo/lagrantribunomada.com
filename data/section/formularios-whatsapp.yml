@@ -45,6 +45,8 @@ boxes:
 
     [[Contacto 😉]](/#contacto "[alt]")
 
+modal:
+  color: main-dark
 modals:
 - id: bienvenida
   title: ¡¡¡Bienvenid@ AMORIGEN!!!

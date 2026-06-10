@@ -12,6 +12,7 @@ boxes:
   - from: booking.inputs
     to: inputs
 modal:
+  color: main-dark
   icon_pos: top
 modals:
 - if: booking

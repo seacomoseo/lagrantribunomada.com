@@ -211,6 +211,7 @@ boxes:
     hint: ¿Alguna aclaración? (Esto no aparecerá públicamente)
     show_if: Proyecto||Encuentros
 modal:
+  color: main-dark
   icon_pos: top
 modals:
 - icon: login

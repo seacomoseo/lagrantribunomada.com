@@ -21,6 +21,7 @@ boxes:
     title: Equipo
     url: '#equipo'
 modal:
+  color: main-dark
   icon_pos: top
 modals:
 - icon: camping

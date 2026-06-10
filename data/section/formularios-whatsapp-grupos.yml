@@ -21,6 +21,7 @@ boxes:
     [[::🚐:: Caravana Amorigen]](#grupo-caravana-amorigen "[alt sm]")
 
 modal:
+  color: main-dark
   icon_pos: side
   size: xs
 

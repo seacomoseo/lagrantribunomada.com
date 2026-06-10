@@ -19,6 +19,8 @@ boxes:
       {.sub}
 
       [[¡Únete a la red! 😉]](/#como-entrar "[alt]")
+modal:
+  color: main-dark
 modals:
 - if: feedback.active
   id: feedback

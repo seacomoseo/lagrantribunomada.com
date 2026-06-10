@@ -56,6 +56,7 @@ boxes:
     hint: ¿Algo más que debamos saber o alguna necesidad/duda que tengas?
     full: y
 modal:
+  color: main-dark
   icon_pos: top
 modals:
 - if: booking
