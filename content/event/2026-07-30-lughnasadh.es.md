@@ -111,15 +111,13 @@ Las zonas habilitadas serán:
 
 ## ::ℹ️:: Detalles
 
-- Os animamos a **compartir vehículo** por sostenibilidad, economía y placer de compartir 🚙 (se gestionará por WhatsApp).
-- Los coches se aparcarán en la zona del pueblo que está pegada al espacio 🚗
+- "La Maraca Cabranes" es un espacio no muy extenso que abarca zonas de naturaleza limitadas y una sala de 9x15m con capacidad para aproximadamente 45 personas. Por esta razón **el aforo esta vez será más limitado** que en otros encuentros, lo que lo hará más íntimo 💝
+- En el espacio, está permitido el naturismo y hacer fuego 🔥
+- Os animamos a **compartir vehículo** por sostenibilidad, economía y placer de compartir 🚙 (se gestionará por el grupo de WhatsApp).
+- Los coches se aparcarán en la zona del pueblo que está pegada al espacio 🏘️
 - Durante el encuentro se podrán tomar fotos y vídeos; si tienes inconveniente, avísanos a tu llegada 📸
 - Si tu compa perruno debe acompañarte, ponte en contacto con nosotres 🐾
-- Se habilitará una zona para poner puesto de artesanías y un espacio para intercambio de servicios y terapias.
-- El aforo del espacio es de 40-50 personas.
-- Hay espacio limitado para acampar, campers y caravanas.
-- Se puede hacer hoguera y nudismo.
-- La sala principal tiene 9 x 15 m, con capacidad aproximada para 40-50 personas o 25 personas en práctica de yoga.
+- Se habilitará una zona para poner puesto de artesanías y un espacio para intercambio de servicios y terapias 🔁
 
 ## ::📅:: Programación
 
