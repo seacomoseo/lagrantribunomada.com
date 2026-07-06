@@ -2,11 +2,11 @@
 slug: lughnasadh
 title: LUGHNASADH
 icon: ☀️
-img: /u/carteles/2026-07-30-lughnasadh.jpg
+img: /u/carteles/2026-07-31-lughnasadh.jpg
 hide: y
 seo:
   noindex: y
-date: 2026-07-30 00:00:00
+date: 2026-07-31 00:00:00
 end: 2026-08-02 00:00:00
 address:
   name: La Maraca Cabranes
@@ -126,7 +126,7 @@ En proceso.
 
 ## ::📲:: Info
 
-[[::brand:whatsapp:: Indira → 623 58 84 19]](https://wa.me/34623588419 "[nofollow whatsapp]")
+[[::brand:whatsapp:: Naiht → 665 56 19 23]](https://wa.me/34665561923 "[nofollow whatsapp]")
 
 ## ::📝:: ¿Cómo asistir?
 

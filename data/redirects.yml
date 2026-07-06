@@ -1,2 +1,3 @@
 - { from: /mabon24 , to: https://forms.gle/h8yweEVdxMrQyjZS6 }
 - { from: /evento/* , to: /:splat }
+- { from: /2026/07/30/lughnasadh/ , to: /2026/07/31/lughnasadh/ }
