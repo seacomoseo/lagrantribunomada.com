@@ -2,6 +2,7 @@ baseURL: https://lagrantribunomada.com
 buildFuture: y
 theme: [sansoul]
 params:
+  owner: seacomoseo
   domain: lagrantribunomada.com
   name: lagrantribunomada
   netlify_id: 31c5db04-f341-4f99-a5ff-8c68193ac973
