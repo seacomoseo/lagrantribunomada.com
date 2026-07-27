@@ -29,7 +29,449 @@ booking:
 # FEEDBACK
 feedback:
   active: n
-  inputs: []
+  inputs:
+
+  - type: hidden
+    name: _sheetname
+    label: Feedback ☀️ LUGHNASADH 2026
+
+  - type: text
+    name: Nombre
+    label: Nombre (no es obligatorio)
+  - type: number
+    name: Edad
+    min: 1
+
+  - type: radio
+    name: General
+    label: El encuentro LUGHNASADH en general
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: General Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: General
+
+
+  - type: h3
+    label: Organización
+
+  - type: radio
+    name: Organización
+    label: La organización del encuentro
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Organización Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Organización
+
+  - type: radio
+    name: Organización Sostén
+    label: Sostén y resolución del personal de organización
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Organización Sostén Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Organización Sostén
+
+  - type: radio
+    name: Organización Publicidad
+    label: Publicidad/redes del encuentro
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Organización Publicidad Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Organización Publicidad
+
+
+  - type: h3
+    label: Espacio
+
+  - type: radio
+    name: Espacio La Maraca Cabranes
+    label: La Maraca Cabranes como espacio anfitrión
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Espacio La Maraca Cabranes Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Espacio La Maraca Cabranes
+
+  - type: radio
+    name: Espacio Infraestructura
+    label: Infraestructura/servicios
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Espacio Infraestructura Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Espacio Infraestructura
+
+  - type: radio
+    name: Espacio Entorno
+    label: Entorno
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Espacio Entorno Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Espacio Entorno
+
+  - type: radio
+    name: Espacio Zonas
+    label: Zonas
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Espacio Zonas Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Espacio Zonas
+
+  - type: radio
+    name: Espacio Pernocta
+    label: Zonas de acampada y pernocta
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Espacio Pernocta Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Espacio Pernocta
+
+
+  - type: h3
+    label: Actividades
+
+  - type: radio
+    name: Actividades Programación
+    label: Programación general
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades Programación Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades Programación
+
+  - type: radio
+    name: Actividades 🪇 Jam y Juegos
+    label: 🪇 Jam y Juegos
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades 🪇 Jam y Juegos Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades 🪇 Jam y Juegos
+
+  - type: radio
+    name: Actividades 👣 Bienvenida
+    label: 👣 Bienvenida LGTN
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades 👣 Bienvenida Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades 👣 Bienvenida
+
+  - type: radio
+    name: Actividades 👯 Live Fusion Dance
+    label: 👯 Taller "Live Fusion Dance" con Latidos Nómadas
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades 👯 Live Fusion Dance Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades 👯 Live Fusion Dance
+
+  - type: radio
+    name: Actividades 🪻 Laboratorio de Butoh y Arte de Acción
+    label: 🪻 Taller "Laboratorio de Butoh y Arte de Acción" con Alberto Monreal
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades 🪻 Laboratorio de Butoh y Arte de Acción Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades 🪻 Laboratorio de Butoh y Arte de Acción
+
+  - type: radio
+    name: Actividades 🎨 Mercadillo Artesanías
+    label: 🎨 Mercadillo Artesanías
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades 🎨 Mercadillo Artesanías Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades 🎨 Mercadillo Artesanías
+
+  - type: radio
+    name: Actividades ❓ Zona Off
+    label: ❓ Zona Off
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades ❓ Zona Off Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades ❓ Zona Off
+
+  - type: radio
+    name: Actividades 🔥 Ceremonia Lughnasad y Cacao
+    label: 🔥 Ceremonia "Lughnasad" y Cacao con Lua Moonrise e Iwanï
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades 🔥 Ceremonia Lughnasad y Cacao Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades 🔥 Ceremonia Lughnasad y Cacao
+
+  - type: radio
+    name: Actividades 🧞‍♂️ Chilltrónica y Cuencos Medicinales
+    label: 🧞‍♂️ Taller "Chilltrónica y Cuencos Medicinales" con Irene Ephemeral
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades 🧞‍♂️ Chilltrónica y Cuencos Medicinales Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades 🧞‍♂️ Chilltrónica y Cuencos Medicinales
+
+  - type: radio
+    name: Actividades 🦄 Teatro Impro-bable
+    label: 🦄 Taller "Teatro Impro-bable" con Naiht de El Clan Nómada
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades 🦄 Teatro Impro-bable Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades 🦄 Teatro Impro-bable
+
+  - type: radio
+    name: Actividades ⭕ Círculo de Cierre
+    label: ⭕ Círculo de Cierre
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades ⭕ Círculo de Cierre Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades ⭕ Círculo de Cierre
+
+  - type: radio
+    name: Actividades 🎙️ Micro Abierto
+    label: 🎙️ Micro Abierto
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Actividades 🎙️ Micro Abierto Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Actividades 🎙️ Micro Abierto
+
+
+  - type: h3
+    label: Cocina
+
+  - type: radio
+    name: Cocina Menú
+    label: El menú de cocina
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Cocina Menú Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Cocina Menú
+
+  - type: radio
+    name: Cocina Precio
+    label: El precio de cocina
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Cocina Precio Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Cocina Precio
+
+
+  - type: h3
+    label: Talleristas
+
+  - type: check
+    name: Tallerista Fuiste
+    label: ¿Fuiste tallerista en el encuentro?
+  - type: area
+    name: Tallerista Mejoras
+    label: Observaciones
+    hint: ¿Algo que quieras mencionar para mejorar en próximos encuentros?
+    show_if: Tallerista Fuiste
+
+
+  - type: h3
+    label: Terapias
+
+  - type: check
+    name: Terapias Recibiste
+    label: ¿Recibiste alguna terapia?
+  - type: area
+    name: Terapias Mejoras
+    label: Observaciones
+    hint: ¿Algo que quieras mencionar para mejorar en próximos encuentros?
+    show_if: Terapias Recibiste
+
+
+  - type: h3
+    label: Artesanías
+
+  - type: check
+    name: Artesanías Pusiste
+    label: ¿Pusiste algún puesto en el mercadillo?
+  - type: area
+    name: Artesanías Mejoras
+    label: Observaciones
+    hint: ¿Alguna petición para el espacio de artesanías para próximos encuentros?
+    show_if: Artesanías Pusiste
+
+
+  - type: h3
+    label: Otros
+
+  - type: check
+    name: Otros Primera Vez
+    label: ¿Era tu primera vez en un encuentro de LGTN?
+  - type: area
+    name: Otros Primera Experiencia
+    label: Observaciones
+    hint: ¿Podrías comentar tu primera experiencia?
+    show_if: Otros Primera Vez
+
+  - type: area
+    name: Otros Caracteriza
+    label: Hayas venido a uno o a todos, responde, nos interesa tu opinión
+    hint: Según tú, ¿qué caracteriza estos encuentros o qué los puede diferenciar de otros que conoces? ¿Qué ofrecen a quienes asisten?
+
+  - type: area
+    name: Otros Conflicto o Incomodidad
+    label: ¿Has tenido algún conflicto o incomodidad que quieras comentarnos?
+
+
+  - type: h3
+    label: Valor del encuentro
+
+  - type: radio
+    name: Valor Reunir a la Tribu
+    label: Reunir a la tribu
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Valor Reunir a la Tribu Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Valor Reunir a la Tribu
+
+  - type: radio
+    name: Valor Convivencia y Colaboración
+    label: La convivencia y colaboración
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Valor Convivencia y Colaboración Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Valor Convivencia y Colaboración
+
+  - type: radio
+    name: Valor Talleres de Arte y Crecimiento
+    label: Los talleres de arte y crecimiento
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Valor Talleres de Arte y Crecimiento Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Valor Talleres de Arte y Crecimiento
+
+  - type: radio
+    name: Valor Música Danza y Espectáculos
+    label: La música, la danza y los espectáculos
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Valor Música Danza y Espectáculos Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Valor Música Danza y Espectáculos
+
+  - type: radio
+    name: Valor Realizados en Proyectos
+    label: Que se realicen en proyectos
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Valor Realizados en Proyectos Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Valor Realizados en Proyectos
+
+  - type: radio
+    name: Valor Sostén y Organización
+    label: El sostén y la organización
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Valor Sostén y Organización Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Valor Sostén y Organización
+
+  - type: radio
+    name: Valor Libertad y Diversidad
+    label: La libertad y la diversidad
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Valor Libertad y Diversidad Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Valor Libertad y Diversidad
+
+  - type: radio
+    name: Valor Economía Individual
+    label: Que se pueda generar economía individual
+    x: y
+    items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
+  - type: area
+    name: Valor Economía Individual Observaciones
+    label: Observaciones
+    hint: ¿Algo que añadir o que quieras comentar?
+    show_if: Valor Economía Individual
+
+  - type: area
+    name: Valor Otros
+    label: Otros
+    hint: Si quieres añadir algo más que sientes que les da valor.
+
+  - type: area
+    name: Otros Sugerencias
+    label: ¿Tienes alguna sugerencia de cómo podemos mejorar o algo que te gustaría añadir a estos encuentros?
 ---
 
 🌬️ Este es un llamado para la convivencia en tribu, festejando la rueda de la vida 🌈🌻🌸
@@ -121,8 +563,29 @@ Las zonas habilitadas serán:
 
 ## ::📅:: Programación
 
-En proceso.
-{.sub}
+| Día         | Hora  | ⭐️ | Actividad                                                                                  |
+| ----------- | ----- | -- |------------------------------------------------------------------------------------------- |
+| **Viernes** | 16:00 | 🚀 | Aterrizaje                                                                                 |
+|             | 19:00 | 🪇 | Jam y Juegos                                                                               |
+|             | 21:00 | 🥘 | Cena Rica                                                                                  |
+|             | 22:00 | 👣 | Bienvenida LGTN                                                                            |
+|             | 23:00 | 👯 | Taller "Live Fusion Dance" con Latidos Nómadas                                            |
+| **Sábado**  | 10:00 | 🥞 | Desayuno Rico                                                                              |
+|             | 11:00 | 🪻 | Taller "Laboratorio de Butoh y Arte de Acción" con Alberto Monreal                        |
+|             | 14:00 | 🫕 | Comida Rica                                                                                |
+|             | 15:30 | 🎨 | Mercadillo Artesanías                                                                      |
+|             | 17:00 | ❓ | Zona Off                                                                                   |
+|             | 20:00 | 🔥 | Ceremonia "Lughnasad" y Cacao con Lua Moonrise e Iwanï                                    |
+|             | 22:00 | 🧞‍♂️ | Taller "Chilltrónica y Cuencos Medicinales" con Irene Ephemeral                           |
+| **Domingo** | 10:00 | 🥞 | Desayuno Rico                                                                              |
+|             | 11:00 | 🦄 | Taller "Teatro Impro-bable" con Naiht de El Clan Nómada                                   |
+|             | 14:00 | 🫕 | Comida Tribal                                                                              |
+|             | 15:30 | 🎨 | Mercadillo Artesanías                                                                      |
+|             | 17:00 | ⭕ | Círculo de Cierre                                                                          |
+|             | 19:00 | 🎙️ | Micro Abierto                                                                              |
+| **Lunes**   |       | 👨‍🌾 | Si pernoctas el domingo en el espacio, te vemos a las 11:30 para la recogida del encuentro |
+
+- ::asterisk:: Hay actividades en "zona off" preparadas fuera de la programación oficial
 
 ## ::📲:: Info
 
