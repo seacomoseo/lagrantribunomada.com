@@ -96,12 +96,12 @@ modals:
     gap: 2
   boxes:
   - box:
-      disc: y
-      gray: y
+      disc: true
+      gray: true
       cols: 3
       cols_vs: 2
       gap: 3
-      line: y
+      line: true
     boxes:
     - img: /u/equipo/indira.jpg
       title: Indira
@@ -132,12 +132,12 @@ modals:
     #   sub: El Fenicio
     #   md: Organiza cosas, ¿a quién no le va a gustar un fenicio del siglo 1º?
   - box:
-      disc: y
-      gray: y
+      disc: true
+      gray: true
       cols: 3
       cols_vs: 2
       gap: 3
-      line: y
+      line: true
     boxes:
     - img: /u/equipo/perruno/momo.jpg
       title: Momo

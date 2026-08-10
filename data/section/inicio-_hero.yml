@@ -1,5 +1,5 @@
-name: Cabecera
-full: y
+name: Hero
+full: true
 boxes:
 - box:
     cols: 3
@@ -9,8 +9,8 @@ boxes:
   - img: /u/base/icon-animation.svg
     ratio: 4/3
     title: La Gran Tribu Nómada
-    caps: y
+    caps: true
     sub: Red Itinerante
   - vid: https://www.youtube.com/watch?v=IYMCGHB_KhA&list=PL_3uko0zrvozdAIPxooM2SL89HwM8L0XO
-    mute: y
+    mute: true
     ratio: 9/16

@@ -11,7 +11,7 @@ boxes:
   - type: mail
     label: info@lagrantribunomada.com
     btn: turn
-    swap: y
+    swap: true
   form:
     action: https://script.google.com/macros/s/AKfycbwnercDPcKAv4JoNlhYus0imXcbvyysjRPW6XSIosKSrG3ah_33nQTQWTnoXcl2vkiN/exec
     mail: lagrantribunomada@gmail.com
@@ -21,12 +21,12 @@ boxes:
     label: Contacto
   - type: text
     name: Nombre
-    req: y
+    req: true
   - type: phone
     name: Teléfono
   - type: mail
     name: Email
-    req: y
+    req: true
   - type: area
     name: Mensaje
-    req: y
+    req: true

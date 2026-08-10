@@ -4,7 +4,7 @@ title: OASIS DEL SER
 icon: 🌴
 img: /u/carteles/2024-10-05-oasis-del-ser.jpg
 seo:
-  noindex: y
+  noindex: true
 date: 2024-10-05 10:10:00
 end: 2024-10-05 22:20:00
 address:

@@ -8,5 +8,5 @@ icon: camping
 category: null # string
 weight: 2
 seo:
-  noindex: y
+  noindex: true
 ---

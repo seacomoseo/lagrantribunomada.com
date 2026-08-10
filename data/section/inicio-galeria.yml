@@ -1,5 +1,5 @@
 name: Galeria
-ph: y
+ph: true
 size: fluid
 boxes:
 - title: Galería

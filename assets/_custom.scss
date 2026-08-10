@@ -1,3 +1,6 @@
+@use 'css/variables';
+@use 'css/mixins';
+
 // .bg-main,
 // .bg-cta {
 //   --main: #{$main-dark};
@@ -52,7 +55,7 @@
   translate: none; // Fix form__item flex
 }
 
-#body-home #header {
+#body-home #hero {
   @mixin show-from($delay) { animation: show-from .5s (.25 + .25s * $delay) both; }
   .box--1 .box__title { @include show-from(2); }
   .box--1 .sub        { @include show-from(3); }
@@ -80,10 +83,10 @@
 }
 
 button:not(.btn--dot) {
-  &:has([href="/draws.#{$timestamp}.svg#brand-telegram"]) {
+  &:has([href*="#brand-telegram"]) {
     --base: #24a1de;
   }
-  &:has([href="/draws.#{$timestamp}.svg#brand-instagram"]) {
+  &:has([href*="#brand-instagram"]) {
     --base: #C13584;
   }
 }
@@ -91,8 +94,8 @@ button:not(.btn--dot) {
 #map {
   width: 100%;
   height: calc(100svh - 10em);
-  border-radius: $radius;
-  filter: drop-shadow($shadow);
+  border-radius: variables.$radius;
+  filter: drop-shadow(variables.$shadow);
   .leaflet-control-layers:first-child {
     .leaflet-control-layers-selector {
       display: none;
@@ -110,7 +113,7 @@ button:not(.btn--dot) {
     color: white;
   }
   .leaflet-popup-content-wrapper {
-    border-radius: calc(20px + #{$radius});
+    border-radius: calc(20px + #{variables.$radius});
   }
   .leaflet-popup-content {
     width: max-content;
@@ -118,10 +121,10 @@ button:not(.btn--dot) {
     max-height: calc(100svh - 10em - 100px);
     // max-height: calc(100cqh - 100px);
     overflow-y: auto;
-    @include font-base;
+    @include mixins.font-base;
     img {
       margin-top: 7px;
-      border-radius: $radius;
+      border-radius: variables.$radius;
     }
     h3 {
       transform: translateY(0.125em);
@@ -192,7 +195,7 @@ button:not(.btn--dot) {
 .type-project {
   #content ul {
     .link {
-      @include font-base;
+      @include mixins.font-base;
       --cta: var(--turn);
       background-size: 0 100%;
       &:hover {

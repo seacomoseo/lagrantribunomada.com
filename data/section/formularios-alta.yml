@@ -17,20 +17,20 @@ boxes:
   - type: text
     name: Apodo
     hint: ¿Cómo quieres que te llamemos? <br> (A ti, no a tu proyecto / servicio)
-    req: y
+    req: true
   - type: text
     name: Nombre
     label: Nombre real
-    req: y
+    req: true
   - type: text
     name: Apellidos
-    req: y
+    req: true
   - type: text
     name: DNI
-    req: y
+    req: true
   - type: phone
     name: Teléfono Personal
-    req: y
+    req: true
   - type: mail
     name: Email Personal
   - type: number
@@ -41,18 +41,18 @@ boxes:
   - type: area
     name: Cómo
     label: ¿Cómo nos has conocido?
-    req: y
+    req: true
   - type: check
     name: Proyecto
     label: Quiero que mi proyecto / servicio aparezca en vuestra web
-    full: y
+    full: true
   - type: h2
     label: Proyecto / Servicio
     show_if: Proyecto
   - type: text
     name: Nombre Proyecto
     label: Nombre de tu Proyecto / Servicio
-    req: y
+    req: true
     show_if: Proyecto
   - type: check
     name: Comunidad
@@ -79,7 +79,7 @@ boxes:
     name: Resumen
     hint: Breve resumen sobre tu proyecto / servicio (máximo 155 caracteres)
     max: 155
-    req: y
+    req: true
     show_if: Proyecto
   - type: area
     name: Descripción
@@ -89,13 +89,13 @@ boxes:
   - type: area
     name: Ventajas
     hint: ¿Qué ventajas puedes ofrecer a los soci@s dentro de tus servicios? (Descuentos, etc.)
-    req: y
+    req: true
     show_if: Proyecto
   - type: check
     name: Entrevistable
     label: Acepto entrevistas
     hint: Podemos entrevistarte por gusto o por visibilizarte publicándolo en nuestra web y/o RRSS
-    full: y
+    full: true
     show_if: Proyecto
   - type: h3
     label: Contacto
@@ -104,11 +104,11 @@ boxes:
     md: |
       Los datos pueden ser diferentes al de socio
       {.text-sm}
-    full: y
+    full: true
     show_if: Proyecto
   - type: text
     name: Email
-    full: y
+    full: true
     show_if: Proyecto
   - type: phone
     name: Teléfono
@@ -136,7 +136,7 @@ boxes:
   - type: check
     name: Mapa
     label: Quiero aparecer en el mapa interactivo
-    full: y
+    full: true
     show_if: Proyecto
   - type: text
     name: Calle
@@ -170,7 +170,7 @@ boxes:
   - type: geo
     name: Posición
     color: alt
-    req: y
+    req: true
     show_if: Proyecto&&Mapa
   - type: h3
     label: Multimedia
@@ -191,7 +191,7 @@ boxes:
   - type: text
     name: Vídeo
     hint: Indica el enlace relevante de un vídeo de Youtube o Vimeo
-    full: y
+    full: true
     show_if: Proyecto
   - type: h3
     label: Otros
@@ -199,12 +199,12 @@ boxes:
   - type: check
     name: Encuentros
     label: Ofrezco mis dones y/o espacio para vuestros encuentros
-    full: y
+    full: true
   - type: area
     name: Encuentros Descripción
     label: Descripción sobre lo que ofreces
     hint: Qué ofreces para nuestros encuentros (Esto no aparecerá públicamente)
-    req: y
+    req: true
     show_if: Encuentros
   - type: area
     name: Observaciones

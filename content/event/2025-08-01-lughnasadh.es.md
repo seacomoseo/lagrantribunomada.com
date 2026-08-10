@@ -3,9 +3,9 @@ slug: lughnasadh
 title: LUGHNASADH
 icon: ☀️
 img: /u/carteles/2025-08-01-lughnasadh.jpg
-hide: n
+hide: false
 seo:
-  noindex: y
+  noindex: true
 date: 2025-08-01 00:00:00
 end: 2025-08-03 00:00:00
 address:
@@ -19,11 +19,11 @@ address:
   url: null
 
 video: ''
-cancelled: n
+cancelled: false
 
 # BOOKING
 booking:
-  active: n
+  active: false
   inputs:
   - type: hidden
     name: _sheetname
@@ -33,26 +33,26 @@ booking:
     label: ☀️ LUGHNASADH 2025
   - type: text
     name: Nombre y Apellidos
-    req: y
+    req: true
   - type: phone
     name: Teléfono
-    req: y
+    req: true
   - type: mail
     name: Email
-    req: y
+    req: true
   - type: text
     name: Pernocta
     hint: ¿Cómo vais a pernoctar? Tienda, vehículo...
-    req: y
-    full: y
+    req: true
+    full: true
   - type: area
     name: Artesanías
     hint: ¿Tienes artesanías o quieres formar parte del mercadillo? Si es así, cuéntanos cuales son
-    full: y
+    full: true
   - type: area
     name: Servicios
     hint: ¿Quieres ofrecer tus dones/servicios en el espacio? Si es así, cuéntanos cuales son
-    full: y
+    full: true
   - type: number
     name: Aportación
     label: 'Aportación sugerida: 40 €'
@@ -60,20 +60,20 @@ booking:
       ¿De cuánto va a ser tu aportación consciente? (€) \
       Hemos estimado que 40 € es una cantidad apropiada para valorar el espacio, las actividades, el trabajo del equipo y para permitir que LGTN continúe expandiendo esta hermosa red y sus encuentros. Tu contribución, sea cual sea, será valorada y apreciada. \
       Tras enviar el formulario contactaremos contigo para darte indicaciones.
-    req: y
+    req: true
     min: 1
   - type: text
     name: Cómo
     hint: ¿Cómo nos has conocido?
-    full: y
+    full: true
   - type: area
     name: Otros
     hint: ¿Algo más que debamos saber o alguna necesidad/duda que tengas?
-    full: y
+    full: true
 
 # FEEDBACK
 feedback:
-  active: y
+  active: true
   inputs:
 
   - type: hidden
@@ -90,7 +90,7 @@ feedback:
   - type: radio
     name: General
     label: El encuentro LUGHNASADH en general
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -116,7 +116,7 @@ feedback:
   - type: radio
     name: Organización
     label: La organización del encuentro
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -137,7 +137,7 @@ feedback:
   - type: radio
     name: Organización Sostén
     label: Sostén y resolución del personal de organización
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -158,7 +158,7 @@ feedback:
   # - type: radio
   #   name: Organización Publicidad
   #   label: Publicidad/redes del encuentro
-  #   x: y
+  #   x: true
   #   items:
   #   - label: 1
   #   - label: 2
@@ -183,7 +183,7 @@ feedback:
   - type: radio
     name: Espacio Infraestructura
     label: Infraestructura/servicios
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -204,7 +204,7 @@ feedback:
   - type: radio
     name: Espacio Entorno
     label: Entorno
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -225,7 +225,7 @@ feedback:
   - type: radio
     name: Espacio Zonas
     label: Zonas
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -249,7 +249,7 @@ feedback:
   - type: radio
     name: Actividades Programación
     label: Programación general
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -270,7 +270,7 @@ feedback:
   - type: radio
     name: Actividades 🔥 Jam Salvaje (Batucada)
     label: 🔥 Jam Salvaje (Batucada)
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -291,7 +291,7 @@ feedback:
   - type: radio
     name: Actividades 🪷 Baño de Gracia Tribal
     label: 🪷 Baño de Gracia Tribal
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -312,7 +312,7 @@ feedback:
   - type: radio
     name: Actividades 🧚🏽 Círculo de Dones
     label: 🧚🏽 Círculo de Dones
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -333,7 +333,7 @@ feedback:
   - type: radio
     name: Actividades 💝 Calidez Humana
     label: 💝 Calidez Humana
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -354,7 +354,7 @@ feedback:
   - type: radio
     name: Actividades 🌞 Ritual Lughnasadh y Ceremonia de Cacao
     label: 🌞 Ritual Lughnasadh y Ceremonia de Cacao
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -375,7 +375,7 @@ feedback:
   - type: radio
     name: Actividades 🕺 Ecstatic Dance 'Tu Sol en Danza'
     label: 🕺 Ecstatic Dance 'Tu Sol en Danza'
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -396,7 +396,7 @@ feedback:
   - type: radio
     name: Actividades 🗣️ Charla Dinámica 'Enciende tu llama vital'
     label: 🗣️ Charla Dinámica 'Enciende tu llama vital'
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -417,7 +417,7 @@ feedback:
   - type: radio
     name: Actividades 🧘‍♂️ Conecta con tu energía interior (Chi Kung)
     label: 🧘‍♂️ Conecta con tu energía interior (Chi Kung)
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -438,7 +438,7 @@ feedback:
   - type: radio
     name: Actividades 💃 Micro Abierto
     label: 💃 Micro Abierto
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -462,7 +462,7 @@ feedback:
   - type: radio
     name: Cocina Menú
     label: El menú de cocina
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2
@@ -483,7 +483,7 @@ feedback:
   - type: radio
     name: Cocina Precio
     label: El precio de cocina
-    x: y
+    x: true
     items:
     - label: 1
     - label: 2

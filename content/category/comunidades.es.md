@@ -8,5 +8,5 @@ icon: groups_3
 category: null # string
 weight: 1
 seo:
-  noindex: y
+  noindex: true
 ---

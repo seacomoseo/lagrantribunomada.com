@@ -4,7 +4,7 @@ title: Comunidad de WhatsApp
 icon: brand:whatsapp
 img: /u/base/poster.png
 seo:
-  noindex: y
+  noindex: true
 tpl:
   sections:
   - file: formularios-whatsapp-grupos

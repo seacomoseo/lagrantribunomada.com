@@ -8,7 +8,7 @@ icon: gps_fixed
 category: null # string
 weight: 4
 
-draft: y
+draft: true
 seo:
-  noindex: y
+  noindex: true
 ---

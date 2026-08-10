@@ -8,5 +8,5 @@ icon: volunteer_activism
 category: null # string
 weight: 3
 seo:
-  noindex: y
+  noindex: true
 ---

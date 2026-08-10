@@ -13,14 +13,14 @@ tpl:
     alpha: 0.85
     scroll: fix
   menu:
-    logo: n
+    logo: false
     sticky: auto
   callnow: auto
   section:
   - size: lg
     div: brush
   sections:
-  - file: inicio-_header
+  - file: inicio-_hero
   - file: inicio-introduccion
   - file: inicio-proyecto
   - file: inicio-directorio

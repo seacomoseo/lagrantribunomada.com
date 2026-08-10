@@ -1,10 +1,10 @@
 title: Encuentros
 weight: 1
 base: event
-rel: y
+rel: true
 tpl:
   sections:
-  - file: base-event-_header
+  - file: base-event-_hero
   - file: base-toc
   - file: base-content
   - file: formularios-reserva
@@ -17,10 +17,10 @@ tpl:
   - file: base-rel
   list:
     cols: 3
-    card: y
+    card: true
     rate: 3/4
     align: left
-    shade: n
+    shade: false
     icon: hide
     icon_pos: side
     md: hide

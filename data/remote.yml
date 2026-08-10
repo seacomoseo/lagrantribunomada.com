@@ -1,5 +1,5 @@
 - src: https://docs.google.com/spreadsheets/d/e/2PACX-1vT_r-PYs-o_6cFTrBvwk1e-Q6Jq9ZH_HraPeyRUobkx392OUesn9WJSVwyX72udT5BDn__rCDGMq5W6/pub?gid=805672466&single=true&output=tsv
-  csv: n
+  csv: false
   lang: es
   types:
   - type: project

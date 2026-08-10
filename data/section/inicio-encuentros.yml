@@ -6,4 +6,4 @@ boxes:
     max: 4
   box:
     cols: 4
-    slider: y
+    slider: true

@@ -4,7 +4,7 @@ title: Test
 icon: experiment
 img: /u/base/poster.png
 seo:
-  noindex: y
+  noindex: true
 tpl:
   sections:
   - file: formularios-test

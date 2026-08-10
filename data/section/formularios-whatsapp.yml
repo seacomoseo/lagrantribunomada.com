@@ -23,13 +23,13 @@ boxes:
   - type: text
     name: Nombre
     label: Nombre real
-    req: y
+    req: true
   - type: text
     name: Apellidos
-    req: y
+    req: true
   - type: phone
     name: Teléfono
-    req: y
+    req: true
   - type: date
     name: Nacimiento
     label: Fecha de Nacimiento
@@ -38,7 +38,7 @@ boxes:
   - type: area
     name: Cómo
     label: ¿Cómo nos has conocido?
-    req: y
+    req: true
 
 - md: |
     ¿Te quedan dudas?

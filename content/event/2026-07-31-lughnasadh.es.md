@@ -3,9 +3,9 @@ slug: lughnasadh
 title: LUGHNASADH
 icon: ☀️
 img: /u/carteles/2026-07-31-lughnasadh.jpg
-hide: y
+hide: true
 seo:
-  noindex: y
+  noindex: true
 date: 2026-07-31 00:00:00
 end: 2026-08-02 00:00:00
 address:
@@ -19,16 +19,16 @@ address:
   url: null
 
 video: ''
-cancelled: n
+cancelled: false
 
 # BOOKING
 booking:
-  active: n
+  active: false
   inputs: []
 
 # FEEDBACK
 feedback:
-  active: n
+  active: false
   inputs:
 
   - type: hidden
@@ -45,7 +45,7 @@ feedback:
   - type: radio
     name: General
     label: El encuentro LUGHNASADH en general
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: General Observaciones
@@ -60,7 +60,7 @@ feedback:
   - type: radio
     name: Organización
     label: La organización del encuentro
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Organización Observaciones
@@ -71,7 +71,7 @@ feedback:
   - type: radio
     name: Organización Sostén
     label: Sostén y resolución del personal de organización
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Organización Sostén Observaciones
@@ -82,7 +82,7 @@ feedback:
   - type: radio
     name: Organización Publicidad
     label: Publicidad/redes del encuentro
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Organización Publicidad Observaciones
@@ -97,7 +97,7 @@ feedback:
   - type: radio
     name: Espacio La Maraca Cabranes
     label: La Maraca Cabranes como espacio anfitrión
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Espacio La Maraca Cabranes Observaciones
@@ -108,7 +108,7 @@ feedback:
   - type: radio
     name: Espacio Infraestructura
     label: Infraestructura/servicios
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Espacio Infraestructura Observaciones
@@ -119,7 +119,7 @@ feedback:
   - type: radio
     name: Espacio Entorno
     label: Entorno
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Espacio Entorno Observaciones
@@ -130,7 +130,7 @@ feedback:
   - type: radio
     name: Espacio Zonas
     label: Zonas
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Espacio Zonas Observaciones
@@ -141,7 +141,7 @@ feedback:
   - type: radio
     name: Espacio Pernocta
     label: Zonas de acampada y pernocta
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Espacio Pernocta Observaciones
@@ -156,7 +156,7 @@ feedback:
   - type: radio
     name: Actividades Programación
     label: Programación general
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades Programación Observaciones
@@ -167,7 +167,7 @@ feedback:
   - type: radio
     name: Actividades 🪇 Jam y Juegos
     label: 🪇 Jam y Juegos
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades 🪇 Jam y Juegos Observaciones
@@ -178,7 +178,7 @@ feedback:
   - type: radio
     name: Actividades 👣 Bienvenida
     label: 👣 Bienvenida LGTN
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades 👣 Bienvenida Observaciones
@@ -189,7 +189,7 @@ feedback:
   - type: radio
     name: Actividades 👯 Live Fusion Dance
     label: 👯 Taller "Live Fusion Dance" con Latidos Nómadas
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades 👯 Live Fusion Dance Observaciones
@@ -200,7 +200,7 @@ feedback:
   - type: radio
     name: Actividades 🪻 Laboratorio de Butoh y Arte de Acción
     label: 🪻 Taller "Laboratorio de Butoh y Arte de Acción" con Alberto Monreal
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades 🪻 Laboratorio de Butoh y Arte de Acción Observaciones
@@ -211,7 +211,7 @@ feedback:
   - type: radio
     name: Actividades 🎨 Mercadillo Artesanías
     label: 🎨 Mercadillo Artesanías
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades 🎨 Mercadillo Artesanías Observaciones
@@ -222,7 +222,7 @@ feedback:
   - type: radio
     name: Actividades ❓ Zona Off
     label: ❓ Zona Off
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades ❓ Zona Off Observaciones
@@ -233,7 +233,7 @@ feedback:
   - type: radio
     name: Actividades 🔥 Ceremonia Lughnasad y Cacao
     label: 🔥 Ceremonia "Lughnasad" y Cacao con Lua Moonrise e Iwanï
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades 🔥 Ceremonia Lughnasad y Cacao Observaciones
@@ -244,7 +244,7 @@ feedback:
   - type: radio
     name: Actividades 🧞‍♂️ Chilltrónica y Cuencos Medicinales
     label: 🧞‍♂️ Taller "Chilltrónica y Cuencos Medicinales" con Irene Ephemeral
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades 🧞‍♂️ Chilltrónica y Cuencos Medicinales Observaciones
@@ -255,7 +255,7 @@ feedback:
   - type: radio
     name: Actividades 🦄 Teatro Impro-bable
     label: 🦄 Taller "Teatro Impro-bable" con Naiht de El Clan Nómada
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades 🦄 Teatro Impro-bable Observaciones
@@ -266,7 +266,7 @@ feedback:
   - type: radio
     name: Actividades ⭕ Círculo de Cierre
     label: ⭕ Círculo de Cierre
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades ⭕ Círculo de Cierre Observaciones
@@ -277,7 +277,7 @@ feedback:
   - type: radio
     name: Actividades 🎙️ Micro Abierto
     label: 🎙️ Micro Abierto
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Actividades 🎙️ Micro Abierto Observaciones
@@ -292,7 +292,7 @@ feedback:
   - type: radio
     name: Cocina Menú
     label: El menú de cocina
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Cocina Menú Observaciones
@@ -303,7 +303,7 @@ feedback:
   - type: radio
     name: Cocina Precio
     label: El precio de cocina
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Cocina Precio Observaciones
@@ -379,7 +379,7 @@ feedback:
   - type: radio
     name: Valor Reunir a la Tribu
     label: Reunir a la tribu
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Valor Reunir a la Tribu Observaciones
@@ -390,7 +390,7 @@ feedback:
   - type: radio
     name: Valor Convivencia y Colaboración
     label: La convivencia y colaboración
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Valor Convivencia y Colaboración Observaciones
@@ -401,7 +401,7 @@ feedback:
   - type: radio
     name: Valor Talleres de Arte y Crecimiento
     label: Los talleres de arte y crecimiento
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Valor Talleres de Arte y Crecimiento Observaciones
@@ -412,7 +412,7 @@ feedback:
   - type: radio
     name: Valor Música Danza y Espectáculos
     label: La música, la danza y los espectáculos
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Valor Música Danza y Espectáculos Observaciones
@@ -423,7 +423,7 @@ feedback:
   - type: radio
     name: Valor Realizados en Proyectos
     label: Que se realicen en proyectos
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Valor Realizados en Proyectos Observaciones
@@ -434,7 +434,7 @@ feedback:
   - type: radio
     name: Valor Sostén y Organización
     label: El sostén y la organización
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Valor Sostén y Organización Observaciones
@@ -445,7 +445,7 @@ feedback:
   - type: radio
     name: Valor Libertad y Diversidad
     label: La libertad y la diversidad
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Valor Libertad y Diversidad Observaciones
@@ -456,7 +456,7 @@ feedback:
   - type: radio
     name: Valor Economía Individual
     label: Que se pueda generar economía individual
-    x: y
+    x: true
     items: [{ label: 1 }, { label: 2 }, { label: 3 }, { label: 4 }, { label: 5 }, { label: 6 }, { label: 7 }, { label: 8 }, { label: 9 }, { label: 10 }]
   - type: area
     name: Valor Economía Individual Observaciones
