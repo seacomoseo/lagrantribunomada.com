@@ -20,15 +20,15 @@ tpl:
   - size: lg
     div: brush
   sections:
-  - file: inicio-_hero
-  - file: inicio-introduccion
-  - file: inicio-proyecto
-  - file: inicio-directorio
-  - file: inicio-te-interesa
-  - file: inicio-encuentros
-  - file: inicio-galeria
-  - file: inicio-redes
-  - file: inicio-contacto
+  - file: home-_hero
+  - file: home-introduccion
+  - file: home-proyecto
+  - file: home-directorio
+  - file: home-te-interesa
+  - file: home-encuentros
+  - file: home-galeria
+  - file: home-redes
+  - file: home-contacto
 base: org
 org:
   types:

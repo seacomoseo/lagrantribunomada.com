@@ -38,7 +38,7 @@ El mapa de la portada es una funcionalidad específica de LGTN. No es el mapa ge
 - `assets/custom.js`
 - `assets/_custom.scss`
 - `data/remote.yml`
-- `data/section/inicio-directorio.yml`
+- `data/section/home-directorio.yml`
 - `data/types/project.yml`
 - `data/types/category.yml`
 
@@ -75,7 +75,7 @@ Antes de añadir o reutilizar un campo, definir si será público, interno, opci
 
 ### Archivos propios
 
-- `data/section/inicio-contacto.yml`
+- `data/section/home-contacto.yml`
 - `data/section/formularios-alta.yml`
 - `data/section/formularios-whatsapp.yml`
 - `data/section/formularios-whatsapp-grupos.yml`

@@ -95,4 +95,4 @@ Amable y firme. Formular normas desde el cuidado del grupo y el propósito de ca
 
 ## Fuentes de mantenimiento
 
-Revisar `data/section/inicio-introduccion.yml`, `data/section/inicio-proyecto.yml`, `data/section/inicio-te-interesa.yml`, `data/section/formularios-whatsapp-grupos.yml` y los encuentros recientes de `content/event/`.
+Revisar `data/section/home-introduccion.yml`, `data/section/home-proyecto.yml`, `data/section/home-te-interesa.yml`, `data/section/formularios-whatsapp-grupos.yml` y los encuentros recientes de `content/event/`.

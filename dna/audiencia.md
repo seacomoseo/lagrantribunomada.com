@@ -91,4 +91,4 @@ La red tiene su centro operativo en España y el directorio se presenta principa
 
 ## Fuentes de mantenimiento
 
-Revisar `data/section/inicio-te-interesa.yml`, `data/section/inicio-directorio.yml`, `data/section/formularios-alta.yml`, `data/section/formularios-whatsapp-grupos.yml` y los encuentros vigentes de `content/event/`.
+Revisar `data/section/home-te-interesa.yml`, `data/section/home-directorio.yml`, `data/section/formularios-alta.yml`, `data/section/formularios-whatsapp-grupos.yml` y los encuentros vigentes de `content/event/`.

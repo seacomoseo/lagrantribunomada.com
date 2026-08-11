@@ -120,4 +120,4 @@ Conviene documentarlas cuando exista una decisión oficial:
 
 ## Fuentes de mantenimiento
 
-Revisar `data/section/inicio-te-interesa.yml`, `data/section/formularios-alta.yml`, `data/section/inicio-encuentros.yml`, los encuentros vigentes en `content/event/` y los campos organizativos de `content/single/_home.es.md`.
+Revisar `data/section/home-te-interesa.yml`, `data/section/formularios-alta.yml`, `data/section/home-encuentros.yml`, los encuentros vigentes en `content/event/` y los campos organizativos de `content/single/_home.es.md`.

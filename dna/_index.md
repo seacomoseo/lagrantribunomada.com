@@ -60,7 +60,7 @@ Este ADN se contrastó con el sitio publicado y con los archivos propios del pro
 
 ## Fuentes principales para mantener este ADN
 
-- Portada y diálogos: `content/single/_home.es.md` y `data/section/inicio-*.yml`.
+- Portada y diálogos: `content/single/_home.es.md` y `data/section/home-*.yml`.
 - Comunidad y altas: `content/single/whatsapp.es.md`, `data/section/formularios-whatsapp*.yml` y `data/section/formularios-alta.yml`.
 - Directorio y mapa: `data/remote.yml`, `data/types/project.yml`, `assets/custom.js` y `assets/_custom.scss`.
 - Encuentros: `content/event/` y `data/types/event.yml`.
