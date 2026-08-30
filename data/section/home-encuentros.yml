@@ -3,7 +3,7 @@ boxes:
 - title: Encuentros
   list:
     type: event
-    max: 4
+    # max: 4
   box:
     cols: 4
     slider: true
