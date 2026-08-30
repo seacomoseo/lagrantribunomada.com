@@ -1,7 +1,6 @@
 title: Categorías
 weight: 2
 base: page
-hide: false
 tax_of:
 - name: project
   multi: true

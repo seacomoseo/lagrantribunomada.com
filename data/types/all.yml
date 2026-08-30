@@ -1,6 +1,5 @@
 title: Todas
 base: page
-hide: false
 tpl:
   bg:
     color: main-dark

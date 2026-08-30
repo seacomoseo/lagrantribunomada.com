@@ -16,7 +16,6 @@ address:
   country: ES
   geo: null
   url: null
-hide: false
 video: ''
 cancelled: false
 booking:

@@ -3,7 +3,6 @@ slug: lughnasadh
 title: LUGHNASADH
 icon: ☀️
 img: /u/carteles/2025-08-01-lughnasadh.jpg
-hide: false
 seo:
   noindex: true
 date: 2025-08-01 00:00:00
@@ -18,6 +17,7 @@ address:
   geo: '{"type":"Point","coordinates":[0.133333,40.883333]}'
   url: null
 
+hide: true
 video: ''
 cancelled: false
 

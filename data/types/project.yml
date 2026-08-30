@@ -3,7 +3,6 @@ weight: 3
 base: org
 icon: rocket_launch
 emoji: 🚀
-hide: false
 body: true
 rel: true
 tpl:
