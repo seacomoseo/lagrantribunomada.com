@@ -16,14 +16,6 @@ address:
   country: ES
   geo: null
   url: null
-video: ''
-cancelled: false
-booking:
-  active: false
-  inputs: []
-feedback:
-  active: false
-  inputs: []
 ---
 
 🌬️ Este es un llamado para la convivencia en tribu, festejando la rueda de la vida 🌈🌻🌸

@@ -17,9 +17,6 @@ address:
   geo: '{"type":"Point","coordinates":[0.133333,40.883333]}'
   url: null
 
-video: ''
-cancelled: false
-
 # BOOKING
 booking:
   active: false
