@@ -1,6 +1,6 @@
 title: Encuentros
-weight: 1
 base: event
+weight: 1
 rel: true
 tpl:
   sections:

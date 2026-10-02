@@ -1,5 +1,5 @@
 ---
-slug: inicio
+slug: /
 title: Inicio
 icon: home
 img: /u/base/poster.png
@@ -20,15 +20,15 @@ tpl:
   - size: lg
     div: brush
   sections:
-  - file: home-_hero
-  - file: home-introduccion
-  - file: home-proyecto
-  - file: home-directorio
-  - file: home-te-interesa
-  - file: home-encuentros
-  - file: home-galeria
-  - file: home-redes
-  - file: home-contacto
+  - file: _home-_hero
+  - file: _home-introduccion
+  - file: _home-proyecto
+  - file: _home-directorio
+  - file: _home-te-interesa
+  - file: _home-encuentros
+  - file: _home-galeria
+  - file: _home-redes
+  - file: _home-contacto
 base: org
 org:
   types:

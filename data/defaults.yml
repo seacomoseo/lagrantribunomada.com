@@ -1,0 +1,6 @@
+- name: seo.noindex
+  value: 'true'
+  type: bool
+  path:
+  - /category/*
+  - /event/*

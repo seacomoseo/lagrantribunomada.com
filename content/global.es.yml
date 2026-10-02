@@ -21,8 +21,8 @@ menu:
     label: Hazte Soci@
     btn: alt
 footer:
-  color: such
   div: brush
+  color: such
   dots:
   - url: /whatsapp/
     icon: brand:whatsapp
